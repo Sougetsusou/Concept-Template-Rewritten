@@ -2,6 +2,8 @@
 
 这是 Concept Template V1 的 rewritten-only 发行包。它只包含 rewritten concept、rewritten 原生参数包和 runtime 可视化工具；不包含 legacy 源码、legacy pkl 转换流程、rewrite 审计报告或开发期对比脚本。
 
+rewritten 相比 legacy 的优化目标和优化内容见 `REWRITE_OPTIMIZATION_SUMMARY.md`。
+
 ## 包结构
 
 ```text
