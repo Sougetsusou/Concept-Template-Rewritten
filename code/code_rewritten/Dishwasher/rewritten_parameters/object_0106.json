@@ -1,0 +1,123 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Dishwasher",
+  "object": {
+    "id": "e4d1d33b9aaf1407be92f74d81ff60bf",
+    "type": "mesh",
+    "source_object_index": 106,
+    "concepts": [
+      {
+        "template": "RectangularDishwasherBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            1.08,
+            1.39,
+            0.945
+          ],
+          "wall_thickness": [
+            0.03,
+            0.075,
+            0.03,
+            0.03,
+            0.101
+          ],
+          "position": [
+            0.01,
+            0.085,
+            -0.024
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FlatDishwasherDoor",
+        "semantic": "door",
+        "parameters": {
+          "panel_size": [
+            1.075,
+            1.355,
+            0.056
+          ],
+          "position": [
+            0.0074999999999999425,
+            0.1,
+            0.44849999999999995
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TrifoldArcDishwasherHandle",
+        "semantic": "handle",
+        "parameters": {
+          "mount_size": [
+            0.05,
+            0.1,
+            0.01
+          ],
+          "mount_separation": 0.835,
+          "outer_radius": 1.641,
+          "inner_radius": 1.595,
+          "arc_height": 0.05,
+          "arc_angle_degrees": 33.7,
+          "position": [
+            0.0074999999999999425,
+            0.6849999999999999,
+            0.5045
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Curve_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "SingleDishwasherLeg",
+        "semantic": "leg",
+        "parameters": {
+          "leg_size": [
+            1.08,
+            0.155,
+            0.7825
+          ],
+          "position": [
+            0.01,
+            -0.61,
+            -0.0265
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Single_Leg",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

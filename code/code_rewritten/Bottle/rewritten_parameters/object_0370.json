@@ -1,0 +1,83 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Bottle",
+  "object": {
+    "id": "16a3d736-0e38-11ed-add3-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 370,
+    "concepts": [
+      {
+        "template": "StackedBottleBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "base_section",
+              "height": 0.105,
+              "top_radius": 0.24,
+              "bottom_radius": 0.195
+            },
+            {
+              "name": "upper_section_2",
+              "height": 0.655,
+              "top_radius": 0.24,
+              "bottom_radius": 0.24
+            },
+            {
+              "name": "upper_section_3",
+              "height": 0.13,
+              "top_radius": 0.115,
+              "bottom_radius": 0.24
+            },
+            {
+              "name": "upper_section_4",
+              "height": 0.055,
+              "top_radius": 0.115,
+              "bottom_radius": 0.115
+            }
+          ],
+          "position": [
+            -0.002,
+            -0.47,
+            0.001
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalBottleLid",
+        "semantic": "lid",
+        "parameters": {
+          "top_outer_radius": 0.137,
+          "bottom_outer_radius": 0.142,
+          "total_height": 0.218,
+          "top_inner_radius": 0.136,
+          "bottom_inner_radius": 0.141,
+          "open_ring_height": 0.217,
+          "position": [
+            -0.004,
+            0.5315000000000001,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Lid",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

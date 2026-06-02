@@ -1,0 +1,118 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Display",
+  "object": {
+    "id": "182a5ccd3c0c9887c21c5d9d91c5c9b5",
+    "type": "mesh",
+    "source_object_index": 40,
+    "concepts": [
+      {
+        "template": "FrustumDisplayScreen",
+        "semantic": "screen",
+        "parameters": {
+          "has_front_layer": true,
+          "front_layer_size": [
+            1.66,
+            1.025,
+            0.08
+          ],
+          "back_shell_size": [
+            1.3,
+            0.79,
+            0.08
+          ],
+          "back_shell_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0.01,
+            0.11,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Frustum_Screen",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "TrifoldDisplaySupport",
+        "semantic": "support",
+        "parameters": {
+          "has_upper_part": true,
+          "upper_part_size": [
+            0.25,
+            0.06,
+            0.01
+          ],
+          "upper_mount_point": [
+            0,
+            -0.48,
+            0.09
+          ],
+          "has_middle_part": true,
+          "middle_part_size": [
+            0.26,
+            0.22,
+            0.12
+          ],
+          "middle_y_offset": 0.03,
+          "has_bottom_part": false,
+          "bottom_part_size": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "bottom_rotation_degrees": 0,
+          "bottom_z_offset": 0,
+          "position": [
+            0.01,
+            0.11,
+            -0.08
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Support",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RectangularDisplayBase",
+        "semantic": "base",
+        "parameters": {
+          "base_size": [
+            0.865,
+            0.05,
+            0.43
+          ],
+          "base_rotation_degrees": 0,
+          "position": [
+            -0.01,
+            -0.585,
+            -0.05
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Base",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

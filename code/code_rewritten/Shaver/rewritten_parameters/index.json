@@ -1,0 +1,93 @@
+{
+  "format": "rewritten_category_parameter_index.v1",
+  "package_format": "rewritten_category_parameters.v1",
+  "category": "Shaver",
+  "status": "passed",
+  "source": {
+    "type": "rewritten_native_parameters"
+  },
+  "conversion": {
+    "mapper_module": null,
+    "max_objects": null
+  },
+  "summary": {
+    "object_count": 9,
+    "concept_count": 18,
+    "class_counts": {
+      "LoopShaverBody": 9,
+      "TwoSegmentShaverBlade": 9
+    },
+    "legacy_class_counts": {
+      "Regular_Blade": 9,
+      "Regular_Body": 9
+    },
+    "event_count": 0,
+    "failed_event_count": 0
+  },
+  "objects": [
+    {
+      "file": "object_0000.json",
+      "id": "b66d12c3-0e51-11ed-8857-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 0,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0001.json",
+      "id": "b66fa8a6-0e51-11ed-a1c6-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 1,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0002.json",
+      "id": "b670ca52-0e51-11ed-9625-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 2,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0003.json",
+      "id": "b671d998-0e51-11ed-8d0f-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 3,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0004.json",
+      "id": "b672f24f-0e51-11ed-bba1-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 4,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0005.json",
+      "id": "b6740907-0e51-11ed-936b-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 5,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0006.json",
+      "id": "b67513b9-0e51-11ed-b8f0-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 6,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0007.json",
+      "id": "b6762480-0e51-11ed-a7ed-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 7,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0008.json",
+      "id": "b6773e78-0e51-11ed-b1e8-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 8,
+      "concept_count": 2
+    }
+  ],
+  "events": []
+}

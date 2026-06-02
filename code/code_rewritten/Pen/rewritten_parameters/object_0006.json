@@ -1,0 +1,100 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Pen",
+  "object": {
+    "id": "2cb082b2fc01bd5c142830038757694e",
+    "type": "mesh",
+    "source_object_index": 6,
+    "concepts": [
+      {
+        "template": "DoubleLayerPenBarrel",
+        "semantic": "barrel",
+        "parameters": {
+          "main_top_outer_radius": 0.05,
+          "main_bottom_outer_radius": 0.05,
+          "main_height": 1.48,
+          "bottom_bottom_outer_radius": 0.01,
+          "bottom_height": 0.19,
+          "wall_thickness": 0.01,
+          "position": [
+            0.0,
+            -0.06,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Double_Layer_Barrel",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "BistratalPenButton",
+        "semantic": "button",
+        "parameters": {
+          "bottom_top_radius": 0.05,
+          "bottom_bottom_radius": 0.05,
+          "bottom_height": 0.05,
+          "top_top_radius": 0.03,
+          "top_bottom_radius": 0.03,
+          "top_height": 0.15,
+          "position": [
+            0.0,
+            0.6799999999999999,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Bistratal_Button",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TrifoldPenClip",
+        "semantic": "clip",
+        "parameters": {
+          "root_size": [
+            0.08,
+            0.01,
+            0.02
+          ],
+          "middle_size": [
+            0.08,
+            0.51,
+            0.01
+          ],
+          "tip_size": [
+            0.08,
+            0.13,
+            0.02
+          ],
+          "root_to_middle_drop": 0,
+          "tip_return_drop": 0,
+          "position": [
+            0.0,
+            0.7,
+            0.049999999999999996
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Clip",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

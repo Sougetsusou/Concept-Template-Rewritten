@@ -1,0 +1,375 @@
+{
+  "format": "rewritten_category_parameter_index.v1",
+  "package_format": "rewritten_category_parameters.v1",
+  "category": "Clip",
+  "status": "passed",
+  "source": {
+    "type": "rewritten_native_parameters"
+  },
+  "conversion": {
+    "mapper_module": null,
+    "max_objects": null
+  },
+  "summary": {
+    "object_count": 49,
+    "concept_count": 69,
+    "class_counts": {
+      "CurvedClipJaw": 19,
+      "RegularClipLever": 49,
+      "StraightClipJaw": 1
+    },
+    "legacy_class_counts": {
+      "Curved_jaw": 19,
+      "Regular_jaw": 1,
+      "Regular_lever": 49
+    },
+    "event_count": 0,
+    "failed_event_count": 0
+  },
+  "objects": [
+    {
+      "file": "object_0000.json",
+      "id": "647f7274-0e40-11ed-a215-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 0,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0001.json",
+      "id": "6582e307-0e40-11ed-bb3d-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 1,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0002.json",
+      "id": "66fb6a07-0e40-11ed-9870-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 2,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0003.json",
+      "id": "68057608-0e40-11ed-97fb-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 3,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0004.json",
+      "id": "68ea5144-0e40-11ed-a290-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 4,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0005.json",
+      "id": "6920307a-0e40-11ed-b88a-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 5,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0006.json",
+      "id": "6e75903e-0e40-11ed-a072-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 6,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0007.json",
+      "id": "70908230-0e40-11ed-8bc0-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 7,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0008.json",
+      "id": "70dcfe2d-0e40-11ed-a3ec-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 8,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0009.json",
+      "id": "7153d44a-0e40-11ed-b18c-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 9,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0010.json",
+      "id": "71a359b1-0e40-11ed-ba2a-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 10,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0011.json",
+      "id": "71f4c20e-0e40-11ed-8f70-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 11,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0012.json",
+      "id": "723019e3-0e40-11ed-8192-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 12,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0013.json",
+      "id": "7284f8dd-0e40-11ed-8b7c-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 13,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0014.json",
+      "id": "72f4be32-0e40-11ed-b83a-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 14,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0015.json",
+      "id": "73243e17-0e40-11ed-8a54-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 15,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0016.json",
+      "id": "738a00a0-0e40-11ed-8246-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 16,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0017.json",
+      "id": "73bbfa04-0e40-11ed-9956-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 17,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0018.json",
+      "id": "741f24ef-0e40-11ed-86ef-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 18,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0019.json",
+      "id": "747e1ac8-0e40-11ed-afd6-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 19,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0020.json",
+      "id": "74b68c09-0e40-11ed-93e2-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 20,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0021.json",
+      "id": "750cc199-0e40-11ed-b408-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 21,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0022.json",
+      "id": "7568215d-0e40-11ed-88b0-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 22,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0023.json",
+      "id": "768d7353-0e40-11ed-bd65-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 23,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0024.json",
+      "id": "79c1f825-0e40-11ed-9df9-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 24,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0025.json",
+      "id": "7ad4e996-0e40-11ed-9442-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 25,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0026.json",
+      "id": "7b8978c8-0e40-11ed-a62b-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 26,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0027.json",
+      "id": "7be6d4e6-0e40-11ed-a241-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 27,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0028.json",
+      "id": "7c88a5ee-0e40-11ed-9468-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 28,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0029.json",
+      "id": "7ccddcf5-0e40-11ed-b8be-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 29,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0030.json",
+      "id": "7d2052ad-0e40-11ed-b3f9-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 30,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0031.json",
+      "id": "7dd15801-0e40-11ed-a2b5-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 31,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0032.json",
+      "id": "7e098ea5-0e40-11ed-b176-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 32,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0033.json",
+      "id": "7f60019c-0e40-11ed-bcda-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 33,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0034.json",
+      "id": "8027b794-0e40-11ed-9105-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 34,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0035.json",
+      "id": "810cffad-0e40-11ed-965f-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 35,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0036.json",
+      "id": "81f54674-0e40-11ed-be53-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 36,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0037.json",
+      "id": "842e946b-0e40-11ed-be39-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 37,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0038.json",
+      "id": "85669a55-0e40-11ed-8223-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 38,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0039.json",
+      "id": "86a5366a-0e40-11ed-a76a-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 39,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0040.json",
+      "id": "87e88deb-0e40-11ed-9633-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 40,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0041.json",
+      "id": "892ef060-0e40-11ed-8a7b-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 41,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0042.json",
+      "id": "8a026fd3-0e40-11ed-abad-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 42,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0043.json",
+      "id": "8a70995e-0e40-11ed-aeb6-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 43,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0044.json",
+      "id": "8bc2826f-0e40-11ed-bc9c-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 44,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0045.json",
+      "id": "8d4bb33b-0e40-11ed-9617-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 45,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0046.json",
+      "id": "8d983249-0e40-11ed-8976-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 46,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0047.json",
+      "id": "8e041c5f-0e40-11ed-b156-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 47,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0048.json",
+      "id": "6d6d05ad-0e40-11ed-9652-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 48,
+      "concept_count": 2
+    }
+  ],
+  "events": []
+}

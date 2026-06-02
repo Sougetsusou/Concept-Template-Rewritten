@@ -1,0 +1,97 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "USB",
+  "object": {
+    "id": "51c7de5c-8725-48f1-a819-13165b876ee4",
+    "type": "mesh",
+    "source_object_index": 10,
+    "concepts": [
+      {
+        "template": "HollowUsbConnector",
+        "semantic": "connector",
+        "parameters": {
+          "connector_size": [
+            0.405,
+            0.168,
+            0.41
+          ],
+          "border_thickness": 0.0055,
+          "position": [
+            -0.11,
+            0.0065,
+            0.33
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Connector",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RoundEndedUsbBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.58,
+            0.25,
+            1.08
+          ],
+          "position": [
+            -0.1,
+            0,
+            0.33
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "RoundEnded_Body",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RoundEndedRotaryUsbCap",
+        "semantic": "cap",
+        "parameters": {
+          "cap_size": [
+            0.57,
+            0.02,
+            0.975
+          ],
+          "proximal_interval": 0.26,
+          "inclination_degrees": 0,
+          "cap_yaw_degrees": -129,
+          "shaft_enabled": true,
+          "shaft_size": [
+            0.28,
+            0.05
+          ],
+          "shaft_offset": -0.2,
+          "shaft_interval": 0.25,
+          "position": [
+            -0.125,
+            0,
+            0.11000000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "RoundEnded_Cap",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

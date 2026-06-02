@@ -1,0 +1,70 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Clip",
+  "object": {
+    "id": "8027b794-0e40-11ed-9105-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 34,
+    "concepts": [
+      {
+        "template": "RegularClipLever",
+        "semantic": "lever",
+        "parameters": {
+          "support_size": [
+            0.11,
+            0.18,
+            0.12
+          ],
+          "support_inner_half_gap": 0,
+          "handle_size": [
+            0.22,
+            0.71,
+            0.1
+          ],
+          "handle_offset": -0.25,
+          "handle_rotation_degrees": 30,
+          "position": [
+            0,
+            0.05,
+            -0.02
+          ],
+          "rotation": [
+            0,
+            -3.3,
+            3.3
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_lever",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CurvedClipJaw",
+        "semantic": "jaw",
+        "parameters": {
+          "outer_radius": 0.43,
+          "inner_radius": 0.35,
+          "jaw_height": 0.21,
+          "central_angle_degrees": 79,
+          "jaw_half_separation": 0.08080127018922195,
+          "jaw_rotation_degrees": -28,
+          "position": [
+            0.0,
+            0.14093266739736604,
+            -0.02
+          ],
+          "rotation": [
+            0,
+            -3.3,
+            3.3
+          ]
+        },
+        "source": {
+          "legacy_template": "Curved_jaw",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

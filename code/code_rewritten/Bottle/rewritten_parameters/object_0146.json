@@ -1,0 +1,83 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Bottle",
+  "object": {
+    "id": "5979870763de5ced4c8b72e8da0e65c5",
+    "type": "mesh",
+    "source_object_index": 146,
+    "concepts": [
+      {
+        "template": "StackedBottleBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "base_section",
+              "height": 1.16,
+              "top_radius": 0.25,
+              "bottom_radius": 0.25
+            },
+            {
+              "name": "upper_section_2",
+              "height": 0.21,
+              "top_radius": 0.17,
+              "bottom_radius": 0.25
+            },
+            {
+              "name": "upper_section_3",
+              "height": 0.16,
+              "top_radius": 0.08,
+              "bottom_radius": 0.17
+            },
+            {
+              "name": "upper_section_4",
+              "height": 0.05,
+              "top_radius": 0.09,
+              "bottom_radius": 0.08
+            }
+          ],
+          "position": [
+            0.003,
+            -0.13,
+            -0.004
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalBottleLid",
+        "semantic": "lid",
+        "parameters": {
+          "top_outer_radius": 0.09,
+          "bottom_outer_radius": 0.1,
+          "total_height": 0.132,
+          "top_inner_radius": 0.08,
+          "bottom_inner_radius": 0.08,
+          "open_ring_height": 0.12,
+          "position": [
+            0.003,
+            0.936,
+            -0.004
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Lid",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

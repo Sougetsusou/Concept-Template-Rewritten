@@ -1,0 +1,161 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Scissors",
+  "object": {
+    "id": "279732fa-0e4e-11ed-8f86-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 73,
+    "concepts": [
+      {
+        "template": "SplitCylindricalScissorsShaft",
+        "semantic": "shaft",
+        "parameters": {
+          "shaft_size": [
+            0.145,
+            0.12
+          ],
+          "position": [
+            0.020462510796332056,
+            -0.14716289779185326,
+            -0.024256280947716303
+          ],
+          "rotation": [
+            -91.4459680684775,
+            -6.3378001935268955,
+            93.98005910715665
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Shaft",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuspScissorsBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_size": [
+            0.68,
+            0.022,
+            0.21,
+            0.055
+          ],
+          "root_tip_offset_z": -0.035,
+          "tip_length": 0.045,
+          "tip_offset_z": 0.01,
+          "position": [
+            -0.07177774525573491,
+            -0.2562527152948159,
+            -0.053258813261626944
+          ],
+          "rotation": [
+            -86.81851161995021,
+            -5.671085811037798,
+            51.74238046944358
+          ]
+        },
+        "source": {
+          "legacy_template": "Cusp_Blade",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CuspScissorsBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_size": [
+            0.68,
+            0.022,
+            0.21,
+            0.055
+          ],
+          "root_tip_offset_z": -0.035,
+          "tip_length": 0.045,
+          "tip_offset_z": 0.01,
+          "position": [
+            0.12745233879058548,
+            -0.24460866040229493,
+            -0.03333923503928316
+          ],
+          "rotation": [
+            84.68098697937444,
+            -3.741436699376024,
+            136.07385329132404
+          ]
+        },
+        "source": {
+          "legacy_template": "Cusp_Blade",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "TripleCurvedScissorsHandle",
+        "semantic": "handle",
+        "parameters": {
+          "root_size": [
+            0.28,
+            0.118,
+            0.13,
+            0.175
+          ],
+          "root_yaw_degrees": 54,
+          "arc_radius": 0.21,
+          "ring_thickness": 0.115,
+          "band_thickness": 0.11,
+          "main_arc_angle_degrees": 113,
+          "arc_center_separation_x": 0.535,
+          "handle_offset_z": 0.032,
+          "handle_yaw_degrees": 44,
+          "position": [
+            -0.12464111340691077,
+            -0.1457536777489468,
+            -0.018603640683666392
+          ],
+          "rotation": [
+            -91.4459680684775,
+            -6.3378001935268955,
+            93.98005910715665
+          ]
+        },
+        "source": {
+          "legacy_template": "Triple_Curved_Handle",
+          "source_concept_index": 3
+        }
+      },
+      {
+        "template": "TripleCurvedScissorsHandle",
+        "semantic": "handle",
+        "parameters": {
+          "root_size": [
+            0.28,
+            0.118,
+            0.13,
+            0.175
+          ],
+          "root_yaw_degrees": 54,
+          "arc_radius": 0.21,
+          "ring_thickness": 0.115,
+          "band_thickness": 0.11,
+          "main_arc_angle_degrees": 113,
+          "arc_center_separation_x": 0.535,
+          "handle_offset_z": 0.032,
+          "handle_yaw_degrees": 44,
+          "position": [
+            0.16061155743787692,
+            -0.11198453757395967,
+            -0.009774302566079364
+          ],
+          "rotation": [
+            88.5540319315225,
+            -6.3378001935268955,
+            93.98005910715665
+          ]
+        },
+        "source": {
+          "legacy_template": "Triple_Curved_Handle",
+          "source_concept_index": 4
+        }
+      }
+    ]
+  }
+}

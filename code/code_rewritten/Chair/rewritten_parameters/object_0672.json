@@ -1,0 +1,108 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Chair",
+  "object": {
+    "id": "5b0e833cf2ea465e42bd82e95587d8af",
+    "type": "mesh",
+    "source_object_index": 672,
+    "concepts": [
+      {
+        "template": "RectangularChairSeat",
+        "semantic": "seat",
+        "parameters": {
+          "seat_size": [
+            0.695,
+            0.125,
+            0.69
+          ],
+          "position": [
+            0.01,
+            -0.114,
+            0.11
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_seat",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SolidChairBack",
+        "semantic": "back",
+        "parameters": {
+          "back_size": [
+            0.695,
+            1.035,
+            0.1
+          ],
+          "back_tilt_degrees": 0,
+          "position": [
+            0.01,
+            -0.051500000000000004,
+            -0.185
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Solid_back",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TiltedChairLegSet",
+        "semantic": "leg",
+        "parameters": {
+          "front_leg_size": [
+            0.16,
+            0.575,
+            0.165
+          ],
+          "rear_leg_size": [
+            0.17,
+            0.575,
+            0.17
+          ],
+          "leg_count": 4,
+          "leg_center_spacing": [
+            0.53,
+            0.52,
+            0.525
+          ],
+          "central_yaw_degrees": 0,
+          "front_tilt_degrees": [
+            0,
+            0
+          ],
+          "rear_tilt_degrees": [
+            0,
+            0
+          ],
+          "roll_policy": "mirrored",
+          "position": [
+            0.01,
+            -0.1765,
+            0.115
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_leg",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

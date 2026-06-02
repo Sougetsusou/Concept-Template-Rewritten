@@ -1,0 +1,162 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Door",
+  "object": {
+    "id": "5b275736231b7bee83f4566cf0664c43",
+    "type": "mesh",
+    "source_object_index": 16,
+    "concepts": [
+      {
+        "template": "PivotDoorPanelSet",
+        "semantic": "door",
+        "parameters": {
+          "has_left_panel": true,
+          "has_right_panel": false,
+          "panel_size": [
+            0.795,
+            1.77,
+            0.06
+          ],
+          "open_angles_degrees": [
+            0,
+            0
+          ],
+          "position": [
+            0.01,
+            -0.045,
+            -0.005
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Door",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalDoorHandle",
+        "semantic": "handle",
+        "parameters": {
+          "has_left_panel": true,
+          "has_right_panel": false,
+          "panel_open_angles_degrees": [
+            0,
+            0
+          ],
+          "door_size": [
+            0.795,
+            1.77,
+            0.06
+          ],
+          "has_back_handle": true,
+          "has_front_handle": true,
+          "fixed_part_size": [
+            0.01,
+            0.001
+          ],
+          "middle_part_size": [
+            0.01,
+            0.001
+          ],
+          "main_part_size": [
+            0.03,
+            0.0255
+          ],
+          "edge_offset_x": -0.34,
+          "position": [
+            0.01,
+            -0.16499999999999998,
+            -0.005
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Handle",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "ThreeSideDoorFrame",
+        "semantic": "doorframe",
+        "parameters": {
+          "opening_size": [
+            0.795,
+            1.77,
+            0.06
+          ],
+          "has_front_frame": false,
+          "has_back_frame": false,
+          "main_outer_size": [
+            0.89,
+            1.82,
+            0.13
+          ],
+          "main_inner_offset": [
+            0,
+            0
+          ],
+          "main_center_offset": [
+            0.005,
+            0.013
+          ],
+          "front_outer_size": [
+            0,
+            0,
+            0
+          ],
+          "front_inner_size": [
+            0,
+            0
+          ],
+          "front_inner_offset": [
+            0,
+            0
+          ],
+          "front_center_offset": [
+            0,
+            0
+          ],
+          "back_outer_size": [
+            0,
+            0,
+            0
+          ],
+          "back_inner_size": [
+            0,
+            0
+          ],
+          "back_inner_offset": [
+            0,
+            0
+          ],
+          "back_center_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0.01,
+            -0.045,
+            -0.005
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Doorframe",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

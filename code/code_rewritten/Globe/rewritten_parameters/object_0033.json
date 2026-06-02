@@ -1,0 +1,94 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Globe",
+  "object": {
+    "id": "f6b38de2-b52d-4a56-ba01-bfe481528966",
+    "type": "mesh",
+    "source_object_index": 33,
+    "concepts": [
+      {
+        "template": "GlobeSphere",
+        "semantic": "sphere",
+        "parameters": {
+          "radius": 0.17,
+          "position": [
+            0.0055,
+            0.326,
+            -0.002
+          ],
+          "rotation": [
+            0,
+            -48.6,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Sphere",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "EnclosedGlobeBracket",
+        "semantic": "bracket",
+        "parameters": {
+          "bracket_size": [
+            0.235,
+            0.215,
+            0.02
+          ],
+          "circle_radius": 0.24,
+          "circle_thickness": [
+            0.03,
+            0.015
+          ],
+          "half_circle_count": 1,
+          "position": [
+            0.0055,
+            0.326,
+            -0.002
+          ],
+          "rotation": [
+            0,
+            -48.6,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Enclosed_Bracket",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "StarShapedGlobeBase",
+        "semantic": "base",
+        "parameters": {
+          "top_disk_size": [
+            0.042,
+            0.85
+          ],
+          "leg_size": [
+            0.014,
+            0.08,
+            0.37
+          ],
+          "leg_count": 3,
+          "tilt_degrees": 38,
+          "position": [
+            -0.003935964523144741,
+            0.09100000000000003,
+            -0.009678709104918212
+          ],
+          "rotation": [
+            0,
+            -19.6,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Star_Shaped_Base",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

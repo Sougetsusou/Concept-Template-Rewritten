@@ -1,0 +1,90 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Knife",
+  "object": {
+    "id": "2676cb39be54c6e1bafba8433f5e7ea2",
+    "type": "mesh",
+    "source_object_index": 59,
+    "concepts": [
+      {
+        "template": "CuboidalKnifeHandle",
+        "semantic": "handle",
+        "parameters": {
+          "handle_size": [
+            0.131,
+            0.8,
+            0.39
+          ],
+          "position": [
+            0.003,
+            -0.368,
+            0.035
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Handle",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuspKnifeBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_profile": [
+            0.1,
+            0.44,
+            0.244,
+            0.34
+          ],
+          "root_top_z_offset": 0.04,
+          "tip_length": 0.57,
+          "tip_top_z_offset": -0.135,
+          "position": [
+            0.003,
+            0.03200000000000003,
+            -0.03799999999999999
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cusp_Blade",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "StandardKnifeGuard",
+        "semantic": "guard",
+        "parameters": {
+          "guard_size": [
+            0.272,
+            0.076,
+            0.535
+          ],
+          "position": [
+            0.001,
+            -0.00599999999999995,
+            0.04
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Guard",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

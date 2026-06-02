@@ -1,0 +1,137 @@
+{
+  "format": "rewritten_category_parameter_index.v1",
+  "package_format": "rewritten_category_parameters.v1",
+  "category": "Ruler",
+  "status": "passed",
+  "source": {
+    "type": "rewritten_native_parameters"
+  },
+  "conversion": {
+    "mapper_module": null,
+    "max_objects": null
+  },
+  "summary": {
+    "object_count": 15,
+    "concept_count": 30,
+    "class_counts": {
+      "AsymmetricalRulerBody": 6,
+      "CylindricalRulerShaft": 15,
+      "SymmetricalRulerBody": 9
+    },
+    "legacy_class_counts": {
+      "Asymmetrical_body": 6,
+      "Regular_shaft": 15,
+      "Symmetrical_body": 9
+    },
+    "event_count": 0,
+    "failed_event_count": 0
+  },
+  "objects": [
+    {
+      "file": "object_0000.json",
+      "id": "4fde708b-0e4d-11ed-a212-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 0,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0001.json",
+      "id": "5049b42a-0e4d-11ed-8efc-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 1,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0002.json",
+      "id": "50af87f4-0e4d-11ed-a0f0-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 2,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0003.json",
+      "id": "52154ef9-0e4d-11ed-85f0-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 3,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0004.json",
+      "id": "52924078-0e4d-11ed-88ba-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 4,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0005.json",
+      "id": "55d9a589-0e4d-11ed-8b94-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 5,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0006.json",
+      "id": "574e5ac3-0e4d-11ed-bd10-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 6,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0007.json",
+      "id": "5b7972b9-0e4d-11ed-ab91-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 7,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0008.json",
+      "id": "5fc7471b-0e4d-11ed-b16e-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 8,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0009.json",
+      "id": "6044379e-0e4d-11ed-98e2-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 9,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0010.json",
+      "id": "62aac4cf-0e4d-11ed-baca-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 10,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0011.json",
+      "id": "6399d160-0e4d-11ed-8cbc-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 11,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0012.json",
+      "id": "66a5c0df-0e4d-11ed-bc65-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 12,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0013.json",
+      "id": "672a01aa-0e4d-11ed-9ab9-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 13,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0014.json",
+      "id": "5e77d2a5-0e4d-11ed-8e27-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 14,
+      "concept_count": 2
+    }
+  ],
+  "events": []
+}

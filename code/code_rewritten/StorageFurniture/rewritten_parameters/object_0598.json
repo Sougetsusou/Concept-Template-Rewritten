@@ -1,0 +1,173 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "StorageFurniture",
+  "object": {
+    "id": "3f543bc217133f7369867582939a3cf7",
+    "type": "mesh",
+    "source_object_index": 598,
+    "concepts": [
+      {
+        "template": "PartitionedStorageFurnitureBody",
+        "semantic": null,
+        "parameters": {
+          "outer_size": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "back_panel_thickness": 0.01,
+          "side_wall_thickness": 0.01,
+          "base_panel_thickness": 0.01,
+          "lid_spec": null,
+          "horizontal_shelf_specs": [],
+          "partition_bay_specs": [
+            {
+              "height": -0.009000000000000001,
+              "center_y": 0.005,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            }
+          ],
+          "additional_panel_specs": [],
+          "position": [
+            -0.36,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Storagefurniture_body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "StorageFurnitureFrontPanelSet",
+        "semantic": null,
+        "parameters": {
+          "panel_specs": [
+            {
+              "size": [
+                0.895,
+                0.11,
+                0.39
+              ],
+              "center": [
+                0.361,
+                0.845,
+                0.005500000000000005
+              ]
+            },
+            {
+              "size": [
+                0.895,
+                0.11,
+                0.39
+              ],
+              "center": [
+                0.362,
+                -0.835,
+                0.005500000000000005
+              ]
+            },
+            {
+              "size": [
+                0.11,
+                1.57,
+                0.39
+              ],
+              "center": [
+                -0.03,
+                0.005,
+                0.005500000000000005
+              ]
+            },
+            {
+              "size": [
+                0.11,
+                1.57,
+                0.39
+              ],
+              "center": [
+                0.754,
+                0.005,
+                0.005500000000000005
+              ]
+            },
+            {
+              "size": [
+                0.68,
+                0.02,
+                0.39
+              ],
+              "center": [
+                0.362,
+                0.47,
+                0.005500000000000005
+              ]
+            },
+            {
+              "size": [
+                0.68,
+                0.02,
+                0.39
+              ],
+              "center": [
+                0.362,
+                0.15,
+                0.005500000000000005
+              ]
+            },
+            {
+              "size": [
+                0.68,
+                0.02,
+                0.39
+              ],
+              "center": [
+                0.362,
+                -0.187,
+                0.005500000000000005
+              ]
+            },
+            {
+              "size": [
+                0.68,
+                0.03,
+                0.39
+              ],
+              "center": [
+                0.362,
+                -0.523,
+                0.005500000000000005
+              ]
+            }
+          ],
+          "position": [
+            -0.36,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_front_panel",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

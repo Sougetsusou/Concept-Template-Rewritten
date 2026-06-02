@@ -1,0 +1,209 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Safe",
+  "object": {
+    "id": "eb5ee68891c5ebdc5ac5c09aa9151e25",
+    "type": "mesh",
+    "source_object_index": 21,
+    "concepts": [
+      {
+        "template": "MultiLayerSafeBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            0.71,
+            1.18,
+            0.715
+          ],
+          "wall_thickness": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.1
+          ],
+          "main_clapboard_size": [
+            0.03,
+            0.43
+          ],
+          "main_clapboard_offset_y": 0.35,
+          "sub_clapboards": [
+            {
+              "size": [
+                0.5,
+                0.025,
+                0.42
+              ],
+              "offset": [
+                0,
+                -0.245
+              ]
+            },
+            {
+              "size": [
+                0.025,
+                0.135,
+                0.42
+              ],
+              "offset": [
+                0,
+                0.425
+              ]
+            },
+            {
+              "size": [
+                0.025,
+                0.575,
+                0.425
+              ],
+              "offset": [
+                0.145,
+                0.05
+              ]
+            }
+          ],
+          "position": [
+            -0.04,
+            0,
+            -0.09
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Mutiple_Layer_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RearLayerSafeDoor",
+        "semantic": "door",
+        "parameters": {
+          "main_panel_size": [
+            0.61,
+            1.04,
+            0.03
+          ],
+          "rear_panel_size": [
+            0.55,
+            0.99,
+            0.09
+          ],
+          "rear_panel_offset": [
+            -0.03,
+            0
+          ],
+          "position": [
+            0.16093060647581522,
+            0.01,
+            0.5706848172611872
+          ],
+          "rotation": [
+            0,
+            74,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Behind_Double_Layer_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TShapedSafeConnector",
+        "semantic": "connecter",
+        "parameters": {
+          "cylinder_size": [
+            0.03,
+            0.11
+          ],
+          "side_block_size": [
+            0.06,
+            0.07,
+            0.05
+          ],
+          "side_block_offset_y": -0.02,
+          "position": [
+            0.275,
+            0.52,
+            0.2875
+          ],
+          "rotation": [
+            0,
+            256,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "T_Shaped_Connecter",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "TShapedSafeConnector",
+        "semantic": "connecter",
+        "parameters": {
+          "cylinder_size": [
+            0.03,
+            0.11
+          ],
+          "side_block_size": [
+            0.06,
+            0.07,
+            0.05
+          ],
+          "side_block_offset_y": 0.03,
+          "position": [
+            0.275,
+            -0.51,
+            0.2875
+          ],
+          "rotation": [
+            0,
+            256,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "T_Shaped_Connecter",
+          "source_concept_index": 3
+        }
+      },
+      {
+        "template": "ClawSafeHandle",
+        "semantic": "handle",
+        "parameters": {
+          "base_size": [
+            0.02,
+            0.05
+          ],
+          "fork_size": [
+            0.03,
+            0.02,
+            0.02
+          ],
+          "fork_offset_z": 0,
+          "fork_tilt_degrees": 0,
+          "fork_count": 2,
+          "position": [
+            0.20079395158664473,
+            0.02,
+            0.5405034700981645
+          ],
+          "rotation": [
+            0,
+            74,
+            180
+          ]
+        },
+        "source": {
+          "legacy_template": "Claw_Handle",
+          "source_concept_index": 4
+        }
+      }
+    ]
+  }
+}

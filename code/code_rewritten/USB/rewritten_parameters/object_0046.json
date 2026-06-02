@@ -1,0 +1,97 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "USB",
+  "object": {
+    "id": "44beb73c-0e57-11ed-a80a-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 46,
+    "concepts": [
+      {
+        "template": "SolidUsbConnector",
+        "semantic": "connector",
+        "parameters": {
+          "connector_size": [
+            0.121,
+            0.045,
+            0.115
+          ],
+          "position": [
+            -0.1255,
+            -0.1154,
+            0.224
+          ],
+          "rotation": [
+            0,
+            0,
+            -90
+          ]
+        },
+        "source": {
+          "legacy_template": "Simplied_Connector",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RegularUsbBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.196,
+            0.092,
+            0.395
+          ],
+          "rounded_back": true,
+          "rounded_sides": true,
+          "position": [
+            -0.127,
+            -0.12,
+            0.224
+          ],
+          "rotation": [
+            0,
+            0,
+            -90
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Body",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "StandardUsbCap",
+        "semantic": "cap",
+        "parameters": {
+          "outer_size": [
+            0.095,
+            0.28,
+            0.194
+          ],
+          "inner_size": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "inner_outer_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0.1915,
+            0.18,
+            -0.216
+          ],
+          "rotation": [
+            0,
+            0,
+            -90
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Cap",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

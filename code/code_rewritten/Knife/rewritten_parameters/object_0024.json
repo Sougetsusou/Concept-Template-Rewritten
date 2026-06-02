@@ -1,0 +1,96 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Knife",
+  "object": {
+    "id": "fe95df61cc16452ccb3316c0fb4cfa01-0",
+    "type": "mesh",
+    "source_object_index": 24,
+    "concepts": [
+      {
+        "template": "EnvelopingKnifeHandle",
+        "semantic": "handle",
+        "parameters": {
+          "outer_size": [
+            0.095,
+            1.84,
+            0.191
+          ],
+          "frame_thickness": [
+            0.157,
+            0.041,
+            0.034
+          ],
+          "front_gap_width": 0.09,
+          "position": [
+            -0.011500000000000003,
+            -0.003999999999999999,
+            0.07
+          ],
+          "rotation": [
+            90.0,
+            -0.0,
+            90.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Enveloping_Handle",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuspKnifeBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_profile": [
+            0.007,
+            1.24,
+            0.122,
+            0.122
+          ],
+          "root_top_z_offset": 0,
+          "tip_length": 0.049,
+          "tip_top_z_offset": 0.061,
+          "position": [
+            -0.011499999999999979,
+            0.003000000000000001,
+            -0.31
+          ],
+          "rotation": [
+            90.0,
+            -0.0,
+            90.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cusp_Blade",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RegularKnifeButton",
+        "semantic": "button",
+        "parameters": {
+          "button_size": [
+            0.046,
+            0.344,
+            0.123
+          ],
+          "position": [
+            -0.01149999999999997,
+            0.0665,
+            -0.39899999999999997
+          ],
+          "rotation": [
+            90.0,
+            -0.0,
+            90.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Button",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

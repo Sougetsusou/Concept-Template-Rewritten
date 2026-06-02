@@ -1,0 +1,83 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Bottle",
+  "object": {
+    "id": "681e91bbadebeac529471183b63392dc",
+    "type": "mesh",
+    "source_object_index": 140,
+    "concepts": [
+      {
+        "template": "StackedBottleBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "base_section",
+              "height": 0.06,
+              "top_radius": 0.37,
+              "bottom_radius": 0.3
+            },
+            {
+              "name": "upper_section_2",
+              "height": 1.33,
+              "top_radius": 0.37,
+              "bottom_radius": 0.37
+            },
+            {
+              "name": "upper_section_3",
+              "height": 0.05,
+              "top_radius": 0.27,
+              "bottom_radius": 0.37
+            },
+            {
+              "name": "upper_section_4",
+              "height": 0.1,
+              "top_radius": 0.24,
+              "bottom_radius": 0.27
+            }
+          ],
+          "position": [
+            0.0,
+            -0.79,
+            0.01
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalBottleLid",
+        "semantic": "lid",
+        "parameters": {
+          "top_outer_radius": 0.28,
+          "bottom_outer_radius": 0.28,
+          "total_height": 0.13,
+          "top_inner_radius": 0.26,
+          "bottom_inner_radius": 0.26,
+          "open_ring_height": 0.1,
+          "position": [
+            0.0,
+            0.7850000000000001,
+            0.01
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Lid",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

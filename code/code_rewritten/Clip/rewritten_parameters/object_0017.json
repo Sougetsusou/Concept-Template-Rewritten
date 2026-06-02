@@ -1,0 +1,44 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Clip",
+  "object": {
+    "id": "73bbfa04-0e40-11ed-9956-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 17,
+    "concepts": [
+      {
+        "template": "RegularClipLever",
+        "semantic": "lever",
+        "parameters": {
+          "support_size": [
+            0.07,
+            0.28,
+            0.11
+          ],
+          "support_inner_half_gap": 0.02,
+          "handle_size": [
+            0.2,
+            0.74,
+            0.07
+          ],
+          "handle_offset": 0.03,
+          "handle_rotation_degrees": 7,
+          "position": [
+            0,
+            0.02,
+            0
+          ],
+          "rotation": [
+            0,
+            -14.8,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_lever",
+          "source_concept_index": 0
+        }
+      }
+    ]
+  }
+}

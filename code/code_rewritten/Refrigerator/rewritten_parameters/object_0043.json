@@ -1,0 +1,145 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Refrigerator",
+  "object": {
+    "id": "1a6d518f153b42bdabb564bb0657e0d6",
+    "type": "mesh",
+    "source_object_index": 43,
+    "concepts": [
+      {
+        "template": "CuboidalRefrigeratorBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            1.56,
+            1.094,
+            0.66
+          ],
+          "wall_thickness": [
+            0.001,
+            0.001,
+            0.001,
+            0.001,
+            0.001
+          ],
+          "position": [
+            -0.039,
+            -0.01,
+            -0.005
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SunkenRefrigeratorDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            0.62,
+            1.094,
+            0.03
+          ],
+          "sunken_opening_size": [
+            0.49,
+            0.86,
+            0.025
+          ],
+          "sunken_opening_offset": [
+            -0.045,
+            -0.02
+          ],
+          "position": [
+            0.43099999999999994,
+            -0.01,
+            0.325
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Sunken_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "SunkenRefrigeratorDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            0.942,
+            1.094,
+            0.03
+          ],
+          "sunken_opening_size": [
+            0.475,
+            0.86,
+            0.025
+          ],
+          "sunken_opening_offset": [
+            0.13,
+            -0.02
+          ],
+          "position": [
+            -0.34800000000000003,
+            -0.01,
+            0.325
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Sunken_Door",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "MultilevelRefrigeratorLegSet",
+        "semantic": "leg",
+        "parameters": {
+          "front_leg_size": [
+            0.05,
+            0.15,
+            0.05
+          ],
+          "rear_leg_size": [
+            0.05,
+            0.15,
+            0.05
+          ],
+          "front_leg_spacing": 1.12,
+          "rear_leg_spacing": 1.12,
+          "front_rear_spacing": 0.53,
+          "leg_count": 4,
+          "position": [
+            0.020999999999999998,
+            -0.557,
+            0.015
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Leg",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

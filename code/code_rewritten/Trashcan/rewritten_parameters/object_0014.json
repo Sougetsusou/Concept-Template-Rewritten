@@ -1,0 +1,111 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Trashcan",
+  "object": {
+    "id": "5a8ed10d-e7e5-4bd2-952d-8a4fa139cfa4-0",
+    "type": "mesh",
+    "source_object_index": 14,
+    "concepts": [
+      {
+        "template": "PrismaticTrashcanBody",
+        "semantic": "body",
+        "parameters": {
+          "top_size": [
+            0.91,
+            0.845
+          ],
+          "bottom_size": [
+            0.76,
+            0.685
+          ],
+          "shell_heights": [
+            1.54,
+            1.54
+          ],
+          "top_offset": [
+            0,
+            0
+          ],
+          "wall_thickness": [
+            0.005,
+            0.01,
+            0.005
+          ],
+          "position": [
+            0.002,
+            -0.138,
+            0.018
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Prismatic_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "DoubleLayerCuboidalTrashcanCover",
+        "semantic": "cover",
+        "parameters": {
+          "top_size": [
+            0.53,
+            0.04,
+            0.78
+          ],
+          "bottom_size": [
+            0.965,
+            0.05,
+            0.89
+          ],
+          "top_offset": [
+            0,
+            -0.01
+          ],
+          "position": [
+            0.002,
+            0.632,
+            -0.4295
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Double_Layer_Cuboidal_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "StandardTrashcanWheelSet",
+        "semantic": "wheel",
+        "parameters": {
+          "wheel_size": [
+            0.12,
+            0.02
+          ],
+          "wheel_separation": 0.4,
+          "position": [
+            0.002,
+            -0.803,
+            -0.23700000000000002
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Wheel",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

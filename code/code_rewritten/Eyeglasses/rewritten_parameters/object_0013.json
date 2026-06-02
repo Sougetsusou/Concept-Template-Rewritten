@@ -1,0 +1,113 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Eyeglasses",
+  "object": {
+    "id": "59d4bd247843cf409d17180597a6ffb0",
+    "type": "mesh",
+    "source_object_index": 13,
+    "concepts": [
+      {
+        "template": "TrapezoidalLensPair",
+        "semantic": "glasses",
+        "parameters": {
+          "lens_size": [
+            0.42,
+            0.42,
+            0.2,
+            0.055
+          ],
+          "bridge_interval": 0.27,
+          "lens_rotation_degrees": [
+            -12,
+            6
+          ],
+          "top_offset_x": 0.02,
+          "position": [
+            0.012,
+            0,
+            0.196
+          ],
+          "rotation": [
+            0,
+            0.6,
+            2.2
+          ]
+        },
+        "source": {
+          "legacy_template": "Trapezoidal_Glasses",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "TrifoldTemplePair",
+        "semantic": "leg",
+        "parameters": {
+          "frame_interval": 1.0916439846163968,
+          "main_segment_size": [
+            0.075,
+            0.06,
+            0.81
+          ],
+          "end_segment_size": [
+            0.075,
+            0.06,
+            0.14
+          ],
+          "main_rotation_degrees": [
+            0,
+            0
+          ],
+          "fold_rotation_degrees": [
+            50,
+            0
+          ],
+          "connector_size": [
+            0.2,
+            0.065,
+            0.077
+          ],
+          "hinge_offset_x": -0.005,
+          "position": [
+            0.007,
+            0.02,
+            0.17600000000000002
+          ],
+          "rotation": [
+            0,
+            0.6,
+            2.2
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Leg",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "SingleEyeglassesConnector",
+        "semantic": "connector",
+        "parameters": {
+          "connector_size": [
+            0.23,
+            0.03,
+            0.026
+          ],
+          "position": [
+            0.017,
+            -0.006,
+            0.1374752078969004
+          ],
+          "rotation": [
+            0,
+            0.6,
+            2.2
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Connector",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

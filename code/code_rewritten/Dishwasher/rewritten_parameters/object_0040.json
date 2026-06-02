@@ -1,0 +1,145 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Dishwasher",
+  "object": {
+    "id": "u089e0209-00c8-4a65-8cd1-1a0d441c7176",
+    "type": "mesh",
+    "source_object_index": 40,
+    "concepts": [
+      {
+        "template": "RectangularDishwasherBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            1.01,
+            1.27,
+            0.79
+          ],
+          "wall_thickness": [
+            0.05,
+            0.05,
+            0.05,
+            0.05,
+            0.05
+          ],
+          "position": [
+            0.01,
+            0.09,
+            -0.01
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FlatDishwasherDoor",
+        "semantic": "door",
+        "parameters": {
+          "panel_size": [
+            1,
+            1.295,
+            0.07
+          ],
+          "position": [
+            0.01,
+            0.08249999999999993,
+            0.385
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TrifoldDishwasherHandle",
+        "semantic": "handle",
+        "parameters": {
+          "mount_size": [
+            0.04,
+            0.09,
+            0.01
+          ],
+          "mount_separation": 0.85,
+          "grip_size": [
+            0.035,
+            0.93,
+            0.025
+          ],
+          "position": [
+            0.01,
+            0.6375000000000001,
+            0.455
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "MultilevelDishwasherLegSet",
+        "semantic": "leg",
+        "parameters": {
+          "has_top_panel": true,
+          "top_panel_size": [
+            1.01,
+            0.27,
+            0.67
+          ],
+          "top_to_leg_offset": [
+            0,
+            0
+          ],
+          "front_leg_size": [
+            0.03,
+            0.02,
+            0.03
+          ],
+          "rear_leg_size": [
+            0.03,
+            0.02,
+            0.03
+          ],
+          "leg_center_spacing": [
+            0.97,
+            0.97,
+            0.63
+          ],
+          "leg_count": 4,
+          "position": [
+            0.01,
+            -0.545,
+            -0.08
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Leg",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

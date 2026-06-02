@@ -1,0 +1,92 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Dispenser",
+  "object": {
+    "id": "af3763054969179d5a539e595e9e07ce",
+    "type": "mesh",
+    "source_object_index": 30,
+    "concepts": [
+      {
+        "template": "RectangularDispenserBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            1.13,
+            1.038,
+            1.11
+          ],
+          "position": [
+            0.0,
+            -0.044,
+            -0.01
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "PressDispenserNozzle",
+        "semantic": "nozzle",
+        "parameters": {
+          "base_sections": [
+            {
+              "name": "base_section_1",
+              "radius": 0.186,
+              "height": 0.18
+            },
+            {
+              "name": "base_section_2",
+              "radius": 0.123,
+              "height": 0.072
+            },
+            {
+              "name": "base_section_3",
+              "radius": 0.042,
+              "height": 0.178
+            },
+            {
+              "name": "base_section_4",
+              "radius": 0.14,
+              "height": 0.091
+            }
+          ],
+          "nozzle_cross_section": [
+            0.11,
+            0.08
+          ],
+          "nozzle_lengths": [
+            0.32,
+            0.1
+          ],
+          "nozzle_count": 1,
+          "nozzle_offset": -0.047,
+          "nozzle_rotations_degrees": [
+            3,
+            0
+          ],
+          "position": [
+            0.006,
+            0.47500000000000003,
+            -0.01
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Press_Nozzle",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

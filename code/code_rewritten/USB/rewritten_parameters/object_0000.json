@@ -1,0 +1,99 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "USB",
+  "object": {
+    "id": "014e9081-23a3-4ecc-be18-2cd94b44d6cc-0",
+    "type": "mesh",
+    "source_object_index": 0,
+    "concepts": [
+      {
+        "template": "HollowUsbConnector",
+        "semantic": "connector",
+        "parameters": {
+          "connector_size": [
+            0.37,
+            0.12,
+            0.36
+          ],
+          "border_thickness": 0.02,
+          "position": [
+            -0.003,
+            0.004,
+            0.3
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Connector",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RegularUsbBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.49,
+            0.22,
+            1.165
+          ],
+          "rounded_back": true,
+          "rounded_sides": false,
+          "position": [
+            0,
+            0.002,
+            0.3
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Body",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "SquareEndedRotaryUsbCap",
+        "semantic": "cap",
+        "parameters": {
+          "cap_size": [
+            0.51,
+            0.02,
+            0.92
+          ],
+          "proximal_interval": 0.24,
+          "inclination_degrees": 0,
+          "cap_yaw_degrees": 180,
+          "shaft_enabled": true,
+          "shaft_size": [
+            0.12,
+            0.05
+          ],
+          "shaft_offset": -0.15,
+          "shaft_interval": 0.22,
+          "position": [
+            0,
+            0.006,
+            0.03999999999999998
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "SquareEnded_Cap",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

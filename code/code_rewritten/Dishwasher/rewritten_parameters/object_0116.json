@@ -1,0 +1,118 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Dishwasher",
+  "object": {
+    "id": "fa01ff7f1d217850df3a1b0d597ce76e",
+    "type": "mesh",
+    "source_object_index": 116,
+    "concepts": [
+      {
+        "template": "RectangularDishwasherBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            0.82,
+            1.28,
+            1.087
+          ],
+          "wall_thickness": [
+            0.001,
+            0.001,
+            0.001,
+            0.001,
+            0.001
+          ],
+          "position": [
+            -0.025,
+            0.113,
+            0.008
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FlatDishwasherDoor",
+        "semantic": "door",
+        "parameters": {
+          "panel_size": [
+            0.82,
+            1.28,
+            0.001
+          ],
+          "position": [
+            -0.025,
+            0.113,
+            0.5515
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "FlatDishwasherHandle",
+        "semantic": "handle",
+        "parameters": {
+          "handle_size": [
+            0.77,
+            0.065,
+            0.085
+          ],
+          "position": [
+            -0.025,
+            0.653,
+            0.5525
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "SingleDishwasherLeg",
+        "semantic": "leg",
+        "parameters": {
+          "leg_size": [
+            0.82,
+            0.17,
+            0.934
+          ],
+          "position": [
+            -0.025,
+            -0.527,
+            -0.068
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Single_Leg",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

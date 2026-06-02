@@ -1,0 +1,507 @@
+{
+  "format": "rewritten_category_parameter_index.v1",
+  "package_format": "rewritten_category_parameters.v1",
+  "category": "Refrigerator",
+  "status": "passed",
+  "source": {
+    "type": "rewritten_native_parameters"
+  },
+  "conversion": {
+    "mapper_module": null,
+    "max_objects": null
+  },
+  "summary": {
+    "object_count": 65,
+    "concept_count": 317,
+    "class_counts": {
+      "CuboidalRefrigeratorBody": 57,
+      "CuboidalRefrigeratorDoor": 85,
+      "CuboidalRefrigeratorHandle": 30,
+      "CuboidalRefrigeratorVessel": 6,
+      "CurveRefrigeratorHandle": 17,
+      "DoubleLayerRefrigeratorBody": 6,
+      "DrawerLikeRefrigeratorTray": 2,
+      "FlatRefrigeratorTray": 27,
+      "LeftRightDoubleLayerRefrigeratorBody": 2,
+      "MultilevelRefrigeratorLegSet": 24,
+      "SunkenRefrigeratorDoor": 27,
+      "TrifoldCurveRefrigeratorHandle": 2,
+      "TrifoldRefrigeratorHandle": 32
+    },
+    "legacy_class_counts": {
+      "Cuboidal_Body": 57,
+      "Cuboidal_Door": 85,
+      "Cuboidal_Handle": 30,
+      "Cuboidal_Vessel": 6,
+      "Curve_Handle": 17,
+      "Double_Layer_Body": 6,
+      "Drawer_Like_Tray": 2,
+      "Flat_Tray": 27,
+      "Left_Right_Double_Layer_Body": 2,
+      "Multilevel_Leg": 24,
+      "Sunken_Door": 27,
+      "Trifold_Curve_Handle": 2,
+      "Trifold_Handle": 32
+    },
+    "event_count": 0,
+    "failed_event_count": 0
+  },
+  "objects": [
+    {
+      "file": "object_0000.json",
+      "id": "1f51bf7da8ae7d40b9c80942c0a95e18",
+      "type": "mesh",
+      "source_object_index": 0,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0001.json",
+      "id": "2cdc36d2f2693ad9617724635ed7cc4b",
+      "type": "mesh",
+      "source_object_index": 1,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0002.json",
+      "id": "2f8a37ee0ca9d0be702d79fd57a6bf4",
+      "type": "mesh",
+      "source_object_index": 2,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0003.json",
+      "id": "3158fd17e409d38a732208e596b26ebc",
+      "type": "mesh",
+      "source_object_index": 3,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0004.json",
+      "id": "37e4e31465ab231e657fedbea3770934",
+      "type": "mesh",
+      "source_object_index": 4,
+      "concept_count": 6
+    },
+    {
+      "file": "object_0005.json",
+      "id": "3a183e5df9df3cf8241e46a406e96e16",
+      "type": "mesh",
+      "source_object_index": 5,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0006.json",
+      "id": "3b29b91c95d259ca19d629b015d21083",
+      "type": "mesh",
+      "source_object_index": 6,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0007.json",
+      "id": "3b37fe8211e5886f7b039f697f76fd1",
+      "type": "mesh",
+      "source_object_index": 7,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0008.json",
+      "id": "3f1918f829264fcd89a2b0e9fb51847a",
+      "type": "mesh",
+      "source_object_index": 8,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0009.json",
+      "id": "454032e47ff1280c95bea7c29e873d16",
+      "type": "mesh",
+      "source_object_index": 9,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0010.json",
+      "id": "4b2c920fb2619726578d107c71db28ac",
+      "type": "mesh",
+      "source_object_index": 10,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0011.json",
+      "id": "52356ccfc05934f2a41386d23d519c74",
+      "type": "mesh",
+      "source_object_index": 11,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0012.json",
+      "id": "528fd36db2ca7e47df18258a84843c90",
+      "type": "mesh",
+      "source_object_index": 12,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0013.json",
+      "id": "5a22adeed868c76743c8f1cd479ffb1e",
+      "type": "mesh",
+      "source_object_index": 13,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0014.json",
+      "id": "5b81d7830eabb7547c6e1fb05e1b9037",
+      "type": "mesh",
+      "source_object_index": 14,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0015.json",
+      "id": "6601ef650f03e000c49931aa7ca8fecb",
+      "type": "mesh",
+      "source_object_index": 15,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0016.json",
+      "id": "68a74c8e77db3668605f8bb5e3f9a647",
+      "type": "mesh",
+      "source_object_index": 16,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0017.json",
+      "id": "699244504434a96a18c6f74ea0d202aa",
+      "type": "mesh",
+      "source_object_index": 17,
+      "concept_count": 6
+    },
+    {
+      "file": "object_0018.json",
+      "id": "6bcdb7c7755840b9e9dcad0af9466535",
+      "type": "mesh",
+      "source_object_index": 18,
+      "concept_count": 6
+    },
+    {
+      "file": "object_0019.json",
+      "id": "6fb955194baf07a750a5eaedf6275e1b",
+      "type": "mesh",
+      "source_object_index": 19,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0020.json",
+      "id": "7028b24b7d64efaf3194539af1047dcf",
+      "type": "mesh",
+      "source_object_index": 20,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0021.json",
+      "id": "704ed5d61902eeb5a1e039e67e7e40e1",
+      "type": "mesh",
+      "source_object_index": 21,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0022.json",
+      "id": "827c9a85df258dd8faf0b97ff18d3546",
+      "type": "mesh",
+      "source_object_index": 22,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0023.json",
+      "id": "8ed3447275de7695149c1768202b4e64",
+      "type": "mesh",
+      "source_object_index": 23,
+      "concept_count": 6
+    },
+    {
+      "file": "object_0024.json",
+      "id": "90aa152c4adfadfad47f40fb0c3a08bb",
+      "type": "mesh",
+      "source_object_index": 24,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0025.json",
+      "id": "93d69af3c0034d3d9807c66948157e66",
+      "type": "mesh",
+      "source_object_index": 25,
+      "concept_count": 7
+    },
+    {
+      "file": "object_0026.json",
+      "id": "9e53ec8bedae98859807c66948157e66",
+      "type": "mesh",
+      "source_object_index": 26,
+      "concept_count": 7
+    },
+    {
+      "file": "object_0027.json",
+      "id": "a44c2110f646309bc7fb1a0a584939a5",
+      "type": "mesh",
+      "source_object_index": 27,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0028.json",
+      "id": "ad6bd7e24e5bc25f3593835fe348a036",
+      "type": "mesh",
+      "source_object_index": 28,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0029.json",
+      "id": "ada8a69f8e7068bf8148e315f6955740",
+      "type": "mesh",
+      "source_object_index": 29,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0030.json",
+      "id": "aff25f62a2eb92a1815b2b467e8e2eac",
+      "type": "mesh",
+      "source_object_index": 30,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0031.json",
+      "id": "b5b34464d1270673617724635ed7cc4b",
+      "type": "mesh",
+      "source_object_index": 31,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0032.json",
+      "id": "bc82358ed0ee28d41277c98ea0908b0",
+      "type": "mesh",
+      "source_object_index": 32,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0033.json",
+      "id": "d2e6ec26e414e9162759629bed6c4d54",
+      "type": "mesh",
+      "source_object_index": 33,
+      "concept_count": 6
+    },
+    {
+      "file": "object_0034.json",
+      "id": "f71397f01cab21ffaff7331733d1f0f5",
+      "type": "mesh",
+      "source_object_index": 34,
+      "concept_count": 12
+    },
+    {
+      "file": "object_0035.json",
+      "id": "f7e0a103c97469d5a168e247bb97e471",
+      "type": "mesh",
+      "source_object_index": 35,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0036.json",
+      "id": "114cdc38d12bc5f071f2a5b51e60087e",
+      "type": "mesh",
+      "source_object_index": 36,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0037.json",
+      "id": "126bcab3bcee21871f6dfedaba98d5f9",
+      "type": "mesh",
+      "source_object_index": 37,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0038.json",
+      "id": "15f862e203c2882fdb04615d958147f5",
+      "type": "mesh",
+      "source_object_index": 38,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0039.json",
+      "id": "14a08b7806ba76d0a301ebfd8abab655",
+      "type": "mesh",
+      "source_object_index": 39,
+      "concept_count": 6
+    },
+    {
+      "file": "object_0040.json",
+      "id": "1759497ff84ce352ebc17482a84db48",
+      "type": "mesh",
+      "source_object_index": 40,
+      "concept_count": 8
+    },
+    {
+      "file": "object_0041.json",
+      "id": "185b3dc8355aafd4b0028ebab0a64b0e",
+      "type": "mesh",
+      "source_object_index": 41,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0042.json",
+      "id": "19b8723f702ff9a16e79d3bce5783384",
+      "type": "mesh",
+      "source_object_index": 42,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0043.json",
+      "id": "1a6d518f153b42bdabb564bb0657e0d6",
+      "type": "mesh",
+      "source_object_index": 43,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0044.json",
+      "id": "1cf7f85b60662775178e7d331e641179",
+      "type": "mesh",
+      "source_object_index": 44,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0045.json",
+      "id": "1e274af1b277e6967371f6b52aeb0db1",
+      "type": "mesh",
+      "source_object_index": 45,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0046.json",
+      "id": "1eaa99d94909568a191c3762b497eca9",
+      "type": "mesh",
+      "source_object_index": 46,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0047.json",
+      "id": "1ed15adc0ee95a39222f0b9bf4b7c7aa",
+      "type": "mesh",
+      "source_object_index": 47,
+      "concept_count": 12
+    },
+    {
+      "file": "object_0048.json",
+      "id": "2041e88df54e2f31beaa8b13449217cb",
+      "type": "mesh",
+      "source_object_index": 48,
+      "concept_count": 9
+    },
+    {
+      "file": "object_0049.json",
+      "id": "22231c37dfd37c899b07343517e0f88e",
+      "type": "mesh",
+      "source_object_index": 49,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0050.json",
+      "id": "2262bd71ee0fa8d2523a9fdabbb2a7cf",
+      "type": "mesh",
+      "source_object_index": 50,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0051.json",
+      "id": "25802d772ab498b29ce9562d3c10079",
+      "type": "mesh",
+      "source_object_index": 51,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0052.json",
+      "id": "2a9ebccae09b83e09209092a6c03f1bd",
+      "type": "mesh",
+      "source_object_index": 52,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0053.json",
+      "id": "2da0f7077bf99a732502968f508e4084",
+      "type": "mesh",
+      "source_object_index": 53,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0054.json",
+      "id": "31ef99c794c8a7f577dd62b3cf25d351",
+      "type": "mesh",
+      "source_object_index": 54,
+      "concept_count": 6
+    },
+    {
+      "file": "object_0055.json",
+      "id": "346ae461fcec80d390c29d8c96b5b82d",
+      "type": "mesh",
+      "source_object_index": 55,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0056.json",
+      "id": "370d4a1981e03fc6a721d862d52c3337",
+      "type": "mesh",
+      "source_object_index": 56,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0057.json",
+      "id": "3b751386b6cdd8e658c88d30f502a452",
+      "type": "mesh",
+      "source_object_index": 57,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0058.json",
+      "id": "3d7d66cc2974869effc6e457221b9271",
+      "type": "mesh",
+      "source_object_index": 58,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0059.json",
+      "id": "44cf17789f3ac2d837b2bb75885cfc44",
+      "type": "mesh",
+      "source_object_index": 59,
+      "concept_count": 7
+    },
+    {
+      "file": "object_0060.json",
+      "id": "47c6dfa01f78f22b5279dbab55719fcd",
+      "type": "mesh",
+      "source_object_index": 60,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0061.json",
+      "id": "48bd6748d7f4d7b1e84503f2c0f790f",
+      "type": "mesh",
+      "source_object_index": 61,
+      "concept_count": 8
+    },
+    {
+      "file": "object_0062.json",
+      "id": "4ae870e05cd5af69a7a2ca2de4f5ee9b",
+      "type": "mesh",
+      "source_object_index": 62,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0063.json",
+      "id": "515fef39569ceb6a731fe29b17a509b5",
+      "type": "mesh",
+      "source_object_index": 63,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0064.json",
+      "id": "51d669647ab947ddec90ee40bdd19ed2",
+      "type": "mesh",
+      "source_object_index": 64,
+      "concept_count": 3
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,113 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "34764b40046d5c9f72101dcac4ed75d3",
+    "type": "mesh",
+    "source_object_index": 116,
+    "concepts": [
+      {
+        "template": "Round_Base",
+        "semantic": "base",
+        "parameters": {
+          "base_size": [
+            0.225,
+            0.036
+          ],
+          "position": [
+            -0.006,
+            -0.028,
+            -0.392
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.8
+          ]
+        },
+        "source": {
+          "legacy_template": "Round_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "Cylindrical_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "main_part_size": [
+            0.115,
+            1.395
+          ],
+          "head_size": [
+            0.08,
+            0.105
+          ],
+          "head_offset": [
+            0,
+            -0.065,
+            0
+          ],
+          "main_rotation_degrees": 0,
+          "head_rotation_degrees": -41.5,
+          "position": [
+            -0.006,
+            -0.14300000000000002,
+            -0.392
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.8
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RotaryZ_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "main_size_1": [
+            0.14,
+            0.0251
+          ],
+          "main_size_2": [
+            0.128,
+            0.252
+          ],
+          "switch_offsets_x": [
+            -0.54,
+            0.56
+          ],
+          "sub_size": [
+            0.248,
+            0.03,
+            0.0415
+          ],
+          "sub_offset": -0.061,
+          "tilt_degrees": 0,
+          "first_rotation_degrees": 180,
+          "second_rotation_degrees": 0,
+          "switch_count": 2,
+          "sub_count": 1,
+          "position": [
+            -0.006,
+            0.047,
+            -0.41900000000000004
+          ],
+          "rotation": [
+            0,
+            0,
+            -0.8
+          ]
+        },
+        "source": {
+          "legacy_template": "RotaryZ_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

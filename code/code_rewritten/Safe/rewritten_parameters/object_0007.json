@@ -1,0 +1,109 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Safe",
+  "object": {
+    "id": "53211332afe32708cccfa6e0b59fe5d2",
+    "type": "mesh",
+    "source_object_index": 7,
+    "concepts": [
+      {
+        "template": "CuboidalSafeBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            0.875,
+            1.02,
+            0.865
+          ],
+          "wall_thickness": [
+            0.095,
+            0.01,
+            0.07,
+            0.07,
+            0.09
+          ],
+          "position": [
+            -0.05,
+            0,
+            -0.15
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RearLayerSafeDoor",
+        "semantic": "door",
+        "parameters": {
+          "main_panel_size": [
+            0.9,
+            0.99,
+            0.1
+          ],
+          "rear_panel_size": [
+            0.69,
+            0.82,
+            0.08
+          ],
+          "rear_panel_offset": [
+            0.02,
+            0
+          ],
+          "position": [
+            0.06930194846605357,
+            0.01,
+            0.5906980515339464
+          ],
+          "rotation": [
+            0,
+            45,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Behind_Double_Layer_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "ClawSafeHandle",
+        "semantic": "handle",
+        "parameters": {
+          "base_size": [
+            0.08,
+            0.04
+          ],
+          "fork_size": [
+            0.12,
+            0.025,
+            0.03
+          ],
+          "fork_offset_z": 0.015,
+          "fork_tilt_degrees": 44,
+          "fork_count": 3,
+          "position": [
+            0.16829689783217022,
+            0.055,
+            0.6331244584051393
+          ],
+          "rotation": [
+            0,
+            45,
+            83
+          ]
+        },
+        "source": {
+          "legacy_template": "Claw_Handle",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

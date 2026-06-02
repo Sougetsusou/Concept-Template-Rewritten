@@ -1,0 +1,72 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "USB",
+  "object": {
+    "id": "940e94491f086317527a7cbd6d9c5851-2",
+    "type": "mesh",
+    "source_object_index": 22,
+    "concepts": [
+      {
+        "template": "RegularUsbBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.991,
+            0.36,
+            0.725
+          ],
+          "rounded_back": false,
+          "rounded_sides": false,
+          "position": [
+            -0.0112,
+            0,
+            -0.17
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "StandardUsbCap",
+        "semantic": "cap",
+        "parameters": {
+          "outer_size": [
+            1,
+            0.36,
+            0.948
+          ],
+          "inner_size": [
+            0.82,
+            0.25,
+            0.44
+          ],
+          "inner_outer_offset": [
+            0,
+            0
+          ],
+          "position": [
+            -0.0112,
+            -0.00135,
+            -0.18000000000000002
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Cap",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

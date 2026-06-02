@@ -1,0 +1,201 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Door",
+  "object": {
+    "id": "32fcd06dcd8560c1fd02945dff8533e8",
+    "type": "mesh",
+    "source_object_index": 11,
+    "concepts": [
+      {
+        "template": "PivotDoorPanelSet",
+        "semantic": "door",
+        "parameters": {
+          "has_left_panel": false,
+          "has_right_panel": true,
+          "panel_size": [
+            0.61,
+            1.58,
+            0.035
+          ],
+          "open_angles_degrees": [
+            0,
+            -93
+          ],
+          "position": [
+            -0.216,
+            -0.04,
+            0.17
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Door",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "VerticalDoorHingeSet",
+        "semantic": "hinge",
+        "parameters": {
+          "hinge_group_count": 1,
+          "hinge_count_per_group": 3,
+          "hinge_size": [
+            0.003,
+            0.06
+          ],
+          "hinge_separations": [
+            0.53,
+            0.59,
+            0.15,
+            0.15
+          ],
+          "group_offsets": [
+            [
+              0.318,
+              -0.61,
+              0
+            ]
+          ],
+          "position": [
+            -0.216,
+            -0.04,
+            0.17
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Hinge",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CylindricalDoorHandle",
+        "semantic": "handle",
+        "parameters": {
+          "has_left_panel": false,
+          "has_right_panel": true,
+          "panel_open_angles_degrees": [
+            0,
+            -93
+          ],
+          "door_size": [
+            0.61,
+            1.58,
+            0.035
+          ],
+          "has_back_handle": true,
+          "has_front_handle": true,
+          "fixed_part_size": [
+            0.02,
+            0.002
+          ],
+          "middle_part_size": [
+            0.005,
+            0.02
+          ],
+          "main_part_size": [
+            0.02,
+            0.027
+          ],
+          "edge_offset_x": 0.25,
+          "position": [
+            -0.216,
+            0.125,
+            0.17
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "ThreeSideDoorFrame",
+        "semantic": "doorframe",
+        "parameters": {
+          "opening_size": [
+            0.61,
+            1.58,
+            0.035
+          ],
+          "has_front_frame": false,
+          "has_back_frame": true,
+          "main_outer_size": [
+            0.7,
+            1.625,
+            0.1
+          ],
+          "main_inner_offset": [
+            0,
+            0
+          ],
+          "main_center_offset": [
+            0.015,
+            0.055
+          ],
+          "front_outer_size": [
+            1,
+            1.75,
+            0.1
+          ],
+          "front_inner_size": [
+            0.8,
+            1.6
+          ],
+          "front_inner_offset": [
+            0,
+            0
+          ],
+          "front_center_offset": [
+            0,
+            0
+          ],
+          "back_outer_size": [
+            0.71,
+            1.635,
+            0.02
+          ],
+          "back_inner_size": [
+            0.62,
+            1.58
+          ],
+          "back_inner_offset": [
+            0,
+            0
+          ],
+          "back_center_offset": [
+            0.015,
+            0
+          ],
+          "position": [
+            -0.216,
+            -0.04,
+            0.17
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Doorframe",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

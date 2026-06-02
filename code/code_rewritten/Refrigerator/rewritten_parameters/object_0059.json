@@ -1,0 +1,211 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Refrigerator",
+  "object": {
+    "id": "44cf17789f3ac2d837b2bb75885cfc44",
+    "type": "mesh",
+    "source_object_index": 59,
+    "concepts": [
+      {
+        "template": "CuboidalRefrigeratorBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.9024,
+            1.748,
+            0.512
+          ],
+          "wall_thickness": [
+            0.001,
+            0.001,
+            0.001,
+            0.001,
+            0.001
+          ],
+          "position": [
+            0.005,
+            -0.002,
+            -0.002
+          ],
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuboidalRefrigeratorDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            0.45,
+            1.15,
+            0.02
+          ],
+          "position": [
+            0.23119999999999996,
+            0.298,
+            -0.258
+          ],
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TrifoldRefrigeratorHandle",
+        "semantic": "handle",
+        "parameters": {
+          "mount_size": [
+            0.03,
+            0.09,
+            0.02
+          ],
+          "mount_spacing": 0.6,
+          "grip_size": [
+            0.02,
+            0.7,
+            0.02
+          ],
+          "position": [
+            0.061199999999999935,
+            0.12799999999999997,
+            -0.278
+          ],
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "CuboidalRefrigeratorDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            0.452,
+            1.15,
+            0.02
+          ],
+          "position": [
+            -0.2202,
+            0.298,
+            -0.258
+          ],
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 3
+        }
+      },
+      {
+        "template": "TrifoldRefrigeratorHandle",
+        "semantic": "handle",
+        "parameters": {
+          "mount_size": [
+            0.03,
+            0.09,
+            0.02
+          ],
+          "mount_spacing": 0.6,
+          "grip_size": [
+            0.02,
+            0.69,
+            0.02
+          ],
+          "position": [
+            -0.05520000000000001,
+            0.118,
+            -0.278
+          ],
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Handle",
+          "source_concept_index": 4
+        }
+      },
+      {
+        "template": "CuboidalRefrigeratorDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            0.904,
+            0.598,
+            0.02
+          ],
+          "position": [
+            0.004199999999999946,
+            -0.577,
+            -0.258
+          ],
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 5
+        }
+      },
+      {
+        "template": "TrifoldRefrigeratorHandle",
+        "semantic": "handle",
+        "parameters": {
+          "mount_size": [
+            0.02,
+            0.06,
+            0.02
+          ],
+          "mount_spacing": 0.76,
+          "grip_size": [
+            0.02,
+            0.84,
+            0.02
+          ],
+          "position": [
+            0.014199999999999952,
+            -0.32699999999999996,
+            -0.278
+          ],
+          "rotation": [
+            0,
+            -180,
+            90
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Handle",
+          "source_concept_index": 6
+        }
+      }
+    ]
+  }
+}

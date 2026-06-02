@@ -1,0 +1,64 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Gluestick",
+  "object": {
+    "id": "de39c51d-0e4a-11ed-bd85-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 13,
+    "concepts": [
+      {
+        "template": "ToothpasteLikeGlueStickBody",
+        "semantic": "body",
+        "parameters": {
+          "top_radius": 0.07,
+          "bottom_flat_length": 0.23,
+          "height": 0.56,
+          "position": [
+            0,
+            -0.18,
+            0
+          ],
+          "rotation": [
+            -270,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Toothpaste_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "DomedGlueStickCover",
+        "semantic": "cover",
+        "parameters": {
+          "base_size": [
+            0.06,
+            0.06,
+            0.17
+          ],
+          "dome_radius": [
+            0.06,
+            0.19
+          ],
+          "dome_exist_angle_degrees": 90,
+          "position": [
+            0,
+            0.10000000000000003,
+            0
+          ],
+          "rotation": [
+            -270,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Domed_Cover",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

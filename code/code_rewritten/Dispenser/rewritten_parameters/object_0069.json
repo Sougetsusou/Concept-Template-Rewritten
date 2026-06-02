@@ -1,0 +1,57 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Dispenser",
+  "object": {
+    "id": "5bbc0938-0e48-11ed-bf2a-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 69,
+    "concepts": [
+      {
+        "template": "StackedDispenserBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "body_section_1",
+              "height": 1.08,
+              "top_radius": 0.385,
+              "bottom_radius": 0.39
+            },
+            {
+              "name": "body_section_2",
+              "height": 0.165,
+              "top_radius": 0.285,
+              "bottom_radius": 0.385
+            },
+            {
+              "name": "body_section_3",
+              "height": 0.145,
+              "top_radius": 0.16,
+              "bottom_radius": 0.285
+            },
+            {
+              "name": "body_section_4",
+              "height": 0.315,
+              "top_radius": 0.16,
+              "bottom_radius": 0.16
+            }
+          ],
+          "position": [
+            -0.045058139843741796,
+            0.012808963761949505,
+            -0.22957720810473953
+          ],
+          "rotation": [
+            88,
+            37,
+            -36
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      }
+    ]
+  }
+}

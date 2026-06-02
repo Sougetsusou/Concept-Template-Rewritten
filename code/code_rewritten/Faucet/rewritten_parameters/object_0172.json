@@ -1,0 +1,122 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "4bcbe4f02228788d50da8b99982a3057",
+    "type": "mesh",
+    "source_object_index": 172,
+    "concepts": [
+      {
+        "template": "Cylindrical_Base",
+        "semantic": "base",
+        "parameters": {
+          "cylinder_count": 2,
+          "primary_size": [
+            0.107,
+            1.368
+          ],
+          "secondary_size": [
+            0.132,
+            0.038
+          ],
+          "secondary_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            0.001,
+            0.546,
+            0.059
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "Cylindrical_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "main_part_size": [
+            0.0615,
+            0.505
+          ],
+          "head_size": [
+            0.053,
+            0.08
+          ],
+          "head_offset": [
+            0,
+            -0.05,
+            -0.007
+          ],
+          "main_rotation_degrees": 0,
+          "head_rotation_degrees": -22.5,
+          "position": [
+            0.001,
+            0.42200000000000004,
+            0.03899999999999999
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "Knob_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "switch_count": 1,
+          "cylinder_count": 2,
+          "cylinder_sizes": [
+            [
+              0.107,
+              0.091
+            ],
+            [
+              0.035,
+              0.375
+            ],
+            [
+              0.08,
+              0.08
+            ]
+          ],
+          "offset": [
+            0,
+            0.2,
+            1.405,
+            -0.108
+          ],
+          "position": [
+            0.001,
+            -0.8600000000000001,
+            0.059
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Knob_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

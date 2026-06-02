@@ -1,0 +1,83 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Bottle",
+  "object": {
+    "id": "62451f0ab130709ef7480cb1ee830fb9",
+    "type": "mesh",
+    "source_object_index": 132,
+    "concepts": [
+      {
+        "template": "StackedBottleBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "base_section",
+              "height": 0.9,
+              "top_radius": 0.21,
+              "bottom_radius": 0.21
+            },
+            {
+              "name": "upper_section_2",
+              "height": 0.17,
+              "top_radius": 0.16,
+              "bottom_radius": 0.21
+            },
+            {
+              "name": "upper_section_3",
+              "height": 0.26,
+              "top_radius": 0.23,
+              "bottom_radius": 0.16
+            },
+            {
+              "name": "upper_section_4",
+              "height": 0.32,
+              "top_radius": 0.07,
+              "bottom_radius": 0.23
+            }
+          ],
+          "position": [
+            0.0,
+            -0.28,
+            -0.005
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalBottleLid",
+        "semantic": "lid",
+        "parameters": {
+          "top_outer_radius": 0.075,
+          "bottom_outer_radius": 0.075,
+          "total_height": 0.08,
+          "top_inner_radius": 0.07,
+          "bottom_inner_radius": 0.07,
+          "open_ring_height": 0.07,
+          "position": [
+            0.0,
+            0.96,
+            -0.005
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Lid",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

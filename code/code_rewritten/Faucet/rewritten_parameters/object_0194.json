@@ -1,0 +1,130 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "07f98149-0e4a-11ed-a5d3-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 194,
+    "concepts": [
+      {
+        "template": "Cylindrical_Base",
+        "semantic": "base",
+        "parameters": {
+          "cylinder_count": 2,
+          "primary_size": [
+            0.11,
+            0.71
+          ],
+          "secondary_size": [
+            0.1,
+            0.155
+          ],
+          "secondary_offset": [
+            -0.018,
+            0,
+            0.005
+          ],
+          "position": [
+            0.066,
+            -0.014,
+            -0.362
+          ],
+          "rotation": [
+            -4.2,
+            7.7,
+            -2.8
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "ShowerRose_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "tube_radius": 0.085,
+          "start_point": [
+            -0.005,
+            -0.12,
+            0
+          ],
+          "segment_offsets": [
+            [
+              -0.005,
+              0.01,
+              0.585
+            ],
+            [
+              0.045,
+              1.185,
+              0.71
+            ]
+          ],
+          "has_shower_head": 1,
+          "shower_head_size": [
+            0.102,
+            0.11,
+            0.08
+          ],
+          "shower_head_offset": [
+            0.015,
+            -0.075,
+            -0.115
+          ],
+          "shower_head_rotation_degrees": -119,
+          "position": [
+            0.066,
+            -0.014,
+            -0.362
+          ],
+          "rotation": [
+            -4.2,
+            7.7,
+            -2.8
+          ]
+        },
+        "source": {
+          "legacy_template": "ShowerRose_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RegularX_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "main_size": [
+            0.145,
+            0.32
+          ],
+          "sub_size": [
+            0.065,
+            0.415
+          ],
+          "sub_offset": [
+            -0.05,
+            0
+          ],
+          "main_z_rotation_degrees": 0,
+          "main_x_rotation_degrees": -83,
+          "sub_rotation_degrees": -22,
+          "position": [
+            -0.364,
+            -0.134,
+            -0.492
+          ],
+          "rotation": [
+            -4.2,
+            7.7,
+            -2.8
+          ]
+        },
+        "source": {
+          "legacy_template": "RegularX_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

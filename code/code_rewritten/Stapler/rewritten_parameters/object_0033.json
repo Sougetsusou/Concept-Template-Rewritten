@@ -1,0 +1,116 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Stapler",
+  "object": {
+    "id": "1d1f662d-0e52-11ed-8253-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 33,
+    "concepts": [
+      {
+        "template": "SideBlockStaplerBody",
+        "semantic": "body",
+        "parameters": {
+          "base_size": [
+            0.4,
+            0.12,
+            1.285
+          ],
+          "side_block_size": [
+            0.035,
+            0.07,
+            0.52
+          ],
+          "side_block_spacing": 0.352,
+          "side_block_depth_offset": 0,
+          "has_shaft": 0,
+          "shaft_center_section_size": [
+            0.03,
+            0.06
+          ],
+          "shaft_side_section_size": [
+            0.08,
+            0.03
+          ],
+          "shaft_offset": [
+            0,
+            0
+          ],
+          "position": [
+            -0.024926382753160663,
+            0.00024586920836937217,
+            -0.1600612851103455
+          ],
+          "rotation": [
+            89.97381540968149,
+            1.4997714905381634,
+            88.99965727715438
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CarvedStaplerCover",
+        "semantic": "cover",
+        "parameters": {
+          "outer_size": [
+            0.33,
+            0.23,
+            1.28
+          ],
+          "inner_opening_size": [
+            0.2,
+            0.1,
+            0.7
+          ],
+          "position": [
+            -0.6473315729880141,
+            0.01149892357657956,
+            -0.14535081482208217
+          ],
+          "rotation": [
+            73.97381540968149,
+            1.4997714905381634,
+            88.99965727715438
+          ]
+        },
+        "source": {
+          "legacy_template": "Carved_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CarvedStaplerMagazine",
+        "semantic": "magazine",
+        "parameters": {
+          "outer_size": [
+            0.14,
+            0.145,
+            0.636
+          ],
+          "inner_opening_size": [
+            0.05,
+            0.05,
+            0.5
+          ],
+          "position": [
+            -0.15740620236138245,
+            0.006222293407657894,
+            -0.02016979233697072
+          ],
+          "rotation": [
+            87.97381540968149,
+            1.4997714905381634,
+            88.99965727715438
+          ]
+        },
+        "source": {
+          "legacy_template": "Carved_Magazine",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

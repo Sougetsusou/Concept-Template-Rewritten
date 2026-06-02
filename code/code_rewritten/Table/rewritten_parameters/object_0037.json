@@ -1,0 +1,132 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Table",
+  "object": {
+    "id": "7269b683b73eb9a1aee34134dce9c534",
+    "type": "mesh",
+    "source_object_index": 37,
+    "concepts": [
+      {
+        "template": "TableTop",
+        "semantic": null,
+        "parameters": {
+          "size": [
+            1.24,
+            0.04,
+            0.66
+          ],
+          "position": [
+            0.005,
+            0.53,
+            0.01
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_desktop",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SplatTableLegSet",
+        "semantic": null,
+        "parameters": {
+          "front_leg_size": [
+            0.174,
+            1.224,
+            0.075
+          ],
+          "rear_leg_size": [
+            0.176,
+            1.224,
+            0.08
+          ],
+          "leg_center_spacing": [
+            1.067,
+            1.07,
+            0.58
+          ],
+          "central_yaw_degrees": 0,
+          "front_tilt_degrees": [
+            0,
+            0
+          ],
+          "rear_tilt_degrees": [
+            0,
+            0
+          ],
+          "front_rear_bar_size": [
+            0.05,
+            0.05
+          ],
+          "side_bar_size": [
+            0.174,
+            0.075
+          ],
+          "front_rear_bar_offsets": [
+            0,
+            0
+          ],
+          "side_bar_offsets": [
+            0.324,
+            0.324
+          ],
+          "enabled_bars": {
+            "front_width_bar": 0,
+            "rear_width_bar": 0,
+            "left_depth_bar": 1,
+            "right_depth_bar": 1
+          },
+          "extra_legs": [],
+          "position": [
+            0.005,
+            0.51,
+            0.01
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_with_splat_leg",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TableSublayers",
+        "semantic": null,
+        "parameters": {
+          "layer_size": [
+            1.245,
+            0.04,
+            0.51
+          ],
+          "layer_count": 2,
+          "first_layer_y": -1.195,
+          "layer_interval": 0.895,
+          "extra_layers": [],
+          "position": [
+            0.005,
+            0.5750000000000001,
+            0.01
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_sublayer",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

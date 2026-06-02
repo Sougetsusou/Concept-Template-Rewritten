@@ -1,0 +1,139 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Pliers",
+  "object": {
+    "id": "2f4b18402dee61003f7c6295b60afd1b",
+    "type": "mesh",
+    "source_object_index": 5,
+    "concepts": [
+      {
+        "template": "RoundPliersShaft",
+        "semantic": "shaft",
+        "parameters": {
+          "shaft_radius": 0.12,
+          "shaft_height": 0.14,
+          "secondary_shaft_enabled": false,
+          "secondary_shaft_radius": 0.05,
+          "secondary_shaft_height": 0.1,
+          "secondary_shaft_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            -0.01,
+            0.0,
+            0.41
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Round_Shaft",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RearCurvedPliersHandle",
+        "semantic": "handle",
+        "parameters": {
+          "front_segment_size": [
+            0.11,
+            0.14,
+            0.25
+          ],
+          "rear_arc_outer_radius": 1.85,
+          "rear_arc_inner_radius": 1.73,
+          "rear_arc_height": 0.13,
+          "rear_arc_angle_degrees": 36,
+          "side_separation": 0.17,
+          "front_yaw_degrees": -4,
+          "rear_arc_yaw_degrees": 25,
+          "rear_offset": [
+            0,
+            0
+          ],
+          "right_side_y_offset": 0,
+          "position": [
+            -0.01,
+            0.0,
+            0.39999999999999997
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Rear_Curved_Handle",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CuspPliersGripper",
+        "semantic": "gripper",
+        "parameters": {
+          "rear_segment_size": [
+            0.14,
+            0.14,
+            0.14,
+            0.05
+          ],
+          "front_segment_size": [
+            0.14,
+            0.02,
+            0.12,
+            0.49
+          ],
+          "side_separation": 0,
+          "jaw_yaw_degrees": 0,
+          "position": [
+            -0.01,
+            0.0,
+            0.47
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cusp_Gripper",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "RectangularPliersBaffle",
+        "semantic": "baffle",
+        "parameters": {
+          "baffle_size": [
+            0.17,
+            0.18,
+            0.03
+          ],
+          "side_separation": 0.27,
+          "yaw_degrees": -1,
+          "position": [
+            -0.01,
+            0.0,
+            0.07999999999999996
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Rectangular_Baffle",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

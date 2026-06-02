@@ -1,0 +1,68 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Dishwasher",
+  "object": {
+    "id": "43abfa0f-4d56-4462-9510-20ba18e3a1ab",
+    "type": "mesh",
+    "source_object_index": 68,
+    "concepts": [
+      {
+        "template": "RectangularDishwasherBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            1.02,
+            1.45,
+            1.03
+          ],
+          "wall_thickness": [
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01
+          ],
+          "position": [
+            0,
+            0.01,
+            -0.01
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FlatDishwasherDoor",
+        "semantic": "door",
+        "parameters": {
+          "panel_size": [
+            1,
+            1.45,
+            0.02
+          ],
+          "position": [
+            0.0,
+            0.01,
+            0.505
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

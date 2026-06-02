@@ -1,0 +1,57 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Bottle",
+  "object": {
+    "id": "6deb1708-0e38-11ed-b205-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 389,
+    "concepts": [
+      {
+        "template": "StackedBottleBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "base_section",
+              "height": 1.58,
+              "top_radius": 0.311,
+              "bottom_radius": 0.32
+            },
+            {
+              "name": "upper_section_2",
+              "height": 0.08,
+              "top_radius": 0.268,
+              "bottom_radius": 0.311
+            },
+            {
+              "name": "upper_section_3",
+              "height": 0.08,
+              "top_radius": 0.129,
+              "bottom_radius": 0.268
+            },
+            {
+              "name": "upper_section_4",
+              "height": 0.07,
+              "top_radius": 0.13,
+              "bottom_radius": 0.129
+            }
+          ],
+          "position": [
+            -1.2312548800777077e-05,
+            0.0024720490939521603,
+            -0.06399131833052225
+          ],
+          "rotation": [
+            90.42265351277824,
+            0.9062995680551994,
+            0.003342832781612304
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      }
+    ]
+  }
+}

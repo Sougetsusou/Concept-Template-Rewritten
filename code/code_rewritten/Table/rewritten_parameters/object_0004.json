@@ -1,0 +1,108 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Table",
+  "object": {
+    "id": "174832b73cd6d91c9856fa70a578baeb",
+    "type": "mesh",
+    "source_object_index": 4,
+    "concepts": [
+      {
+        "template": "TableTop",
+        "semantic": null,
+        "parameters": {
+          "size": [
+            1.625,
+            0.01,
+            1
+          ],
+          "position": [
+            0.025,
+            0.04,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_desktop",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RegularTableLegSet",
+        "semantic": null,
+        "parameters": {
+          "front_leg_size": [
+            0.07,
+            0.335,
+            0.1
+          ],
+          "rear_leg_size": [
+            0.07,
+            0.335,
+            0.1
+          ],
+          "leg_count": 4,
+          "leg_center_spacing": [
+            1.53,
+            1.53,
+            0.89
+          ],
+          "central_yaw_degrees": 0,
+          "front_tilt_degrees": [
+            0,
+            0
+          ],
+          "rear_tilt_degrees": [
+            0,
+            0
+          ],
+          "mirror_rolls": 1,
+          "extra_legs": [],
+          "position": [
+            0.035,
+            0.035,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_leg",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TableBackboard",
+        "semantic": null,
+        "parameters": {
+          "size": [
+            1.62,
+            0.065,
+            0.01
+          ],
+          "position": [
+            0.025,
+            0.035,
+            -0.495
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_backboard",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

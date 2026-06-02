@@ -1,0 +1,85 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Dispenser",
+  "object": {
+    "id": "f9cef6fc-3df9-456c-82d5-0688debde0f4",
+    "type": "mesh",
+    "source_object_index": 45,
+    "concepts": [
+      {
+        "template": "StackedDispenserBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "body_section_1",
+              "height": 1.385,
+              "top_radius": 0.32,
+              "bottom_radius": 0.32
+            }
+          ],
+          "position": [
+            0.014,
+            -0.063,
+            0.07
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "PressDispenserNozzle",
+        "semantic": "nozzle",
+        "parameters": {
+          "base_sections": [
+            {
+              "name": "base_section_1",
+              "radius": 0.13,
+              "height": 0.06
+            },
+            {
+              "name": "base_section_2",
+              "radius": 0.149,
+              "height": 0.238
+            }
+          ],
+          "nozzle_cross_section": [
+            0.054,
+            0.054
+          ],
+          "nozzle_lengths": [
+            0.29,
+            0.2
+          ],
+          "nozzle_count": 2,
+          "nozzle_offset": -0.062,
+          "nozzle_rotations_degrees": [
+            0,
+            45
+          ],
+          "position": [
+            0.013000000000000001,
+            0.6295,
+            0.07100000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Press_Nozzle",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

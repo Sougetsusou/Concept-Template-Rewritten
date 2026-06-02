@@ -1,0 +1,224 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Oven",
+  "object": {
+    "id": "fb05baf6da5b0856875c4d98e634f167-0",
+    "type": "mesh",
+    "source_object_index": 13,
+    "concepts": [
+      {
+        "template": "CuboidalOvenBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            1.594,
+            0.332,
+            0.861
+          ],
+          "wall_thickness": [
+            0.001,
+            0.001,
+            0.001,
+            0.001,
+            0.001
+          ],
+          "position": [
+            0.012,
+            -0.093,
+            -0.13
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "OvenControllerWithButtons",
+        "semantic": "button",
+        "parameters": {
+          "panel_size": [
+            1.642,
+            0.272,
+            0.203,
+            0.175
+          ],
+          "button_specs": [
+            {
+              "size": [
+                0.08,
+                0.08,
+                0.05
+              ],
+              "offset": [
+                -0.708,
+                0.028
+              ]
+            },
+            {
+              "size": [
+                0.08,
+                0.08,
+                0.05
+              ],
+              "offset": [
+                -0.477,
+                0.028
+              ]
+            },
+            {
+              "size": [
+                0.08,
+                0.08,
+                0.05
+              ],
+              "offset": [
+                -0.21,
+                0.028
+              ]
+            },
+            {
+              "size": [
+                0.08,
+                0.08,
+                0.05
+              ],
+              "offset": [
+                0.02,
+                0.028
+              ]
+            },
+            {
+              "size": [
+                0.08,
+                0.08,
+                0.05
+              ],
+              "offset": [
+                0.477,
+                0.028
+              ]
+            },
+            {
+              "size": [
+                0.08,
+                0.08,
+                0.05
+              ],
+              "offset": [
+                0.71,
+                0.028
+              ]
+            }
+          ],
+          "position": [
+            0.012,
+            0.007000000000000006,
+            0.3005
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Controller_With_Button",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "OvenTopWithBurners",
+        "semantic": "burner",
+        "parameters": {
+          "top_size": [
+            1.642,
+            0.066,
+            0.885
+          ],
+          "burner_specs": [
+            {
+              "size": [
+                0.511,
+                0.047,
+                0.861
+              ],
+              "thickness": 0.13,
+              "offset": [
+                0.016,
+                -0.011
+              ],
+              "central_size": [
+                0.078,
+                0.015
+              ],
+              "central_offset": [
+                0,
+                -0.185
+              ]
+            },
+            {
+              "size": [
+                0.511,
+                0.047,
+                0.861
+              ],
+              "thickness": 0.13,
+              "offset": [
+                -0.518,
+                -0.011
+              ],
+              "central_size": [
+                0.078,
+                0.015
+              ],
+              "central_offset": [
+                0,
+                -0.185
+              ]
+            },
+            {
+              "size": [
+                0.511,
+                0.047,
+                0.861
+              ],
+              "thickness": 0.13,
+              "offset": [
+                0.55,
+                -0.011
+              ],
+              "central_size": [
+                0.078,
+                0.015
+              ],
+              "central_offset": [
+                0,
+                -0.185
+              ]
+            }
+          ],
+          "position": [
+            0.012,
+            0.07300000000000001,
+            -0.14200000000000002
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Top_With_Burner",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Chair",
+  "object": {
+    "id": "3f4e88498f4e54993f7e27638e63d848",
+    "type": "mesh",
+    "source_object_index": 519,
+    "concepts": [
+      {
+        "template": "RectangularChairSeat",
+        "semantic": "seat",
+        "parameters": {
+          "seat_size": [
+            1.175,
+            0.645,
+            1.17
+          ],
+          "position": [
+            -0.008,
+            -0.16,
+            0.05
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_seat",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SolidChairBack",
+        "semantic": "back",
+        "parameters": {
+          "back_size": [
+            1.28,
+            0.375,
+            0.23
+          ],
+          "back_tilt_degrees": 0,
+          "position": [
+            -0.008,
+            0.1625,
+            -0.46
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Solid_back",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "OfficeChairArmrest",
+        "semantic": "armrest",
+        "parameters": {
+          "horizontal_support_size": [
+            0.325,
+            0.265,
+            0.99
+          ],
+          "vertical_support_size": [
+            0.23,
+            0.1,
+            0.99
+          ],
+          "support_contact_offset": 0,
+          "vertical_support_rotation_degrees": 0,
+          "horizontal_support_rotation_degrees": 0,
+          "armrest_separation": 0.945,
+          "armrest_rotation_degrees": 0,
+          "position": [
+            -0.008,
+            0.1625,
+            0.15000000000000002
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Office_armrest",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

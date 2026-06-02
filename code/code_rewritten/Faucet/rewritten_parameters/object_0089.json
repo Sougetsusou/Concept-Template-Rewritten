@@ -1,0 +1,123 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "184fdaf0ea2fda9c5dc3653f8341633a",
+    "type": "mesh",
+    "source_object_index": 89,
+    "concepts": [
+      {
+        "template": "Cylindrical_Base",
+        "semantic": "base",
+        "parameters": {
+          "cylinder_count": 1,
+          "primary_size": [
+            0.065,
+            0.25
+          ],
+          "secondary_size": [
+            0.15,
+            0.08
+          ],
+          "secondary_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            -0.025,
+            -0.66,
+            -0.145
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "Trifold_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "tube_radius": 0.06,
+          "start_point": [
+            0,
+            0,
+            -0.07
+          ],
+          "segment_offsets": [
+            [
+              0,
+              1.39,
+              0
+            ],
+            [
+              0,
+              0,
+              0.89
+            ],
+            [
+              0,
+              -0.41,
+              0.1
+            ]
+          ],
+          "position": [
+            -0.025,
+            -0.66,
+            -0.145
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RegularX_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "main_size": [
+            0.1,
+            0.31
+          ],
+          "sub_size": [
+            0.025,
+            0.25
+          ],
+          "sub_offset": [
+            0.135,
+            -0.01
+          ],
+          "main_z_rotation_degrees": 0,
+          "main_x_rotation_degrees": 0,
+          "sub_rotation_degrees": 0,
+          "position": [
+            -0.10500000000000001,
+            -0.7000000000000001,
+            -0.19999999999999998
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "RegularX_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

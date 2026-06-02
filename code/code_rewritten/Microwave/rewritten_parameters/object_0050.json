@@ -1,0 +1,152 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Microwave",
+  "object": {
+    "id": "369e83693c7445a48ee2f8110bce2d6b",
+    "type": "mesh",
+    "source_object_index": 50,
+    "concepts": [
+      {
+        "template": "CuboidalMicrowaveBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            1.42,
+            0.9,
+            1.06
+          ],
+          "wall_thickness": [
+            0.01,
+            0.02,
+            0.01,
+            0.01,
+            0.012
+          ],
+          "position": [
+            -0.02,
+            0.0,
+            -0.015
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuboidalMicrowaveDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            1.12,
+            0.9,
+            0.01
+          ],
+          "position": [
+            -0.16999999999999998,
+            0.0,
+            0.515
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CurveMicrowaveHandle",
+        "semantic": "handle",
+        "parameters": {
+          "curve_radius": 0.2,
+          "curve_inner_radius": 0.16,
+          "curve_thickness": 0.05,
+          "curve_angle_degrees": 110,
+          "position": [
+            -0.13999999999999999,
+            0.295,
+            0.525
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ]
+        },
+        "source": {
+          "legacy_template": "Curve_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "MicrowaveControllerWithButtons",
+        "semantic": "button",
+        "parameters": {
+          "panel_size": [
+            0.29,
+            0.9,
+            0.01
+          ],
+          "button_specs": [
+            {
+              "size": [
+                0.1,
+                0.1,
+                0.01
+              ],
+              "offset": [
+                -0.01,
+                0.28
+              ]
+            },
+            {
+              "size": [
+                0.1,
+                0.1,
+                0.01
+              ],
+              "offset": [
+                -0.01,
+                0.11
+              ]
+            },
+            {
+              "size": [
+                0.1,
+                0.1,
+                0.01
+              ],
+              "offset": [
+                -0.01,
+                -0.06
+              ]
+            }
+          ],
+          "position": [
+            0.54,
+            0.0,
+            0.515
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Controller_With_Button",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

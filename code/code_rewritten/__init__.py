@@ -1,0 +1,1 @@
+"""Canonical rewritten template package."""

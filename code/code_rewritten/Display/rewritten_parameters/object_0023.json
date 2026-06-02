@@ -1,0 +1,118 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Display",
+  "object": {
+    "id": "17226b72d812ce47272b806070e7941c",
+    "type": "mesh",
+    "source_object_index": 23,
+    "concepts": [
+      {
+        "template": "FrustumDisplayScreen",
+        "semantic": "screen",
+        "parameters": {
+          "has_front_layer": true,
+          "front_layer_size": [
+            1.592,
+            1.04,
+            0.12
+          ],
+          "back_shell_size": [
+            1.082,
+            0.42,
+            0.1427
+          ],
+          "back_shell_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0.0036,
+            0.0821,
+            0.002
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Frustum_Screen",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "TrifoldDisplaySupport",
+        "semantic": "support",
+        "parameters": {
+          "has_upper_part": true,
+          "upper_part_size": [
+            0.21,
+            0.11,
+            0.04
+          ],
+          "upper_mount_point": [
+            0,
+            0.005,
+            0
+          ],
+          "has_middle_part": true,
+          "middle_part_size": [
+            0.21,
+            0.51,
+            0.15
+          ],
+          "middle_y_offset": 0.045,
+          "has_bottom_part": true,
+          "bottom_part_size": [
+            0.21,
+            0.48,
+            0.02
+          ],
+          "bottom_rotation_degrees": -26,
+          "bottom_z_offset": 0,
+          "position": [
+            0.0036,
+            0.0821,
+            -0.1407
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Support",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "VShapedDisplayBase",
+        "semantic": "base",
+        "parameters": {
+          "wing_size": [
+            0.2,
+            0.04,
+            0.62
+          ],
+          "open_angle_degrees": 114,
+          "position": [
+            -0.0064,
+            -0.7793211422236002,
+            -0.208
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Vshaped_Base",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "7d1c4b0c119adf6914b35a7d7cea7130",
+    "type": "mesh",
+    "source_object_index": 183,
+    "concepts": [
+      {
+        "template": "Cuboidal_Base",
+        "semantic": "base",
+        "parameters": {
+          "box_count": 2,
+          "primary_size": [
+            0.115,
+            0.607,
+            0.043
+          ],
+          "secondary_size": [
+            0.16,
+            0.645,
+            0.16
+          ],
+          "secondary_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            0.032,
+            0.59,
+            -0.095
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "Cuboidal_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "main_part_size": [
+            0.115,
+            0.033,
+            0.87
+          ],
+          "head_size": [
+            0.04,
+            0.02
+          ],
+          "head_offset": [
+            0,
+            0,
+            -0.03
+          ],
+          "main_rotation_degrees": 0.7,
+          "head_rotation_degrees": 0,
+          "position": [
+            0.032,
+            0.59,
+            -0.095
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RotaryX_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "main_size_1": [
+            0.08,
+            0.15
+          ],
+          "main_size_2": [
+            0.08,
+            0.0365
+          ],
+          "switch_offsets_x": [
+            -0.02,
+            0.2
+          ],
+          "sub_size": [
+            0.07,
+            0.383,
+            0.0255
+          ],
+          "sub_offset": -0.0025,
+          "tilt_degrees": 0,
+          "first_rotation_degrees": 0,
+          "second_rotation_degrees": 0,
+          "switch_existence": [
+            1,
+            0
+          ],
+          "sub_count": 1,
+          "switch_interval": 0.115,
+          "position": [
+            0.032,
+            -0.245,
+            -0.11699999999999999
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "RotaryX_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

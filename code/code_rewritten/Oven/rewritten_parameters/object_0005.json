@@ -1,0 +1,272 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Oven",
+  "object": {
+    "id": "b296fbfbbe5dccf09c12d6260da9ac2b",
+    "type": "mesh",
+    "source_object_index": 5,
+    "concepts": [
+      {
+        "template": "CuboidalOvenBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.984,
+            1.231,
+            0.857
+          ],
+          "wall_thickness": [
+            0.001,
+            0.036,
+            0.001,
+            0.001,
+            0.036
+          ],
+          "position": [
+            -0.002,
+            -0.108,
+            -0.021
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SunkenOvenDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            0.984,
+            0.83,
+            0.055
+          ],
+          "sunken_opening_size": [
+            0.661,
+            0.363,
+            0.013
+          ],
+          "sunken_opening_offset": [
+            0,
+            -0.035
+          ],
+          "position": [
+            -0.002,
+            0.08349999999999995,
+            0.4075
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Sunken_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CurveOvenHandle",
+        "semantic": "handle",
+        "parameters": {
+          "curve_radius": 1.06,
+          "curve_inner_radius": 1.025,
+          "curve_thickness": 0.036,
+          "curve_angle_degrees": 52,
+          "position": [
+            -0.002,
+            0.4089999999999999,
+            0.46249999999999997
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ]
+        },
+        "source": {
+          "legacy_template": "Curve_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "CuboidalOvenDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            0.984,
+            0.384,
+            0.055
+          ],
+          "position": [
+            -0.002,
+            -0.5315000000000001,
+            0.4075
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 3
+        }
+      },
+      {
+        "template": "CurveOvenHandle",
+        "semantic": "handle",
+        "parameters": {
+          "curve_radius": 1.06,
+          "curve_inner_radius": 1.025,
+          "curve_thickness": 0.036,
+          "curve_angle_degrees": 52,
+          "position": [
+            -0.002,
+            -0.3935,
+            0.46249999999999997
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ]
+        },
+        "source": {
+          "legacy_template": "Curve_Handle",
+          "source_concept_index": 4
+        }
+      },
+      {
+        "template": "CuboidalOvenBaffle",
+        "semantic": "baffle",
+        "parameters": {
+          "baffle_size": [
+            0.984,
+            0.232,
+            0.018
+          ],
+          "position": [
+            -0.002,
+            0.5075000000000001,
+            -0.55
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Baffle",
+          "source_concept_index": 5
+        }
+      },
+      {
+        "template": "OvenControllerWithButtons",
+        "semantic": "button",
+        "parameters": {
+          "panel_size": [
+            0.984,
+            0.232,
+            0.001,
+            0.032
+          ],
+          "button_specs": [
+            {
+              "size": [
+                0.06,
+                0.06,
+                0.018
+              ],
+              "offset": [
+                -0.327,
+                0.027
+              ]
+            },
+            {
+              "size": [
+                0.06,
+                0.06,
+                0.018
+              ],
+              "offset": [
+                -0.222,
+                0.026
+              ]
+            },
+            {
+              "size": [
+                0.06,
+                0.06,
+                0.018
+              ],
+              "offset": [
+                0.224,
+                0.026
+              ]
+            },
+            {
+              "size": [
+                0.06,
+                0.06,
+                0.018
+              ],
+              "offset": [
+                0.332,
+                0.026
+              ]
+            }
+          ],
+          "position": [
+            -0.002,
+            0.6235,
+            -0.541
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Controller_With_Button",
+          "source_concept_index": 6
+        }
+      },
+      {
+        "template": "FlatOvenTop",
+        "semantic": "top",
+        "parameters": {
+          "top_size": [
+            0.984,
+            0.036,
+            0.911
+          ],
+          "position": [
+            -0.002,
+            0.5075000000000001,
+            0.006999999999999999
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Flat_Top",
+          "source_concept_index": 7
+        }
+      }
+    ]
+  }
+}

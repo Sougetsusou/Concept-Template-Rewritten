@@ -1,0 +1,97 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "StorageFurniture",
+  "object": {
+    "id": "1b3090bfb11cf834f06824a9291300d4",
+    "type": "mesh",
+    "source_object_index": 406,
+    "concepts": [
+      {
+        "template": "PartitionedStorageFurnitureBody",
+        "semantic": null,
+        "parameters": {
+          "outer_size": [
+            1.31,
+            1.27,
+            0.66
+          ],
+          "back_panel_thickness": 0.02,
+          "side_wall_thickness": 0.05,
+          "base_panel_thickness": 0.05,
+          "lid_spec": {
+            "size": [
+              1.35,
+              0.04,
+              0.68
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ]
+          },
+          "horizontal_shelf_specs": [
+            {
+              "thickness": 0.04,
+              "center_offset_from_top": 0.46
+            },
+            {
+              "thickness": 0.04,
+              "center_offset_from_top": 0.8500000000000001
+            }
+          ],
+          "partition_bay_specs": [
+            {
+              "height": 0.44,
+              "center_y": 0.41500000000000004,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            },
+            {
+              "height": 0.39,
+              "center_y": -0.020000000000000073,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            },
+            {
+              "height": 0.3499999999999999,
+              "center_y": -0.4100000000000001,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            }
+          ],
+          "additional_panel_specs": [],
+          "position": [
+            0,
+            0,
+            0.06
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Storagefurniture_body",
+          "source_concept_index": 0
+        }
+      }
+    ]
+  }
+}

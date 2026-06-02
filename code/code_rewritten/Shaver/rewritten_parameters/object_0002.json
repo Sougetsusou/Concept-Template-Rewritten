@@ -1,0 +1,72 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Shaver",
+  "object": {
+    "id": "b670ca52-0e51-11ed-9625-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 2,
+    "concepts": [
+      {
+        "template": "LoopShaverBody",
+        "semantic": "body",
+        "parameters": {
+          "end_lengths": [
+            0.01,
+            0.185
+          ],
+          "opening_length": 1.05,
+          "frame_thickness": 0.185,
+          "outer_depth": 0.09,
+          "side_wall_thickness": 0.03,
+          "position": [
+            0.14,
+            -0.034,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -71.4
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "TwoSegmentShaverBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_segment_size": [
+            0.735,
+            0.21,
+            0.05
+          ],
+          "tip_segment_size": [
+            0.515,
+            0.1,
+            0.04
+          ],
+          "tip_vertical_offset": 0.005,
+          "root_origin_offset": 0.98,
+          "blade_rotation_degrees": -11,
+          "position": [
+            0.14,
+            0.491,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -71.4
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Blade",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

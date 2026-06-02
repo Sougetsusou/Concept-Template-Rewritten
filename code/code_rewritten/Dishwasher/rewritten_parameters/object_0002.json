@@ -1,0 +1,153 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Dishwasher",
+  "object": {
+    "id": "2817bcd9-856b-4f3c-8208-c10884d5f206",
+    "type": "mesh",
+    "source_object_index": 2,
+    "concepts": [
+      {
+        "template": "RectangularDishwasherBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            0.76,
+            0.97,
+            0.82
+          ],
+          "wall_thickness": [
+            0.03,
+            0.14,
+            0.04,
+            0.04,
+            0.05
+          ],
+          "position": [
+            0,
+            0.04,
+            -0.08
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FlatDishwasherDoor",
+        "semantic": "door",
+        "parameters": {
+          "panel_size": [
+            0.75,
+            0.87,
+            0.05
+          ],
+          "position": [
+            0.0,
+            -0.03740855018385184,
+            0.6375914498161482
+          ],
+          "rotation": [
+            45,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "DrawerDishwasherTray",
+        "semantic": "tray",
+        "parameters": {
+          "outer_size": [
+            0.64,
+            0.19,
+            0.66
+          ],
+          "inner_size": [
+            0.62,
+            0.16,
+            0.65
+          ],
+          "position": [
+            0.0,
+            0.255,
+            -0.055
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Drawer_Like_Tray",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "DrawerDishwasherTray",
+        "semantic": "tray",
+        "parameters": {
+          "outer_size": [
+            0.64,
+            0.17,
+            0.66
+          ],
+          "inner_size": [
+            0.62,
+            0.16,
+            0.65
+          ],
+          "position": [
+            0.0,
+            -0.145,
+            -0.055
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Drawer_Like_Tray",
+          "source_concept_index": 3
+        }
+      },
+      {
+        "template": "SingleDishwasherLeg",
+        "semantic": "leg",
+        "parameters": {
+          "leg_size": [
+            0.76,
+            0.085,
+            0.75
+          ],
+          "position": [
+            0.0,
+            -0.445,
+            -0.115
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Single_Leg",
+          "source_concept_index": 4
+        }
+      }
+    ]
+  }
+}

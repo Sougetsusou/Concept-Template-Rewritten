@@ -1,0 +1,99 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Dishwasher",
+  "object": {
+    "id": "496dcf99-6e76-480c-8fab-a5579f16f2c7",
+    "type": "mesh",
+    "source_object_index": 4,
+    "concepts": [
+      {
+        "template": "RectangularDishwasherBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            1.55,
+            0.83,
+            0.99
+          ],
+          "wall_thickness": [
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01
+          ],
+          "position": [
+            0.02,
+            -0.01,
+            -0.01
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FlatDishwasherDoor",
+        "semantic": "door",
+        "parameters": {
+          "panel_size": [
+            1.53,
+            0.82,
+            0.01
+          ],
+          "position": [
+            0.02,
+            -0.015000000000000005,
+            0.485
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TrifoldDishwasherHandle",
+        "semantic": "handle",
+        "parameters": {
+          "mount_size": [
+            0.03,
+            0.21,
+            0.03
+          ],
+          "mount_separation": 1.3,
+          "grip_size": [
+            0.03,
+            1.52,
+            0.04
+          ],
+          "position": [
+            0.02,
+            0.285,
+            0.495
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Handle",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

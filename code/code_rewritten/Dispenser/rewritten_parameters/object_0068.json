@@ -1,0 +1,113 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Dispenser",
+  "object": {
+    "id": "5bb7a48e-0e48-11ed-ba26-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 68,
+    "concepts": [
+      {
+        "template": "StackedDispenserBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "body_section_1",
+              "height": 0.665,
+              "top_radius": 0.55,
+              "bottom_radius": 0.53
+            },
+            {
+              "name": "body_section_2",
+              "height": 0.62,
+              "top_radius": 0.515,
+              "bottom_radius": 0.55
+            },
+            {
+              "name": "body_section_3",
+              "height": 0.36,
+              "top_radius": 0.445,
+              "bottom_radius": 0.515
+            },
+            {
+              "name": "body_section_4",
+              "height": 0.32,
+              "top_radius": 0.21,
+              "bottom_radius": 0.445
+            }
+          ],
+          "position": [
+            0.04710236061864957,
+            0.0059999999999999975,
+            -0.8987665812791165
+          ],
+          "rotation": [
+            87,
+            -90,
+            90
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "PressDispenserNozzle",
+        "semantic": "nozzle",
+        "parameters": {
+          "base_sections": [
+            {
+              "name": "base_section_1",
+              "radius": 0.195,
+              "height": 0.25
+            },
+            {
+              "name": "base_section_2",
+              "radius": 0.14,
+              "height": 0.07
+            },
+            {
+              "name": "base_section_3",
+              "radius": 0.07,
+              "height": 0.25
+            },
+            {
+              "name": "base_section_4",
+              "radius": 0.215,
+              "height": 0.115
+            }
+          ],
+          "nozzle_cross_section": [
+            0.12,
+            0.09
+          ],
+          "nozzle_lengths": [
+            0.205,
+            0.1
+          ],
+          "nozzle_count": 1,
+          "nozzle_offset": -0.06,
+          "nozzle_rotations_degrees": [
+            0,
+            0
+          ],
+          "position": [
+            -0.038336087947956454,
+            0.006000000000000003,
+            0.7314961342077254
+          ],
+          "rotation": [
+            87,
+            -80,
+            90
+          ]
+        },
+        "source": {
+          "legacy_template": "Press_Nozzle",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

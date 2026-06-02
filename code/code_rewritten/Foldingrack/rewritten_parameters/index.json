@@ -1,0 +1,88 @@
+{
+  "format": "rewritten_category_parameter_index.v1",
+  "package_format": "rewritten_category_parameters.v1",
+  "category": "Foldingrack",
+  "status": "passed",
+  "source": {
+    "type": "rewritten_native_parameters"
+  },
+  "conversion": {
+    "mapper_module": null,
+    "max_objects": null
+  },
+  "summary": {
+    "object_count": 8,
+    "concept_count": 16,
+    "class_counts": {
+      "CurvedFoldingRack": 3,
+      "RegularFoldingHook": 8,
+      "RegularFoldingRack": 5
+    },
+    "legacy_class_counts": {
+      "Curved_rack": 3,
+      "Regular_hook": 8,
+      "Regular_rack": 5
+    },
+    "event_count": 0,
+    "failed_event_count": 0
+  },
+  "objects": [
+    {
+      "file": "object_0000.json",
+      "id": "d112c969-0e4a-11ed-b678-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 0,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0001.json",
+      "id": "d4deaceb-0e4a-11ed-b874-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 1,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0002.json",
+      "id": "d55b7fb0-0e4a-11ed-8953-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 2,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0003.json",
+      "id": "d5c65ed2-0e4a-11ed-9959-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 3,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0004.json",
+      "id": "d62f7bad-0e4a-11ed-8489-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 4,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0005.json",
+      "id": "d6af7eb2-0e4a-11ed-b491-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 5,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0006.json",
+      "id": "d706fcfc-0e4a-11ed-827b-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 6,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0007.json",
+      "id": "d828058a-0e4a-11ed-b03a-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 7,
+      "concept_count": 2
+    }
+  ],
+  "events": []
+}

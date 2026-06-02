@@ -1,0 +1,116 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Shampoo",
+  "object": {
+    "id": "6acdd251-0e4f-11ed-9698-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 9,
+    "concepts": [
+      {
+        "template": "StackedCylindricalShampooBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "body_section_1",
+              "top_radius": 0.32,
+              "height": 0.75,
+              "bottom_radius": 0.4
+            },
+            {
+              "name": "body_section_2",
+              "top_radius": 0.3,
+              "height": 0.76,
+              "bottom_radius": 0.32
+            },
+            {
+              "name": "body_section_3",
+              "top_radius": 0.36,
+              "height": 0.64,
+              "bottom_radius": 0.3
+            },
+            {
+              "name": "body_section_4",
+              "top_radius": 0.2,
+              "height": 0.1,
+              "bottom_radius": 0.36
+            }
+          ],
+          "z_radius_scale": 1.47,
+          "position": [
+            0,
+            -0.86,
+            0
+          ],
+          "rotation": [
+            -270,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RegularShampooNozzle",
+        "semantic": "nozzle",
+        "parameters": {
+          "base_sections": [
+            {
+              "name": "base_section_1",
+              "radius": 0.18,
+              "height": 0.22
+            },
+            {
+              "name": "base_section_2",
+              "radius": 0.13,
+              "height": 0.07
+            },
+            {
+              "name": "base_section_3",
+              "radius": 0.05,
+              "height": 0.21
+            },
+            {
+              "name": "base_section_4",
+              "radius": 0.08,
+              "height": 0.07
+            },
+            {
+              "name": "base_section_5",
+              "radius": 0.14,
+              "height": 0.1
+            }
+          ],
+          "nozzle_width": 0.1,
+          "nozzle_height": 0.05,
+          "nozzle_segments": [
+            {
+              "name": "nozzle_segment_1",
+              "length": 0.32,
+              "pitch_degrees": 0
+            }
+          ],
+          "nozzle_vertical_offset": -0.03,
+          "yaw_degrees": 190,
+          "position": [
+            0.03,
+            1.0150000000000001,
+            -0.01
+          ],
+          "rotation": [
+            -270,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_nozzle",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "USB",
+  "object": {
+    "id": "73b486d93d872daf89a76a7d676244eb",
+    "type": "mesh",
+    "source_object_index": 12,
+    "concepts": [
+      {
+        "template": "HollowUsbConnector",
+        "semantic": "connector",
+        "parameters": {
+          "connector_size": [
+            0.252,
+            0.0717,
+            0.2122
+          ],
+          "border_thickness": 0.005,
+          "position": [
+            -0.0017,
+            0.002,
+            0.19
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Connector",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RegularUsbBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.431,
+            0.18,
+            1.135
+          ],
+          "rounded_back": false,
+          "rounded_sides": false,
+          "position": [
+            0,
+            0,
+            0.19
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Body",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "StandardUsbCap",
+        "semantic": "cap",
+        "parameters": {
+          "outer_size": [
+            0.428,
+            0.177,
+            0.34
+          ],
+          "inner_size": [
+            0.264,
+            0.075,
+            0.2915
+          ],
+          "inner_outer_offset": [
+            -0.006,
+            -0.001
+          ],
+          "position": [
+            -0.02,
+            0.0022,
+            0.54
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Cap",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

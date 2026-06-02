@@ -1,0 +1,117 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "8a1de547037ee5a4b362845c6edb57fc",
+    "type": "mesh",
+    "source_object_index": 41,
+    "concepts": [
+      {
+        "template": "Cylindrical_Base",
+        "semantic": "base",
+        "parameters": {
+          "cylinder_count": 2,
+          "primary_size": [
+            0.12,
+            0.525
+          ],
+          "secondary_size": [
+            0.12,
+            0.045
+          ],
+          "secondary_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            0,
+            0.11,
+            -0.152
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "Cuboidal_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "main_part_size": [
+            0.15,
+            0.09,
+            1.375
+          ],
+          "head_size": [
+            0.08,
+            0.135
+          ],
+          "head_offset": [
+            0,
+            0.015,
+            0.02
+          ],
+          "main_rotation_degrees": 38,
+          "head_rotation_degrees": 35,
+          "position": [
+            0,
+            -0.41500000000000004,
+            -0.177
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "Cuboidal_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "main_size": [
+            0.25,
+            0.145,
+            0.24
+          ],
+          "sub_size": [
+            0.225,
+            0.045,
+            0.555
+          ],
+          "sub_offset": [
+            0.02,
+            -0.08
+          ],
+          "switch_rotation_degrees": 0,
+          "sub_rotation_degrees": 13,
+          "position": [
+            0,
+            0.07,
+            -0.267
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Refrigerator",
+  "object": {
+    "id": "19b8723f702ff9a16e79d3bce5783384",
+    "type": "mesh",
+    "source_object_index": 42,
+    "concepts": [
+      {
+        "template": "CuboidalRefrigeratorBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.894,
+            1.533,
+            0.93
+          ],
+          "wall_thickness": [
+            0.001,
+            0.001,
+            0.001,
+            0.001,
+            0.001
+          ],
+          "position": [
+            -0.003,
+            -0.001,
+            -0.093
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuboidalRefrigeratorDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            0.894,
+            1.532,
+            0.052
+          ],
+          "position": [
+            -0.003,
+            -0.001,
+            0.372
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TrifoldRefrigeratorHandle",
+        "semantic": "handle",
+        "parameters": {
+          "mount_size": [
+            0.05,
+            0.03,
+            0.03
+          ],
+          "mount_spacing": 0.74,
+          "grip_size": [
+            0.05,
+            0.78,
+            0.02
+          ],
+          "position": [
+            -0.353,
+            0.319,
+            0.42400000000000004
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Handle",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

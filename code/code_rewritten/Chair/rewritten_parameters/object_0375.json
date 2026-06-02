@@ -1,0 +1,126 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Chair",
+  "object": {
+    "id": "1926843fb9da47ad8852b93498ca8c83",
+    "type": "mesh",
+    "source_object_index": 375,
+    "concepts": [
+      {
+        "template": "RectangularChairSeat",
+        "semantic": "seat",
+        "parameters": {
+          "seat_size": [
+            0.74,
+            0.08,
+            0.79
+          ],
+          "position": [
+            0,
+            -0.149,
+            0.1685
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_seat",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SolidChairBack",
+        "semantic": "back",
+        "parameters": {
+          "back_size": [
+            0.74,
+            1.025,
+            0.125
+          ],
+          "back_tilt_degrees": -1,
+          "position": [
+            0.0,
+            -0.10899999999999999,
+            -0.24149999999999996
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Solid_back",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "BarstoolPedestalLeg",
+        "semantic": "leg",
+        "parameters": {
+          "column_size": [
+            0.25,
+            0.43
+          ],
+          "base_size": [
+            0.315,
+            0.07
+          ],
+          "horizontal_tilt_degrees": 0,
+          "position": [
+            0.0,
+            -0.189,
+            0.1585
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Barstool_leg",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "OfficeChairArmrest",
+        "semantic": "armrest",
+        "parameters": {
+          "horizontal_support_size": [
+            0.11,
+            0.05,
+            0.56
+          ],
+          "vertical_support_size": [
+            0.05,
+            0.2,
+            0.05
+          ],
+          "support_contact_offset": 0.13,
+          "vertical_support_rotation_degrees": 38,
+          "horizontal_support_rotation_degrees": 24,
+          "armrest_separation": 0.78,
+          "armrest_rotation_degrees": 0,
+          "position": [
+            0.0,
+            -0.10899999999999999,
+            0.14850000000000002
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Office_armrest",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

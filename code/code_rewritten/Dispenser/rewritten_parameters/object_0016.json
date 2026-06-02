@@ -1,0 +1,102 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Dispenser",
+  "object": {
+    "id": "5a165eb3-f8b2-447e-907e-dd2d08524bca-0",
+    "type": "mesh",
+    "source_object_index": 16,
+    "concepts": [
+      {
+        "template": "StackedDispenserBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "body_section_1",
+              "height": 0.072,
+              "top_radius": 0.224,
+              "bottom_radius": 0.135
+            },
+            {
+              "name": "body_section_2",
+              "height": 1.42,
+              "top_radius": 0.224,
+              "bottom_radius": 0.224
+            },
+            {
+              "name": "body_section_3",
+              "height": 0.12,
+              "top_radius": 0.1,
+              "bottom_radius": 0.224
+            }
+          ],
+          "position": [
+            0.0034,
+            -0.79,
+            0.0008
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "PressDispenserNozzle",
+        "semantic": "nozzle",
+        "parameters": {
+          "base_sections": [
+            {
+              "name": "base_section_1",
+              "radius": 0.0938,
+              "height": 0.124
+            },
+            {
+              "name": "base_section_2",
+              "radius": 0.048,
+              "height": 0.047
+            },
+            {
+              "name": "base_section_3",
+              "radius": 0.0675,
+              "height": 0.042
+            }
+          ],
+          "nozzle_cross_section": [
+            1e-08,
+            1e-58
+          ],
+          "nozzle_lengths": [
+            1e-32,
+            0.1
+          ],
+          "nozzle_count": 1,
+          "nozzle_offset": 0,
+          "nozzle_rotations_degrees": [
+            0,
+            0
+          ],
+          "position": [
+            0.00373,
+            0.786,
+            0.00088
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Press_Nozzle",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

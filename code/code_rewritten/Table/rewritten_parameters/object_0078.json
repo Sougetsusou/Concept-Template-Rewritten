@@ -1,0 +1,150 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Table",
+  "object": {
+    "id": "10f3c10837232428c3bd24f986301745",
+    "type": "mesh",
+    "source_object_index": 78,
+    "concepts": [
+      {
+        "template": "TableTop",
+        "semantic": null,
+        "parameters": {
+          "size": [
+            1.73,
+            0.0383,
+            0.83
+          ],
+          "position": [
+            0.02,
+            0.3481,
+            0.004
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_desktop",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SplatTableLegSet",
+        "semantic": null,
+        "parameters": {
+          "front_leg_size": [
+            0.06,
+            0.4955,
+            0.06
+          ],
+          "rear_leg_size": [
+            0.06,
+            0.4955,
+            0.06
+          ],
+          "leg_center_spacing": [
+            1.66,
+            1.66,
+            0.76
+          ],
+          "central_yaw_degrees": 0,
+          "front_tilt_degrees": [
+            0,
+            0
+          ],
+          "rear_tilt_degrees": [
+            0,
+            0
+          ],
+          "front_rear_bar_size": [
+            0.05,
+            0.05
+          ],
+          "side_bar_size": [
+            0.05,
+            0.05
+          ],
+          "front_rear_bar_offsets": [
+            0,
+            0.23
+          ],
+          "side_bar_offsets": [
+            0,
+            0
+          ],
+          "enabled_bars": {
+            "front_width_bar": 0,
+            "rear_width_bar": 0,
+            "left_depth_bar": 0,
+            "right_depth_bar": 0
+          },
+          "extra_legs": [],
+          "position": [
+            0.02,
+            0.32895,
+            0.004
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_with_splat_leg",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TableSublayers",
+        "semantic": null,
+        "parameters": {
+          "layer_size": [
+            1.733,
+            0.065,
+            0.825
+          ],
+          "layer_count": 1,
+          "first_layer_y": -0.55,
+          "layer_interval": 0.1,
+          "extra_layers": [
+            {
+              "size": [
+                1.25,
+                0.1235,
+                0.51
+              ],
+              "position": [
+                0.0019999999999999983,
+                -0.6451,
+                -0.004
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "position": [
+            0.018000000000000002,
+            0.3481,
+            0.004
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_sublayer",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

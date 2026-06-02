@@ -1,0 +1,141 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Chair",
+  "object": {
+    "id": "308b76aac4b518a43eb67d9fb75cc878",
+    "type": "mesh",
+    "source_object_index": 732,
+    "concepts": [
+      {
+        "template": "RectangularChairSeat",
+        "semantic": "seat",
+        "parameters": {
+          "seat_size": [
+            0.889,
+            0.053,
+            0.892
+          ],
+          "position": [
+            -0.01,
+            0.038,
+            0.11
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_seat",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "LadderChairBack",
+        "semantic": "back",
+        "parameters": {
+          "top_rail_size": [
+            0.89,
+            0.352,
+            0.056
+          ],
+          "side_rail_size": [
+            0.03,
+            0.34,
+            0.056
+          ],
+          "rung_size": [
+            0.01,
+            0.05
+          ],
+          "side_rail_separation": 0.862,
+          "rung_start_offset": 0,
+          "rung_interval": 0.15,
+          "back_tilt_degrees": 0,
+          "rung_count": 0,
+          "position": [
+            -0.011,
+            0.0645,
+            -0.308
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Ladder_back",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "StretcherChairLegSet",
+        "semantic": "splat",
+        "parameters": {
+          "front_leg_size": [
+            0.03,
+            0.74,
+            0.051
+          ],
+          "rear_leg_size": [
+            0.03,
+            0.74,
+            0.051
+          ],
+          "leg_center_spacing": [
+            0.866,
+            0.866,
+            0.84
+          ],
+          "central_yaw_degrees": 0,
+          "front_tilt_degrees": [
+            0,
+            0
+          ],
+          "rear_tilt_degrees": [
+            0,
+            0
+          ],
+          "front_rear_stretcher_size": [
+            0.054,
+            0.052
+          ],
+          "side_stretcher_size": [
+            0.03,
+            0.05
+          ],
+          "front_rear_stretcher_offset": [
+            0,
+            0.027
+          ],
+          "side_stretcher_offset": [
+            -0.344,
+            -0.344
+          ],
+          "stretcher_enabled": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "position": [
+            -0.013000000000000001,
+            0.0115,
+            0.112
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_leg_with_splat",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Table",
+  "object": {
+    "id": "28001cb70c38f19cf32b6091d9628440",
+    "type": "mesh",
+    "source_object_index": 15,
+    "concepts": [
+      {
+        "template": "TableTop",
+        "semantic": null,
+        "parameters": {
+          "size": [
+            1.465,
+            0.027,
+            0.82
+          ],
+          "position": [
+            -0.1,
+            0.093,
+            -0.045000000000000005
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_desktop",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SplatTableLegSet",
+        "semantic": null,
+        "parameters": {
+          "front_leg_size": [
+            0.055,
+            0.64,
+            0.055
+          ],
+          "rear_leg_size": [
+            0.055,
+            0.64,
+            0.05
+          ],
+          "leg_center_spacing": [
+            1.34,
+            1.34,
+            0.7
+          ],
+          "central_yaw_degrees": 0,
+          "front_tilt_degrees": [
+            0,
+            0
+          ],
+          "rear_tilt_degrees": [
+            0,
+            0
+          ],
+          "front_rear_bar_size": [
+            0.19,
+            0.035
+          ],
+          "side_bar_size": [
+            0.04,
+            0.19
+          ],
+          "front_rear_bar_offsets": [
+            0,
+            0.222
+          ],
+          "side_bar_offsets": [
+            0.222,
+            0.222
+          ],
+          "enabled_bars": {
+            "front_width_bar": 0,
+            "rear_width_bar": 1,
+            "left_depth_bar": 1,
+            "right_depth_bar": 1
+          },
+          "extra_legs": [],
+          "position": [
+            -0.10500000000000001,
+            0.0795,
+            -0.045000000000000005
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_with_splat_leg",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TableDrawerAssembly",
+        "semantic": null,
+        "parameters": {
+          "drawers": [
+            {
+              "drawer_size": [
+                0.515,
+                0.185,
+                0.68
+              ],
+              "bottom_thickness": 0.018,
+              "front_size": [
+                0.515,
+                0.215,
+                0.02
+              ],
+              "front_offset_y": 0,
+              "side_thickness": 0.03,
+              "front_back_thickness": 0.03,
+              "handle_count": 0,
+              "handle_size": [
+                0.14,
+                0.08,
+                0.02
+              ],
+              "handle_rotation": 0.0,
+              "handle_offset": [
+                0,
+                0
+              ],
+              "handle_separation": 0.3,
+              "offset": [
+                0.39,
+                0.0096,
+                0.21
+              ]
+            }
+          ],
+          "position": [
+            -0.1,
+            0.0795,
+            -0.045000000000000005
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_drawer",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

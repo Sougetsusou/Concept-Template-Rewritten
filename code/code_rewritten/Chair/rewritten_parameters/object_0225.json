@@ -1,0 +1,92 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Chair",
+  "object": {
+    "id": "22b8498e1ee46520737a00f007529fbf",
+    "type": "mesh",
+    "source_object_index": 225,
+    "concepts": [
+      {
+        "template": "RectangularChairSeat",
+        "semantic": "seat",
+        "parameters": {
+          "seat_size": [
+            1.11,
+            0.355,
+            1.11
+          ],
+          "position": [
+            0,
+            -0.32,
+            0.11
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_seat",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SolidChairBack",
+        "semantic": "back",
+        "parameters": {
+          "back_size": [
+            1.11,
+            0.91,
+            0.23
+          ],
+          "back_tilt_degrees": 0,
+          "position": [
+            0.0,
+            -0.14250000000000002,
+            -0.33
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Solid_back",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "SolidChairArmrest",
+        "semantic": "armrest",
+        "parameters": {
+          "armrest_size": [
+            0.19,
+            0.39,
+            0.8775
+          ],
+          "armrest_separation": 0.92,
+          "armrest_rotation_degrees": [
+            0,
+            0
+          ],
+          "position": [
+            0.0,
+            -0.14250000000000002,
+            0.224
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Solid_armrest",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Stapler",
+  "object": {
+    "id": "1d099569-0e52-11ed-b6d1-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 20,
+    "concepts": [
+      {
+        "template": "SideBlockStaplerBody",
+        "semantic": "body",
+        "parameters": {
+          "base_size": [
+            0.25,
+            0.05,
+            0.55
+          ],
+          "side_block_size": [
+            0.025,
+            0.1,
+            0.2
+          ],
+          "side_block_spacing": 0.185,
+          "side_block_depth_offset": 0,
+          "has_shaft": 0,
+          "shaft_center_section_size": [
+            0.03,
+            0.06
+          ],
+          "shaft_side_section_size": [
+            0.08,
+            0.03
+          ],
+          "shaft_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0.00600000000000001,
+            0.004,
+            -0.15
+          ],
+          "rotation": [
+            90.0,
+            -0.0,
+            90.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CarvedStaplerCover",
+        "semantic": "cover",
+        "parameters": {
+          "outer_size": [
+            0.28,
+            0.205,
+            0.63
+          ],
+          "inner_opening_size": [
+            0.245,
+            0.175,
+            0.59
+          ],
+          "position": [
+            -0.339,
+            0.004000000000000021,
+            -0.06700000000000002
+          ],
+          "rotation": [
+            79.0,
+            -0.0,
+            90.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Carved_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CarvedStaplerMagazine",
+        "semantic": "magazine",
+        "parameters": {
+          "outer_size": [
+            0.148,
+            0.1,
+            0.35
+          ],
+          "inner_opening_size": [
+            0.147,
+            0.099,
+            0.349
+          ],
+          "position": [
+            -0.099,
+            0.004000000000000006,
+            -0.07999999999999999
+          ],
+          "rotation": [
+            88.0,
+            -0.0,
+            90.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Carved_Magazine",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

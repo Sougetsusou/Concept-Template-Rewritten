@@ -1,0 +1,128 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "4af74fd7eaac11a2b7a867e9b35a1295",
+    "type": "mesh",
+    "source_object_index": 171,
+    "concepts": [
+      {
+        "template": "Cylindrical_Base",
+        "semantic": "base",
+        "parameters": {
+          "cylinder_count": 1,
+          "primary_size": [
+            0.155,
+            0.197
+          ],
+          "secondary_size": [
+            0.15,
+            0.08
+          ],
+          "secondary_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            -0.002,
+            -0.436,
+            -0.0365
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "Quadfold_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "tube_radius": 0.06,
+          "start_point": [
+            0,
+            0.305,
+            -0.155
+          ],
+          "segment_offsets": [
+            [
+              0,
+              0.14,
+              0
+            ],
+            [
+              0,
+              0.38,
+              -0.105
+            ],
+            [
+              0,
+              0.265,
+              0.995
+            ],
+            [
+              0,
+              -0.25,
+              0.13
+            ]
+          ],
+          "position": [
+            -0.002,
+            -0.436,
+            -0.0365
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Quadfold_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RegularY_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "main_size": [
+            0.155,
+            0.321
+          ],
+          "sub_size": [
+            0.012,
+            0.417
+          ],
+          "sub_offset": [
+            -0.025,
+            -0.155
+          ],
+          "main_y_rotation_degrees": 0,
+          "main_x_rotation_degrees": 0,
+          "sub_rotation_degrees": 0,
+          "position": [
+            -0.002,
+            -0.436,
+            -0.1915
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "RegularY_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

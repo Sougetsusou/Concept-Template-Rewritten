@@ -1,0 +1,75 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Lighter",
+  "object": {
+    "id": "f128d42b-0e4c-11ed-9b3d-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 48,
+    "concepts": [
+      {
+        "template": "DoubleLayerLighterBody",
+        "semantic": "body",
+        "parameters": {
+          "main_size": [
+            0.133,
+            0.365,
+            0.388
+          ],
+          "top_size": [
+            0.115,
+            0.192,
+            0.25
+          ],
+          "top_offset": [
+            -0.001,
+            -0.033
+          ],
+          "position": [
+            0.17917255860558207,
+            0.12419895675195401,
+            0.00023105076394828555
+          ],
+          "rotation": [
+            -45.01745683697677,
+            87.17186013255743,
+            133.11745683697586
+          ]
+        },
+        "source": {
+          "legacy_template": "Double_Layer_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RegularLighterCover",
+        "semantic": "cover",
+        "parameters": {
+          "outer_size": [
+            0.135,
+            0.26,
+            0.36
+          ],
+          "inner_size": [
+            0.1,
+            0.24,
+            0.34
+          ],
+          "position": [
+            -0.000713725618029265,
+            -0.05249990294264102,
+            -0.0010680761936492135
+          ],
+          "rotation": [
+            88.98254316302322,
+            87.17186013255743,
+            133.11745683697586
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Cover",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

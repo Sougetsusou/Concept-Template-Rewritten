@@ -1,0 +1,157 @@
+{
+  "format": "rewritten_category_parameter_index.v1",
+  "package_format": "rewritten_category_parameters.v1",
+  "category": "Washingmachine",
+  "status": "passed",
+  "source": {
+    "type": "rewritten_native_parameters"
+  },
+  "conversion": {
+    "mapper_module": null,
+    "max_objects": null
+  },
+  "summary": {
+    "object_count": 17,
+    "concept_count": 51,
+    "class_counts": {
+      "CuboidalWashingMachineBody": 3,
+      "CuboidalWashingMachineDoor": 5,
+      "FrontFacingRollerWashingMachineBody": 12,
+      "RollerWashingMachineDoor": 12,
+      "SlopedControlButtonPanel": 17,
+      "UprightRollerWashingMachineBody": 2
+    },
+    "legacy_class_counts": {
+      "Controller_With_Button": 17,
+      "Cuboidal_Body": 3,
+      "Cuboidal_Door": 5,
+      "Front_Facing_Roller_Body": 12,
+      "Roller_Door": 12,
+      "Upright_Roller_Body": 2
+    },
+    "event_count": 0,
+    "failed_event_count": 0
+  },
+  "objects": [
+    {
+      "file": "object_0000.json",
+      "id": "0d31000f-e876-4751-876d-efa6a61fa9b2",
+      "type": "mesh",
+      "source_object_index": 0,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0001.json",
+      "id": "0f820012-c96c-4086-b005-b8e3f65984bf-0",
+      "type": "mesh",
+      "source_object_index": 1,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0002.json",
+      "id": "265d042dcfed6f15c357c21161963e89",
+      "type": "mesh",
+      "source_object_index": 2,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0003.json",
+      "id": "4163de2ce7f6f59aed1d8381d2c075c2-0",
+      "type": "mesh",
+      "source_object_index": 3,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0004.json",
+      "id": "62e22f4d1846d8c1fdc6c1669e5c540",
+      "type": "mesh",
+      "source_object_index": 4,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0005.json",
+      "id": "8b04de89-4f3f-45d8-8d7a-6bb5958e5340",
+      "type": "mesh",
+      "source_object_index": 5,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0006.json",
+      "id": "ae8441235538d4415d85df7c37878bb6",
+      "type": "mesh",
+      "source_object_index": 6,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0007.json",
+      "id": "d87cf480-ba57-43b1-b1f2-bae2b8fe2fa4",
+      "type": "mesh",
+      "source_object_index": 7,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0008.json",
+      "id": "u094c89ee-d9f6-4266-a9b3-c1f2549b1105",
+      "type": "mesh",
+      "source_object_index": 8,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0009.json",
+      "id": "u999c818c-3575-446f-93c2-c994abe0936f",
+      "type": "mesh",
+      "source_object_index": 9,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0010.json",
+      "id": "uc5f2e411-5f8e-4b10-8393-75ce97e6e869",
+      "type": "mesh",
+      "source_object_index": 10,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0011.json",
+      "id": "ucfaedfea-c15a-495c-9037-21108eeeb006",
+      "type": "mesh",
+      "source_object_index": 11,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0012.json",
+      "id": "ucfffa8c9-9586-4087-a72c-87a394ef4425",
+      "type": "mesh",
+      "source_object_index": 12,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0013.json",
+      "id": "50c639910aa3d75f29d8eecf3827c486",
+      "type": "mesh",
+      "source_object_index": 13,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0014.json",
+      "id": "5528ee64-7656-40e4-8db0-70fd39427b4d",
+      "type": "mesh",
+      "source_object_index": 14,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0015.json",
+      "id": "04569f2f-3e07-4655-9337-bfa41a5ccbc0",
+      "type": "mesh",
+      "source_object_index": 15,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0016.json",
+      "id": "ud7bfe8da-a840-4efa-92d4-3d437469f827",
+      "type": "mesh",
+      "source_object_index": 16,
+      "concept_count": 3
+    }
+  ],
+  "events": []
+}

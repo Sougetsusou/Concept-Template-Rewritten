@@ -1,0 +1,179 @@
+{
+  "format": "rewritten_category_parameter_index.v1",
+  "package_format": "rewritten_category_parameters.v1",
+  "category": "Pliers",
+  "status": "passed",
+  "source": {
+    "type": "rewritten_native_parameters"
+  },
+  "conversion": {
+    "mapper_module": null,
+    "max_objects": null
+  },
+  "summary": {
+    "object_count": 19,
+    "concept_count": 67,
+    "class_counts": {
+      "AsymmetricStraightPliersHandle": 3,
+      "CurvedPliersBaffle": 2,
+      "CurvedPliersGripper": 8,
+      "CuspPliersGripper": 11,
+      "LayeredPliersShaft": 7,
+      "MiddleCurvedPliersHandle": 5,
+      "RearCurvedPliersHandle": 9,
+      "RectangularPliersBaffle": 8,
+      "RoundPliersShaft": 12,
+      "StraightPliersHandle": 2
+    },
+    "legacy_class_counts": {
+      "Asymmetric_Straight_Handle": 3,
+      "Curved_Baffle": 2,
+      "Curved_Gripper": 8,
+      "Cusp_Gripper": 11,
+      "Middle_Curved_Handle": 5,
+      "Rear_Curved_Handle": 9,
+      "Rectangular_Baffle": 8,
+      "Rectangular_Shaft": 7,
+      "Round_Shaft": 12,
+      "Straight_Handle": 2
+    },
+    "event_count": 0,
+    "failed_event_count": 0
+  },
+  "objects": [
+    {
+      "file": "object_0000.json",
+      "id": "1174fa9f-55a3-4e5d-8c78-2c2b9d300efc-0",
+      "type": "mesh",
+      "source_object_index": 0,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0001.json",
+      "id": "1174fa9f-55a3-4e5d-8c78-2c2b9d300efc-1",
+      "type": "mesh",
+      "source_object_index": 1,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0002.json",
+      "id": "1174fa9f-55a3-4e5d-8c78-2c2b9d300efc-2",
+      "type": "mesh",
+      "source_object_index": 2,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0003.json",
+      "id": "1174fa9f-55a3-4e5d-8c78-2c2b9d300efc-4",
+      "type": "mesh",
+      "source_object_index": 3,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0004.json",
+      "id": "2d432156b924a37d467ca2ad6571afff",
+      "type": "mesh",
+      "source_object_index": 4,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0005.json",
+      "id": "2f4b18402dee61003f7c6295b60afd1b",
+      "type": "mesh",
+      "source_object_index": 5,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0006.json",
+      "id": "63a5e18d-7f48-443e-95f0-48727a00e5be",
+      "type": "mesh",
+      "source_object_index": 6,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0007.json",
+      "id": "b4ba93fc-5ad1-45ee-9612-3ba4218d1fca",
+      "type": "mesh",
+      "source_object_index": 7,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0008.json",
+      "id": "b594ae363274269d75e36e88b6617f01",
+      "type": "mesh",
+      "source_object_index": 8,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0009.json",
+      "id": "b74051f4-61c9-423f-9607-b44486b3fa28-0",
+      "type": "mesh",
+      "source_object_index": 9,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0010.json",
+      "id": "b74051f4-61c9-423f-9607-b44486b3fa28-1",
+      "type": "mesh",
+      "source_object_index": 10,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0011.json",
+      "id": "b74051f4-61c9-423f-9607-b44486b3fa28-3",
+      "type": "mesh",
+      "source_object_index": 11,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0012.json",
+      "id": "b74051f4-61c9-423f-9607-b44486b3fa28-4",
+      "type": "mesh",
+      "source_object_index": 12,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0013.json",
+      "id": "b74051f4-61c9-423f-9607-b44486b3fa28-5",
+      "type": "mesh",
+      "source_object_index": 13,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0014.json",
+      "id": "b74051f4-61c9-423f-9607-b44486b3fa28-6",
+      "type": "mesh",
+      "source_object_index": 14,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0015.json",
+      "id": "d9d286f6-e5cb-4d2b-b5f5-be35e089f133",
+      "type": "mesh",
+      "source_object_index": 15,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0016.json",
+      "id": "ee3229daab48b2f3bfa59e044d401be9",
+      "type": "mesh",
+      "source_object_index": 16,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0017.json",
+      "id": "fd00bdd9547b85e338a90267289a369b-0",
+      "type": "mesh",
+      "source_object_index": 17,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0018.json",
+      "id": "uf85f3025-1643-4cef-b3ad-20a49f60a8f3",
+      "type": "mesh",
+      "source_object_index": 18,
+      "concept_count": 4
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,136 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "4ce9747bda12fba68616812464c86290",
+    "type": "mesh",
+    "source_object_index": 189,
+    "concepts": [
+      {
+        "template": "Cylindrical_Base",
+        "semantic": "base",
+        "parameters": {
+          "cylinder_count": 2,
+          "primary_size": [
+            0.064,
+            0.38
+          ],
+          "secondary_size": [
+            0.094,
+            0.032
+          ],
+          "secondary_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            0,
+            -0.11,
+            -0.18
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "Quadfold_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "tube_radius": 0.05,
+          "start_point": [
+            0,
+            0,
+            -0.06
+          ],
+          "segment_offsets": [
+            [
+              0,
+              0.62,
+              0
+            ],
+            [
+              0,
+              0,
+              0.71
+            ],
+            [
+              0,
+              0.17,
+              0.32
+            ],
+            [
+              0,
+              -0.3,
+              0
+            ]
+          ],
+          "position": [
+            0,
+            -0.11,
+            -0.18
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Quadfold_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RotaryZ_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "main_size_1": [
+            0.125,
+            0.51
+          ],
+          "main_size_2": [
+            0.055,
+            0.1
+          ],
+          "switch_offsets_x": [
+            0,
+            0.4
+          ],
+          "sub_size": [
+            0.4,
+            0.1,
+            0.1
+          ],
+          "sub_offset": 0,
+          "tilt_degrees": 0,
+          "first_rotation_degrees": 90,
+          "second_rotation_degrees": 0,
+          "switch_count": 1,
+          "sub_count": 1,
+          "position": [
+            0,
+            -0.29,
+            -0.38
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "RotaryZ_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

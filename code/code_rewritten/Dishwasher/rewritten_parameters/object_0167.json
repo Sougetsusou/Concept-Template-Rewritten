@@ -1,0 +1,102 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Dishwasher",
+  "object": {
+    "id": "a4576a087360458a5194936fd57ca90f",
+    "type": "mesh",
+    "source_object_index": 167,
+    "concepts": [
+      {
+        "template": "RectangularDishwasherBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            1.045,
+            1.31,
+            0.823
+          ],
+          "wall_thickness": [
+            0.007,
+            0.001,
+            0.007,
+            0.007,
+            0.007
+          ],
+          "position": [
+            0.008,
+            0.064,
+            -0.066
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SunkenDishwasherDoor",
+        "semantic": "door",
+        "parameters": {
+          "outer_size": [
+            1.077,
+            1.325,
+            0.172
+          ],
+          "recess_size": [
+            0.2,
+            0.105,
+            0.13
+          ],
+          "recess_offset": [
+            0,
+            0.5175
+          ],
+          "position": [
+            0.009000000000000001,
+            0.07150000000000001,
+            0.3455
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Sunken_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "SingleDishwasherLeg",
+        "semantic": "leg",
+        "parameters": {
+          "leg_size": [
+            1.045,
+            0.17,
+            0.862
+          ],
+          "position": [
+            0.008,
+            -0.591,
+            -0.046
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Single_Leg",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

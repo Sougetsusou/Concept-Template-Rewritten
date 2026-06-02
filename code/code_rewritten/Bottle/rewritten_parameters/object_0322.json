@@ -1,0 +1,83 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Bottle",
+  "object": {
+    "id": "df4ec460683acbb89d789ef7917b7723",
+    "type": "mesh",
+    "source_object_index": 322,
+    "concepts": [
+      {
+        "template": "StackedBottleBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "base_section",
+              "height": 1.14,
+              "top_radius": 0.251,
+              "bottom_radius": 0.251
+            },
+            {
+              "name": "upper_section_2",
+              "height": 0.075,
+              "top_radius": 0.095,
+              "bottom_radius": 0.251
+            },
+            {
+              "name": "upper_section_3",
+              "height": 0.03,
+              "top_radius": 0.136,
+              "bottom_radius": 0.095
+            },
+            {
+              "name": "upper_section_4",
+              "height": 0.075,
+              "top_radius": 0.136,
+              "bottom_radius": 0.136
+            }
+          ],
+          "position": [
+            0.003,
+            -0.098,
+            0.003
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalBottleLid",
+        "semantic": "lid",
+        "parameters": {
+          "top_outer_radius": 0.02,
+          "bottom_outer_radius": 0.085,
+          "total_height": 0.35,
+          "top_inner_radius": 0.019,
+          "bottom_inner_radius": 0.084,
+          "open_ring_height": 0.34,
+          "position": [
+            0.003,
+            0.8269999999999998,
+            0.003
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Lid",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

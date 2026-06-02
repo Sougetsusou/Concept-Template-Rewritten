@@ -1,0 +1,77 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Refrigerator",
+  "object": {
+    "id": "2f8a37ee0ca9d0be702d79fd57a6bf4",
+    "type": "mesh",
+    "source_object_index": 2,
+    "concepts": [
+      {
+        "template": "CuboidalRefrigeratorBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.95,
+            1.524,
+            0.81
+          ],
+          "wall_thickness": [
+            0.005,
+            0.005,
+            0.005,
+            0.005,
+            0.005
+          ],
+          "position": [
+            0.02,
+            -0.03,
+            -0.05
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SunkenRefrigeratorDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            0.95,
+            1.47,
+            0.12
+          ],
+          "sunken_opening_size": [
+            0.2,
+            0.33,
+            0.08
+          ],
+          "sunken_opening_offset": [
+            -0.28,
+            0.05
+          ],
+          "position": [
+            0.02,
+            -0.03,
+            0.35500000000000004
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Sunken_Door",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

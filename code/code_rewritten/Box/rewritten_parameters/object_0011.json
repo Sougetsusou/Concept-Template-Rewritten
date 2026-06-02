@@ -1,0 +1,79 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Box",
+  "object": {
+    "id": "952e325fe026ab9c48e2701b91d7249c",
+    "type": "mesh",
+    "source_object_index": 11,
+    "concepts": [
+      {
+        "template": "OpenBoxBody",
+        "semantic": "body",
+        "parameters": {
+          "top_outer_size": [
+            1.115,
+            0.79
+          ],
+          "bottom_outer_size": [
+            1.115,
+            0.79
+          ],
+          "total_height": 0.615,
+          "wall_thickness": [
+            0.065,
+            0.065,
+            0.075
+          ],
+          "top_to_bottom_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0.006,
+            -0.2,
+            0.106
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RectangularBoxCover",
+        "semantic": "cover",
+        "parameters": {
+          "outer_size": [
+            1.11,
+            0.21,
+            0.79
+          ],
+          "inner_opening_size": [
+            0.98,
+            0.13,
+            0.66
+          ],
+          "position": [
+            0.006,
+            0.10749999999999998,
+            -0.28900000000000003
+          ],
+          "rotation": [
+            -60.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Cover",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

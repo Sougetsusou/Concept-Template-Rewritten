@@ -1,0 +1,106 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Stapler",
+  "object": {
+    "id": "1d194ff2-0e52-11ed-817f-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 30,
+    "concepts": [
+      {
+        "template": "SideBlockStaplerBody",
+        "semantic": "body",
+        "parameters": {
+          "base_size": [
+            0.245,
+            0.06,
+            0.535
+          ],
+          "side_block_size": [
+            0.025,
+            0.08,
+            0.22
+          ],
+          "side_block_spacing": 0.174,
+          "side_block_depth_offset": 0.005,
+          "has_shaft": 0,
+          "shaft_center_section_size": [
+            0.03,
+            0.06
+          ],
+          "shaft_side_section_size": [
+            0.08,
+            0.03
+          ],
+          "shaft_offset": [
+            0,
+            0
+          ],
+          "position": [
+            -0.10475752420156183,
+            -0.012140485753051027,
+            -0.018532936325341306
+          ],
+          "rotation": [
+            112.12396543197279,
+            -76.92188681780952,
+            164.14576868426326
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SolidStaplerCover",
+        "semantic": "cover",
+        "parameters": {
+          "size": [
+            0.24,
+            0.14,
+            0.57
+          ],
+          "position": [
+            -0.016309953251807674,
+            -0.30507750160156405,
+            0.019823053283274394
+          ],
+          "rotation": [
+            95.12396543197279,
+            -76.92188681780952,
+            164.14576868426326
+          ]
+        },
+        "source": {
+          "legacy_template": "Simplified_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "SolidStaplerCover",
+        "semantic": "cover",
+        "parameters": {
+          "size": [
+            0.15,
+            0.11,
+            0.265
+          ],
+          "position": [
+            -0.06703288094276814,
+            -0.04526404688899671,
+            -0.008000558214486087
+          ],
+          "rotation": [
+            98.12396543197279,
+            -76.92188681780952,
+            164.14576868426326
+          ]
+        },
+        "source": {
+          "legacy_template": "Simplified_Cover",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

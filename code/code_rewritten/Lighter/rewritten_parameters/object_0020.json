@@ -1,0 +1,122 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Lighter",
+  "object": {
+    "id": "dc2c35e7-dc6c-4621-bb81-c99d9f068634",
+    "type": "mesh",
+    "source_object_index": 20,
+    "concepts": [
+      {
+        "template": "CamberedLighterBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.27,
+            1.67,
+            0.1
+          ],
+          "side_radius_z": 0.25,
+          "position": [
+            0.0,
+            -0.11,
+            -0.01
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cambered_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "StandardLighterWheel",
+        "semantic": "wheel",
+        "parameters": {
+          "middle_radius": 0.05,
+          "middle_width": 0.09,
+          "side_radius": 0.08,
+          "side_width": 0.05,
+          "position": [
+            0.0,
+            0.9049999999999999,
+            0.04
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Wheel",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "DoubleCamberedLighterButton",
+        "semantic": "button",
+        "parameters": {
+          "bottom_size": [
+            0.17,
+            0.1,
+            0.04
+          ],
+          "top_size": [
+            0.28,
+            0.06,
+            0.01
+          ],
+          "bottom_side_radius_z": 0.14,
+          "top_side_radius_z": 0.22,
+          "top_z_offset": 0.04,
+          "position": [
+            0.0,
+            0.725,
+            -0.11
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Double_Cambered_Button",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "CamberedLighterNozzle",
+        "semantic": "nozzle",
+        "parameters": {
+          "nozzle_size": [
+            0.28,
+            0.23,
+            0.04
+          ],
+          "front_radius_z": 0.29,
+          "wall_thickness": 0.04,
+          "top_open_length": 0.01,
+          "position": [
+            0.0,
+            0.725,
+            -0.01
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cambered_Nozzle",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,470 @@
+{
+  "format": "rewritten_category_parameter_index.v1",
+  "package_format": "rewritten_category_parameters.v1",
+  "category": "Lighter",
+  "status": "passed",
+  "source": {
+    "type": "rewritten_native_parameters"
+  },
+  "conversion": {
+    "mapper_module": null,
+    "max_objects": null
+  },
+  "summary": {
+    "object_count": 60,
+    "concept_count": 152,
+    "class_counts": {
+      "CamberedLighterBody": 42,
+      "CamberedLighterNozzle": 15,
+      "CuboidalLighterBody": 3,
+      "CuboidalLighterNozzle": 1,
+      "DoubleCamberedLighterButton": 13,
+      "DoubleLayerLighterBody": 15,
+      "EnvelopingLighterNozzle": 10,
+      "LShapedLighterButton": 2,
+      "RegularLighterCover": 17,
+      "SimplifiedLighterWheel": 11,
+      "StandardLighterWheel": 12,
+      "StandardLighterWick": 11
+    },
+    "legacy_class_counts": {
+      "Cambered_Body": 42,
+      "Cambered_Nozzle": 15,
+      "Cuboidal_Body": 3,
+      "Cuboidal_Nozzle": 1,
+      "Double_Cambered_Button": 13,
+      "Double_Layer_Body": 15,
+      "Enveloping_Nozzle": 10,
+      "L_Shaped_Button": 2,
+      "Regular_Cover": 17,
+      "Simplified_Wheel": 11,
+      "Standard_Wheel": 12,
+      "Standard_Wick": 11
+    },
+    "event_count": 0,
+    "failed_event_count": 0
+  },
+  "objects": [
+    {
+      "file": "object_0000.json",
+      "id": "050b64c5-20a5-4c0b-8427-4ee42c269c00",
+      "type": "mesh",
+      "source_object_index": 0,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0001.json",
+      "id": "2728e54436010242c241649791db938a",
+      "type": "mesh",
+      "source_object_index": 1,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0002.json",
+      "id": "35c19cdeb5d129cad25169d37940fb64",
+      "type": "mesh",
+      "source_object_index": 2,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0003.json",
+      "id": "3886e56747acb7301e32f79edfad8027",
+      "type": "mesh",
+      "source_object_index": 3,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0004.json",
+      "id": "3b12bd5cc1663a8cd8d03ca4865da5b6",
+      "type": "mesh",
+      "source_object_index": 4,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0005.json",
+      "id": "3bebd539-4198-4eee-ae17-daaed2047499",
+      "type": "mesh",
+      "source_object_index": 5,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0006.json",
+      "id": "41abf5d7d23913edd0dfaecedb083fcc",
+      "type": "mesh",
+      "source_object_index": 6,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0007.json",
+      "id": "46d9153e87809bfe2d4c157e5bf1dde",
+      "type": "mesh",
+      "source_object_index": 7,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0008.json",
+      "id": "47c0184e14ba995bd02af02d1e7cd210",
+      "type": "mesh",
+      "source_object_index": 8,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0009.json",
+      "id": "4e5c1fef7d4d060d7414a1fa2cd1e462",
+      "type": "mesh",
+      "source_object_index": 9,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0010.json",
+      "id": "6b50aec4-85ed-4022-8388-a1c49541799f",
+      "type": "mesh",
+      "source_object_index": 10,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0011.json",
+      "id": "6e02e9b5c715bafebcc65fd5536f28dd",
+      "type": "mesh",
+      "source_object_index": 11,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0012.json",
+      "id": "895d8de0-8d8b-42db-8f39-8a63b83eab56",
+      "type": "mesh",
+      "source_object_index": 12,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0013.json",
+      "id": "91a954a1dd20c87bfc58b9d9e845cf0",
+      "type": "mesh",
+      "source_object_index": 13,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0014.json",
+      "id": "a7213808f0e1edd8c30efd9bbc446b5",
+      "type": "mesh",
+      "source_object_index": 14,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0015.json",
+      "id": "bc2576990e3257d7e8058cf23f6382c1",
+      "type": "mesh",
+      "source_object_index": 15,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0016.json",
+      "id": "bd6bbd6c71a6ddc56c8a83eb82bedb0",
+      "type": "mesh",
+      "source_object_index": 16,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0017.json",
+      "id": "c8c981b21703805cdd4a7f133d4b9139",
+      "type": "mesh",
+      "source_object_index": 17,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0018.json",
+      "id": "c914f56df01a8939fc7516198959a6ec",
+      "type": "mesh",
+      "source_object_index": 18,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0019.json",
+      "id": "d4175ef6bd8226c753d040168a517ac7",
+      "type": "mesh",
+      "source_object_index": 19,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0020.json",
+      "id": "dc2c35e7-dc6c-4621-bb81-c99d9f068634",
+      "type": "mesh",
+      "source_object_index": 20,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0021.json",
+      "id": "u2155fc65-28e9-4ebb-95ca-6509ee937fc8",
+      "type": "mesh",
+      "source_object_index": 21,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0022.json",
+      "id": "u7a32a94d-41d2-4f02-b21c-489a6646b9a5",
+      "type": "mesh",
+      "source_object_index": 22,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0023.json",
+      "id": "uc6d6ef1f-3438-45f3-b438-1fe668ae24cb",
+      "type": "mesh",
+      "source_object_index": 23,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0024.json",
+      "id": "uedb442d6-1de2-461b-99a1-44847c3c6fa1",
+      "type": "mesh",
+      "source_object_index": 24,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0025.json",
+      "id": "881a4806cf6b11426a06a4e69704544a",
+      "type": "mesh",
+      "source_object_index": 25,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0026.json",
+      "id": "002217f4-0e4d-11ed-8746-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 26,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0027.json",
+      "id": "012b267c-0e4d-11ed-8b05-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 27,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0028.json",
+      "id": "024560f1-0e4d-11ed-8380-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 28,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0029.json",
+      "id": "036151a7-0e4d-11ed-b7ae-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 29,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0030.json",
+      "id": "046c4b21-0e4d-11ed-ad4b-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 30,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0031.json",
+      "id": "057992ef-0e4d-11ed-9079-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 31,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0032.json",
+      "id": "066b2df0-0e4d-11ed-83aa-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 32,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0033.json",
+      "id": "06ebb2a1-0e4d-11ed-ba99-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 33,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0034.json",
+      "id": "07b42414-0e4d-11ed-a20b-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 34,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0035.json",
+      "id": "0890779c-0e4d-11ed-acc2-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 35,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0036.json",
+      "id": "09e91139-0e4d-11ed-8003-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 36,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0037.json",
+      "id": "0aa1cd0b-0e4d-11ed-97d5-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 37,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0038.json",
+      "id": "0baa3362-0e4d-11ed-a40a-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 38,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0039.json",
+      "id": "0c80e2dd-0e4d-11ed-bcde-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 39,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0040.json",
+      "id": "0d70ab84-0e4d-11ed-9ba4-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 40,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0041.json",
+      "id": "0e32950f-0e4d-11ed-ac13-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 41,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0042.json",
+      "id": "0feef35c-0e4d-11ed-ba1e-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 42,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0043.json",
+      "id": "1174a7fb-0e4d-11ed-8730-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 43,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0044.json",
+      "id": "12b272b5-0e4d-11ed-900f-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 44,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0045.json",
+      "id": "131fe1e8-0e4d-11ed-89ce-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 45,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0046.json",
+      "id": "ed8b6a4a-0e4c-11ed-a18e-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 46,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0047.json",
+      "id": "f0656848-0e4c-11ed-a293-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 47,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0048.json",
+      "id": "f128d42b-0e4c-11ed-9b3d-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 48,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0049.json",
+      "id": "f2e1723d-0e4c-11ed-8299-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 49,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0050.json",
+      "id": "f48b6c9b-0e4c-11ed-b0cd-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 50,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0051.json",
+      "id": "f701ec80-0e4c-11ed-8fcd-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 51,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0052.json",
+      "id": "f7810a38-0e4c-11ed-a118-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 52,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0053.json",
+      "id": "f8bc65f3-0e4c-11ed-8e21-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 53,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0054.json",
+      "id": "fa23153b-0e4c-11ed-8aad-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 54,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0055.json",
+      "id": "fafdd3b9-0e4c-11ed-ba88-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 55,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0056.json",
+      "id": "fc202258-0e4c-11ed-b39b-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 56,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0057.json",
+      "id": "fd23cd2e-0e4c-11ed-ba54-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 57,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0058.json",
+      "id": "fe1264f6-0e4c-11ed-9b96-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 58,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0059.json",
+      "id": "ff3c3843-0e4c-11ed-bbe1-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 59,
+      "concept_count": 1
+    }
+  ],
+  "events": []
+}

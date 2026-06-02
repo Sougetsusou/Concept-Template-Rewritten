@@ -1,0 +1,108 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Display",
+  "object": {
+    "id": "3f15446861936b20eb1a50f8f2ea3a88",
+    "type": "mesh",
+    "source_object_index": 185,
+    "concepts": [
+      {
+        "template": "FlatDisplayScreen",
+        "semantic": "screen",
+        "parameters": {
+          "screen_size": [
+            1.59,
+            1.055,
+            0.092
+          ],
+          "has_back_layer": true,
+          "back_layer_size": [
+            0.96,
+            0.52,
+            0.076
+          ],
+          "back_layer_offset": [
+            0,
+            0.024
+          ],
+          "position": [
+            0.0051,
+            0.1023,
+            0.0195
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Screen",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "TShapedDisplaySupport",
+        "semantic": "support",
+        "parameters": {
+          "upper_bar_size": [
+            0.315,
+            0.049,
+            0.075
+          ],
+          "upper_mount_point": [
+            0.001,
+            -0.452,
+            0.075
+          ],
+          "middle_stem_size": [
+            0.228,
+            0.246,
+            0.095
+          ],
+          "middle_front_offset": 0.0045,
+          "position": [
+            0.0051,
+            0.1023,
+            -0.1025
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "TShaped_Support",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RectangularDisplayBase",
+        "semantic": "base",
+        "parameters": {
+          "base_size": [
+            0.57,
+            0.0302,
+            0.558
+          ],
+          "base_rotation_degrees": 0,
+          "position": [
+            0.0051,
+            -0.6203000000000001,
+            0.0005000000000000004
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Base",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

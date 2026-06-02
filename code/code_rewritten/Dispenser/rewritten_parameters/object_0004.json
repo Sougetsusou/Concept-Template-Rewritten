@@ -1,0 +1,98 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Dispenser",
+  "object": {
+    "id": "2a9b20d21e27ab0026cca18be86a1458",
+    "type": "mesh",
+    "source_object_index": 4,
+    "concepts": [
+      {
+        "template": "StackedDispenserBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "body_section_1",
+              "height": 0.25,
+              "top_radius": 0.32,
+              "bottom_radius": 0.21
+            },
+            {
+              "name": "body_section_2",
+              "height": 0.39,
+              "top_radius": 0.11,
+              "bottom_radius": 0.32
+            },
+            {
+              "name": "body_section_3",
+              "height": 0.49,
+              "top_radius": 0.086,
+              "bottom_radius": 0.11
+            }
+          ],
+          "position": [
+            0.001,
+            -0.32,
+            -0.004
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SprayDispenserNozzle",
+        "semantic": "nozzle",
+        "parameters": {
+          "bottom_size": [
+            0.09,
+            0.12
+          ],
+          "middle_size": [
+            0.12,
+            0.118,
+            0.215
+          ],
+          "head_size": [
+            0.08,
+            0.064,
+            0.37
+          ],
+          "head_forward_offset": 0,
+          "head_rotation_degrees": 0,
+          "outlet_size": [
+            0.04,
+            0.073
+          ],
+          "handle_size": [
+            0.01,
+            0.26,
+            0.055
+          ],
+          "handle_offset": -0.135,
+          "handle_rotation_degrees": -37,
+          "position": [
+            0.001,
+            0.6849999999999998,
+            -0.004
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Spray_Nozzle",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

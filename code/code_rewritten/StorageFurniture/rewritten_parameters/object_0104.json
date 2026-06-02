@@ -1,0 +1,192 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "StorageFurniture",
+  "object": {
+    "id": "2d7bad601f84c83686d53ab0fe94e911",
+    "type": "mesh",
+    "source_object_index": 104,
+    "concepts": [
+      {
+        "template": "PartitionedStorageFurnitureBody",
+        "semantic": null,
+        "parameters": {
+          "outer_size": [
+            1.61,
+            1.19,
+            0.5
+          ],
+          "back_panel_thickness": 0.035,
+          "side_wall_thickness": 0.055,
+          "base_panel_thickness": 0.025,
+          "lid_spec": {
+            "size": [
+              1.59,
+              0.02,
+              0.495
+            ],
+            "offset": [
+              0,
+              -0.025,
+              0
+            ]
+          },
+          "horizontal_shelf_specs": [],
+          "partition_bay_specs": [
+            {
+              "height": 1.165,
+              "center_y": 0.0125,
+              "partition_count": 3,
+              "partition_size": [
+                0.045,
+                0.505
+              ],
+              "first_center_offset_from_inner_left": 0.365,
+              "partition_interval_x": 0.385
+            }
+          ],
+          "additional_panel_specs": [],
+          "position": [
+            0,
+            0.025,
+            -0.02
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Storagefurniture_body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "StorageFurnitureDoorSet",
+        "semantic": null,
+        "parameters": {
+          "door_specs": [
+            {
+              "door_size": [
+                1.575,
+                0.64,
+                0.04
+              ],
+              "handle_size": [
+                0.06,
+                0.065,
+                0.075
+              ],
+              "handle_offset": [
+                -0.655,
+                -0.25
+              ],
+              "yaw_degrees": 0,
+              "center": [
+                0,
+                -0.27,
+                0.3
+              ]
+            }
+          ],
+          "position": [
+            0,
+            0.025,
+            -0.02
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "StorageFurnitureFrontPanelSet",
+        "semantic": null,
+        "parameters": {
+          "panel_specs": [
+            {
+              "size": [
+                1.48,
+                0.075,
+                0.04
+              ],
+              "center": [
+                0,
+                0.565,
+                0.26999999999999996
+              ]
+            },
+            {
+              "size": [
+                1.47,
+                0.365,
+                0.04
+              ],
+              "center": [
+                0,
+                0.175,
+                0.26999999999999996
+              ]
+            },
+            {
+              "size": [
+                1.48,
+                0.075,
+                0.04
+              ],
+              "center": [
+                0,
+                -0.57,
+                0.26999999999999996
+              ]
+            },
+            {
+              "size": [
+                0.07,
+                1.212,
+                0.04
+              ],
+              "center": [
+                -0.765,
+                -0.003,
+                0.26999999999999996
+              ]
+            },
+            {
+              "size": [
+                0.07,
+                1.212,
+                0.04
+              ],
+              "center": [
+                0.77,
+                -0.003,
+                0.26999999999999996
+              ]
+            }
+          ],
+          "position": [
+            0,
+            0.025,
+            -0.02
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_front_panel",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

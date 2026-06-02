@@ -1,0 +1,60 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Bucket",
+  "object": {
+    "id": "8ae5d501-fa9c-4a2c-ba9f-f3c2cc57dbeb-0",
+    "type": "mesh",
+    "source_object_index": 9,
+    "concepts": [
+      {
+        "template": "CylindricalBucketBody",
+        "semantic": "body",
+        "parameters": {
+          "top_outer_radius": 0.595,
+          "bottom_outer_radius": 0.45,
+          "total_height": 1.095,
+          "top_inner_radius": 0.58,
+          "bottom_inner_radius": 0.43,
+          "open_shell_height": 1.08,
+          "position": [
+            0,
+            0.025,
+            -0.01
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CurvedBucketHandle",
+        "semantic": "handle",
+        "parameters": {
+          "center_radius": 0.58,
+          "tube_radius": 0.02,
+          "arc_angle_degrees": 225,
+          "position": [
+            0.0,
+            0.6025,
+            0.22
+          ],
+          "rotation": [
+            86.78699739058432,
+            20.969861317812896,
+            -1.1509111640207774
+          ]
+        },
+        "source": {
+          "legacy_template": "Curved_Handle",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

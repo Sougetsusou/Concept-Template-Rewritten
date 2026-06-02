@@ -1,0 +1,49 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Box",
+  "object": {
+    "id": "e723a7e4-0e3e-11ed-8b2e-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 93,
+    "concepts": [
+      {
+        "template": "OpenBoxBody",
+        "semantic": "body",
+        "parameters": {
+          "top_outer_size": [
+            1.34,
+            0.92
+          ],
+          "bottom_outer_size": [
+            1.32,
+            0.85
+          ],
+          "total_height": 0.71,
+          "wall_thickness": [
+            0.01,
+            0.01,
+            0.01
+          ],
+          "top_to_bottom_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0.0003489949670250099,
+            -0.009993908270190952,
+            0.09
+          ],
+          "rotation": [
+            90.0,
+            -0.0,
+            2.0000000000000027
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      }
+    ]
+  }
+}

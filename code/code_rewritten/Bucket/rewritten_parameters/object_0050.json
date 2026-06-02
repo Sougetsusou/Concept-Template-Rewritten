@@ -1,0 +1,85 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Bucket",
+  "object": {
+    "id": "dffa0689-0e3f-11ed-9836-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 50,
+    "concepts": [
+      {
+        "template": "CylindricalBucketBody",
+        "semantic": "body",
+        "parameters": {
+          "top_outer_radius": 0.93,
+          "bottom_outer_radius": 0.79,
+          "total_height": 1.74,
+          "top_inner_radius": 0.91,
+          "bottom_inner_radius": 0.77,
+          "open_shell_height": 1.72,
+          "position": [
+            0,
+            -0.28,
+            -0.03
+          ],
+          "rotation": [
+            87.00000000000003,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FlatUBucketHandle",
+        "semantic": "handle",
+        "parameters": {
+          "vertical_size": [
+            0.1,
+            0.01,
+            0.18
+          ],
+          "leg_separation": 1.92,
+          "position": [
+            0.0,
+            -0.27332371667257693,
+            0.67061075301549
+          ],
+          "rotation": [
+            90.41789386233695,
+            2.970777885565376,
+            98.01083634399068
+          ]
+        },
+        "source": {
+          "legacy_template": "Flat_U_Handle",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "SingleBucketCylinder",
+        "semantic": "cylinder",
+        "parameters": {
+          "radius": 0.96,
+          "height": 0.15,
+          "position": [
+            0.01,
+            -0.2505151120455101,
+            0.9147516294679312
+          ],
+          "rotation": [
+            87.00000000000003,
+            0.0,
+            0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Single_Cylinder",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

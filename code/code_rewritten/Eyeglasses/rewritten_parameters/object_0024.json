@@ -1,0 +1,83 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Eyeglasses",
+  "object": {
+    "id": "8db88b601ae4f3f9fa46217f97f0a1f",
+    "type": "mesh",
+    "source_object_index": 24,
+    "concepts": [
+      {
+        "template": "TrapezoidalLensPair",
+        "semantic": "glasses",
+        "parameters": {
+          "lens_size": [
+            0.54,
+            0.45,
+            0.273,
+            0.045
+          ],
+          "bridge_interval": 0.14,
+          "lens_rotation_degrees": [
+            -0.2,
+            0
+          ],
+          "top_offset_x": -0.03,
+          "position": [
+            0.05,
+            -0.032,
+            0.184
+          ],
+          "rotation": [
+            0,
+            -0.35,
+            -0.6
+          ]
+        },
+        "source": {
+          "legacy_template": "Trapezoidal_Glasses",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "TwoSegmentTemplePair",
+        "semantic": "leg",
+        "parameters": {
+          "frame_interval": 1.2199934202704137,
+          "main_segment_size": [
+            0.035,
+            0.182,
+            0.52
+          ],
+          "end_segment_size": [
+            0.035,
+            0.12,
+            0.462
+          ],
+          "main_rotation_degrees": [
+            -0.5,
+            0
+          ],
+          "fold_rotation_degrees": [
+            1.5,
+            0.8
+          ],
+          "hinge_offset_x": 0.016,
+          "position": [
+            0.029,
+            0.10400000000000001,
+            0.18
+          ],
+          "rotation": [
+            0,
+            -0.35,
+            -0.6
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Leg",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

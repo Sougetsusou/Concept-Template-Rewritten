@@ -1,0 +1,69 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Table",
+  "object": {
+    "id": "114d59f2e865eee630bbd4cddd04c77b",
+    "type": "mesh",
+    "source_object_index": 116,
+    "concepts": [
+      {
+        "template": "TableTop",
+        "semantic": null,
+        "parameters": {
+          "size": [
+            1.42,
+            0.03,
+            1.42
+          ],
+          "position": [
+            0.05,
+            0.1,
+            -0.01
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_desktop",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "BarCuboidTableLeg",
+        "semantic": null,
+        "parameters": {
+          "support_size": [
+            1.04,
+            0.3,
+            1.01
+          ],
+          "foot_size": [
+            0.96,
+            0.12,
+            0.78
+          ],
+          "foot_yaw_degrees": 0,
+          "horizontal_pitch_degrees": 0,
+          "extra_legs": [],
+          "position": [
+            -0.039999999999999994,
+            0.085,
+            -0.01
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Bar_cuboid_leg",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

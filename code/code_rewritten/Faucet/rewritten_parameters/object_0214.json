@@ -1,0 +1,120 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "31960035-0e4a-11ed-aca9-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 214,
+    "concepts": [
+      {
+        "template": "Round_Base",
+        "semantic": "base",
+        "parameters": {
+          "base_size": [
+            0.138,
+            0.23
+          ],
+          "position": [
+            -0.01,
+            0.06,
+            -0.26
+          ],
+          "rotation": [
+            84.3,
+            165.9,
+            -76
+          ]
+        },
+        "source": {
+          "legacy_template": "Round_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "ShowerRose_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "tube_radius": 0.105,
+          "start_point": [
+            0.003,
+            0,
+            0
+          ],
+          "segment_offsets": [
+            [
+              0.02,
+              0,
+              0.58
+            ],
+            [
+              -0.005,
+              -0.24,
+              0.03
+            ]
+          ],
+          "has_shower_head": 1,
+          "shower_head_size": [
+            0.082,
+            0.082,
+            0.18
+          ],
+          "shower_head_offset": [
+            0.018,
+            0,
+            0.006
+          ],
+          "shower_head_rotation_degrees": 10,
+          "position": [
+            -0.01,
+            0.06,
+            -0.26
+          ],
+          "rotation": [
+            84.3,
+            165.9,
+            -76
+          ]
+        },
+        "source": {
+          "legacy_template": "ShowerRose_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RegularY_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "main_size": [
+            0.14,
+            0.15
+          ],
+          "sub_size": [
+            0,
+            0
+          ],
+          "sub_offset": [
+            0,
+            0
+          ],
+          "main_y_rotation_degrees": 0,
+          "main_x_rotation_degrees": 0,
+          "sub_rotation_degrees": 0,
+          "position": [
+            0.007999999999999998,
+            0.16499999999999998,
+            0.03999999999999998
+          ],
+          "rotation": [
+            84.3,
+            165.9,
+            -76
+          ]
+        },
+        "source": {
+          "legacy_template": "RegularY_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

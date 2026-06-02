@@ -1,0 +1,72 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Trashcan",
+  "object": {
+    "id": "48aca9c3a4006a5163b2acb037dfbcde",
+    "type": "mesh",
+    "source_object_index": 111,
+    "concepts": [
+      {
+        "template": "CylindricalTrashcanBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_profile": [
+            0.475,
+            0.405,
+            1.4
+          ],
+          "inner_profile": [
+            0.41,
+            0.35,
+            1.36
+          ],
+          "position": [
+            0.0,
+            -0.195,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "HoledCylindricalTrashcanCover",
+        "semantic": "cover",
+        "parameters": {
+          "radii": [
+            0.47,
+            0.46
+          ],
+          "heights": [
+            0.07,
+            0.06,
+            0.31
+          ],
+          "arc_angle_degrees": 17,
+          "side_count": 4,
+          "position": [
+            0.0,
+            0.5049999999999999,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            9.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Holed_Cylindrical_Cover",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

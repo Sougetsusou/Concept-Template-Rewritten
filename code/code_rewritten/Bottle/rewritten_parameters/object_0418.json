@@ -1,0 +1,83 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Bottle",
+  "object": {
+    "id": "6f04ea9c-0e38-11ed-ac35-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 418,
+    "concepts": [
+      {
+        "template": "StackedBottleBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "base_section",
+              "height": 0.48,
+              "top_radius": 0.266,
+              "bottom_radius": 0.3
+            },
+            {
+              "name": "upper_section_2",
+              "height": 0.545,
+              "top_radius": 0.198,
+              "bottom_radius": 0.266
+            },
+            {
+              "name": "upper_section_3",
+              "height": 0.02,
+              "top_radius": 0.183,
+              "bottom_radius": 0.198
+            },
+            {
+              "name": "upper_section_4",
+              "height": 0.5,
+              "top_radius": 0.29,
+              "bottom_radius": 0.183
+            }
+          ],
+          "position": [
+            0.0,
+            0.009260138824374127,
+            -0.5199213881241599
+          ],
+          "rotation": [
+            90.80000000000001,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalBottleLid",
+        "semantic": "lid",
+        "parameters": {
+          "top_outer_radius": 0.165,
+          "bottom_outer_radius": 0.165,
+          "total_height": 0.095,
+          "top_inner_radius": 0.164,
+          "bottom_inner_radius": 0.164,
+          "open_ring_height": 0.094,
+          "position": [
+            -0.002,
+            -0.006624002512291888,
+            0.8324886621394417
+          ],
+          "rotation": [
+            90.80000000000001,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Lid",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

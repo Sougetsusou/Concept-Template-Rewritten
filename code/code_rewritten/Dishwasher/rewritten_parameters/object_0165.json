@@ -1,0 +1,118 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Dishwasher",
+  "object": {
+    "id": "a0375c92-ec2f-4220-b728-fee054b51b79",
+    "type": "mesh",
+    "source_object_index": 165,
+    "concepts": [
+      {
+        "template": "RectangularDishwasherBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            1.13,
+            1.205,
+            0.934
+          ],
+          "wall_thickness": [
+            0.01,
+            0.008,
+            0.01,
+            0.01,
+            0.01
+          ],
+          "position": [
+            -0.015,
+            0.0515,
+            0.0195
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FlatDishwasherDoor",
+        "semantic": "door",
+        "parameters": {
+          "panel_size": [
+            1.128,
+            1.205,
+            0.027
+          ],
+          "position": [
+            -0.014099999999999988,
+            0.0515,
+            0.48650000000000004
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "DishwasherTopCover",
+        "semantic": "topcover",
+        "parameters": {
+          "cover_size": [
+            1.13,
+            0.15,
+            0.07
+          ],
+          "position": [
+            -0.015,
+            0.654,
+            -0.4155
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Topcover",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "SingleDishwasherLeg",
+        "semantic": "leg",
+        "parameters": {
+          "leg_size": [
+            1.13,
+            0.148,
+            0.865
+          ],
+          "position": [
+            -0.015,
+            -0.551,
+            -0.015500000000000003
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Single_Leg",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "StorageFurniture",
+  "object": {
+    "id": "429ca6c2fc2c018944221bef0fa3c36b",
+    "type": "mesh",
+    "source_object_index": 613,
+    "concepts": [
+      {
+        "template": "PartitionedStorageFurnitureBody",
+        "semantic": null,
+        "parameters": {
+          "outer_size": [
+            1.555,
+            0.7,
+            1.02
+          ],
+          "back_panel_thickness": 0.04,
+          "side_wall_thickness": 0.03,
+          "base_panel_thickness": 0.03,
+          "lid_spec": {
+            "size": [
+              1.51,
+              0.03,
+              1
+            ],
+            "offset": [
+              0,
+              -0.005,
+              0
+            ]
+          },
+          "horizontal_shelf_specs": [],
+          "partition_bay_specs": [
+            {
+              "height": 0.6699999999999999,
+              "center_y": 0.015,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            }
+          ],
+          "additional_panel_specs": [],
+          "position": [
+            0,
+            -0.023,
+            -0.03
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Storagefurniture_body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "StorageFurnitureFrontPanelSet",
+        "semantic": null,
+        "parameters": {
+          "panel_specs": [
+            {
+              "size": [
+                1.56,
+                0.77,
+                0.035
+              ],
+              "center": [
+                0,
+                0.01,
+                0.5575
+              ]
+            },
+            {
+              "size": [
+                0.07,
+                0.79,
+                0.035
+              ],
+              "center": [
+                -0.755,
+                0.01,
+                0.5245000000000001
+              ]
+            },
+            {
+              "size": [
+                0.07,
+                0.79,
+                0.035
+              ],
+              "center": [
+                0.75,
+                0.01,
+                0.5245000000000001
+              ]
+            },
+            {
+              "size": [
+                1.44,
+                0.07,
+                0.033
+              ],
+              "center": [
+                0,
+                0.37,
+                0.5255000000000001
+              ]
+            },
+            {
+              "size": [
+                1.44,
+                0.07,
+                0.033
+              ],
+              "center": [
+                0,
+                -0.35,
+                0.5255000000000001
+              ]
+            },
+            {
+              "size": [
+                1.56,
+                0.06,
+                0.033
+              ],
+              "center": [
+                0,
+                0.375,
+                -0.4915
+              ]
+            },
+            {
+              "size": [
+                1.555,
+                0.04,
+                0.033
+              ],
+              "center": [
+                0,
+                -0.37,
+                -0.4915
+              ]
+            },
+            {
+              "size": [
+                0.025,
+                0.034,
+                0.99
+              ],
+              "center": [
+                -0.765,
+                -0.366,
+                0.015000000000000013
+              ]
+            },
+            {
+              "size": [
+                0.025,
+                0.034,
+                0.99
+              ],
+              "center": [
+                0.763,
+                -0.366,
+                0.015000000000000013
+              ]
+            },
+            {
+              "size": [
+                0.025,
+                0.056,
+                0.99
+              ],
+              "center": [
+                -0.765,
+                0.378,
+                0.015000000000000013
+              ]
+            },
+            {
+              "size": [
+                0.025,
+                0.056,
+                0.99
+              ],
+              "center": [
+                0.764,
+                0.378,
+                0.015000000000000013
+              ]
+            }
+          ],
+          "position": [
+            0,
+            -0.023,
+            -0.03
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_front_panel",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

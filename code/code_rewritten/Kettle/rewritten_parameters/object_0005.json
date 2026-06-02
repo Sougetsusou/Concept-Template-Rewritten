@@ -1,0 +1,153 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Kettle",
+  "object": {
+    "id": "4bc22594b9ef414dc4bc96bd95a8071f",
+    "type": "mesh",
+    "source_object_index": 5,
+    "concepts": [
+      {
+        "template": "SemiSphericalKettleBody",
+        "semantic": "body",
+        "parameters": {
+          "horizontal_radius": 0.69,
+          "vertical_radii": [
+            0.75,
+            0
+          ],
+          "section_angles_degrees": [
+            69,
+            0
+          ],
+          "bottom_profile": [
+            0.62,
+            0.03
+          ],
+          "x_radius_scale": 1,
+          "position": [
+            0.02,
+            -0.29,
+            -0.01
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Semi_Spherical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "StandardKettleCover",
+        "semantic": "cover",
+        "parameters": {
+          "cover_profile": [
+            0.16,
+            0.29,
+            0.07
+          ],
+          "inner_opening": [
+            0.15,
+            0.26,
+            0.06
+          ],
+          "knob_sections": [
+            [
+              0.03,
+              0.05,
+              0.02
+            ],
+            [
+              0.05,
+              0.03,
+              0.03
+            ],
+            [
+              0.03,
+              0.05,
+              0.03
+            ]
+          ],
+          "position": [
+            0.03,
+            0.3601853198729013,
+            -0.01
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "FlatUKettleHandle",
+        "semantic": "handle",
+        "parameters": {
+          "vertical_size": [
+            0.03,
+            0.3,
+            0.035
+          ],
+          "vertical_separation": 0.99,
+          "position": [
+            0.04,
+            0.2151853198729013,
+            -0.015
+          ],
+          "rotation": [
+            1,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Flat_U_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "StraightKettleSpout",
+        "semantic": "spout",
+        "parameters": {
+          "spout_sections": [
+            {
+              "outer_radii": [
+                0.08,
+                0.08
+              ],
+              "wall_thickness": 0,
+              "lengths": [
+                0.24,
+                0.24
+              ],
+              "generatrix_offset": 0,
+              "rotation_degrees": 15
+            }
+          ],
+          "position": [
+            0.03,
+            0.18,
+            0.61
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Straight_Spout",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "USB",
+  "object": {
+    "id": "429702143f78a053527a7cbd6d9c5851-0",
+    "type": "mesh",
+    "source_object_index": 7,
+    "concepts": [
+      {
+        "template": "SolidUsbConnector",
+        "semantic": "connector",
+        "parameters": {
+          "connector_size": [
+            0.757,
+            0.33,
+            0.805
+          ],
+          "position": [
+            -0.004,
+            0.005,
+            0.13
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Simplied_Connector",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RoundEndedUsbBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            1.17,
+            0.385,
+            0.52
+          ],
+          "position": [
+            0,
+            0,
+            0.13
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "RoundEnded_Body",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

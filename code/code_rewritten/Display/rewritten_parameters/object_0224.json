@@ -1,0 +1,73 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Display",
+  "object": {
+    "id": "48c17189e6c58d619f4c3c326d704746",
+    "type": "mesh",
+    "source_object_index": 224,
+    "concepts": [
+      {
+        "template": "FlatDisplayScreen",
+        "semantic": "screen",
+        "parameters": {
+          "screen_size": [
+            1.49,
+            0.96,
+            0.149
+          ],
+          "has_back_layer": false,
+          "back_layer_size": [
+            1,
+            0.7,
+            0.1
+          ],
+          "back_layer_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0.009,
+            0.186,
+            -0.007
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Screen",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RectangularDisplaySupportSet",
+        "semantic": "support",
+        "parameters": {
+          "support_count": 1,
+          "support_size": [
+            1.575,
+            0.321,
+            0.21
+          ],
+          "support_spacing": 0.1,
+          "position": [
+            0.004999999999999999,
+            -0.294,
+            -0.01
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Support",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

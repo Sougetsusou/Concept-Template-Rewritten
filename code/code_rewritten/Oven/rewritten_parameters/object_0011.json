@@ -1,0 +1,271 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Oven",
+  "object": {
+    "id": "ef97ff5c1d6a00f2a760e402290727de",
+    "type": "mesh",
+    "source_object_index": 11,
+    "concepts": [
+      {
+        "template": "CuboidalOvenBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            1.27,
+            1.104,
+            0.981
+          ],
+          "wall_thickness": [
+            0.299,
+            0.205,
+            0.169,
+            0.168,
+            0.033
+          ],
+          "position": [
+            -0.015,
+            -0.133,
+            -0.0642
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuboidalOvenDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            1.27,
+            0.765,
+            0.09
+          ],
+          "position": [
+            -0.015,
+            -0.14850000000000002,
+            0.4263
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CurveOvenHandle",
+        "semantic": "handle",
+        "parameters": {
+          "curve_radius": 2.44,
+          "curve_inner_radius": 2.431,
+          "curve_thickness": 0.052,
+          "curve_angle_degrees": 22,
+          "position": [
+            -0.015,
+            0.1875,
+            0.5163
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ]
+        },
+        "source": {
+          "legacy_template": "Curve_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "CuboidalOvenDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            1.27,
+            0.149,
+            0.09
+          ],
+          "position": [
+            -0.015,
+            -0.6105,
+            0.4263
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 3
+        }
+      },
+      {
+        "template": "OvenControllerWithButtons",
+        "semantic": "button",
+        "parameters": {
+          "panel_size": [
+            1.27,
+            0.168,
+            0.09,
+            0.09
+          ],
+          "button_specs": [],
+          "position": [
+            -0.015,
+            0.335,
+            0.4263
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Controller_With_Button",
+          "source_concept_index": 4
+        }
+      },
+      {
+        "template": "OvenTopWithBurners",
+        "semantic": "burner",
+        "parameters": {
+          "top_size": [
+            1.27,
+            0.092,
+            1.065
+          ],
+          "burner_specs": [
+            {
+              "size": [
+                0.458,
+                0.008,
+                0.492
+              ],
+              "thickness": 0.1,
+              "offset": [
+                -0.406,
+                -0.276
+              ],
+              "central_size": [
+                0.095,
+                0.053
+              ],
+              "central_offset": [
+                -0.004,
+                0
+              ]
+            },
+            {
+              "size": [
+                0.458,
+                0.008,
+                0.492
+              ],
+              "thickness": 0.1,
+              "offset": [
+                -0.406,
+                0.165
+              ],
+              "central_size": [
+                0.095,
+                0.053
+              ],
+              "central_offset": [
+                -0.004,
+                0
+              ]
+            },
+            {
+              "size": [
+                0.44,
+                0.008,
+                0.935
+              ],
+              "thickness": 0.1,
+              "offset": [
+                -0.003,
+                -0.055
+              ],
+              "central_size": [
+                0.135,
+                0.028
+              ],
+              "central_offset": [
+                0.002,
+                0.042
+              ]
+            },
+            {
+              "size": [
+                0.459,
+                0.008,
+                0.492
+              ],
+              "thickness": 0.1,
+              "offset": [
+                0.404,
+                -0.276
+              ],
+              "central_size": [
+                0.095,
+                0.053
+              ],
+              "central_offset": [
+                0,
+                0
+              ]
+            },
+            {
+              "size": [
+                0.459,
+                0.008,
+                0.492
+              ],
+              "thickness": 0.1,
+              "offset": [
+                0.404,
+                0.165
+              ],
+              "central_size": [
+                0.095,
+                0.053
+              ],
+              "central_offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "position": [
+            -0.015,
+            0.41900000000000004,
+            -0.02219999999999999
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Top_With_Burner",
+          "source_concept_index": 5
+        }
+      }
+    ]
+  }
+}

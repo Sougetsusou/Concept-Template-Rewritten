@@ -1,0 +1,83 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "3ca7d12fe0b4fc5d3321831d2245cf06",
+    "type": "mesh",
+    "source_object_index": 148,
+    "concepts": [
+      {
+        "template": "Cuboidal_Base",
+        "semantic": "base",
+        "parameters": {
+          "box_count": 1,
+          "primary_size": [
+            0.495,
+            0.96,
+            0.525
+          ],
+          "secondary_size": [
+            0.25,
+            0.03,
+            0.25
+          ],
+          "secondary_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            -0.002,
+            0.33,
+            0.074
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "Cuboidal_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "main_part_size": [
+            0.29,
+            0.15,
+            1.038
+          ],
+          "head_size": [
+            0.11,
+            0.055
+          ],
+          "head_offset": [
+            0,
+            0.015,
+            -0.07
+          ],
+          "main_rotation_degrees": 11,
+          "head_rotation_degrees": -4.5,
+          "position": [
+            -0.002,
+            0.18500000000000003,
+            -0.12200000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Spout",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

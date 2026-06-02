@@ -1,0 +1,131 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "29e597c4e5cf1612b05296093fcb87fa",
+    "type": "mesh",
+    "source_object_index": 106,
+    "concepts": [
+      {
+        "template": "Cylindrical_Base",
+        "semantic": "base",
+        "parameters": {
+          "cylinder_count": 2,
+          "primary_size": [
+            0.11,
+            0.418
+          ],
+          "secondary_size": [
+            0.11,
+            0.03
+          ],
+          "secondary_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            -0.004,
+            0.086,
+            -0.176
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "ShowerRose_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "tube_radius": 0.06,
+          "start_point": [
+            0,
+            -0.38,
+            -0.015
+          ],
+          "segment_offsets": [
+            [
+              0,
+              0.595,
+              1.09
+            ],
+            [
+              0,
+              -0.1,
+              0
+            ]
+          ],
+          "has_shower_head": 0,
+          "shower_head_size": [
+            0.12,
+            0.06,
+            0.1
+          ],
+          "shower_head_offset": [
+            0,
+            0,
+            0
+          ],
+          "shower_head_rotation_degrees": 16,
+          "position": [
+            -0.004,
+            0.086,
+            -0.176
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "ShowerRose_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "Cuboidal_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "main_size": [
+            0.215,
+            0.14,
+            0.235
+          ],
+          "sub_size": [
+            0.205,
+            0.04,
+            0.533
+          ],
+          "sub_offset": [
+            0.04,
+            -0.075
+          ],
+          "switch_rotation_degrees": 0,
+          "sub_rotation_degrees": 34,
+          "position": [
+            -0.004,
+            -0.006000000000000005,
+            -0.316
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

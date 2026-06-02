@@ -1,0 +1,162 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "StorageFurniture",
+  "object": {
+    "id": "18f41e91af76c77de25f00a04866d020",
+    "type": "mesh",
+    "source_object_index": 391,
+    "concepts": [
+      {
+        "template": "PartitionedStorageFurnitureBody",
+        "semantic": null,
+        "parameters": {
+          "outer_size": [
+            1.31,
+            1.47,
+            0.24
+          ],
+          "back_panel_thickness": 0.02,
+          "side_wall_thickness": 0.06,
+          "base_panel_thickness": 0.07,
+          "lid_spec": {
+            "size": [
+              1.36,
+              0.08,
+              0.25
+            ],
+            "offset": [
+              0,
+              -0.02,
+              -0.01
+            ]
+          },
+          "horizontal_shelf_specs": [
+            {
+              "thickness": 0.05,
+              "center_offset_from_top": 0.2
+            },
+            {
+              "thickness": 0.05,
+              "center_offset_from_top": 0.41000000000000003
+            },
+            {
+              "thickness": 0.05,
+              "center_offset_from_top": 0.6000000000000001
+            },
+            {
+              "thickness": 0.05,
+              "center_offset_from_top": 0.8300000000000001
+            }
+          ],
+          "partition_bay_specs": [
+            {
+              "height": 0.17500000000000002,
+              "center_y": 0.6475,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            },
+            {
+              "height": 0.21,
+              "center_y": 0.42999999999999994,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            },
+            {
+              "height": 0.2,
+              "center_y": 0.2349999999999999,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            },
+            {
+              "height": 0.21,
+              "center_y": 0.009999999999999912,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            },
+            {
+              "height": 0.5449999999999999,
+              "center_y": -0.3925,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            }
+          ],
+          "additional_panel_specs": [
+            {
+              "size": [
+                1.18,
+                0.04,
+                0.18
+              ],
+              "center": [
+                -0.02,
+                -0.29000000000000004,
+                0.03
+              ],
+              "rotation_degrees": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "size": [
+                1.18,
+                0.04,
+                0.18
+              ],
+              "center": [
+                -0.02,
+                -0.5,
+                0.03
+              ],
+              "rotation_degrees": [
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "position": [
+            0.02,
+            -0.04,
+            0.03
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Storagefurniture_body",
+          "source_concept_index": 0
+        }
+      }
+    ]
+  }
+}

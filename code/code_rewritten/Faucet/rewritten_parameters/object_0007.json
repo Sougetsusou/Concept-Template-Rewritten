@@ -1,0 +1,130 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "1c684a5a113c4536b7a867e9b35a1295",
+    "type": "mesh",
+    "source_object_index": 7,
+    "concepts": [
+      {
+        "template": "Cylindrical_Base",
+        "semantic": "base",
+        "parameters": {
+          "cylinder_count": 2,
+          "primary_size": [
+            0.21,
+            1.155
+          ],
+          "secondary_size": [
+            0.255,
+            0.05
+          ],
+          "secondary_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            0.0015,
+            0.386,
+            0.074
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "ShowerRose_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "tube_radius": 0.115,
+          "start_point": [
+            0,
+            -0.24,
+            -0.02
+          ],
+          "segment_offsets": [
+            [
+              0,
+              0,
+              0.795
+            ],
+            [
+              0,
+              -0.185,
+              0.045
+            ]
+          ],
+          "has_shower_head": 0,
+          "shower_head_size": [
+            0,
+            0,
+            0
+          ],
+          "shower_head_offset": [
+            0,
+            0,
+            0
+          ],
+          "shower_head_rotation_degrees": 15,
+          "position": [
+            0.0015,
+            0.386,
+            0.074
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "ShowerRose_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RegularZ_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "main_size": [
+            0.21,
+            0.28
+          ],
+          "sub_size": [
+            0.037,
+            0.628
+          ],
+          "sub_offset": [
+            -0.0196,
+            -0.073
+          ],
+          "main_z_rotation_degrees": 0,
+          "main_x_rotation_degrees": 90,
+          "sub_rotation_degrees": -1,
+          "position": [
+            0.0015,
+            0.531,
+            -0.27499999999999997
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "RegularZ_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

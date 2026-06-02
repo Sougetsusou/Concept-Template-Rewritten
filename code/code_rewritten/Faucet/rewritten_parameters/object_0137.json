@@ -1,0 +1,130 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "382b1b947fba964dc1def5c6acc12bbc",
+    "type": "mesh",
+    "source_object_index": 137,
+    "concepts": [
+      {
+        "template": "Cylindrical_Base",
+        "semantic": "base",
+        "parameters": {
+          "cylinder_count": 1,
+          "primary_size": [
+            0.168,
+            1.387
+          ],
+          "secondary_size": [
+            0.15,
+            0.08
+          ],
+          "secondary_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            0,
+            0.551,
+            0.074
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "ShowerRose_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "tube_radius": 0.0588,
+          "start_point": [
+            0.008,
+            -0.32,
+            -0.02
+          ],
+          "segment_offsets": [
+            [
+              0,
+              0,
+              0.815
+            ],
+            [
+              0,
+              -0.165,
+              0.14
+            ]
+          ],
+          "has_shower_head": 0,
+          "shower_head_size": [
+            0.12,
+            0.06,
+            0.1
+          ],
+          "shower_head_offset": [
+            0,
+            0,
+            0
+          ],
+          "shower_head_rotation_degrees": 15,
+          "position": [
+            0,
+            0.551,
+            0.074
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "ShowerRose_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RegularY_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "main_size": [
+            0.168,
+            0.091
+          ],
+          "sub_size": [
+            0.025,
+            0.595
+          ],
+          "sub_offset": [
+            0.175,
+            -0.23
+          ],
+          "main_y_rotation_degrees": 0,
+          "main_x_rotation_degrees": 0,
+          "sub_rotation_degrees": 38,
+          "position": [
+            -0.002,
+            0.551,
+            -0.09400000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "RegularY_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

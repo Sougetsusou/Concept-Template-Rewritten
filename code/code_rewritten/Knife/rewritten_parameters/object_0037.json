@@ -1,0 +1,64 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Knife",
+  "object": {
+    "id": "150ad6a5c35beb17ee79d445a3ad4fd4",
+    "type": "mesh",
+    "source_object_index": 37,
+    "concepts": [
+      {
+        "template": "CuboidalKnifeHandle",
+        "semantic": "handle",
+        "parameters": {
+          "handle_size": [
+            0.032,
+            0.51,
+            0.142
+          ],
+          "position": [
+            -9.197097461596623e-17,
+            -0.751,
+            0.1140000000000001
+          ],
+          "rotation": [
+            -180.0,
+            -0.0,
+            180.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Handle",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CurvedKnifeBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_profile": [
+            0.032,
+            0.925,
+            0.52,
+            0.315
+          ],
+          "root_top_z_offset": -0.103,
+          "tip_radius": 0.61,
+          "position": [
+            -6.074248123770873e-17,
+            -0.496,
+            -0.07499999999999993
+          ],
+          "rotation": [
+            -180.0,
+            -0.0,
+            180.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Curved_Blade",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

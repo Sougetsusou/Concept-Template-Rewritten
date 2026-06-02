@@ -1,0 +1,51 @@
+{
+  "format": "rewritten_category_parameter_index.v1",
+  "package_format": "rewritten_category_parameters.v1",
+  "category": "Doorhandle",
+  "status": "passed",
+  "source": {
+    "type": "rewritten_native_parameters"
+  },
+  "conversion": {
+    "mapper_module": null,
+    "max_objects": null
+  },
+  "summary": {
+    "object_count": 3,
+    "concept_count": 3,
+    "class_counts": {
+      "LayeredCuboidDoorHandle": 2,
+      "StackedCylindricalDoorKnob": 1
+    },
+    "legacy_class_counts": {
+      "Knob_handle": 1,
+      "Regular_handle": 2
+    },
+    "event_count": 0,
+    "failed_event_count": 0
+  },
+  "objects": [
+    {
+      "file": "object_0000.json",
+      "id": "85aed061-0e48-11ed-9f79-ec2e98c7e246",
+      "type": "mesh",
+      "source_object_index": 0,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0001.json",
+      "id": "93b693b5-0e48-11ed-84c2-ec2e98c7e246",
+      "type": "mesh",
+      "source_object_index": 1,
+      "concept_count": 1
+    },
+    {
+      "file": "object_0002.json",
+      "id": "956023ca-0e48-11ed-b0bb-ec2e98c7e246",
+      "type": "mesh",
+      "source_object_index": 2,
+      "concept_count": 1
+    }
+  ],
+  "events": []
+}

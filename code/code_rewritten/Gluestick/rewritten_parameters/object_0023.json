@@ -1,0 +1,67 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Gluestick",
+  "object": {
+    "id": "e36d1aed-0e4a-11ed-a4f4-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 23,
+    "concepts": [
+      {
+        "template": "CylindricalGlueStickBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_size": [
+            0.09,
+            0.09,
+            0.63
+          ],
+          "z_radius_scale": 1,
+          "position": [
+            0,
+            -0.06,
+            0
+          ],
+          "rotation": [
+            2,
+            -50,
+            -91
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalGlueStickCover",
+        "semantic": "cover",
+        "parameters": {
+          "outer_profile": [
+            0.09,
+            0.09,
+            0.2
+          ],
+          "inner_opening": [
+            0.04,
+            0.04,
+            0.15
+          ],
+          "position": [
+            0,
+            0.255,
+            0
+          ],
+          "rotation": [
+            2,
+            -50,
+            -91
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Cover",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

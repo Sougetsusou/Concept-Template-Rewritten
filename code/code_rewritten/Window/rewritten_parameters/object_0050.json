@@ -1,0 +1,196 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Window",
+  "object": {
+    "id": "e9d3e491-f9a5-474b-8baf-2effbede788f",
+    "type": "mesh",
+    "source_object_index": 50,
+    "concepts": [
+      {
+        "template": "StandardWindowFrame",
+        "semantic": "windowframe",
+        "parameters": {
+          "outer_size": [
+            1.405,
+            1.464,
+            0.0765
+          ],
+          "inner_size": [
+            1.25,
+            1.31
+          ],
+          "inner_outer_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0.00355,
+            0.005,
+            0.0055
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Windowframe",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "AsymmetricalPanelWindow",
+        "semantic": "window",
+        "parameters": {
+          "outside_inner_size": [
+            1.25,
+            1.31
+          ],
+          "outside_inner_offset": [
+            0,
+            0
+          ],
+          "panel_count": 2,
+          "panel_profiles": [
+            {
+              "frame_width": 0.66,
+              "frame_height": 0.038,
+              "glass_size": [
+                0.49,
+                1.15,
+                0.002
+              ],
+              "glass_offset": [
+                0,
+                0,
+                0.01
+              ]
+            },
+            {
+              "frame_width": 0.66,
+              "frame_height": 0.038,
+              "glass_size": [
+                0.52,
+                1.16,
+                0.03
+              ],
+              "glass_offset": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "frame_width": 0.7,
+              "frame_height": 0.08,
+              "glass_size": [
+                0.6,
+                0.9,
+                0.03
+              ],
+              "glass_offset": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "frame_width": 0.7,
+              "frame_height": 0.08,
+              "glass_size": [
+                0.6,
+                0.9,
+                0.03
+              ],
+              "glass_offset": [
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "horizontal_offsets": [
+            0.294,
+            -0.294,
+            0.1,
+            0,
+            -0.3,
+            0.3
+          ],
+          "base_z_offset": -0.028,
+          "position": [
+            0.00355,
+            0.005,
+            0.0055
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Asymmetrical_Window",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "LShapedWindowHandle",
+        "semantic": "handle",
+        "parameters": {
+          "handle_mounts": [
+            {
+              "side": "front",
+              "layer_position": 0,
+              "x_offset": 0.59
+            },
+            {
+              "side": "front",
+              "layer_position": 1,
+              "x_offset": -0.588
+            }
+          ],
+          "window_type": 1,
+          "window_layer_heights": {
+            "layer_0": 0.038,
+            "layer_1": 0.038,
+            "layer_2": 0.08,
+            "layer_3": 0.08
+          },
+          "bottom_size": [
+            0.037,
+            0.07,
+            0.0116
+          ],
+          "middle_size": [
+            0.03,
+            0.022,
+            0.034
+          ],
+          "top_size": [
+            0.025,
+            0.12,
+            0.01
+          ],
+          "middle_y_offset": -0.002,
+          "top_y_offset": -0.06,
+          "position": [
+            0.00355,
+            0.005,
+            -0.0225
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "LShaped_Handle",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

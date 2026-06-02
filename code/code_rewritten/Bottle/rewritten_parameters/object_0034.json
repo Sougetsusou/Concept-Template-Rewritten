@@ -1,0 +1,83 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Bottle",
+  "object": {
+    "id": "2927d6c8438f6e24fe6460d8d9bd16c6",
+    "type": "mesh",
+    "source_object_index": 34,
+    "concepts": [
+      {
+        "template": "StackedBottleBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "base_section",
+              "height": 0.96,
+              "top_radius": 0.26,
+              "bottom_radius": 0.26
+            },
+            {
+              "name": "upper_section_2",
+              "height": 0.15,
+              "top_radius": 0.165,
+              "bottom_radius": 0.26
+            },
+            {
+              "name": "upper_section_3",
+              "height": 0.38,
+              "top_radius": 0.09,
+              "bottom_radius": 0.165
+            },
+            {
+              "name": "upper_section_4",
+              "height": 0.06,
+              "top_radius": 0.11,
+              "bottom_radius": 0.09
+            }
+          ],
+          "position": [
+            0.002382434838329805,
+            -0.15000384201705358,
+            -0.006570493464264332
+          ],
+          "rotation": [
+            0.5999999999999627,
+            -0.0,
+            -0.9999999999999887
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalBottleLid",
+        "semantic": "lid",
+        "parameters": {
+          "top_outer_radius": 0.11,
+          "bottom_outer_radius": 0.13,
+          "total_height": 0.08,
+          "top_inner_radius": 0.1,
+          "bottom_inner_radius": 0.1,
+          "open_ring_height": 0.055,
+          "position": [
+            0.02175354379527898,
+            0.9597662468718375,
+            0.005053186904767776
+          ],
+          "rotation": [
+            0.5999999999999627,
+            -0.0,
+            -0.9999999999999887
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Lid",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

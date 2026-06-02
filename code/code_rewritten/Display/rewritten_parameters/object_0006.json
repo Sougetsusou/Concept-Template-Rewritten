@@ -1,0 +1,46 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Display",
+  "object": {
+    "id": "1063cfe209bdaeb340ff33d80c1d7d1e",
+    "type": "mesh",
+    "source_object_index": 6,
+    "concepts": [
+      {
+        "template": "FrustumDisplayScreen",
+        "semantic": "screen",
+        "parameters": {
+          "has_front_layer": true,
+          "front_layer_size": [
+            1.755,
+            1.045,
+            0.07
+          ],
+          "back_shell_size": [
+            1.585,
+            0.77,
+            0.11
+          ],
+          "back_shell_offset": [
+            -0.01,
+            -0.14
+          ],
+          "position": [
+            0,
+            0.034,
+            0.022
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Frustum_Screen",
+          "source_concept_index": 0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Chair",
+  "object": {
+    "id": "2a197b179994b877f63e8e405d49b8ce",
+    "type": "mesh",
+    "source_object_index": 602,
+    "concepts": [
+      {
+        "template": "RectangularChairSeat",
+        "semantic": "seat",
+        "parameters": {
+          "seat_size": [
+            0.85,
+            0.05,
+            0.735
+          ],
+          "position": [
+            0,
+            -0.179,
+            0.1505
+          ],
+          "rotation": [
+            -9.4,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_seat",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "LadderChairBack",
+        "semantic": "back",
+        "parameters": {
+          "top_rail_size": [
+            0.91,
+            0.49,
+            0.05
+          ],
+          "side_rail_size": [
+            0.03,
+            0.23,
+            0.03
+          ],
+          "rung_size": [
+            0.05,
+            0.05
+          ],
+          "side_rail_separation": 0.805,
+          "rung_start_offset": 0,
+          "rung_interval": 0.15,
+          "back_tilt_degrees": -9,
+          "rung_count": 0,
+          "position": [
+            0.0,
+            -0.2066000038771449,
+            -0.1692862407702708
+          ],
+          "rotation": [
+            -9.4,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Ladder_back",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "StretcherChairLegSet",
+        "semantic": "splat",
+        "parameters": {
+          "front_leg_size": [
+            0.03,
+            0.62,
+            0.03
+          ],
+          "rear_leg_size": [
+            0.03,
+            0.52,
+            0.03
+          ],
+          "leg_center_spacing": [
+            0.96,
+            0.85,
+            0.71
+          ],
+          "central_yaw_degrees": 0,
+          "front_tilt_degrees": [
+            6,
+            -3
+          ],
+          "rear_tilt_degrees": [
+            21,
+            -4
+          ],
+          "front_rear_stretcher_size": [
+            0.03,
+            0.03
+          ],
+          "side_stretcher_size": [
+            0.03,
+            0.03
+          ],
+          "front_rear_stretcher_offset": [
+            0.33,
+            0.27
+          ],
+          "side_stretcher_offset": [
+            0.35,
+            0.29
+          ],
+          "stretcher_enabled": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "position": [
+            0.0,
+            -0.216730381019504,
+            0.075657376127483
+          ],
+          "rotation": [
+            -9.4,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_leg_with_splat",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "OfficeChairArmrest",
+        "semantic": "armrest",
+        "parameters": {
+          "horizontal_support_size": [
+            0.03,
+            0.03,
+            0.7
+          ],
+          "vertical_support_size": [
+            0.03,
+            0.32,
+            0.03
+          ],
+          "support_contact_offset": 0.33,
+          "vertical_support_rotation_degrees": 9,
+          "horizontal_support_rotation_degrees": -3,
+          "armrest_separation": 0.97,
+          "armrest_rotation_degrees": 7,
+          "position": [
+            0.0,
+            -0.15270243633740954,
+            0.15628257256002914
+          ],
+          "rotation": [
+            -9.4,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Office_armrest",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

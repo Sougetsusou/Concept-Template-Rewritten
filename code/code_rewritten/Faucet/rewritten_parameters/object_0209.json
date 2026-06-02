@@ -1,0 +1,120 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "2bc6ede0-0e4a-11ed-ace7-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 209,
+    "concepts": [
+      {
+        "template": "Round_Base",
+        "semantic": "base",
+        "parameters": {
+          "base_size": [
+            0.105,
+            0.24
+          ],
+          "position": [
+            -0.018,
+            -0.179,
+            -0.304
+          ],
+          "rotation": [
+            88.4,
+            171,
+            -80.8
+          ]
+        },
+        "source": {
+          "legacy_template": "Round_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "ShowerRose_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "tube_radius": 0.105,
+          "start_point": [
+            0,
+            -0.005,
+            0
+          ],
+          "segment_offsets": [
+            [
+              0,
+              0,
+              0.575
+            ],
+            [
+              0,
+              -0.25,
+              0.03
+            ]
+          ],
+          "has_shower_head": 1,
+          "shower_head_size": [
+            0.075,
+            0.085,
+            0.185
+          ],
+          "shower_head_offset": [
+            0,
+            0,
+            0.003
+          ],
+          "shower_head_rotation_degrees": 9,
+          "position": [
+            -0.018,
+            -0.179,
+            -0.304
+          ],
+          "rotation": [
+            88.4,
+            171,
+            -80.8
+          ]
+        },
+        "source": {
+          "legacy_template": "ShowerRose_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TShaped_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "lower_size": [
+            0.152,
+            0.398
+          ],
+          "middle_size": [
+            0.08,
+            0.087
+          ],
+          "top_bar_size": [
+            0.18,
+            0.048,
+            0.735
+          ],
+          "top_bar_offset": 0.195,
+          "top_bar_rotation_degrees": 6,
+          "position": [
+            -0.002999999999999999,
+            -0.08399999999999999,
+            -0.010000000000000009
+          ],
+          "rotation": [
+            88.4,
+            171,
+            -80.8
+          ]
+        },
+        "source": {
+          "legacy_template": "TShaped_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

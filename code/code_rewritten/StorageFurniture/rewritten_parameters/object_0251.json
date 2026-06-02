@@ -1,0 +1,184 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "StorageFurniture",
+  "object": {
+    "id": "9f26b723e21d0fe94c3aee8e9d3a6ffa",
+    "type": "mesh",
+    "source_object_index": 251,
+    "concepts": [
+      {
+        "template": "PartitionedStorageFurnitureBody",
+        "semantic": null,
+        "parameters": {
+          "outer_size": [
+            1.091,
+            1.329,
+            1.048
+          ],
+          "back_panel_thickness": 0.047,
+          "side_wall_thickness": 0.01,
+          "base_panel_thickness": 0.046,
+          "lid_spec": {
+            "size": [
+              1.091,
+              0.055,
+              1.046
+            ],
+            "offset": [
+              0,
+              -0.002,
+              -0.024
+            ]
+          },
+          "horizontal_shelf_specs": [],
+          "partition_bay_specs": [
+            {
+              "height": 1.283,
+              "center_y": 0.023,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            }
+          ],
+          "additional_panel_specs": [],
+          "position": [
+            0.018,
+            -0.04,
+            -0.036
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Storagefurniture_body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "StorageFurnitureDrawerSet",
+        "semantic": null,
+        "parameters": {
+          "drawer_specs": [
+            {
+              "drawer_size": [
+                0.978,
+                0.204,
+                0.978
+              ],
+              "bottom_thickness": 0.012,
+              "front_panel_size": [
+                1.086,
+                0.338,
+                0.037
+              ],
+              "front_panel_offset_y": -0.019,
+              "side_wall_thickness": 0.024,
+              "front_back_wall_thickness": 0.024,
+              "handle_count": 1,
+              "handle_size": [
+                0.952,
+                0.02,
+                0.064
+              ],
+              "handle_offset": [
+                0.002,
+                0.066
+              ],
+              "handle_spacing": 0.3,
+              "center": [
+                0,
+                0.555,
+                0.033
+              ]
+            },
+            {
+              "drawer_size": [
+                0.978,
+                0.2045,
+                0.978
+              ],
+              "bottom_thickness": 0.03,
+              "front_panel_size": [
+                1.086,
+                0.338,
+                0.037
+              ],
+              "front_panel_offset_y": -0.02,
+              "side_wall_thickness": 0.024,
+              "front_back_wall_thickness": 0.024,
+              "handle_count": 1,
+              "handle_size": [
+                0.952,
+                0.02,
+                0.064
+              ],
+              "handle_offset": [
+                0.002,
+                0.065
+              ],
+              "handle_spacing": 0.3,
+              "center": [
+                0,
+                0.212,
+                0.033
+              ]
+            },
+            {
+              "drawer_size": [
+                0.978,
+                0.477,
+                0.978
+              ],
+              "bottom_thickness": 0.03,
+              "front_panel_size": [
+                1.086,
+                0.681,
+                0.037
+              ],
+              "front_panel_offset_y": 0.015,
+              "side_wall_thickness": 0.024,
+              "front_back_wall_thickness": 0.024,
+              "handle_count": 1,
+              "handle_size": [
+                0.952,
+                0.02,
+                0.064
+              ],
+              "handle_offset": [
+                0.002,
+                0.273
+              ],
+              "handle_spacing": 0.3,
+              "center": [
+                0,
+                -0.339,
+                0.033
+              ]
+            }
+          ],
+          "position": [
+            0.018,
+            -0.04,
+            -0.036
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_drawer",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

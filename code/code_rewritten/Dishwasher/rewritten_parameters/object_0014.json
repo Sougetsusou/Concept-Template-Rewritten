@@ -1,0 +1,117 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Dishwasher",
+  "object": {
+    "id": "6e85f6897e07e0b1df3a1b0d597ce76e",
+    "type": "mesh",
+    "source_object_index": 14,
+    "concepts": [
+      {
+        "template": "RectangularDishwasherBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            1.05,
+            1.31,
+            0.98
+          ],
+          "wall_thickness": [
+            0.05,
+            0.03,
+            0.03,
+            0.01,
+            0.01
+          ],
+          "position": [
+            -0.01,
+            0.12,
+            -0.02
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FlatDishwasherDoor",
+        "semantic": "door",
+        "parameters": {
+          "panel_size": [
+            1.05,
+            1.31,
+            0.09
+          ],
+          "position": [
+            -0.01,
+            0.10999999999999999,
+            0.47
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "ArcDishwasherHandle",
+        "semantic": "handle",
+        "parameters": {
+          "outer_radius": 2.15,
+          "inner_radius": 2.14,
+          "arc_height": 0.06,
+          "arc_angle_degrees": 25,
+          "position": [
+            -0.01,
+            0.67,
+            0.5599999999999999
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ]
+        },
+        "source": {
+          "legacy_template": "Curve_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "SingleDishwasherLeg",
+        "semantic": "leg",
+        "parameters": {
+          "leg_size": [
+            1.05,
+            0.18,
+            0.85
+          ],
+          "position": [
+            -0.01,
+            -0.535,
+            -0.09000000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Single_Leg",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

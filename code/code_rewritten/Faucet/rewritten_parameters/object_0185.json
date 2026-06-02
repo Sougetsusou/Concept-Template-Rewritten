@@ -1,0 +1,139 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "1de8f72e190d7ef1979c556124bee033",
+    "type": "mesh",
+    "source_object_index": 185,
+    "concepts": [
+      {
+        "template": "Cuboidal_Base",
+        "semantic": "base",
+        "parameters": {
+          "box_count": 1,
+          "primary_size": [
+            0.21,
+            0.52,
+            0.17
+          ],
+          "secondary_size": [
+            0.25,
+            0.03,
+            0.25
+          ],
+          "secondary_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            0.039,
+            -0.261,
+            -0.11
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "ShowerRose_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "tube_radius": 0.055,
+          "start_point": [
+            -0.105,
+            0,
+            -0.08
+          ],
+          "segment_offsets": [
+            [
+              0,
+              0.81,
+              0
+            ],
+            [
+              0,
+              0.04,
+              0.895
+            ]
+          ],
+          "has_shower_head": 1,
+          "shower_head_size": [
+            0.12,
+            0.06,
+            0.1
+          ],
+          "shower_head_offset": [
+            -0.1,
+            0.01,
+            0
+          ],
+          "shower_head_rotation_degrees": 16,
+          "position": [
+            0.039,
+            -0.261,
+            -0.11
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "ShowerRose_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "Lever_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "base_size": [
+            0.085,
+            0.15
+          ],
+          "tube_radius": 0.03,
+          "start_point": [
+            0.045,
+            -0.01,
+            -0.09
+          ],
+          "segment_offsets": [
+            [
+              0.05,
+              0.055,
+              0
+            ],
+            [
+              -0.08,
+              0.38,
+              0
+            ]
+          ],
+          "position": [
+            0.129,
+            -0.43100000000000005,
+            -0.19
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Lever_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

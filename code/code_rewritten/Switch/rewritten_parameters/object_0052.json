@@ -1,0 +1,105 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Switch",
+  "object": {
+    "id": "efa22b97f47a8b3558451d47ce84cde7",
+    "type": "mesh",
+    "source_object_index": 52,
+    "concepts": [
+      {
+        "template": "StandardSwitchBase",
+        "semantic": "base",
+        "parameters": {
+          "body_size": [
+            0.621,
+            0.613,
+            0.465
+          ],
+          "back_part": null,
+          "position": [
+            -0.001,
+            -0.009,
+            0.15
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "LeverSwitch",
+        "semantic": "switch",
+        "parameters": {
+          "base_size": [
+            0.141,
+            0.3467
+          ],
+          "lever_size": [
+            0.058,
+            0.075,
+            0.51
+          ],
+          "lever_mount_offset": [
+            -0.01,
+            0.038,
+            -0.027
+          ],
+          "switch_count": 1,
+          "center_spacing": 0.158,
+          "lever_tilt_degrees": -14,
+          "position": [
+            -0.001,
+            -0.009,
+            0.15
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Lever_Switch",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CuboidalPlugGrid",
+        "semantic": "plug",
+        "parameters": {
+          "contact_size": [
+            0.095,
+            0.043,
+            0.219
+          ],
+          "column_count": 2,
+          "row_count": 3,
+          "contact_interval": [
+            0.235,
+            0.1686
+          ],
+          "position": [
+            -0.166,
+            -0.221,
+            -0.31500000000000006
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Plug",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

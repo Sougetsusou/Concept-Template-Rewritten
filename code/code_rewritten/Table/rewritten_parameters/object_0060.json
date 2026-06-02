@@ -1,0 +1,183 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Table",
+  "object": {
+    "id": "10657fcfce1d326b30bbd4cddd04c77b",
+    "type": "mesh",
+    "source_object_index": 60,
+    "concepts": [
+      {
+        "template": "TableTop",
+        "semantic": null,
+        "parameters": {
+          "size": [
+            1.61,
+            0.105,
+            0.495
+          ],
+          "position": [
+            -0.06,
+            0.1655,
+            0.0495
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_desktop",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SplatTableLegSet",
+        "semantic": null,
+        "parameters": {
+          "front_leg_size": [
+            0.047,
+            0.565,
+            0.047
+          ],
+          "rear_leg_size": [
+            0.047,
+            0.565,
+            0.047
+          ],
+          "leg_center_spacing": [
+            1.565,
+            1.565,
+            0.446
+          ],
+          "central_yaw_degrees": 0,
+          "front_tilt_degrees": [
+            0,
+            0
+          ],
+          "rear_tilt_degrees": [
+            0,
+            0
+          ],
+          "front_rear_bar_size": [
+            0.05,
+            0.05
+          ],
+          "side_bar_size": [
+            0.049,
+            0.062
+          ],
+          "front_rear_bar_offsets": [
+            0,
+            0
+          ],
+          "side_bar_offsets": [
+            -0.125,
+            -0.125
+          ],
+          "enabled_bars": {
+            "front_width_bar": 0,
+            "rear_width_bar": 0,
+            "left_depth_bar": 1,
+            "right_depth_bar": 1
+          },
+          "extra_legs": [],
+          "position": [
+            -0.06,
+            0.11300000000000002,
+            0.0495
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_with_splat_leg",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TableBackboard",
+        "semantic": null,
+        "parameters": {
+          "size": [
+            1.6,
+            0.435,
+            0.048
+          ],
+          "position": [
+            -0.06,
+            0.11300000000000002,
+            -0.1735
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_backboard",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "TableDrawerAssembly",
+        "semantic": null,
+        "parameters": {
+          "drawers": [
+            {
+              "drawer_size": [
+                0.408,
+                0.436,
+                0.402
+              ],
+              "bottom_thickness": 0.001,
+              "front_size": [
+                0.408,
+                0.437,
+                0.001
+              ],
+              "front_offset_y": -0.001,
+              "side_thickness": 0.001,
+              "front_back_thickness": 0.001,
+              "handle_count": 1,
+              "handle_size": [
+                0.112,
+                0.022,
+                0.03
+              ],
+              "handle_rotation": 0.0,
+              "handle_offset": [
+                0,
+                -0.001
+              ],
+              "handle_separation": 0.3,
+              "offset": [
+                0.56,
+                0,
+                0.002
+              ]
+            }
+          ],
+          "position": [
+            -0.06,
+            0.11300000000000002,
+            0.0495
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_drawer",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

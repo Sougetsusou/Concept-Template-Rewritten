@@ -1,0 +1,97 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Pen",
+  "object": {
+    "id": "c2add3355ec46e7f98d305f7baf63ba",
+    "type": "mesh",
+    "source_object_index": 36,
+    "concepts": [
+      {
+        "template": "DoubleLayerPenBarrel",
+        "semantic": "barrel",
+        "parameters": {
+          "main_top_outer_radius": 0.08,
+          "main_bottom_outer_radius": 0.08,
+          "main_height": 1.64,
+          "bottom_bottom_outer_radius": 0.03,
+          "bottom_height": 0.22,
+          "wall_thickness": 0.02,
+          "position": [
+            0.0,
+            0.03,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Double_Layer_Barrel",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalPenButton",
+        "semantic": "button",
+        "parameters": {
+          "top_radius": 0.03,
+          "bottom_radius": 0.03,
+          "height": 0.07,
+          "position": [
+            0.0,
+            0.85,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Button",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TrifoldPenClip",
+        "semantic": "clip",
+        "parameters": {
+          "root_size": [
+            0.01,
+            0.01,
+            0.005
+          ],
+          "middle_size": [
+            0.01,
+            0.705,
+            0.005
+          ],
+          "tip_size": [
+            0.12,
+            0.72,
+            0.025
+          ],
+          "root_to_middle_drop": 0.07,
+          "tip_return_drop": 0,
+          "position": [
+            0.0,
+            0.85,
+            0.08
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Clip",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

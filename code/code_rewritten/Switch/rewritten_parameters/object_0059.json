@@ -1,0 +1,65 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Switch",
+  "object": {
+    "id": "u3cb90e37-54e9-40fb-97d8-2586632ee264",
+    "type": "mesh",
+    "source_object_index": 59,
+    "concepts": [
+      {
+        "template": "StandardSwitchBase",
+        "semantic": "base",
+        "parameters": {
+          "body_size": [
+            1.413,
+            1.413,
+            0.1785
+          ],
+          "back_part": null,
+          "position": [
+            -0.015,
+            -0.004,
+            0.074
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FlipXSwitch",
+        "semantic": "switch",
+        "parameters": {
+          "switch_size": [
+            0.445,
+            1.06,
+            0.13
+          ],
+          "switch_count": 2,
+          "center_spacing": 0.622,
+          "tilt_degrees": 0,
+          "position": [
+            -0.324,
+            -0.003,
+            0.074
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "FlipX_Switch",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

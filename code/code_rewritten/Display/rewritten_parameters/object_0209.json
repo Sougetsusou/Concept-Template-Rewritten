@@ -1,0 +1,74 @@
+{
+  "format": "rewritten_category_object_parameters.v1",
+  "category": "Display",
+  "object": {
+    "id": "45406c697e4fcbced742faccfe08d94c",
+    "type": "mesh",
+    "source_object_index": 209,
+    "concepts": [
+      {
+        "template": "FrustumDisplayScreen",
+        "semantic": "screen",
+        "parameters": {
+          "has_front_layer": true,
+          "front_layer_size": [
+            1.615,
+            1.104,
+            0.26
+          ],
+          "back_shell_size": [
+            0.655,
+            0.19,
+            0.52
+          ],
+          "back_shell_offset": [
+            0,
+            -0.02
+          ],
+          "position": [
+            -0.013,
+            0.018,
+            0.017
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Frustum_Screen",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RearDisplaySupportSet",
+        "semantic": "support",
+        "parameters": {
+          "support_count": 1,
+          "support_size": [
+            0.507,
+            0.409,
+            0.52
+          ],
+          "support_spacing": 0.1,
+          "support_rotation_degrees": 0,
+          "position": [
+            -0.013,
+            -0.12200000000000001,
+            0.017
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "CuboidalRear_Support",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}
