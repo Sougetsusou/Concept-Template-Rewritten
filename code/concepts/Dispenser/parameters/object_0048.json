@@ -1,0 +1,92 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Dispenser",
+  "object": {
+    "id": "ub630f30d-bc91-4666-bca8-7cff40a9acf5",
+    "type": "mesh",
+    "source_object_index": 48,
+    "concepts": [
+      {
+        "template": "RectangularDispenserBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.51,
+            1.105,
+            0.591
+          ],
+          "position": [
+            0.002,
+            -0.118,
+            -0.0047
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "PressDispenserNozzle",
+        "semantic": "nozzle",
+        "parameters": {
+          "base_sections": [
+            {
+              "name": "base_section_1",
+              "radius": 0.125,
+              "height": 0.233
+            },
+            {
+              "name": "base_section_2",
+              "radius": 0.101,
+              "height": 0.07
+            },
+            {
+              "name": "base_section_3",
+              "radius": 0.043,
+              "height": 0.196
+            },
+            {
+              "name": "base_section_4",
+              "radius": 0.085,
+              "height": 0.057
+            }
+          ],
+          "nozzle_cross_section": [
+            0.085,
+            0.055
+          ],
+          "nozzle_lengths": [
+            0.16,
+            0.04
+          ],
+          "nozzle_count": 2,
+          "nozzle_offset": -0.02,
+          "nozzle_rotations_degrees": [
+            10,
+            90
+          ],
+          "position": [
+            0.004,
+            0.4345,
+            -0.0047
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Press_Nozzle",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

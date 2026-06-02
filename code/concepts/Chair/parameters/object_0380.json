@@ -1,0 +1,181 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Chair",
+  "object": {
+    "id": "59f1f818fce72660ac285e4454a089f0",
+    "type": "mesh",
+    "source_object_index": 380,
+    "concepts": [
+      {
+        "template": "RectangularChairSeat",
+        "semantic": "seat",
+        "parameters": {
+          "seat_size": [
+            0.68,
+            0.087,
+            0.68
+          ],
+          "position": [
+            -0.004,
+            -0.131,
+            0.132
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_seat",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "LatticeChairBack",
+        "semantic": "back",
+        "parameters": {
+          "top_rail_size": [
+            0.59,
+            0.39,
+            0.1
+          ],
+          "side_rail_size": [
+            0.11,
+            0.69,
+            0.08
+          ],
+          "side_rail_separation": 0.575,
+          "vertical_slat_size": [
+            0.1,
+            0.1
+          ],
+          "horizontal_slat_size": [
+            0.05,
+            0.09
+          ],
+          "horizontal_slat_offset": -0.33,
+          "vertical_slat_start_offset": -0.1,
+          "vertical_slat_interval": 0.21,
+          "back_tilt_degrees": 0,
+          "vertical_slat_count": 2,
+          "position": [
+            -0.004,
+            -0.08750000000000001,
+            -0.15799999999999997
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Latice_back",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "StretcherChairLegSet",
+        "semantic": "splat",
+        "parameters": {
+          "front_leg_size": [
+            0.07,
+            0.68,
+            0.07
+          ],
+          "rear_leg_size": [
+            0.07,
+            0.68,
+            0.07
+          ],
+          "leg_center_spacing": [
+            0.615,
+            0.615,
+            0.61
+          ],
+          "central_yaw_degrees": 0,
+          "front_tilt_degrees": [
+            0,
+            0
+          ],
+          "rear_tilt_degrees": [
+            0,
+            0
+          ],
+          "front_rear_stretcher_size": [
+            0.06,
+            0.07
+          ],
+          "side_stretcher_size": [
+            0.07,
+            0.06
+          ],
+          "front_rear_stretcher_offset": [
+            -0.11,
+            -0.11
+          ],
+          "side_stretcher_offset": [
+            -0.11,
+            -0.11
+          ],
+          "stretcher_enabled": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "position": [
+            -0.004,
+            -0.1745,
+            0.137
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_leg_with_splat",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "OfficeChairArmrest",
+        "semantic": "armrest",
+        "parameters": {
+          "horizontal_support_size": [
+            0.07,
+            0.04,
+            0.36
+          ],
+          "vertical_support_size": [
+            0.05,
+            0.232,
+            0.06
+          ],
+          "support_contact_offset": 0.16,
+          "vertical_support_rotation_degrees": 0,
+          "horizontal_support_rotation_degrees": 0,
+          "armrest_separation": 0.62,
+          "armrest_rotation_degrees": 0,
+          "position": [
+            0.006,
+            -0.08750000000000001,
+            0.132
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Office_armrest",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

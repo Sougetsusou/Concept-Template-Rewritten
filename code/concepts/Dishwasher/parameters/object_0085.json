@@ -1,0 +1,221 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Dishwasher",
+  "object": {
+    "id": "a5a6b467cc0e55eb159fbcda62e85465",
+    "type": "mesh",
+    "source_object_index": 85,
+    "concepts": [
+      {
+        "template": "RectangularDishwasherBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            1.005,
+            1.325,
+            1.06
+          ],
+          "wall_thickness": [
+            0.022,
+            0.16,
+            0.025,
+            0.025,
+            0.025
+          ],
+          "position": [
+            -0.002,
+            -0.024,
+            -0.04
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SunkenDishwasherDoor",
+        "semantic": "door",
+        "parameters": {
+          "outer_size": [
+            1.005,
+            1.197,
+            0.077
+          ],
+          "recess_size": [
+            0.755,
+            0.995,
+            0.07
+          ],
+          "recess_offset": [
+            0,
+            0
+          ],
+          "position": [
+            -0.004499999999999947,
+            0.036,
+            0.49000000000000005
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Sunken_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "ArcDishwasherHandle",
+        "semantic": "handle",
+        "parameters": {
+          "outer_radius": 1.445,
+          "inner_radius": 1.42,
+          "arc_height": 0.041,
+          "arc_angle_degrees": 38,
+          "position": [
+            -0.004499999999999947,
+            0.5885,
+            0.567
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ]
+        },
+        "source": {
+          "legacy_template": "Curve_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "DrawerDishwasherTray",
+        "semantic": "tray",
+        "parameters": {
+          "outer_size": [
+            0.95,
+            0.055,
+            0.845
+          ],
+          "inner_size": [
+            0.94,
+            0.02,
+            0.825
+          ],
+          "position": [
+            -0.002,
+            0.45999999999999996,
+            -0.07750000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Drawer_Like_Tray",
+          "source_concept_index": 3
+        }
+      },
+      {
+        "template": "DrawerDishwasherTray",
+        "semantic": "tray",
+        "parameters": {
+          "outer_size": [
+            0.95,
+            0.057,
+            0.845
+          ],
+          "inner_size": [
+            0.94,
+            0.02,
+            0.825
+          ],
+          "position": [
+            -0.002,
+            0.312,
+            -0.07750000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Drawer_Like_Tray",
+          "source_concept_index": 4
+        }
+      },
+      {
+        "template": "DrawerDishwasherTray",
+        "semantic": "tray",
+        "parameters": {
+          "outer_size": [
+            0.95,
+            0.057,
+            0.845
+          ],
+          "inner_size": [
+            0.94,
+            0.02,
+            0.825
+          ],
+          "position": [
+            -0.002,
+            0.163,
+            -0.07750000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Drawer_Like_Tray",
+          "source_concept_index": 5
+        }
+      },
+      {
+        "template": "DrawerDishwasherTray",
+        "semantic": "tray",
+        "parameters": {
+          "outer_size": [
+            0.95,
+            0.055,
+            0.845
+          ],
+          "inner_size": [
+            0.94,
+            0.02,
+            0.825
+          ],
+          "position": [
+            -0.002,
+            0.013000000000000005,
+            -0.07750000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Drawer_Like_Tray",
+          "source_concept_index": 6
+        }
+      }
+    ]
+  }
+}

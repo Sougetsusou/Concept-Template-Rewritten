@@ -1,0 +1,52 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Trashcan",
+  "object": {
+    "id": "ba373a00-ae31-4b6c-9740-78c0448a9042",
+    "type": "mesh",
+    "source_object_index": 36,
+    "concepts": [
+      {
+        "template": "PrismaticTrashcanBody",
+        "semantic": "body",
+        "parameters": {
+          "top_size": [
+            0.81,
+            1.1
+          ],
+          "bottom_size": [
+            0.81,
+            1.1
+          ],
+          "shell_heights": [
+            1.395,
+            1.385
+          ],
+          "top_offset": [
+            0,
+            0
+          ],
+          "wall_thickness": [
+            0.05,
+            0.08,
+            0.02
+          ],
+          "position": [
+            -0.01,
+            -0.002,
+            -0.02
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Prismatic_Body",
+          "source_concept_index": 0
+        }
+      }
+    ]
+  }
+}

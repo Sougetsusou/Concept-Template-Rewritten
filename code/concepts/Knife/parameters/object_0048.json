@@ -1,0 +1,98 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Knife",
+  "object": {
+    "id": "1e198106fd8339674e5a4dd299df24",
+    "type": "mesh",
+    "source_object_index": 48,
+    "concepts": [
+      {
+        "template": "TShapedKnifeHandle",
+        "semantic": "handle",
+        "parameters": {
+          "main_size": [
+            0.081,
+            0.497,
+            0.19
+          ],
+          "bottom_size": [
+            0.101,
+            0.016,
+            0.268
+          ],
+          "bottom_planar_offset": [
+            0,
+            -0.003
+          ],
+          "position": [
+            0.0,
+            -0.367,
+            0.011
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "T_Shaped_Handle",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CurvedKnifeBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_profile": [
+            0.026,
+            0.685,
+            0.214,
+            0.207
+          ],
+          "root_top_z_offset": 0,
+          "tip_radius": 0.435,
+          "position": [
+            0.0,
+            -0.1185,
+            0.015
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Curved_Blade",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "StandardKnifeGuard",
+        "semantic": "guard",
+        "parameters": {
+          "guard_size": [
+            0.098,
+            0.025,
+            0.305
+          ],
+          "position": [
+            0.0,
+            -0.131,
+            -0.009000000000000001
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Guard",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

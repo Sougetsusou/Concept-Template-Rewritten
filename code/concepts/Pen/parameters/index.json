@@ -1,0 +1,826 @@
+{
+  "format": "concept_template_parameter_index.v1",
+  "package_format": "concept_template_parameters.v1",
+  "category": "Pen",
+  "status": "passed",
+  "source": {
+    "type": "concept_template_parameters"
+  },
+  "conversion": {
+    "mapper_module": null,
+    "max_objects": null
+  },
+  "summary": {
+    "object_count": 112,
+    "concept_count": 372,
+    "class_counts": {
+      "BistratalPenButton": 13,
+      "CurvedPenClip": 7,
+      "CylindricalPenBarrel": 25,
+      "CylindricalPenButton": 93,
+      "CylindricalPenRefill": 94,
+      "DoubleLayerPenBarrel": 87,
+      "SinglePenCap": 19,
+      "TrifoldPenClip": 34
+    },
+    "legacy_class_counts": {
+      "Bistratal_Button": 13,
+      "Curved_Clip": 7,
+      "Cylindrical_Barrel": 25,
+      "Cylindrical_Button": 93,
+      "Cylindrical_Refill": 94,
+      "Double_Layer_Barrel": 87,
+      "Single_Cap": 19,
+      "Trifold_Clip": 34
+    },
+    "event_count": 0,
+    "failed_event_count": 0
+  },
+  "objects": [
+    {
+      "file": "object_0000.json",
+      "id": "115f49c3c7206ae58e62780ddf14e62c",
+      "type": "mesh",
+      "source_object_index": 0,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0001.json",
+      "id": "143c7775396655e5c66e88e7ffc39f1a-0",
+      "type": "mesh",
+      "source_object_index": 1,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0002.json",
+      "id": "143c7775396655e5c66e88e7ffc39f1a-1",
+      "type": "mesh",
+      "source_object_index": 2,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0003.json",
+      "id": "2192e3ab335b70cf432c72714e700b25",
+      "type": "mesh",
+      "source_object_index": 3,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0004.json",
+      "id": "2560c37d463f365ce9bfc203f193ce76",
+      "type": "mesh",
+      "source_object_index": 4,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0005.json",
+      "id": "28da26f77c5a4b8ddeccd59aea20d12",
+      "type": "mesh",
+      "source_object_index": 5,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0006.json",
+      "id": "2cb082b2fc01bd5c142830038757694e",
+      "type": "mesh",
+      "source_object_index": 6,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0007.json",
+      "id": "2f430c84dc26d1ada75110d33156fc49",
+      "type": "mesh",
+      "source_object_index": 7,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0008.json",
+      "id": "321e878c190778d7105b74429aafb0c8",
+      "type": "mesh",
+      "source_object_index": 8,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0009.json",
+      "id": "4185d388ad4541296523c13c7c38bf70-2",
+      "type": "mesh",
+      "source_object_index": 9,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0010.json",
+      "id": "4617eed30c8d9d8c3b3435cb12e628d5",
+      "type": "mesh",
+      "source_object_index": 10,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0011.json",
+      "id": "48519c151ddc3ccce6da3f514e9d929b",
+      "type": "mesh",
+      "source_object_index": 11,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0012.json",
+      "id": "52e42478a6221fa9430ed4b39f564e44",
+      "type": "mesh",
+      "source_object_index": 12,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0013.json",
+      "id": "5504e5bcbecc24f697c4f43a189077db",
+      "type": "mesh",
+      "source_object_index": 13,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0014.json",
+      "id": "5580924f960463d5aa26b0b13ca3661",
+      "type": "mesh",
+      "source_object_index": 14,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0015.json",
+      "id": "5986c081c3e097228eefb0c248a475e",
+      "type": "mesh",
+      "source_object_index": 15,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0016.json",
+      "id": "59a07a01d7c3fdb03c1d9add3a87bd2d",
+      "type": "mesh",
+      "source_object_index": 16,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0017.json",
+      "id": "61aaf0431a55b9de953f9bd78ee4a4ab",
+      "type": "mesh",
+      "source_object_index": 17,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0018.json",
+      "id": "6d706619bfd4b1f387706ca156aa6d1e",
+      "type": "mesh",
+      "source_object_index": 18,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0019.json",
+      "id": "6db9d631ff966a5b6e839cadad6117f7",
+      "type": "mesh",
+      "source_object_index": 19,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0020.json",
+      "id": "755b328c69569ed95a28dd75e68785d3",
+      "type": "mesh",
+      "source_object_index": 20,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0021.json",
+      "id": "7560f3cf034ffef25671264294d03d7f",
+      "type": "mesh",
+      "source_object_index": 21,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0022.json",
+      "id": "7a998cf9921ecebd2846fa729d90e125-0",
+      "type": "mesh",
+      "source_object_index": 22,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0023.json",
+      "id": "7fcaf9e9a1fa0d5f729e474769d21582",
+      "type": "mesh",
+      "source_object_index": 23,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0024.json",
+      "id": "8c948916421bd72d51012ba52856ea7a",
+      "type": "mesh",
+      "source_object_index": 24,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0025.json",
+      "id": "8ed1668d846d7fa76dbbb4a01db03953",
+      "type": "mesh",
+      "source_object_index": 25,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0026.json",
+      "id": "6c0328a1ea9c039cad8a06dbee1d115-1",
+      "type": "mesh",
+      "source_object_index": 26,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0027.json",
+      "id": "91d7c6803207afa09d46068d27fb8249",
+      "type": "mesh",
+      "source_object_index": 27,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0028.json",
+      "id": "992cf1072b6173d0243525d45e430520-0",
+      "type": "mesh",
+      "source_object_index": 28,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0029.json",
+      "id": "9a2b834c216530a4c3513b64581c4322",
+      "type": "mesh",
+      "source_object_index": 29,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0030.json",
+      "id": "9d54b5844e45eea15a9a1260329cc152",
+      "type": "mesh",
+      "source_object_index": 30,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0031.json",
+      "id": "aa827b33061250e7948f2ae71e247a2-0",
+      "type": "mesh",
+      "source_object_index": 31,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0032.json",
+      "id": "ac80fe8f1d0634909d2da79391704-0",
+      "type": "mesh",
+      "source_object_index": 32,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0033.json",
+      "id": "ac80fe8f1d0634909d2da79391704-1",
+      "type": "mesh",
+      "source_object_index": 33,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0034.json",
+      "id": "b2498de78580c5daadce4978a51b7c68",
+      "type": "mesh",
+      "source_object_index": 34,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0035.json",
+      "id": "b7929bb0621f462ec77d45d65dc3714",
+      "type": "mesh",
+      "source_object_index": 35,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0036.json",
+      "id": "c2add3355ec46e7f98d305f7baf63ba",
+      "type": "mesh",
+      "source_object_index": 36,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0037.json",
+      "id": "c5e0dfb59bf8088e45dc9bd32cf7c9da",
+      "type": "mesh",
+      "source_object_index": 37,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0038.json",
+      "id": "d5c1dddb57cc557385845cb132291d6e",
+      "type": "mesh",
+      "source_object_index": 38,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0039.json",
+      "id": "d67c95d75de4c4f3cee19268a161fc4a",
+      "type": "mesh",
+      "source_object_index": 39,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0040.json",
+      "id": "d839dabf17d48bebf9141b0ebfe81fea",
+      "type": "mesh",
+      "source_object_index": 40,
+      "concept_count": 5
+    },
+    {
+      "file": "object_0041.json",
+      "id": "e69776ab0e8ceb328b398b2ca89fce81",
+      "type": "mesh",
+      "source_object_index": 41,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0042.json",
+      "id": "f39fa3cb4bbb53e1ee6305032661052",
+      "type": "mesh",
+      "source_object_index": 42,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0043.json",
+      "id": "f4f0efabef3f67f1384368499a680cf1",
+      "type": "mesh",
+      "source_object_index": 43,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0044.json",
+      "id": "fd8ac4550b3b2603c26fd5813292aae1-0",
+      "type": "mesh",
+      "source_object_index": 44,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0045.json",
+      "id": "ff4607e6847dc10a6dcd08c7ab599ee4",
+      "type": "mesh",
+      "source_object_index": 45,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0046.json",
+      "id": "0029716b-0e4b-11ed-84a6-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 46,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0047.json",
+      "id": "f389cb27-0e4a-11ed-99f4-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 47,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0048.json",
+      "id": "f39773a4-0e4a-11ed-b1cf-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 48,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0049.json",
+      "id": "f3a18a2e-0e4a-11ed-9061-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 49,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0050.json",
+      "id": "f3e1761b-0e4a-11ed-92cf-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 50,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0051.json",
+      "id": "f3fecfa3-0e4a-11ed-9aab-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 51,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0052.json",
+      "id": "f41b9b7c-0e4a-11ed-89b0-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 52,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0053.json",
+      "id": "f53766ce-0e4a-11ed-8954-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 53,
+      "concept_count": 4
+    },
+    {
+      "file": "object_0054.json",
+      "id": "f560100c-0e4a-11ed-a1b5-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 54,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0055.json",
+      "id": "f58c0a0c-0e4a-11ed-84ac-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 55,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0056.json",
+      "id": "f7c7a985-0e4a-11ed-b81f-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 56,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0057.json",
+      "id": "f7de5eaf-0e4a-11ed-bd2b-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 57,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0058.json",
+      "id": "f810a064-0e4a-11ed-bbac-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 58,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0059.json",
+      "id": "f8343aef-0e4a-11ed-a5ce-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 59,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0060.json",
+      "id": "f8671b17-0e4a-11ed-b47b-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 60,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0061.json",
+      "id": "f8aacf0d-0e4a-11ed-9173-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 61,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0062.json",
+      "id": "f8d1e982-0e4a-11ed-bfc9-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 62,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0063.json",
+      "id": "f8f263f4-0e4a-11ed-a540-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 63,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0064.json",
+      "id": "f904e412-0e4a-11ed-a51b-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 64,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0065.json",
+      "id": "f943b86e-0e4a-11ed-b4ee-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 65,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0066.json",
+      "id": "f9620efa-0e4a-11ed-9ba2-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 66,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0067.json",
+      "id": "f98f66de-0e4a-11ed-b4e1-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 67,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0068.json",
+      "id": "f9bbdb82-0e4a-11ed-a165-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 68,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0069.json",
+      "id": "f9e6bc24-0e4a-11ed-b8c1-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 69,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0070.json",
+      "id": "fa4a7906-0e4a-11ed-b126-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 70,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0071.json",
+      "id": "fa7b8cde-0e4a-11ed-af04-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 71,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0072.json",
+      "id": "fab5515c-0e4a-11ed-af3c-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 72,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0073.json",
+      "id": "fb624a21-0e4a-11ed-b8eb-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 73,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0074.json",
+      "id": "fbc803be-0e4a-11ed-9806-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 74,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0075.json",
+      "id": "fbd5770b-0e4a-11ed-9f0e-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 75,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0076.json",
+      "id": "fbe48d96-0e4a-11ed-b941-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 76,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0077.json",
+      "id": "fbed3318-0e4a-11ed-8f54-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 77,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0078.json",
+      "id": "fbfaea88-0e4a-11ed-aa5b-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 78,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0079.json",
+      "id": "fc12a653-0e4a-11ed-8331-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 79,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0080.json",
+      "id": "fc256dde-0e4a-11ed-8e0f-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 80,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0081.json",
+      "id": "fc78587b-0e4a-11ed-a1e0-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 81,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0082.json",
+      "id": "fc87a9df-0e4a-11ed-9480-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 82,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0083.json",
+      "id": "fc989d82-0e4a-11ed-a7b7-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 83,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0084.json",
+      "id": "fca7e002-0e4a-11ed-9ed2-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 84,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0085.json",
+      "id": "fcbf8782-0e4a-11ed-9886-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 85,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0086.json",
+      "id": "fccb7db1-0e4a-11ed-ae74-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 86,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0087.json",
+      "id": "fcd90de5-0e4a-11ed-9be8-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 87,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0088.json",
+      "id": "fcfe5cb1-0e4a-11ed-b255-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 88,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0089.json",
+      "id": "fd0babf8-0e4a-11ed-b06a-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 89,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0090.json",
+      "id": "fd211e1c-0e4a-11ed-a329-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 90,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0091.json",
+      "id": "fd2b83ce-0e4a-11ed-9539-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 91,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0092.json",
+      "id": "fd6e0ba1-0e4a-11ed-b50f-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 92,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0093.json",
+      "id": "fd74d29e-0e4a-11ed-b2c9-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 93,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0094.json",
+      "id": "fd80ff4c-0e4a-11ed-b3a9-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 94,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0095.json",
+      "id": "fd8e89aa-0e4a-11ed-b8b1-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 95,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0096.json",
+      "id": "fda2f275-0e4a-11ed-9c5b-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 96,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0097.json",
+      "id": "fdc16491-0e4a-11ed-af79-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 97,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0098.json",
+      "id": "fdd92e4e-0e4a-11ed-baa5-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 98,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0099.json",
+      "id": "fdf0eae9-0e4a-11ed-a41c-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 99,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0100.json",
+      "id": "fe068074-0e4a-11ed-9d96-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 100,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0101.json",
+      "id": "fe89245c-0e4a-11ed-b92c-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 101,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0102.json",
+      "id": "fe9d7c71-0e4a-11ed-b4c6-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 102,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0103.json",
+      "id": "feb15342-0e4a-11ed-9f0e-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 103,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0104.json",
+      "id": "fec6339d-0e4a-11ed-8ffc-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 104,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0105.json",
+      "id": "fef24b1f-0e4a-11ed-ab70-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 105,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0106.json",
+      "id": "ff201188-0e4a-11ed-b5d3-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 106,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0107.json",
+      "id": "ff3109ed-0e4a-11ed-bfee-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 107,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0108.json",
+      "id": "ff455727-0e4a-11ed-953d-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 108,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0109.json",
+      "id": "ff60782d-0e4a-11ed-8209-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 109,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0110.json",
+      "id": "ff724e85-0e4a-11ed-802f-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 110,
+      "concept_count": 3
+    },
+    {
+      "file": "object_0111.json",
+      "id": "ffd860ef-0e4a-11ed-aaf3-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 111,
+      "concept_count": 3
+    }
+  ],
+  "events": []
+}

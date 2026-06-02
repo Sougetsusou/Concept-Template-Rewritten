@@ -1,0 +1,353 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "StorageFurniture",
+  "object": {
+    "id": "2a3ce38991b93107275d003e423c59ba",
+    "type": "mesh",
+    "source_object_index": 478,
+    "concepts": [
+      {
+        "template": "PartitionedStorageFurnitureBody",
+        "semantic": null,
+        "parameters": {
+          "outer_size": [
+            0.001,
+            0.001,
+            0.001
+          ],
+          "back_panel_thickness": 0.01,
+          "side_wall_thickness": 0.01,
+          "base_panel_thickness": 0.01,
+          "lid_spec": {
+            "size": [
+              0.87,
+              0.038,
+              0.29
+            ],
+            "offset": [
+              -0.145,
+              0.845,
+              -0.005
+            ]
+          },
+          "horizontal_shelf_specs": [],
+          "partition_bay_specs": [
+            {
+              "height": -0.009000000000000001,
+              "center_y": 0.005,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            }
+          ],
+          "additional_panel_specs": [],
+          "position": [
+            0.12,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Storagefurniture_body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "EnclosedStorageFurnitureLegFrame",
+        "semantic": null,
+        "parameters": {
+          "outer_size": [
+            0.01,
+            0.01,
+            0.01
+          ],
+          "side_wall_thickness": 0.02,
+          "front_back_wall_thickness": 0.02,
+          "additional_leg_specs": [
+            {
+              "size": [
+                0.09,
+                0.04,
+                0.08
+              ],
+              "center": [
+                0.24,
+                -0.908,
+                -0.095
+              ],
+              "rotation_degrees": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "size": [
+                0.09,
+                0.04,
+                0.08
+              ],
+              "center": [
+                0.24,
+                -0.908,
+                0.099
+              ],
+              "rotation_degrees": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "size": [
+                0.09,
+                0.04,
+                0.08
+              ],
+              "center": [
+                -0.53,
+                -0.908,
+                0.1
+              ],
+              "rotation_degrees": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "size": [
+                0.09,
+                0.04,
+                0.08
+              ],
+              "center": [
+                -0.53,
+                -0.908,
+                -0.099
+              ],
+              "rotation_degrees": [
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "position": [
+            0.12,
+            -0.0055,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Enclosed_leg",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "StorageFurnitureFrontPanelSet",
+        "semantic": null,
+        "parameters": {
+          "panel_specs": [
+            {
+              "size": [
+                0.03,
+                1.74,
+                0.286
+              ],
+              "center": [
+                -0.563,
+                -0.02,
+                0.0015000000000000013
+              ]
+            },
+            {
+              "size": [
+                0.03,
+                1.75,
+                0.29
+              ],
+              "center": [
+                0.01,
+                -0.02,
+                0.0005000000000000004
+              ]
+            },
+            {
+              "size": [
+                0.26,
+                1.75,
+                0.03
+              ],
+              "center": [
+                0.157,
+                -0.02,
+                0.1355
+              ]
+            },
+            {
+              "size": [
+                0.26,
+                1.75,
+                0.03
+              ],
+              "center": [
+                0.157,
+                -0.02,
+                -0.1345
+              ]
+            },
+            {
+              "size": [
+                0.55,
+                0.03,
+                0.3
+              ],
+              "center": [
+                -0.276,
+                0.52,
+                0.0005000000000000004
+              ]
+            },
+            {
+              "size": [
+                0.55,
+                0.03,
+                0.3
+              ],
+              "center": [
+                -0.276,
+                0.175,
+                0.0005000000000000004
+              ]
+            },
+            {
+              "size": [
+                0.55,
+                0.03,
+                0.3
+              ],
+              "center": [
+                -0.276,
+                -0.175,
+                0.0005000000000000004
+              ]
+            },
+            {
+              "size": [
+                0.55,
+                0.03,
+                0.3
+              ],
+              "center": [
+                -0.276,
+                -0.529,
+                0.0005000000000000004
+              ]
+            },
+            {
+              "size": [
+                0.55,
+                0.03,
+                0.3
+              ],
+              "center": [
+                -0.276,
+                -0.877,
+                0.0005000000000000004
+              ]
+            },
+            {
+              "size": [
+                0.25,
+                0.025,
+                0.24
+              ],
+              "center": [
+                0.16,
+                0.524,
+                0.0005000000000000004
+              ]
+            },
+            {
+              "size": [
+                0.25,
+                0.03,
+                0.24
+              ],
+              "center": [
+                0.163,
+                0.18,
+                0.0005000000000000004
+              ]
+            },
+            {
+              "size": [
+                0.25,
+                0.03,
+                0.24
+              ],
+              "center": [
+                0.163,
+                -0.17,
+                0.0005000000000000004
+              ]
+            },
+            {
+              "size": [
+                0.25,
+                0.03,
+                0.24
+              ],
+              "center": [
+                0.163,
+                -0.529,
+                0.0005000000000000004
+              ]
+            },
+            {
+              "size": [
+                0.265,
+                0.03,
+                0.24
+              ],
+              "center": [
+                0.155,
+                -0.88,
+                0.0005000000000000004
+              ]
+            }
+          ],
+          "position": [
+            0.12,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_front_panel",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

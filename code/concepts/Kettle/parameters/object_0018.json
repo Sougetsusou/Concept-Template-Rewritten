@@ -1,0 +1,163 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Kettle",
+  "object": {
+    "id": "13961f08fe5b4c549ef60e9225cbea3a",
+    "type": "mesh",
+    "source_object_index": 18,
+    "concepts": [
+      {
+        "template": "SemiSphericalKettleBody",
+        "semantic": "body",
+        "parameters": {
+          "horizontal_radius": 0.56,
+          "vertical_radii": [
+            0.73,
+            0.27
+          ],
+          "section_angles_degrees": [
+            44,
+            41
+          ],
+          "bottom_profile": [
+            0.355,
+            0.025
+          ],
+          "x_radius_scale": 1,
+          "position": [
+            0.01,
+            -0.16,
+            -0.0005
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Semi_Spherical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "StandardKettleCover",
+        "semantic": "cover",
+        "parameters": {
+          "cover_profile": [
+            0.13,
+            0.36,
+            0.07
+          ],
+          "inner_opening": [
+            0.12,
+            0.35,
+            0.06
+          ],
+          "knob_sections": [
+            [
+              0.05,
+              0.07,
+              0.06
+            ],
+            [
+              0.11,
+              0.05,
+              0.05
+            ],
+            [
+              0.07,
+              0.11,
+              0.03
+            ]
+          ],
+          "position": [
+            0.01,
+            0.3171006104350679,
+            -0.0005
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TrifoldKettleHandle",
+        "semantic": "handle",
+        "parameters": {
+          "horizontal_thickness": [
+            0.115,
+            0.05
+          ],
+          "horizontal_lengths": [
+            0.405,
+            0.14
+          ],
+          "vertical_thickness": [
+            0.115,
+            0.055
+          ],
+          "horizontal_rotation_degrees": [
+            4,
+            -28
+          ],
+          "horizontal_separation": 0.42,
+          "mounting_offset": -0.13,
+          "position": [
+            0.01,
+            0.044999999999999984,
+            -0.5355
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "CurvedKettleSpout",
+        "semantic": "spout",
+        "parameters": {
+          "central_radii": [
+            0.23,
+            0.4
+          ],
+          "arc_angles_degrees": [
+            83,
+            44
+          ],
+          "tube_radii": [
+            0.17,
+            0.04,
+            0.05
+          ],
+          "position": [
+            0.01,
+            -0.08,
+            0.4995
+          ],
+          "rotation": [
+            5,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Curved_Spout",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

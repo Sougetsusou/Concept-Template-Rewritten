@@ -1,0 +1,108 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Eyeglasses",
+  "object": {
+    "id": "20b2cc19a5dd5face4773d7a183337d9-1",
+    "type": "mesh",
+    "source_object_index": 45,
+    "concepts": [
+      {
+        "template": "TrapezoidalLensPair",
+        "semantic": "glasses",
+        "parameters": {
+          "lens_size": [
+            0.6,
+            0.435,
+            0.445,
+            0.12
+          ],
+          "bridge_interval": 0.105,
+          "lens_rotation_degrees": [
+            9,
+            0
+          ],
+          "top_offset_x": 0,
+          "position": [
+            -0.02,
+            -0.018,
+            0.038
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trapezoidal_Glasses",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "TwoSegmentTemplePair",
+        "semantic": "leg",
+        "parameters": {
+          "frame_interval": 1.2902260087141653,
+          "main_segment_size": [
+            0.018,
+            0.18,
+            0.615
+          ],
+          "end_segment_size": [
+            0.02,
+            0.085,
+            0.36
+          ],
+          "main_rotation_degrees": [
+            3,
+            0
+          ],
+          "fold_rotation_degrees": [
+            40,
+            -6
+          ],
+          "hinge_offset_x": 0.015,
+          "position": [
+            -0.02,
+            0.132,
+            0.074
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Leg",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "SingleEyeglassesConnector",
+        "semantic": "connector",
+        "parameters": {
+          "connector_size": [
+            0.15,
+            0.238,
+            0.121
+          ],
+          "position": [
+            -0.02,
+            0.0853,
+            0.24498327989555505
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Connector",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

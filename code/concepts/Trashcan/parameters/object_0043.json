@@ -1,0 +1,88 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Trashcan",
+  "object": {
+    "id": "f8b6bcf0dcf240e567e4c36fcbad1d04",
+    "type": "mesh",
+    "source_object_index": 43,
+    "concepts": [
+      {
+        "template": "PrismaticTrashcanBody",
+        "semantic": "body",
+        "parameters": {
+          "top_size": [
+            0.7,
+            0.68
+          ],
+          "bottom_size": [
+            0.7,
+            0.515
+          ],
+          "shell_heights": [
+            1.55,
+            1.55
+          ],
+          "top_offset": [
+            0,
+            0.065
+          ],
+          "wall_thickness": [
+            0.005,
+            0.005,
+            0.005
+          ],
+          "position": [
+            -0.004,
+            -0.138,
+            -0.03
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Prismatic_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuboidalTrashcanCover",
+        "semantic": "cover",
+        "parameters": {
+          "top_size": [
+            0.88,
+            0.815
+          ],
+          "bottom_size": [
+            0.88,
+            0.815
+          ],
+          "cover_heights": [
+            0.03,
+            0.15
+          ],
+          "top_offset": [
+            0,
+            0
+          ],
+          "position": [
+            -0.004,
+            0.637,
+            -0.35
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Cover",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

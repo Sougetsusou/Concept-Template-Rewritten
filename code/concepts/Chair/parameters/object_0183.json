@@ -1,0 +1,149 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Chair",
+  "object": {
+    "id": "1bbe463ba96415aff1783a44a88d6274",
+    "type": "mesh",
+    "source_object_index": 183,
+    "concepts": [
+      {
+        "template": "RectangularChairSeat",
+        "semantic": "seat",
+        "parameters": {
+          "seat_size": [
+            0.77,
+            0.07,
+            0.76
+          ],
+          "position": [
+            0.02,
+            -0.02,
+            0.16
+          ],
+          "rotation": [
+            -2.800000000000004,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_seat",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "LatticeChairBack",
+        "semantic": "back",
+        "parameters": {
+          "top_rail_size": [
+            0.84,
+            0.12,
+            0.1
+          ],
+          "side_rail_size": [
+            0.06,
+            0.92,
+            0.09
+          ],
+          "side_rail_separation": 0.72,
+          "vertical_slat_size": [
+            0.04,
+            0.04
+          ],
+          "horizontal_slat_size": [
+            0.11,
+            0.04
+          ],
+          "horizontal_slat_offset": -0.19,
+          "vertical_slat_start_offset": -0.27,
+          "vertical_slat_interval": 0.09,
+          "back_tilt_degrees": -7,
+          "vertical_slat_count": 7,
+          "position": [
+            0.02,
+            -0.1977743430918605,
+            -0.3018671702321539
+          ],
+          "rotation": [
+            -2.800000000000004,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Latice_back",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "StarChairLeg",
+        "semantic": "leg",
+        "parameters": {
+          "center_column_size": [
+            0.05,
+            0.43
+          ],
+          "spoke_size": [
+            0.06,
+            0.11,
+            0.56
+          ],
+          "spoke_center_offset": 0,
+          "spoke_tilt_degrees": 0,
+          "central_yaw_degrees": 0,
+          "horizontal_tilt_degrees": 3,
+          "spoke_count": 5,
+          "position": [
+            0.01,
+            -0.4806220180148269,
+            0.15249231639971245
+          ],
+          "rotation": [
+            -2.800000000000004,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Star_leg",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "OfficeChairArmrest",
+        "semantic": "armrest",
+        "parameters": {
+          "horizontal_support_size": [
+            0.05,
+            0.09,
+            0.56
+          ],
+          "vertical_support_size": [
+            0.06,
+            0.5,
+            0.07
+          ],
+          "support_contact_offset": 0.23,
+          "vertical_support_rotation_degrees": 3,
+          "horizontal_support_rotation_degrees": 2,
+          "armrest_separation": 0.84,
+          "armrest_rotation_degrees": 7,
+          "position": [
+            0.02,
+            -0.14267866896156303,
+            0.005808741551866087
+          ],
+          "rotation": [
+            -2.800000000000004,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Office_armrest",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

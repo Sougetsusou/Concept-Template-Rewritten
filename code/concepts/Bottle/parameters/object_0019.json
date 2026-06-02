@@ -1,0 +1,77 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Bottle",
+  "object": {
+    "id": "1d4093ad2dfad9df24be2e4f911ee4af",
+    "type": "mesh",
+    "source_object_index": 19,
+    "concepts": [
+      {
+        "template": "StackedBottleBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "base_section",
+              "height": 1.43,
+              "top_radius": 0.24,
+              "bottom_radius": 0.24
+            },
+            {
+              "name": "upper_section_2",
+              "height": 0.2,
+              "top_radius": 0.08,
+              "bottom_radius": 0.24
+            },
+            {
+              "name": "upper_section_3",
+              "height": 0.13,
+              "top_radius": 0.055,
+              "bottom_radius": 0.08
+            }
+          ],
+          "position": [
+            0.005,
+            -0.08,
+            -0.005
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalBottleLid",
+        "semantic": "lid",
+        "parameters": {
+          "top_outer_radius": 0.06,
+          "bottom_outer_radius": 0.06,
+          "total_height": 0.04,
+          "top_inner_radius": 0.055,
+          "bottom_inner_radius": 0.055,
+          "open_ring_height": 0.039,
+          "position": [
+            0.005,
+            0.985,
+            -0.005
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Lid",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

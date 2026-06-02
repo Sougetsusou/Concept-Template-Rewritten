@@ -1,7 +1,7 @@
-"""Runtime utilities for rewritten-native parameter packages.
+"""Runtime utilities for Concept Template parameter packages.
 
-This release package consumes already-converted rewritten parameters. It does
-not read legacy ``conceptualization.pkl`` files and does not run mappers.
+This release package consumes ready-to-use concept parameters. It does not read
+legacy ``conceptualization.pkl`` files and does not run mappers.
 """
 
 from __future__ import annotations
@@ -18,11 +18,11 @@ from tools.concept_agent.lib.report_schema import event_from_exception
 
 
 ROOT = Path(__file__).resolve().parents[3]
-FORMAT_VERSION = "rewritten_category_parameters.v1"
-JSON_INDEX_FORMAT_VERSION = "rewritten_category_parameter_index.v1"
-JSON_OBJECT_FORMAT_VERSION = "rewritten_category_object_parameters.v1"
-DEFAULT_JSON_DIR_NAME = "rewritten_parameters"
-DEFAULT_PKL_NAME = "rewritten_parameters.pkl"
+FORMAT_VERSION = "concept_template_parameters.v1"
+JSON_INDEX_FORMAT_VERSION = "concept_template_parameter_index.v1"
+JSON_OBJECT_FORMAT_VERSION = "concept_template_object_parameters.v1"
+DEFAULT_JSON_DIR_NAME = "parameters"
+DEFAULT_PKL_NAME = "parameters.pkl"
 
 
 class MeshBundle:
@@ -31,16 +31,16 @@ class MeshBundle:
         self.faces = np.asarray(faces, dtype=int)
 
 
-def default_package_path(category_name, rewritten_root=None, prefer_json=True):
-    rewritten_root = Path(rewritten_root or ROOT / "code" / "code_rewritten")
+def default_package_path(category_name, concepts_root=None, prefer_json=True):
+    concepts_root = Path(concepts_root or ROOT / "code" / "concepts")
     filename = DEFAULT_JSON_DIR_NAME if prefer_json else DEFAULT_PKL_NAME
-    return rewritten_root / category_name / filename
+    return concepts_root / category_name / filename
 
 
-def load_rewritten_parameter_package(path):
+def load_parameter_package(path):
     path = Path(path)
     if path.is_dir():
-        return load_rewritten_parameter_json_directory(path)
+        return load_parameter_json_directory(path)
 
     suffix = path.suffix.lower()
     if suffix == ".json":
@@ -49,18 +49,18 @@ def load_rewritten_parameter_package(path):
         if data_format == FORMAT_VERSION:
             package = data
         elif data_format == JSON_INDEX_FORMAT_VERSION:
-            package = load_rewritten_parameter_json_directory(path.parent)
+            package = load_parameter_json_directory(path.parent)
         elif data_format == JSON_OBJECT_FORMAT_VERSION:
             package = package_from_object_json(data, path)
         else:
             raise ValueError(
-                f"Unsupported rewritten JSON parameter format {data_format!r}: {path}"
+                f"Unsupported JSON parameter format {data_format!r}: {path}"
             )
     elif suffix == ".pkl":
         with path.open("rb") as stream:
             package = pickle.load(stream)
     else:
-        raise ValueError(f"Unsupported rewritten parameter package extension: {path}")
+        raise ValueError(f"Unsupported parameter package extension: {path}")
 
     if package.get("format") != FORMAT_VERSION:
         raise ValueError(
@@ -70,7 +70,7 @@ def load_rewritten_parameter_package(path):
     return package
 
 
-def load_rewritten_parameter_json_directory(json_dir):
+def load_parameter_json_directory(json_dir):
     json_dir = Path(json_dir)
     index_path = json_dir / "index.json"
     index = json.loads(index_path.read_text(encoding="utf-8"))
@@ -124,7 +124,7 @@ def package_from_object_json(object_data, object_path):
         "category": category,
         "status": "passed",
         "source": {
-            "type": "rewritten_object_parameter_json",
+            "type": "concept_template_object_parameter_json",
             "path": str(object_path),
         },
         "conversion": {
@@ -163,12 +163,12 @@ def legacy_class_counts_for_objects(objects):
     return dict(sorted(counts.items()))
 
 
-def load_rewritten_category_module(category_name):
+def load_category_module(category_name):
     _ensure_root_on_path()
-    return importlib.import_module(f"code.code_rewritten.{category_name}")
+    return importlib.import_module(f"code.concepts.{category_name}")
 
 
-def instantiate_rewritten_concept(category_module, concept_record):
+def instantiate_concept(category_module, concept_record):
     class_name = concept_record["template"]
     cls = getattr(category_module, class_name)
     return cls(**concept_record["parameters"])
@@ -179,15 +179,15 @@ def instantiate_object_concepts(category_module, object_record):
     events = []
     for concept_index, concept_record in enumerate(object_record.get("concepts", [])):
         try:
-            instances.append(instantiate_rewritten_concept(category_module, concept_record))
+            instances.append(instantiate_concept(category_module, concept_record))
         except Exception as exc:
             events.append(
                 event_from_exception(
-                    "instantiate_rewritten",
+                    "instantiate_concept",
                     exc,
                     class_name=concept_record.get("template"),
                     case_index=concept_index,
-                    suggestion="Check rewritten_parameters package against rewritten constructor.",
+                    suggestion="Check parameters package against concept constructor.",
                 )
             )
     return instances, events

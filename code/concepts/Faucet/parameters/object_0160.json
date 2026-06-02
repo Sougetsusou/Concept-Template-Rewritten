@@ -1,0 +1,137 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "449ca62078205918d79b16e52324b152",
+    "type": "mesh",
+    "source_object_index": 160,
+    "concepts": [
+      {
+        "template": "Cylindrical_Base",
+        "semantic": "base",
+        "parameters": {
+          "cylinder_count": 2,
+          "primary_size": [
+            0.138,
+            0.983
+          ],
+          "secondary_size": [
+            0.157,
+            0.033
+          ],
+          "secondary_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            0.001,
+            0.43,
+            0.038
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "ShowerRose_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "tube_radius": 0.0605,
+          "start_point": [
+            0,
+            -0.42,
+            -0.03
+          ],
+          "segment_offsets": [
+            [
+              0,
+              0,
+              0.585
+            ],
+            [
+              0,
+              -0.205,
+              0.135
+            ]
+          ],
+          "has_shower_head": 0,
+          "shower_head_size": [
+            0.12,
+            0.06,
+            0.1
+          ],
+          "shower_head_offset": [
+            0,
+            0,
+            0
+          ],
+          "shower_head_rotation_degrees": 15,
+          "position": [
+            0.001,
+            0.43,
+            0.038
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "ShowerRose_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "Knob_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "switch_count": 1,
+          "cylinder_count": 1,
+          "cylinder_sizes": [
+            [
+              0.041,
+              0.575
+            ],
+            [
+              0.06,
+              0.04
+            ],
+            [
+              0.08,
+              0.08
+            ]
+          ],
+          "offset": [
+            0,
+            0.2,
+            1.017,
+            -0.137
+          ],
+          "position": [
+            0.001,
+            -0.5860000000000001,
+            0.038
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Knob_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

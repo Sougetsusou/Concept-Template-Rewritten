@@ -1,0 +1,157 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Safe",
+  "object": {
+    "id": "u761919ec-1b9b-401a-9394-2026268ee7bc",
+    "type": "mesh",
+    "source_object_index": 18,
+    "concepts": [
+      {
+        "template": "CuboidalSafeBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            1.13,
+            1.24,
+            1.3
+          ],
+          "wall_thickness": [
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01
+          ],
+          "position": [
+            -0.04,
+            0,
+            -0.01
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FrontLayerSafeDoor",
+        "semantic": "door",
+        "parameters": {
+          "main_panel_size": [
+            1.12,
+            1.24,
+            0.01
+          ],
+          "front_panel_size": [
+            0.89,
+            0.99,
+            0.05
+          ],
+          "front_panel_offset": [
+            0.01,
+            0
+          ],
+          "position": [
+            -0.044999999999999894,
+            0.0,
+            0.63
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Front_Double_Layer_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CylindricalSafeConnector",
+        "semantic": "connecter",
+        "parameters": {
+          "connector_size": [
+            0.01,
+            0.95
+          ],
+          "position": [
+            -0.48499999999999993,
+            0.0,
+            0.65
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Connecter",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "TrifoldSafeHandle",
+        "semantic": "handle",
+        "parameters": {
+          "parallel_bar_size": [
+            0.07,
+            0.05,
+            0.02
+          ],
+          "parallel_bar_separation_y": 0.15,
+          "bridge_size": [
+            0.07,
+            0.195,
+            0.04
+          ],
+          "position": [
+            0.35000000000000014,
+            -0.04,
+            0.6900000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Handle",
+          "source_concept_index": 3
+        }
+      },
+      {
+        "template": "RegularSafeController",
+        "semantic": "controller",
+        "parameters": {
+          "panel_size": [
+            0.43,
+            0.43,
+            0.01
+          ],
+          "position": [
+            -0.044999999999999894,
+            -0.17,
+            0.6900000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Controller",
+          "source_concept_index": 4
+        }
+      }
+    ]
+  }
+}

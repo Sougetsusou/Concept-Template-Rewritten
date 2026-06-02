@@ -1,0 +1,84 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Switch",
+  "object": {
+    "id": "u1497f178-4477-4b13-8705-abd3b45750b9",
+    "type": "mesh",
+    "source_object_index": 58,
+    "concepts": [
+      {
+        "template": "StandardSwitchBase",
+        "semantic": "base",
+        "parameters": {
+          "body_size": [
+            1.655,
+            1.08,
+            0.11
+          ],
+          "back_part": {
+            "size": [
+              1.445,
+              0.867,
+              0.65
+            ],
+            "offset": [
+              0,
+              0
+            ]
+          },
+          "position": [
+            0.034,
+            -0.011,
+            0.339
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "LeverSwitch",
+        "semantic": "switch",
+        "parameters": {
+          "base_size": [
+            0.065,
+            0.02
+          ],
+          "lever_size": [
+            0.04,
+            0.04,
+            0.14
+          ],
+          "lever_mount_offset": [
+            0,
+            -0.05,
+            -0.05
+          ],
+          "switch_count": 3,
+          "center_spacing": 0.45199999999999996,
+          "lever_tilt_degrees": 38,
+          "position": [
+            -0.41600000000000004,
+            -0.0009999999999999992,
+            0.339
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Lever_Switch",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Kettle",
+  "object": {
+    "id": "1f8cfb9b76ea9c53bb91b303f29923d1-0",
+    "type": "mesh",
+    "source_object_index": 19,
+    "concepts": [
+      {
+        "template": "MultilevelKettleBody",
+        "semantic": "body",
+        "parameters": {
+          "first_level_bottom_radii": [
+            0.64,
+            0.62
+          ],
+          "first_level_top_radii": [
+            0.61,
+            0.6
+          ],
+          "first_level_heights": [
+            0.53,
+            0.51
+          ],
+          "upper_levels": [
+            {
+              "top_radii": [
+                0.52,
+                0.51
+              ],
+              "height": 0.46
+            },
+            {
+              "top_radii": [
+                0.4,
+                0.39
+              ],
+              "height": 0.38
+            },
+            {
+              "top_radii": [
+                0.26,
+                0.25
+              ],
+              "height": 0.29
+            }
+          ],
+          "x_radius_scale": 1,
+          "position": [
+            0,
+            -0.43,
+            0.02
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "StandardKettleCover",
+        "semantic": "cover",
+        "parameters": {
+          "cover_profile": [
+            0.25,
+            0.25,
+            0.01
+          ],
+          "inner_opening": [
+            0.1,
+            0.2,
+            0.01
+          ],
+          "knob_sections": [
+            [
+              0.12,
+              0.12,
+              0.01
+            ]
+          ],
+          "position": [
+            0.0,
+            0.9650000000000001,
+            0.02
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CurvedKettleHandle",
+        "semantic": "handle",
+        "parameters": {
+          "torus_profile": [
+            0.4,
+            0.08
+          ],
+          "arc_angle_degrees": 189,
+          "position": [
+            -0.03,
+            0.13000000000000006,
+            -0.48
+          ],
+          "rotation": [
+            3,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Curved_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "StraightKettleSpout",
+        "semantic": "spout",
+        "parameters": {
+          "spout_sections": [
+            {
+              "outer_radii": [
+                0.17,
+                0.17
+              ],
+              "wall_thickness": 0.02,
+              "lengths": [
+                0.76,
+                0.76
+              ],
+              "generatrix_offset": 0,
+              "rotation_degrees": 90
+            }
+          ],
+          "position": [
+            -0.02,
+            0.32,
+            0.43
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Straight_Spout",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

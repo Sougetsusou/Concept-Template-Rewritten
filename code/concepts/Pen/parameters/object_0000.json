@@ -1,0 +1,121 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Pen",
+  "object": {
+    "id": "115f49c3c7206ae58e62780ddf14e62c",
+    "type": "mesh",
+    "source_object_index": 0,
+    "concepts": [
+      {
+        "template": "CylindricalPenBarrel",
+        "semantic": "barrel",
+        "parameters": {
+          "top_outer_radius": 0.06,
+          "bottom_outer_radius": 0.06,
+          "height": 1.59,
+          "wall_thickness": 0.01,
+          "position": [
+            0.0,
+            0.11,
+            -0.01
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Barrel",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SinglePenCap",
+        "semantic": "cap",
+        "parameters": {
+          "top_outer_radius": 0.06,
+          "bottom_outer_radius": 0.06,
+          "total_height": 0.15,
+          "top_inner_radius": 0.05,
+          "bottom_inner_radius": 0.05,
+          "hollow_height": 0.14,
+          "position": [
+            0.0,
+            -0.76,
+            -0.01
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Single_Cap",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TrifoldPenClip",
+        "semantic": "clip",
+        "parameters": {
+          "root_size": [
+            0.04,
+            0.15,
+            0.04
+          ],
+          "middle_size": [
+            0.04,
+            0.59,
+            0.02
+          ],
+          "tip_size": [
+            0.01,
+            0.01,
+            0.01
+          ],
+          "root_to_middle_drop": 0,
+          "tip_return_drop": 0,
+          "position": [
+            0.0,
+            -0.8350000000000001,
+            0.049999999999999996
+          ],
+          "rotation": [
+            -0.0,
+            0.0,
+            180.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Clip",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "CylindricalPenButton",
+        "semantic": "button",
+        "parameters": {
+          "top_radius": 0.05,
+          "bottom_radius": 0.05,
+          "height": 0.1,
+          "position": [
+            0.0,
+            0.905,
+            -0.01
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Button",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

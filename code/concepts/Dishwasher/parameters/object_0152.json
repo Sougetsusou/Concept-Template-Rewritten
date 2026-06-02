@@ -1,0 +1,77 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Dishwasher",
+  "object": {
+    "id": "uf7734880-f96a-4a5b-a004-03a123f8a31a",
+    "type": "mesh",
+    "source_object_index": 152,
+    "concepts": [
+      {
+        "template": "RectangularDishwasherBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            1.205,
+            1.4285,
+            0.867
+          ],
+          "wall_thickness": [
+            0.007,
+            0.007,
+            0.006,
+            0.007,
+            0.007
+          ],
+          "position": [
+            -0.008,
+            0.0115,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SunkenDishwasherDoor",
+        "semantic": "door",
+        "parameters": {
+          "outer_size": [
+            1.205,
+            1.428,
+            0.019
+          ],
+          "recess_size": [
+            0.704,
+            0.032,
+            0.0188
+          ],
+          "recess_offset": [
+            0.0035,
+            0.6725
+          ],
+          "position": [
+            -0.008,
+            0.0115,
+            0.4335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Sunken_Door",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Chair",
+  "object": {
+    "id": "18052e6175456b9e7984fb9ec7e40829",
+    "type": "mesh",
+    "source_object_index": 62,
+    "concepts": [
+      {
+        "template": "RectangularChairSeat",
+        "semantic": "seat",
+        "parameters": {
+          "seat_size": [
+            0.72,
+            0.095,
+            0.71
+          ],
+          "position": [
+            0.006,
+            0.126,
+            0.133
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_seat",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SolidChairBack",
+        "semantic": "back",
+        "parameters": {
+          "back_size": [
+            0.715,
+            0.765,
+            0.095
+          ],
+          "back_tilt_degrees": -12,
+          "position": [
+            0.006,
+            0.1735,
+            -0.249
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Solid_back",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CShapedOfficeChairLeg",
+        "semantic": "leg",
+        "parameters": {
+          "vertical_leg_size": [
+            0.36,
+            1.088,
+            0.075
+          ],
+          "z_foot_size": [
+            0.085,
+            0.68
+          ],
+          "crossbar_size": [
+            0.18
+          ],
+          "vertical_leg_separation": 0.36,
+          "vertical_leg_rotation_degrees": [
+            54,
+            0
+          ],
+          "horizontal_leg_rotation_degrees": [
+            0,
+            180
+          ],
+          "position": [
+            0.006,
+            0.1085,
+            0.033
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "C_shaped_office_leg",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

@@ -11,8 +11,8 @@ from tools.concept_agent.lib.native_params import (
     combine_instances,
     default_package_path,
     instantiate_object_concepts,
-    load_rewritten_category_module,
-    load_rewritten_parameter_package,
+    load_category_module,
+    load_parameter_package,
     package_object_label,
 )
 from tools.concept_agent.lib.render_preview import render_class_preview, write_preview_sheet
@@ -35,14 +35,14 @@ def main(argv=None):
 
 def parse_args(argv=None):
     parser = argparse.ArgumentParser(
-        description="Render rewritten-native parameter package meshes with Open3D, optionally saving OBJ/PNG files."
+        description="Render Concept Template parameter package meshes with Open3D, optionally saving OBJ/PNG files."
     )
     parser.add_argument("--category", help="Category name. Inferred from package when omitted.")
     parser.add_argument(
         "--params",
         help=(
-            "rewritten_parameters directory, index/object JSON, or rewritten_parameters.pkl. "
-            "Defaults to code_rewritten/<Category>/rewritten_parameters/."
+            "parameters directory, index/object JSON, or parameters.pkl. "
+            "Defaults to code/concepts/<Category>/parameters/."
         ),
     )
     parser.add_argument(
@@ -84,14 +84,14 @@ def visualize(args):
             raise ValueError("--category is required when --params is omitted")
         params_path = default_package_path(category_name)
 
-    package = load_rewritten_parameter_package(params_path)
+    package = load_parameter_package(params_path)
     category_name = category_name or package["category"]
     output_dir = None
     if args.save:
         output_dir = default_output_dir(category_name)
         output_dir.mkdir(parents=True, exist_ok=True)
 
-    category_module = load_rewritten_category_module(category_name)
+    category_module = load_category_module(category_name)
     objects = package.get("objects", [])
 
     object_results = []
@@ -194,7 +194,7 @@ def export_concept_objs(instances, object_record, output_dir):
 
 
 def default_output_dir(category_name):
-    return ROOT / "reports" / f"{category_name}_rewritten_native_visualization"
+    return ROOT / "reports" / f"{category_name}_visualization"
 
 
 def export_mesh(vertices, faces, path):

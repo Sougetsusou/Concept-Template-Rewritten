@@ -1,0 +1,111 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Stapler",
+  "object": {
+    "id": "1d16aac1-0e52-11ed-8071-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 27,
+    "concepts": [
+      {
+        "template": "SideBlockStaplerBody",
+        "semantic": "body",
+        "parameters": {
+          "base_size": [
+            0.3,
+            0.057,
+            0.775
+          ],
+          "side_block_size": [
+            0.03,
+            0.07,
+            0.27
+          ],
+          "side_block_spacing": 0.185,
+          "side_block_depth_offset": 0,
+          "has_shaft": 0,
+          "shaft_center_section_size": [
+            0.03,
+            0.06
+          ],
+          "shaft_side_section_size": [
+            0.08,
+            0.03
+          ],
+          "shaft_offset": [
+            0,
+            0
+          ],
+          "position": [
+            -0.24078874710830736,
+            0.051923055869997244,
+            0.011035195292007444
+          ],
+          "rotation": [
+            -90.00000000000009,
+            -86.00000000000004,
+            -3.9999999999999547
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CarvedStaplerCover",
+        "semantic": "cover",
+        "parameters": {
+          "outer_size": [
+            0.285,
+            0.25,
+            0.82
+          ],
+          "inner_opening_size": [
+            0.225,
+            0.075,
+            0.77
+          ],
+          "position": [
+            -0.2356214546486618,
+            -0.2817502075300753,
+            0.009047135790299924
+          ],
+          "rotation": [
+            -131.00000000000009,
+            -86.00000000000004,
+            -3.9999999999999547
+          ]
+        },
+        "source": {
+          "legacy_template": "Carved_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "SolidStaplerCover",
+        "semantic": "cover",
+        "parameters": {
+          "size": [
+            0.175,
+            0.22,
+            0.42
+          ],
+          "position": [
+            -0.1918161388687131,
+            -0.08432499399251145,
+            0.006954441577976168
+          ],
+          "rotation": [
+            -94.00000000000009,
+            -86.00000000000004,
+            -3.9999999999999547
+          ]
+        },
+        "source": {
+          "legacy_template": "Simplified_Cover",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

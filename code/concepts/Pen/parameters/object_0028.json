@@ -1,0 +1,111 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Pen",
+  "object": {
+    "id": "992cf1072b6173d0243525d45e430520-0",
+    "type": "mesh",
+    "source_object_index": 28,
+    "concepts": [
+      {
+        "template": "CylindricalPenBarrel",
+        "semantic": "barrel",
+        "parameters": {
+          "top_outer_radius": 0.05,
+          "bottom_outer_radius": 0.06,
+          "height": 1.43,
+          "wall_thickness": 0.01,
+          "position": [
+            -0.001675475250968513,
+            0.15999025237717593,
+            -0.0005585042264357624
+          ],
+          "rotation": [
+            -0.19999999999998755,
+            -0.0,
+            0.5999999999999881
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Barrel",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalPenButton",
+        "semantic": "button",
+        "parameters": {
+          "top_radius": 0.06,
+          "bottom_radius": 0.06,
+          "height": 0.58,
+          "position": [
+            -0.0035080263067153233,
+            0.334979590914712,
+            -0.0011693682240998772
+          ],
+          "rotation": [
+            -0.19999999999998755,
+            -0.0,
+            0.5999999999999881
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Button",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CurvedPenClip",
+        "semantic": "clip",
+        "parameters": {
+          "outer_radius": 0.77,
+          "inner_radius": 0.75,
+          "thickness": 0.04,
+          "arc_angle_degrees": 37,
+          "position": [
+            -0.00947872688715836,
+            0.9051186557450909,
+            0.04663086692043578
+          ],
+          "rotation": [
+            -2.1999999999999877,
+            -0.0,
+            0.5999999999999881
+          ]
+        },
+        "source": {
+          "legacy_template": "Curved_Clip",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "CylindricalPenRefill",
+        "semantic": "refill",
+        "parameters": {
+          "refill_radius": 0.06,
+          "refill_height": 0.22,
+          "tip_radius": 0.05,
+          "connector_height": 0.14,
+          "cone_height": 0.11,
+          "tip_offset": [
+            0,
+            0.04
+          ],
+          "position": [
+            0.006911335410245115,
+            -0.6599597910558507,
+            0.0023038299340475193
+          ],
+          "rotation": [
+            -0.19999999999998755,
+            -0.0,
+            0.5999999999999881
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Refill",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

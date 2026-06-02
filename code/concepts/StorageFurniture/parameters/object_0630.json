@@ -1,0 +1,110 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "StorageFurniture",
+  "object": {
+    "id": "45679a0d39b500533dd5cc05646564a4",
+    "type": "mesh",
+    "source_object_index": 630,
+    "concepts": [
+      {
+        "template": "PartitionedStorageFurnitureBody",
+        "semantic": null,
+        "parameters": {
+          "outer_size": [
+            1.79,
+            0.85,
+            0.34
+          ],
+          "back_panel_thickness": 0.01,
+          "side_wall_thickness": 0.015,
+          "base_panel_thickness": 0.01,
+          "lid_spec": {
+            "size": [
+              1.8,
+              0.05,
+              0.36
+            ],
+            "offset": [
+              0,
+              0,
+              0
+            ]
+          },
+          "horizontal_shelf_specs": [],
+          "partition_bay_specs": [
+            {
+              "height": 0.84,
+              "center_y": 0.005,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            }
+          ],
+          "additional_panel_specs": [],
+          "position": [
+            0,
+            -0.03,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Storagefurniture_body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "StorageFurnitureDoorSet",
+        "semantic": null,
+        "parameters": {
+          "door_specs": [
+            {
+              "door_size": [
+                1.76,
+                0.85,
+                0.02
+              ],
+              "handle_size": [
+                0.01,
+                0.01,
+                0.01
+              ],
+              "handle_offset": [
+                0.15,
+                0
+              ],
+              "yaw_degrees": 0,
+              "center": [
+                0,
+                0,
+                0.16
+              ]
+            }
+          ],
+          "position": [
+            0,
+            -0.03,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_door",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

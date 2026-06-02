@@ -1,0 +1,134 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Table",
+  "object": {
+    "id": "114377fc17eceaae3e12d7ebda60f8f",
+    "type": "mesh",
+    "source_object_index": 111,
+    "concepts": [
+      {
+        "template": "TableTop",
+        "semantic": null,
+        "parameters": {
+          "size": [
+            1.34,
+            0.19,
+            0.64
+          ],
+          "position": [
+            -0.11,
+            0.28,
+            -0.01
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_desktop",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "TableSublayers",
+        "semantic": null,
+        "parameters": {
+          "layer_size": [
+            0.44,
+            0.77,
+            0.64
+          ],
+          "layer_count": 1,
+          "first_layer_y": -0.3,
+          "layer_interval": 0.1,
+          "extra_layers": [
+            {
+              "size": [
+                0.07,
+                0.09,
+                0.64
+              ],
+              "position": [
+                -1.08,
+                0.03999999999999998,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "size": [
+                0.06,
+                0.03,
+                0.64
+              ],
+              "position": [
+                -1.08,
+                -0.6699999999999999,
+                0.0
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "size": [
+                0.06,
+                0.65,
+                0.03
+              ],
+              "position": [
+                -1.08,
+                -0.33000000000000007,
+                0.31
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "size": [
+                0.06,
+                0.65,
+                0.03
+              ],
+              "position": [
+                -1.08,
+                -0.33000000000000007,
+                -0.31
+              ],
+              "rotation": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            }
+          ],
+          "position": [
+            0.34,
+            0.10000000000000003,
+            -0.01
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_sublayer",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

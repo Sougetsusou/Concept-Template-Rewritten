@@ -1,0 +1,92 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Dispenser",
+  "object": {
+    "id": "5bb22e31-0e48-11ed-9234-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 65,
+    "concepts": [
+      {
+        "template": "RectangularDispenserBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.375,
+            0.89,
+            0.56
+          ],
+          "position": [
+            0.007717017529968382,
+            0.03715270259426518,
+            -0.22019110865424205
+          ],
+          "rotation": [
+            86.7,
+            -153.2,
+            162.7
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "PressDispenserNozzle",
+        "semantic": "nozzle",
+        "parameters": {
+          "base_sections": [
+            {
+              "name": "base_section_1",
+              "radius": 0.145,
+              "height": 0.205
+            },
+            {
+              "name": "base_section_2",
+              "radius": 0.11,
+              "height": 0.065
+            },
+            {
+              "name": "base_section_3",
+              "radius": 0.05,
+              "height": 0.175
+            },
+            {
+              "name": "base_section_4",
+              "radius": 0.135,
+              "height": 0.11
+            }
+          ],
+          "nozzle_cross_section": [
+            0.055,
+            0.05
+          ],
+          "nozzle_lengths": [
+            0.19,
+            0.1
+          ],
+          "nozzle_count": 1,
+          "nozzle_offset": -0.06,
+          "nozzle_rotations_degrees": [
+            0,
+            0
+          ],
+          "position": [
+            -0.009761167593380048,
+            0.01105221968771495,
+            0.22381145646992337
+          ],
+          "rotation": [
+            86.7,
+            -153.2,
+            162.7
+          ]
+        },
+        "source": {
+          "legacy_template": "Press_Nozzle",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Eyeglasses",
+  "object": {
+    "id": "9f83248f-0e49-11ed-9e7c-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 99,
+    "concepts": [
+      {
+        "template": "TrapezoidalLensPair",
+        "semantic": "glasses",
+        "parameters": {
+          "lens_size": [
+            0.64,
+            0.49,
+            0.39,
+            0.02
+          ],
+          "bridge_interval": 0.14,
+          "lens_rotation_degrees": [
+            20,
+            -4
+          ],
+          "top_offset_x": -0.02,
+          "position": [
+            -0.02,
+            0,
+            0.24
+          ],
+          "rotation": [
+            90,
+            88,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trapezoidal_Glasses",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "TrifoldTemplePair",
+        "semantic": "leg",
+        "parameters": {
+          "frame_interval": 1.3428065546059629,
+          "main_segment_size": [
+            0.035,
+            0.06,
+            0.94
+          ],
+          "end_segment_size": [
+            0.04,
+            0.06,
+            0.5
+          ],
+          "main_rotation_degrees": [
+            4,
+            1
+          ],
+          "fold_rotation_degrees": [
+            29,
+            -28
+          ],
+          "connector_size": [
+            0.06,
+            0.08,
+            0.02
+          ],
+          "hinge_offset_x": -0.02,
+          "position": [
+            -0.02,
+            0.03,
+            0.21
+          ],
+          "rotation": [
+            90,
+            88,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Leg",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "NoseSupportPair",
+        "semantic": "support",
+        "parameters": {
+          "support_size": [
+            0.07,
+            0.13,
+            0.03
+          ],
+          "support_offset_x": 0.09,
+          "support_rotation_degrees": [
+            -22,
+            87,
+            26
+          ],
+          "position": [
+            -0.02,
+            -0.01,
+            0.37778578345685593
+          ],
+          "rotation": [
+            90,
+            88,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Support",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

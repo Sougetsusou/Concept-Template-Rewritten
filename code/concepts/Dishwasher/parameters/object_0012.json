@@ -1,0 +1,118 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Dishwasher",
+  "object": {
+    "id": "6e51cc2c2da50c6a59c5c7ba83ec931a",
+    "type": "mesh",
+    "source_object_index": 12,
+    "concepts": [
+      {
+        "template": "RectangularDishwasherBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            1.01,
+            1.15,
+            0.88
+          ],
+          "wall_thickness": [
+            0.05,
+            0.05,
+            0.05,
+            0.05,
+            0.05
+          ],
+          "position": [
+            0,
+            0.09,
+            -0.04
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FlatDishwasherDoor",
+        "semantic": "door",
+        "parameters": {
+          "panel_size": [
+            1,
+            1.37,
+            0.08
+          ],
+          "position": [
+            0.0,
+            -0.01999999999999988,
+            0.4
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "DishwasherTopCover",
+        "semantic": "topcover",
+        "parameters": {
+          "cover_size": [
+            1.02,
+            0.05,
+            0.96
+          ],
+          "position": [
+            0.0,
+            0.6649999999999999,
+            -0.04
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Topcover",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "SingleDishwasherLeg",
+        "semantic": "leg",
+        "parameters": {
+          "leg_size": [
+            1.01,
+            0.23,
+            0.8
+          ],
+          "position": [
+            0.0,
+            -0.485,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Single_Leg",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

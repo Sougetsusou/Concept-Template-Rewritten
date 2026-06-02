@@ -1,0 +1,86 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Dispenser",
+  "object": {
+    "id": "b3928672-a119-4cce-8209-947ddf8d0736",
+    "type": "mesh",
+    "source_object_index": 31,
+    "concepts": [
+      {
+        "template": "StackedDispenserBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "body_section_1",
+              "height": 1.48,
+              "top_radius": 0.2915,
+              "bottom_radius": 0.2915
+            }
+          ],
+          "position": [
+            -0.0025,
+            -0.17,
+            -0.047
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SprayDispenserNozzle",
+        "semantic": "nozzle",
+        "parameters": {
+          "bottom_size": [
+            0.21,
+            0.14
+          ],
+          "middle_size": [
+            1e-09,
+            1e-22,
+            1e-18
+          ],
+          "head_size": [
+            0.25,
+            0.207,
+            0.52
+          ],
+          "head_forward_offset": 0.02,
+          "head_rotation_degrees": -6,
+          "outlet_size": [
+            0.06,
+            0.046
+          ],
+          "handle_size": [
+            0.115,
+            0.26,
+            0.098
+          ],
+          "handle_offset": -0.027,
+          "handle_rotation_degrees": 5,
+          "position": [
+            -0.006,
+            0.57,
+            -0.047
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Spray_Nozzle",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Switch",
+  "object": {
+    "id": "1d34ee04-0e52-11ed-96dc-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 66,
+    "concepts": [
+      {
+        "template": "StandardSwitchBase",
+        "semantic": "base",
+        "parameters": {
+          "body_size": [
+            0.82,
+            0.83,
+            0.28
+          ],
+          "back_part": null,
+          "position": [
+            0.002,
+            0.003,
+            0.147
+          ],
+          "rotation": [
+            0,
+            -183,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "ThreeProngPlug",
+        "semantic": "plug",
+        "parameters": {
+          "prong_size": [
+            0.015,
+            0.07,
+            0.21
+          ],
+          "side_prong_offset": [
+            0.067,
+            -0.14
+          ],
+          "center_rotation_degrees": 90,
+          "side_spread_degrees": 30,
+          "position": [
+            0.060000000000000005,
+            0.004,
+            -0.13300000000000003
+          ],
+          "rotation": [
+            0,
+            -183,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Plug",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

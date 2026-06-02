@@ -1,0 +1,64 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Mug",
+  "object": {
+    "id": "dcec634f18e12427c2c72e575af174cd",
+    "type": "mesh",
+    "source_object_index": 96,
+    "concepts": [
+      {
+        "template": "CylindricalMugBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_profile": [
+            0.525,
+            0.525,
+            1.515
+          ],
+          "inner_opening": [
+            0.43,
+            0.43,
+            1.48
+          ],
+          "position": [
+            -0.006,
+            0.06,
+            -0.03
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CurvedMugHandle",
+        "semantic": "handle",
+        "parameters": {
+          "curve_radius": 0.445,
+          "tube_radius": 0.065,
+          "arc_angle_degrees": 180,
+          "position": [
+            -0.066,
+            0.15,
+            0.495
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Curved_Handle",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

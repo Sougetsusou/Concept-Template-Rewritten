@@ -1,0 +1,65 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Shampoo",
+  "object": {
+    "id": "6ad86839-0e4f-11ed-81c5-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 24,
+    "concepts": [
+      {
+        "template": "ToothpasteLikeShampooBody",
+        "semantic": "body",
+        "parameters": {
+          "top_radius": 0.14,
+          "bottom_flat_length": 0.5,
+          "height": 1.1,
+          "position": [
+            0.008,
+            -0.14,
+            0
+          ],
+          "rotation": [
+            87,
+            90,
+            -88
+          ]
+        },
+        "source": {
+          "legacy_template": "Toothpaste_body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalShampooCap",
+        "semantic": "cap",
+        "parameters": {
+          "outer_profile": [
+            0.11,
+            0.11,
+            0.17
+          ],
+          "inner_profile": [
+            0.06,
+            0.04,
+            0.02
+          ],
+          "z_radius_scale": 1,
+          "position": [
+            0.008,
+            0.495,
+            0.0
+          ],
+          "rotation": [
+            87,
+            90,
+            -88
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_cap",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

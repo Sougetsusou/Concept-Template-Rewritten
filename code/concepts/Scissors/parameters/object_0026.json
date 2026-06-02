@@ -1,0 +1,178 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Scissors",
+  "object": {
+    "id": "ac7ada437d47566bf8edd34525dc7f22",
+    "type": "mesh",
+    "source_object_index": 26,
+    "concepts": [
+      {
+        "template": "DoubleLayeredCuboidalScissorsShaft",
+        "semantic": "shaft",
+        "parameters": {
+          "rear_layer_size": [
+            0.18,
+            0.02,
+            0.16
+          ],
+          "front_extension_size": [
+            0.1,
+            0.06
+          ],
+          "front_extension_offset_z": -0.05,
+          "layer_offset_z": 0,
+          "layer_yaw_degrees": 8,
+          "left_layer_above": true,
+          "central_shaft_enabled": true,
+          "central_shaft_size": [
+            0.05,
+            0.04
+          ],
+          "central_shaft_offset": [
+            0,
+            0.01,
+            0
+          ],
+          "position": [
+            -0.16,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Double_Cuboidal_Shaft",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CurvedScissorsBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_size": [
+            0.52,
+            0.01,
+            0.15,
+            0.1
+          ],
+          "root_tip_offset_z": -0.02,
+          "curved_tip_radius": 0.24,
+          "position": [
+            -0.25018177735316366,
+            0.01,
+            0.005
+          ],
+          "rotation": [
+            0.0,
+            13.000000000000005,
+            0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Curved_Blade",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CurvedScissorsBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_size": [
+            0.52,
+            0.01,
+            0.15,
+            0.1
+          ],
+          "root_tip_offset_z": -0.02,
+          "curved_tip_radius": 0.24,
+          "position": [
+            -0.25018177735316366,
+            0.0,
+            -0.005
+          ],
+          "rotation": [
+            180.0,
+            -12.999999999999993,
+            0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Curved_Blade",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "RingScissorsHandle",
+        "semantic": "handle",
+        "parameters": {
+          "root_size": [
+            0.37,
+            0.05,
+            0.07,
+            0.11
+          ],
+          "root_yaw_degrees": 10,
+          "outer_radius_x": 0.15,
+          "outer_radius_z": 0.12,
+          "inner_radius_x": 0.11,
+          "inner_radius_z": 0.08,
+          "ring_thickness": 0.05,
+          "handle_offset_z": 0.08,
+          "handle_yaw_degrees": 15,
+          "position": [
+            0.021326676175858067,
+            0.0,
+            0.075
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Ring_Handle",
+          "source_concept_index": 3
+        }
+      },
+      {
+        "template": "RingScissorsHandle",
+        "semantic": "handle",
+        "parameters": {
+          "root_size": [
+            0.27,
+            0.05,
+            0.08,
+            0.09
+          ],
+          "root_yaw_degrees": 9,
+          "outer_radius_x": 0.22,
+          "outer_radius_z": 0.14,
+          "inner_radius_x": 0.17,
+          "inner_radius_z": 0.09,
+          "ring_thickness": 0.06,
+          "handle_offset_z": 0,
+          "handle_yaw_degrees": 28,
+          "position": [
+            0.021326676175858067,
+            0.0,
+            -0.075
+          ],
+          "rotation": [
+            180.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Ring_Handle",
+          "source_concept_index": 4
+        }
+      }
+    ]
+  }
+}

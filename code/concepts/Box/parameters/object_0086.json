@@ -1,0 +1,79 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Box",
+  "object": {
+    "id": "cf2aa256-0e3e-11ed-aa9d-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 86,
+    "concepts": [
+      {
+        "template": "OpenBoxBody",
+        "semantic": "body",
+        "parameters": {
+          "top_outer_size": [
+            0.33,
+            1.9
+          ],
+          "bottom_outer_size": [
+            0.33,
+            1.9
+          ],
+          "total_height": 0.17,
+          "wall_thickness": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "top_to_bottom_offset": [
+            0,
+            0
+          ],
+          "position": [
+            -0.029885840942752366,
+            -0.0026146722824297373,
+            -0.005
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -85.00000000000001
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RectangularBoxCover",
+        "semantic": "cover",
+        "parameters": {
+          "outer_size": [
+            0.33,
+            0.065,
+            1.9
+          ],
+          "inner_opening_size": [
+            0.3,
+            0.01,
+            1.8
+          ],
+          "position": [
+            0.05479070839504601,
+            0.004793565851121185,
+            -0.955
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            -85.00000000000001
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Cover",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

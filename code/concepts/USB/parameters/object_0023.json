@@ -1,0 +1,70 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "USB",
+  "object": {
+    "id": "97c1cde6736fab49f68b877f0cbc1f72",
+    "type": "mesh",
+    "source_object_index": 23,
+    "concepts": [
+      {
+        "template": "RoundEndedUsbBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.5,
+            0.17,
+            0.78
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "RoundEnded_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "StandardUsbCap",
+        "semantic": "cap",
+        "parameters": {
+          "outer_size": [
+            0.46,
+            0.18,
+            0.82
+          ],
+          "inner_size": [
+            0.33,
+            0.18,
+            0.44
+          ],
+          "inner_outer_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Cap",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Lighter",
+  "object": {
+    "id": "6e02e9b5c715bafebcc65fd5536f28dd",
+    "type": "mesh",
+    "source_object_index": 11,
+    "concepts": [
+      {
+        "template": "DoubleLayerLighterBody",
+        "semantic": "body",
+        "parameters": {
+          "main_size": [
+            0.23,
+            0.67,
+            0.74
+          ],
+          "top_size": [
+            0.21,
+            0.03,
+            0.72
+          ],
+          "top_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0.0,
+            -0.22,
+            -0.27
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Double_Layer_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SimplifiedLighterWheel",
+        "semantic": "wheel",
+        "parameters": {
+          "wheel_radius": 0.1,
+          "wheel_width": 0.08,
+          "position": [
+            0.0,
+            0.28500000000000003,
+            -0.51
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Simplified_Wheel",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "EnvelopingLighterNozzle",
+        "semantic": "nozzle",
+        "parameters": {
+          "nozzle_size": [
+            0.21,
+            0.28,
+            0.32
+          ],
+          "wall_thickness": 0.01,
+          "position": [
+            0.0,
+            0.145,
+            -0.27
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Enveloping_Nozzle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "RegularLighterCover",
+        "semantic": "cover",
+        "parameters": {
+          "outer_size": [
+            0.23,
+            0.45,
+            0.74
+          ],
+          "inner_size": [
+            0.21,
+            0.42,
+            0.7
+          ],
+          "position": [
+            0.0,
+            0.11500000000000002,
+            0.12
+          ],
+          "rotation": [
+            135.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Cover",
+          "source_concept_index": 3
+        }
+      },
+      {
+        "template": "StandardLighterWick",
+        "semantic": "wick",
+        "parameters": {
+          "wick_radius": 0.025,
+          "wick_height": 0.245,
+          "position": [
+            0.0,
+            0.145,
+            -0.30500000000000005
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Wick",
+          "source_concept_index": 4
+        }
+      }
+    ]
+  }
+}

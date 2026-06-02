@@ -1,0 +1,92 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Dispenser",
+  "object": {
+    "id": "5ba20f16-0e48-11ed-a1c5-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 50,
+    "concepts": [
+      {
+        "template": "RectangularDispenserBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.515,
+            0.805,
+            0.36
+          ],
+          "position": [
+            -0.022697664306866656,
+            0.0001396192514982674,
+            -0.16765976422945789
+          ],
+          "rotation": [
+            85,
+            89,
+            -90
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "PressDispenserNozzle",
+        "semantic": "nozzle",
+        "parameters": {
+          "base_sections": [
+            {
+              "name": "base_section_1",
+              "radius": 0.145,
+              "height": 0.215
+            },
+            {
+              "name": "base_section_2",
+              "radius": 0.11,
+              "height": 0.065
+            },
+            {
+              "name": "base_section_3",
+              "radius": 0.05,
+              "height": 0.175
+            },
+            {
+              "name": "base_section_4",
+              "radius": 0.13,
+              "height": 0.13
+            }
+          ],
+          "nozzle_cross_section": [
+            0.06,
+            0.05
+          ],
+          "nozzle_lengths": [
+            0.105,
+            0.105
+          ],
+          "nozzle_count": 2,
+          "nozzle_offset": -0.06,
+          "nozzle_rotations_degrees": [
+            0,
+            15
+          ],
+          "position": [
+            0.012382522149065836,
+            0.00013961925149826954,
+            0.2333086017524697
+          ],
+          "rotation": [
+            85,
+            174,
+            -90
+          ]
+        },
+        "source": {
+          "legacy_template": "Press_Nozzle",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

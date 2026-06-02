@@ -1,0 +1,70 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Trashcan",
+  "object": {
+    "id": "415cae243e110f5cf155d75bbf62b80",
+    "type": "mesh",
+    "source_object_index": 104,
+    "concepts": [
+      {
+        "template": "CylindricalTrashcanBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_profile": [
+            0.535,
+            0.535,
+            0.94
+          ],
+          "inner_profile": [
+            0.495,
+            0.495,
+            0.925
+          ],
+          "position": [
+            -0.005,
+            0.0,
+            -0.015
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalTrashcanShell",
+        "semantic": "shell",
+        "parameters": {
+          "outer_profile": [
+            0.68,
+            0.61,
+            1.17
+          ],
+          "inner_profile": [
+            0.66,
+            0.59
+          ],
+          "position": [
+            -0.01,
+            0.09,
+            -0.013
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Shell",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

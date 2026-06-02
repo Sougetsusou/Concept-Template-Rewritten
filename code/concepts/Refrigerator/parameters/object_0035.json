@@ -1,0 +1,160 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Refrigerator",
+  "object": {
+    "id": "f7e0a103c97469d5a168e247bb97e471",
+    "type": "mesh",
+    "source_object_index": 35,
+    "concepts": [
+      {
+        "template": "DoubleLayerRefrigeratorBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.67,
+            1.762,
+            0.7
+          ],
+          "wall_thickness": [
+            0.038,
+            0.04,
+            0.037,
+            0.04,
+            0.038
+          ],
+          "partition_size": [
+            0.038,
+            0.67
+          ],
+          "partition_offset_y": 0.479,
+          "position": [
+            0.005,
+            -0.009,
+            -0.012
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Double_Layer_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuboidalRefrigeratorDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            0.67,
+            1.36,
+            0.03
+          ],
+          "position": [
+            0.005,
+            -0.20900000000000002,
+            0.33799999999999997
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TrifoldRefrigeratorHandle",
+        "semantic": "handle",
+        "parameters": {
+          "mount_size": [
+            0.015,
+            0.02,
+            0.02
+          ],
+          "mount_spacing": 0.145,
+          "grip_size": [
+            0.025,
+            0.19,
+            0.025
+          ],
+          "position": [
+            -0.24,
+            0.22099999999999997,
+            0.368
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "CuboidalRefrigeratorDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            0.67,
+            0.4,
+            0.03
+          ],
+          "position": [
+            0.005,
+            0.671,
+            0.33799999999999997
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 3
+        }
+      },
+      {
+        "template": "TrifoldRefrigeratorHandle",
+        "semantic": "handle",
+        "parameters": {
+          "mount_size": [
+            0.01,
+            0.015,
+            0.02
+          ],
+          "mount_spacing": 0.145,
+          "grip_size": [
+            0.02,
+            0.19,
+            0.025
+          ],
+          "position": [
+            -0.24,
+            0.661,
+            0.368
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Handle",
+          "source_concept_index": 4
+        }
+      }
+    ]
+  }
+}

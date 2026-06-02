@@ -1,0 +1,95 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Door",
+  "object": {
+    "id": "275bb61c2e1e7a20ac6c90f4cb03d6a3",
+    "type": "mesh",
+    "source_object_index": 8,
+    "concepts": [
+      {
+        "template": "PivotDoorPanelSet",
+        "semantic": "door",
+        "parameters": {
+          "has_left_panel": true,
+          "has_right_panel": true,
+          "panel_size": [
+            0.765,
+            1.305,
+            0.03
+          ],
+          "open_angles_degrees": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Door",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "LDoorHandle",
+        "semantic": "handle",
+        "parameters": {
+          "has_left_panel": true,
+          "has_right_panel": true,
+          "panel_open_angles_degrees": [
+            0,
+            0
+          ],
+          "door_size": [
+            0.765,
+            1.305,
+            0.03
+          ],
+          "has_back_handle": false,
+          "has_front_handle": true,
+          "fixed_part_size": [
+            0.02,
+            0.13,
+            0.005
+          ],
+          "vertical_part_size": [
+            0.01,
+            0.01,
+            0.015
+          ],
+          "horizontal_part_size": [
+            0.08,
+            0.01,
+            0.015
+          ],
+          "moving_part_offset": [
+            0,
+            -0.005
+          ],
+          "edge_offset_x": 0.365,
+          "position": [
+            0,
+            -0.13,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "LShape_Handle",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

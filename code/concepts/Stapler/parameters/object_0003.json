@@ -1,0 +1,106 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Stapler",
+  "object": {
+    "id": "3800d2ab6bc278bcd5a3e6010c55b78e",
+    "type": "mesh",
+    "source_object_index": 3,
+    "concepts": [
+      {
+        "template": "SideBlockStaplerBody",
+        "semantic": "body",
+        "parameters": {
+          "base_size": [
+            0.43,
+            0.11,
+            1.88
+          ],
+          "side_block_size": [
+            0.04,
+            0.18,
+            0.56
+          ],
+          "side_block_spacing": 0.21,
+          "side_block_depth_offset": 0.07,
+          "has_shaft": 0,
+          "shaft_center_section_size": [
+            0.03,
+            0.06
+          ],
+          "shaft_side_section_size": [
+            0.08,
+            0.03
+          ],
+          "shaft_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0.0,
+            -0.23,
+            0.02
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SolidStaplerCover",
+        "semantic": "cover",
+        "parameters": {
+          "size": [
+            0.39,
+            0.29,
+            1.77
+          ],
+          "position": [
+            0.0,
+            -0.08500000000000002,
+            -0.8999999999999999
+          ],
+          "rotation": [
+            -9.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Simplified_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "SolidStaplerCover",
+        "semantic": "cover",
+        "parameters": {
+          "size": [
+            0.2,
+            0.18,
+            1.08
+          ],
+          "position": [
+            0.0,
+            -0.015000000000000013,
+            -0.2899999999999999
+          ],
+          "rotation": [
+            -1.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Simplified_Cover",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

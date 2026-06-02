@@ -1,0 +1,89 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Pen",
+  "object": {
+    "id": "f8f263f4-0e4a-11ed-a540-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 63,
+    "concepts": [
+      {
+        "template": "DoubleLayerPenBarrel",
+        "semantic": "barrel",
+        "parameters": {
+          "main_top_outer_radius": 0.045,
+          "main_bottom_outer_radius": 0.06,
+          "main_height": 0.76,
+          "bottom_bottom_outer_radius": 0.04,
+          "bottom_height": 0.21,
+          "wall_thickness": 0.01,
+          "position": [
+            -0.10991624764510309,
+            -0.0019185952393113138,
+            -0.0038389446372751107
+          ],
+          "rotation": [
+            -2.0000000000000027,
+            -0.0,
+            91.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Double_Layer_Barrel",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalPenButton",
+        "semantic": "button",
+        "parameters": {
+          "top_radius": 0.03,
+          "bottom_radius": 0.045,
+          "height": 0.055,
+          "position": [
+            -0.48962692132818647,
+            -0.00854646970238676,
+            -0.01710075338422549
+          ],
+          "rotation": [
+            -2.0000000000000027,
+            -0.0,
+            91.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Button",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CylindricalPenRefill",
+        "semantic": "refill",
+        "parameters": {
+          "refill_radius": 0.03,
+          "refill_height": 0.01,
+          "tip_radius": 0.03,
+          "connector_height": 0.06,
+          "cone_height": 0.06,
+          "tip_offset": [
+            0,
+            -0.02
+          ],
+          "position": [
+            0.46964214902907675,
+            0.008197634204330157,
+            0.01640276345017547
+          ],
+          "rotation": [
+            -2.0000000000000027,
+            -0.0,
+            91.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Refill",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

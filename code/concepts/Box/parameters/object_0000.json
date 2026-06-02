@@ -1,0 +1,147 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Box",
+  "object": {
+    "id": "07dd2e93-9195-4a01-b13b-2a964ff164c4-1",
+    "type": "mesh",
+    "source_object_index": 0,
+    "concepts": [
+      {
+        "template": "OpenBoxBody",
+        "semantic": "body",
+        "parameters": {
+          "top_outer_size": [
+            1.13,
+            0.76
+          ],
+          "bottom_outer_size": [
+            1.135,
+            0.76
+          ],
+          "total_height": 0.56,
+          "wall_thickness": [
+            0.015,
+            0.02,
+            0.015
+          ],
+          "top_to_bottom_offset": [
+            0,
+            0
+          ],
+          "position": [
+            -0.012,
+            -0.084,
+            -0.002
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "HingedPanelBoxCover",
+        "semantic": "cover",
+        "parameters": {
+          "panels": [
+            {
+              "enabled": true,
+              "name": "front_cover",
+              "size": [
+                1.135,
+                0.375,
+                0.015
+              ],
+              "hinge_anchor": [
+                0,
+                0,
+                0.3725
+              ],
+              "rotation_degrees": [
+                48,
+                0,
+                0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "behind_cover",
+              "size": [
+                1.135,
+                0.375,
+                0.015
+              ],
+              "hinge_anchor": [
+                0,
+                0,
+                -0.3725
+              ],
+              "rotation_degrees": [
+                -48,
+                0,
+                0
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "left_cover",
+              "size": [
+                0.015,
+                0.385,
+                0.76
+              ],
+              "hinge_anchor": [
+                -0.5549999999999999,
+                0,
+                0
+              ],
+              "rotation_degrees": [
+                0,
+                0,
+                90
+              ]
+            },
+            {
+              "enabled": true,
+              "name": "right_cover",
+              "size": [
+                0.015,
+                0.385,
+                0.76
+              ],
+              "hinge_anchor": [
+                0.5549999999999999,
+                0,
+                0
+              ],
+              "rotation_degrees": [
+                0,
+                0,
+                -48
+              ]
+            }
+          ],
+          "position": [
+            -0.012,
+            0.196,
+            -0.002
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Fourfold_Cover",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

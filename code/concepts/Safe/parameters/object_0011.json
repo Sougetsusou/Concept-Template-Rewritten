@@ -1,0 +1,163 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Safe",
+  "object": {
+    "id": "783fa82cb46fb3244e91947b208587c6",
+    "type": "mesh",
+    "source_object_index": 11,
+    "concepts": [
+      {
+        "template": "MultiLayerSafeBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            1.17,
+            0.82,
+            0.71
+          ],
+          "wall_thickness": [
+            0.13,
+            0.13,
+            0.11,
+            0.125,
+            0.12
+          ],
+          "main_clapboard_size": [
+            0.03,
+            0.58
+          ],
+          "main_clapboard_offset_y": -0.02,
+          "sub_clapboards": [
+            {
+              "size": [
+                0.48,
+                0.01,
+                0.58
+              ],
+              "offset": [
+                0.24,
+                0.17
+              ]
+            },
+            {
+              "size": [
+                0.025,
+                0.295,
+                0.58
+              ],
+              "offset": [
+                -0.01,
+                0.14
+              ]
+            }
+          ],
+          "position": [
+            -0.04,
+            -0.02,
+            -0.16
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Mutiple_Layer_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SunkenSafeDoor",
+        "semantic": "door",
+        "parameters": {
+          "outer_size": [
+            1.17,
+            0.83,
+            0.12
+          ],
+          "sunken_opening_size": [
+            0.96,
+            0.58,
+            0.01
+          ],
+          "sunken_opening_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0.03837513878610336,
+            -0.02,
+            0.4774999999999999
+          ],
+          "rotation": [
+            0,
+            30,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Sunken_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "ClawSafeHandle",
+        "semantic": "handle",
+        "parameters": {
+          "base_size": [
+            0.03,
+            0.055
+          ],
+          "fork_size": [
+            0.095,
+            0.04,
+            0.015
+          ],
+          "fork_offset_z": 0,
+          "fork_tilt_degrees": 0,
+          "fork_count": 1,
+          "position": [
+            0.1453366630131697,
+            0.039999999999999994,
+            0.5427627944162882
+          ],
+          "rotation": [
+            0,
+            30,
+            180
+          ]
+        },
+        "source": {
+          "legacy_template": "Claw_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "RegularSafeController",
+        "semantic": "controller",
+        "parameters": {
+          "panel_size": [
+            0.16,
+            0.23,
+            0.01
+          ],
+          "position": [
+            0.3272019978079018,
+            0.05,
+            0.4377627944162882
+          ],
+          "rotation": [
+            0,
+            30,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Controller",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

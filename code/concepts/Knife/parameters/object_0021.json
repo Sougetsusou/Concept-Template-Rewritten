@@ -1,0 +1,96 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Knife",
+  "object": {
+    "id": "e7523e396f8d4ae171e397fe45dce6b",
+    "type": "mesh",
+    "source_object_index": 21,
+    "concepts": [
+      {
+        "template": "EnvelopingKnifeHandle",
+        "semantic": "handle",
+        "parameters": {
+          "outer_size": [
+            0.14,
+            1.52,
+            0.32
+          ],
+          "frame_thickness": [
+            0.23,
+            0.03,
+            0.02
+          ],
+          "front_gap_width": 0.06,
+          "position": [
+            0.003999999999999997,
+            -0.0023032685452511865,
+            0.059955774984637264
+          ],
+          "rotation": [
+            90.0,
+            -2.1999999999999904,
+            90.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Enveloping_Handle",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuspKnifeBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_profile": [
+            0.02,
+            1.442,
+            0.25,
+            0.25
+          ],
+          "root_top_z_offset": 0,
+          "tip_length": 0.103,
+          "tip_top_z_offset": -0.124,
+          "position": [
+            0.007000000000000034,
+            0.034374787335356795,
+            -0.5040519556510509
+          ],
+          "rotation": [
+            90.0,
+            -2.1999999999999904,
+            90.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cusp_Blade",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RegularKnifeButton",
+        "semantic": "button",
+        "parameters": {
+          "button_size": [
+            0.07,
+            0.208,
+            0.088
+          ],
+          "position": [
+            0.004000000000000029,
+            0.11816640035830955,
+            -0.34071498620747476
+          ],
+          "rotation": [
+            90.0,
+            -2.1999999999999904,
+            90.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Button",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

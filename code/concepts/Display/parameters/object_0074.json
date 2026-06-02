@@ -1,0 +1,117 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Display",
+  "object": {
+    "id": "27e65dc223cc8bc0ec059109909662d2",
+    "type": "mesh",
+    "source_object_index": 74,
+    "concepts": [
+      {
+        "template": "FlatDisplayScreen",
+        "semantic": "screen",
+        "parameters": {
+          "screen_size": [
+            1.69,
+            1.02,
+            0.12
+          ],
+          "has_back_layer": true,
+          "back_layer_size": [
+            1.25,
+            0.56,
+            0.075
+          ],
+          "back_layer_offset": [
+            0,
+            -0.01
+          ],
+          "position": [
+            0.016,
+            0.08,
+            0.042
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Screen",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "TrifoldDisplaySupport",
+        "semantic": "support",
+        "parameters": {
+          "has_upper_part": true,
+          "upper_part_size": [
+            0.315,
+            0.185,
+            0.04
+          ],
+          "upper_mount_point": [
+            0.005,
+            -0.1,
+            0
+          ],
+          "has_middle_part": true,
+          "middle_part_size": [
+            0.31,
+            0.56,
+            0.13
+          ],
+          "middle_y_offset": 0.09,
+          "has_bottom_part": false,
+          "bottom_part_size": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "bottom_rotation_degrees": 0,
+          "bottom_z_offset": 0,
+          "position": [
+            0.016,
+            0.08,
+            -0.093
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Support",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CircularDisplayBase",
+        "semantic": "base",
+        "parameters": {
+          "base_size": [
+            0.34,
+            0.04
+          ],
+          "base_rotation_degrees": 0,
+          "position": [
+            0.016,
+            -0.49000000000000005,
+            -0.07799999999999999
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Round_Base",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

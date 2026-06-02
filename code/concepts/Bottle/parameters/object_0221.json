@@ -1,0 +1,83 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Bottle",
+  "object": {
+    "id": "950d6ca1d2b53ce52f71dfd07ef088cf",
+    "type": "mesh",
+    "source_object_index": 221,
+    "concepts": [
+      {
+        "template": "StackedBottleBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "base_section",
+              "height": 1.005,
+              "top_radius": 0.225,
+              "bottom_radius": 0.225
+            },
+            {
+              "name": "upper_section_2",
+              "height": 0.11,
+              "top_radius": 0.16,
+              "bottom_radius": 0.225
+            },
+            {
+              "name": "upper_section_3",
+              "height": 0.08,
+              "top_radius": 0.085,
+              "bottom_radius": 0.16
+            },
+            {
+              "name": "upper_section_4",
+              "height": 0.34,
+              "top_radius": 0.085,
+              "bottom_radius": 0.085
+            }
+          ],
+          "position": [
+            0.001,
+            -0.13,
+            -0.002
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalBottleLid",
+        "semantic": "lid",
+        "parameters": {
+          "top_outer_radius": 0.085,
+          "bottom_outer_radius": 0.09,
+          "total_height": 0.1,
+          "top_inner_radius": 0.08,
+          "bottom_inner_radius": 0.085,
+          "open_ring_height": 0.095,
+          "position": [
+            0.001,
+            0.9525,
+            -0.002
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Lid",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

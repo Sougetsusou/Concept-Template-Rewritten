@@ -1,0 +1,112 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Pliers",
+  "object": {
+    "id": "ee3229daab48b2f3bfa59e044d401be9",
+    "type": "mesh",
+    "source_object_index": 16,
+    "concepts": [
+      {
+        "template": "RoundPliersShaft",
+        "semantic": "shaft",
+        "parameters": {
+          "shaft_radius": 0.09,
+          "shaft_height": 0.08,
+          "secondary_shaft_enabled": false,
+          "secondary_shaft_radius": 0.05,
+          "secondary_shaft_height": 0.1,
+          "secondary_shaft_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            0.01,
+            0.0,
+            0.26
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Round_Shaft",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RearCurvedPliersHandle",
+        "semantic": "handle",
+        "parameters": {
+          "front_segment_size": [
+            0.08,
+            0.1,
+            0.19
+          ],
+          "rear_arc_outer_radius": 1.27,
+          "rear_arc_inner_radius": 1.15,
+          "rear_arc_height": 0.11,
+          "rear_arc_angle_degrees": 40,
+          "side_separation": 0.08,
+          "front_yaw_degrees": 40,
+          "rear_arc_yaw_degrees": 40,
+          "rear_offset": [
+            -0.05,
+            0
+          ],
+          "right_side_y_offset": 0,
+          "position": [
+            0.01,
+            0.0,
+            0.22
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Rear_Curved_Handle",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CuspPliersGripper",
+        "semantic": "gripper",
+        "parameters": {
+          "rear_segment_size": [
+            0.06,
+            0.07,
+            0.08,
+            0.11
+          ],
+          "front_segment_size": [
+            0.07,
+            0.01,
+            0.04,
+            0.6
+          ],
+          "side_separation": 0.03,
+          "jaw_yaw_degrees": 15,
+          "position": [
+            0.01,
+            0.0,
+            0.3
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cusp_Gripper",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

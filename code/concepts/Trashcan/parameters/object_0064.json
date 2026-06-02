@@ -1,0 +1,101 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Trashcan",
+  "object": {
+    "id": "12c4048e0d2f26a763b2acb037dfbcde",
+    "type": "mesh",
+    "source_object_index": 64,
+    "concepts": [
+      {
+        "template": "CylindricalTrashcanBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_profile": [
+            0.37,
+            0.34,
+            1.4
+          ],
+          "inner_profile": [
+            0.35,
+            0.3,
+            1.23
+          ],
+          "position": [
+            0.0,
+            -0.15,
+            -0.0105
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "HoledCylindricalTrashcanCover",
+        "semantic": "cover",
+        "parameters": {
+          "radii": [
+            0.43,
+            0.415
+          ],
+          "heights": [
+            0.07,
+            0.05,
+            0.325
+          ],
+          "arc_angle_degrees": 26,
+          "side_count": 4,
+          "position": [
+            0.0,
+            0.5499999999999999,
+            -0.0105
+          ],
+          "rotation": [
+            -0.0,
+            11.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Holed_Cylindrical_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CylindricalTrashcanShell",
+        "semantic": "shell",
+        "parameters": {
+          "outer_profile": [
+            0.43,
+            0.37,
+            1.46
+          ],
+          "inner_profile": [
+            0.42,
+            0.36
+          ],
+          "position": [
+            0.0,
+            -0.11499999999999999,
+            -0.0105
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Shell",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

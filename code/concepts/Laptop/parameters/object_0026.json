@@ -1,0 +1,100 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Laptop",
+  "object": {
+    "id": "6b78948484df58cdc664c3d4e2d59341",
+    "type": "mesh",
+    "source_object_index": 26,
+    "concepts": [
+      {
+        "template": "RegularLaptopBase",
+        "semantic": "base",
+        "parameters": {
+          "base_size": [
+            1.435,
+            0.03,
+            0.92
+          ],
+          "position": [
+            0.01,
+            -0.214,
+            0.3
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "TiltedLaptopScreen",
+        "semantic": "screen",
+        "parameters": {
+          "screen_size": [
+            1.42,
+            0.91,
+            0.01
+          ],
+          "hinge_projection_offset": [
+            -0.020000000000000004,
+            -0.595
+          ],
+          "screen_rotation_degrees": -19,
+          "position": [
+            0.01,
+            -0.214,
+            0.3
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Screen",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CylindricalLaptopConnector",
+        "semantic": "connector",
+        "parameters": {
+          "connector_count": 2,
+          "connector_radius": 0.015,
+          "connector_length": 0.1,
+          "connector_gaps": [
+            1,
+            0.15,
+            0.15,
+            0.15
+          ],
+          "start_offset": [
+            -0.59,
+            0.005,
+            -0.438
+          ],
+          "position": [
+            0.01,
+            -0.214,
+            0.3
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Connector",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Scissors",
+  "object": {
+    "id": "728753f3-e4e2-4a82-96e4-fc1ff2858d58",
+    "type": "mesh",
+    "source_object_index": 21,
+    "concepts": [
+      {
+        "template": "LayeredCuboidalScissorsShaft",
+        "semantic": "shaft",
+        "parameters": {
+          "layer_size": [
+            0.19,
+            0.05,
+            0.23
+          ],
+          "layer_offset_z": 0.02,
+          "layer_yaw_degrees": 8,
+          "left_layer_above": false,
+          "central_shaft_enabled": false,
+          "central_shaft_size": [
+            0.05,
+            0.1
+          ],
+          "central_shaft_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            0.24994517086871137,
+            0.0,
+            -0.005235604970839247
+          ],
+          "rotation": [
+            -0.0,
+            1.2000000000000017,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Shaft",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuspScissorsBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_size": [
+            0.98,
+            0.05,
+            0.18,
+            0.16
+          ],
+          "root_tip_offset_z": 0,
+          "tip_length": 0.19,
+          "tip_offset_z": 0,
+          "position": [
+            0.15202965323028617,
+            -0.02,
+            0.0018165295622816274
+          ],
+          "rotation": [
+            0.0,
+            8.2,
+            0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cusp_Blade",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CuspScissorsBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_size": [
+            0.98,
+            0.05,
+            0.18,
+            0.16
+          ],
+          "root_tip_offset_z": 0,
+          "tip_length": 0.19,
+          "tip_offset_z": 0,
+          "position": [
+            0.1518202290314526,
+            0.03,
+            -0.008181277272466828
+          ],
+          "rotation": [
+            180.0,
+            -5.799999999999995,
+            4.4366186406874635e-32
+          ]
+        },
+        "source": {
+          "legacy_template": "Cusp_Blade",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "CuboidalRingScissorsHandle",
+        "semantic": "handle",
+        "parameters": {
+          "root_size": [
+            0.04,
+            0.05,
+            0.1,
+            0.1
+          ],
+          "root_yaw_degrees": 18.5,
+          "top_bar_length": 0.19,
+          "bottom_bar_length": 0.36,
+          "ring_thickness": 0.05,
+          "side_bar_thickness": 0.05,
+          "top_bar_offset_z": 0,
+          "top_bar_yaw_degrees": 7,
+          "bottom_bar_yaw_degrees": 11,
+          "bar_center_separation_x": 0.45,
+          "handle_offset_z": 0.11,
+          "handle_yaw_degrees": 0,
+          "position": [
+            0.3298951150863647,
+            -0.02,
+            0.10311381254545587
+          ],
+          "rotation": [
+            -0.0,
+            1.2000000000000017,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Ring_Handle",
+          "source_concept_index": 3
+        }
+      },
+      {
+        "template": "CuboidalRingScissorsHandle",
+        "semantic": "handle",
+        "parameters": {
+          "root_size": [
+            0.04,
+            0.05,
+            0.1,
+            0.1
+          ],
+          "root_yaw_degrees": 18.5,
+          "top_bar_length": 0.19,
+          "bottom_bar_length": 0.36,
+          "ring_thickness": 0.05,
+          "side_bar_thickness": 0.05,
+          "top_bar_offset_z": 0,
+          "top_bar_yaw_degrees": 7,
+          "bottom_bar_yaw_degrees": 11,
+          "bar_center_separation_x": 0.45,
+          "handle_offset_z": 0.15,
+          "handle_yaw_degrees": 0,
+          "position": [
+            0.32851683134519094,
+            -0.02,
+            -0.09690118945293513
+          ],
+          "rotation": [
+            180.0,
+            1.2000000000000017,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Ring_Handle",
+          "source_concept_index": 4
+        }
+      }
+    ]
+  }
+}

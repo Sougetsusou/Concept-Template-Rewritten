@@ -1,0 +1,68 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Switch",
+  "object": {
+    "id": "282207dd-0e52-11ed-9fb1-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 73,
+    "concepts": [
+      {
+        "template": "StandardSwitchBase",
+        "semantic": "base",
+        "parameters": {
+          "body_size": [
+            0.735,
+            0.42,
+            0.25
+          ],
+          "back_part": null,
+          "position": [
+            -0.012,
+            -0.004,
+            0.134
+          ],
+          "rotation": [
+            2.6,
+            85.5,
+            3.5
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuboidalPlugGrid",
+        "semantic": "plug",
+        "parameters": {
+          "contact_size": [
+            0.08,
+            0.025,
+            0.2
+          ],
+          "column_count": 1,
+          "row_count": 2,
+          "contact_interval": [
+            0.095,
+            0.098
+          ],
+          "position": [
+            -0.097,
+            -0.069,
+            -0.11599999999999999
+          ],
+          "rotation": [
+            2.6,
+            85.5,
+            3.5
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Plug",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

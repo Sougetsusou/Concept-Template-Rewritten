@@ -1,0 +1,63 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Bucket",
+  "object": {
+    "id": "b03eee0c-0e3f-11ed-a1a1-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 47,
+    "concepts": [
+      {
+        "template": "CylindricalBucketBody",
+        "semantic": "body",
+        "parameters": {
+          "top_outer_radius": 0.92,
+          "bottom_outer_radius": 0.72,
+          "total_height": 1.75,
+          "top_inner_radius": 0.89,
+          "bottom_inner_radius": 0.69,
+          "open_shell_height": 1.73,
+          "position": [
+            -0.03,
+            -0.29,
+            0.03
+          ],
+          "rotation": [
+            -4.000000000000005,
+            -0.0,
+            -91.99999999999997
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FlatUBucketHandle",
+        "semantic": "handle",
+        "parameters": {
+          "vertical_size": [
+            0.02,
+            0.4,
+            0.09
+          ],
+          "leg_separation": 1.9,
+          "position": [
+            0.5930968756118535,
+            -0.3317712132502459,
+            -0.003622155587480129
+          ],
+          "rotation": [
+            -89.9999999999998,
+            86.00000000000024,
+            178.0000000000002
+          ]
+        },
+        "source": {
+          "legacy_template": "Flat_U_Handle",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

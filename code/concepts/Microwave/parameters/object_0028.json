@@ -1,0 +1,103 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Microwave",
+  "object": {
+    "id": "20bc0792ff28457cfca006af959682c4",
+    "type": "mesh",
+    "source_object_index": 28,
+    "concepts": [
+      {
+        "template": "CuboidalMicrowaveBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            1.665,
+            0.78,
+            0.82
+          ],
+          "wall_thickness": [
+            0.005,
+            0.005,
+            0.005,
+            0.005,
+            0.005
+          ],
+          "position": [
+            -0.022,
+            0.002,
+            -0.01
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SunkenMicrowaveDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            1.39,
+            0.775,
+            0.015
+          ],
+          "sunken_opening_size": [
+            1.39,
+            0.505,
+            0.01
+          ],
+          "sunken_opening_offset": [
+            0,
+            0
+          ],
+          "position": [
+            -0.15950000000000006,
+            0.002,
+            0.39999999999999997
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Sunken_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "MicrowaveControllerWithButtons",
+        "semantic": "button",
+        "parameters": {
+          "panel_size": [
+            0.275,
+            0.775,
+            0.015
+          ],
+          "button_specs": [],
+          "position": [
+            0.6679999999999999,
+            0.002,
+            0.39999999999999997
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Controller_With_Button",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

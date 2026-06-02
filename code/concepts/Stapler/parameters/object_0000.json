@@ -1,0 +1,115 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Stapler",
+  "object": {
+    "id": "20c5096ea98cc955920de219c00d1c3b",
+    "type": "mesh",
+    "source_object_index": 0,
+    "concepts": [
+      {
+        "template": "SideBlockStaplerBody",
+        "semantic": "body",
+        "parameters": {
+          "base_size": [
+            0.28,
+            0.02,
+            1.62
+          ],
+          "side_block_size": [
+            0.02,
+            0.04,
+            1.28
+          ],
+          "side_block_spacing": 0.26,
+          "side_block_depth_offset": 0,
+          "has_shaft": 1,
+          "shaft_center_section_size": [
+            0.02,
+            0.16
+          ],
+          "shaft_side_section_size": [
+            0.08,
+            0.06
+          ],
+          "shaft_offset": [
+            0.1,
+            -0.6
+          ],
+          "position": [
+            0.0,
+            -0.26,
+            -0.05
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CarvedStaplerCover",
+        "semantic": "cover",
+        "parameters": {
+          "outer_size": [
+            0.28,
+            0.19,
+            1.52
+          ],
+          "inner_opening_size": [
+            0.23,
+            0.16,
+            1.46
+          ],
+          "position": [
+            0.0,
+            -0.19,
+            -0.8600000000000001
+          ],
+          "rotation": [
+            -15.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Carved_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "BoxTrayStaplerMagazine",
+        "semantic": "magazine",
+        "parameters": {
+          "tray_size": [
+            0.205,
+            0.115,
+            1.53
+          ],
+          "wall_thickness": 0.03,
+          "front_wall_height": 0.16,
+          "side_wall_depth": 1.52,
+          "side_wall_depth_offset": 0,
+          "position": [
+            0.0,
+            -0.25,
+            -0.8600000000000001
+          ],
+          "rotation": [
+            -10.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Complex_Magazine",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Dishwasher",
+  "object": {
+    "id": "u6a1b720c-7c54-436f-a1fc-9044e6a8033c",
+    "type": "mesh",
+    "source_object_index": 184,
+    "concepts": [
+      {
+        "template": "RectangularDishwasherBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            0.998,
+            1.423,
+            0.895
+          ],
+          "wall_thickness": [
+            0.001,
+            0.001,
+            0.001,
+            0.001,
+            0.001
+          ],
+          "position": [
+            0.007,
+            -0.031,
+            -0.056
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FlatDishwasherDoor",
+        "semantic": "door",
+        "parameters": {
+          "panel_size": [
+            0.998,
+            1.42,
+            0.078
+          ],
+          "position": [
+            0.007,
+            -0.03,
+            0.3915
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "ArcDishwasherHandle",
+        "semantic": "handle",
+        "parameters": {
+          "outer_radius": 1.635,
+          "inner_radius": 1.6205,
+          "arc_height": 0.05,
+          "arc_angle_degrees": 35.5,
+          "position": [
+            0.007,
+            0.58,
+            0.4695
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ]
+        },
+        "source": {
+          "legacy_template": "Curve_Handle",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

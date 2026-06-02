@@ -1,0 +1,36 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "USB",
+  "object": {
+    "id": "236f335c39b95600a844b00d6ca20a7a",
+    "type": "mesh",
+    "source_object_index": 3,
+    "concepts": [
+      {
+        "template": "RoundEndedUsbBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.744,
+            0.3259,
+            1.377
+          ],
+          "position": [
+            0,
+            -0.0083,
+            0.7595
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "RoundEnded_Body",
+          "source_concept_index": 0
+        }
+      }
+    ]
+  }
+}

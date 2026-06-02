@@ -1,0 +1,96 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Chair",
+  "object": {
+    "id": "30f68a6304d6906c9bdca9b7303475c3",
+    "type": "mesh",
+    "source_object_index": 615,
+    "concepts": [
+      {
+        "template": "RectangularChairSeat",
+        "semantic": "seat",
+        "parameters": {
+          "seat_size": [
+            0.8,
+            0.005,
+            0.76
+          ],
+          "position": [
+            0.005,
+            -0.005,
+            0.18
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_seat",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SolidChairBack",
+        "semantic": "back",
+        "parameters": {
+          "back_size": [
+            0.72,
+            0.9,
+            0.005
+          ],
+          "back_tilt_degrees": -14,
+          "position": [
+            0.005,
+            -0.0025,
+            -0.319
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Solid_back",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "StarChairLeg",
+        "semantic": "leg",
+        "parameters": {
+          "center_column_size": [
+            0.05,
+            0.771
+          ],
+          "spoke_size": [
+            0.04,
+            0.05,
+            0.56
+          ],
+          "spoke_center_offset": 0,
+          "spoke_tilt_degrees": 0,
+          "central_yaw_degrees": 0,
+          "horizontal_tilt_degrees": 0,
+          "spoke_count": 4,
+          "position": [
+            0.005,
+            -0.393,
+            0.13999999999999999
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Star_leg",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

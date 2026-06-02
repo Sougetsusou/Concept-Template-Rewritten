@@ -1,0 +1,95 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Trashcan",
+  "object": {
+    "id": "18be3d380d248fe081faebbdea6bd9be",
+    "type": "mesh",
+    "source_object_index": 55,
+    "concepts": [
+      {
+        "template": "CylindricalTrashcanBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_profile": [
+            0.39,
+            0.34,
+            1.41
+          ],
+          "inner_profile": [
+            0.365,
+            0.325,
+            1.39
+          ],
+          "position": [
+            -0.01,
+            -0.01,
+            -0.008
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalHollowTrashcanCover",
+        "semantic": "cover",
+        "parameters": {
+          "cover_size": [
+            0.55,
+            0.21,
+            0.01
+          ],
+          "position": [
+            -0.01,
+            0.7749999999999999,
+            -0.008
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Hollow_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CylindricalTrashcanShell",
+        "semantic": "shell",
+        "parameters": {
+          "outer_profile": [
+            0.51,
+            0.51,
+            1.59
+          ],
+          "inner_profile": [
+            0.44,
+            0.445
+          ],
+          "position": [
+            -0.01,
+            -0.060000000000000005,
+            -0.008
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Shell",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

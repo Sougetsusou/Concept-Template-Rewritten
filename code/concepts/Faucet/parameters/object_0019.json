@@ -1,0 +1,136 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "416dd83d7a18d2543321831d2245cf06",
+    "type": "mesh",
+    "source_object_index": 19,
+    "concepts": [
+      {
+        "template": "Cylindrical_Base",
+        "semantic": "base",
+        "parameters": {
+          "cylinder_count": 2,
+          "primary_size": [
+            0.085,
+            0.04
+          ],
+          "secondary_size": [
+            0.15,
+            0.03
+          ],
+          "secondary_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            -0.006,
+            -0.31,
+            0.076
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "Curved_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "tube_radius": 0.055,
+          "end_extension_scale": 1.225,
+          "bottom_start": [
+            0,
+            0,
+            -0.08
+          ],
+          "bottom_offset": [
+            0,
+            1.105,
+            0
+          ],
+          "arc_center_offset": [
+            0,
+            0,
+            0.115
+          ],
+          "spout_rotation_degrees": 52,
+          "position": [
+            -0.006,
+            -0.31,
+            0.076
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Curved_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "HandleY_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "switch_count": 2,
+          "cube_count": 3,
+          "cube_sizes": [
+            [
+              0.275,
+              0.025,
+              0.275
+            ],
+            [
+              0.165,
+              0.435,
+              0.155
+            ],
+            [
+              0.48,
+              0.08,
+              0.08
+            ]
+          ],
+          "middle_offset": [
+            0,
+            -0.005
+          ],
+          "top_offset": [
+            -0.105,
+            -0.005
+          ],
+          "first_offset_x": -0.615,
+          "second_offset_x": 0.615,
+          "offset_yz": [
+            0,
+            -0.075
+          ],
+          "position": [
+            -0.006,
+            -0.38,
+            0.076
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "HandleY_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

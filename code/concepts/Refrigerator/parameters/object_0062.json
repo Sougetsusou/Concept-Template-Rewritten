@@ -1,0 +1,152 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Refrigerator",
+  "object": {
+    "id": "4ae870e05cd5af69a7a2ca2de4f5ee9b",
+    "type": "mesh",
+    "source_object_index": 62,
+    "concepts": [
+      {
+        "template": "CuboidalRefrigeratorBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.999,
+            1,
+            0.498
+          ],
+          "wall_thickness": [
+            0.1,
+            0.1,
+            0.1,
+            0.1,
+            0.2
+          ],
+          "position": [
+            -0.044,
+            0.002,
+            -0.14
+          ],
+          "rotation": [
+            0,
+            1,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuboidalRefrigeratorDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            1.01,
+            1.004,
+            0.07
+          ],
+          "position": [
+            0.207269572933501,
+            0.002,
+            0.5375874279896599
+          ],
+          "rotation": [
+            0,
+            60,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "FlatRefrigeratorTray",
+        "semantic": "tray",
+        "parameters": {
+          "tray_size": [
+            0.79,
+            0.01,
+            0.25
+          ],
+          "position": [
+            -0.04225475935627165,
+            -0.138,
+            -0.040015230484360884
+          ],
+          "rotation": [
+            0,
+            1,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Flat_Tray",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "FlatRefrigeratorTray",
+        "semantic": "tray",
+        "parameters": {
+          "tray_size": [
+            0.79,
+            0.01,
+            0.24
+          ],
+          "position": [
+            -0.04225475935627165,
+            0.062,
+            -0.040015230484360884
+          ],
+          "rotation": [
+            0,
+            1,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Flat_Tray",
+          "source_concept_index": 3
+        }
+      },
+      {
+        "template": "MultilevelRefrigeratorLegSet",
+        "semantic": "leg",
+        "parameters": {
+          "front_leg_size": [
+            0.08,
+            0.02,
+            0.08
+          ],
+          "rear_leg_size": [
+            0.08,
+            0.02,
+            0.08
+          ],
+          "front_leg_spacing": 0.86,
+          "rear_leg_spacing": 0.86,
+          "front_rear_spacing": 0.34,
+          "leg_count": 4,
+          "position": [
+            -0.044,
+            -0.498,
+            -0.14
+          ],
+          "rotation": [
+            0,
+            1,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Leg",
+          "source_concept_index": 4
+        }
+      }
+    ]
+  }
+}

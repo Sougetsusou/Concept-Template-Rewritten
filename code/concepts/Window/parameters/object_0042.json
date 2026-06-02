@@ -1,0 +1,140 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Window",
+  "object": {
+    "id": "c2412441-49cd-4731-8e77-9763732d95fc",
+    "type": "mesh",
+    "source_object_index": 42,
+    "concepts": [
+      {
+        "template": "StandardWindowFrame",
+        "semantic": "windowframe",
+        "parameters": {
+          "outer_size": [
+            1.44,
+            1.435,
+            0.1195
+          ],
+          "inner_size": [
+            1.37,
+            1.4
+          ],
+          "inner_outer_offset": [
+            0,
+            0
+          ],
+          "position": [
+            -0.0115,
+            0.006,
+            0.001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Windowframe",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "AsymmetricalPanelWindow",
+        "semantic": "window",
+        "parameters": {
+          "outside_inner_size": [
+            1.37,
+            1.4
+          ],
+          "outside_inner_offset": [
+            0,
+            0
+          ],
+          "panel_count": 2,
+          "panel_profiles": [
+            {
+              "frame_width": 0.7,
+              "frame_height": 0.0307,
+              "glass_size": [
+                0.64,
+                1.34,
+                0.007
+              ],
+              "glass_offset": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "frame_width": 0.7,
+              "frame_height": 0.032,
+              "glass_size": [
+                0.6,
+                1.33,
+                0.007
+              ],
+              "glass_offset": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "frame_width": 0.7,
+              "frame_height": 0.08,
+              "glass_size": [
+                0.6,
+                0.9,
+                0.03
+              ],
+              "glass_offset": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "frame_width": 0.7,
+              "frame_height": 0.08,
+              "glass_size": [
+                0.6,
+                0.9,
+                0.03
+              ],
+              "glass_offset": [
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "horizontal_offsets": [
+            0.335,
+            -0.335,
+            0.1,
+            0,
+            -0.63,
+            0.3
+          ],
+          "base_z_offset": -0.0155,
+          "position": [
+            -0.0115,
+            0.006,
+            0.001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Asymmetrical_Window",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

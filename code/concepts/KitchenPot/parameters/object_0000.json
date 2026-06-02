@@ -1,0 +1,90 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "KitchenPot",
+  "object": {
+    "id": "13dd2d5e9c06b01b2677042d71d00b91",
+    "type": "mesh",
+    "source_object_index": 0,
+    "concepts": [
+      {
+        "template": "CylindricalKitchenPotBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_profile": [
+            0.9,
+            0.925,
+            0.71
+          ],
+          "inner_opening": [
+            0.89,
+            0.92,
+            0.7
+          ],
+          "position": [
+            0.004,
+            -0.06,
+            0.046
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalKitchenPotCover",
+        "semantic": "cover",
+        "parameters": {
+          "cover_size": [
+            0.9,
+            0.01
+          ],
+          "position": [
+            0.014,
+            0.3,
+            0.046
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CuboidalKitchenPotTopHandle",
+        "semantic": "tophandle",
+        "parameters": {
+          "handle_size": [
+            0.68,
+            0.4,
+            0.21
+          ],
+          "position": [
+            -0.266,
+            0.305,
+            -0.184
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Tophandle",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

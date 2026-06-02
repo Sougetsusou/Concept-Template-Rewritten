@@ -1,0 +1,89 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Pen",
+  "object": {
+    "id": "fe9d7c71-0e4a-11ed-b4c6-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 102,
+    "concepts": [
+      {
+        "template": "DoubleLayerPenBarrel",
+        "semantic": "barrel",
+        "parameters": {
+          "main_top_outer_radius": 0.08,
+          "main_bottom_outer_radius": 0.08,
+          "main_height": 0.6,
+          "bottom_bottom_outer_radius": 0.04,
+          "bottom_height": 0.1,
+          "wall_thickness": 0.01,
+          "position": [
+            0.0,
+            6.123233995736766e-19,
+            -0.01
+          ],
+          "rotation": [
+            -90.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Double_Layer_Barrel",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalPenButton",
+        "semantic": "button",
+        "parameters": {
+          "top_radius": 0.07,
+          "bottom_radius": 0.07,
+          "height": 0.08,
+          "position": [
+            0.0,
+            1.8982025386783973e-17,
+            -0.31
+          ],
+          "rotation": [
+            -90.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Button",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CylindricalPenRefill",
+        "semantic": "refill",
+        "parameters": {
+          "refill_radius": 0,
+          "refill_height": 0.6,
+          "tip_radius": 0.04,
+          "connector_height": 0.1,
+          "cone_height": 0.08,
+          "tip_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0.0,
+            -3.67394039744206e-18,
+            0.060000000000000005
+          ],
+          "rotation": [
+            -90.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Refill",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

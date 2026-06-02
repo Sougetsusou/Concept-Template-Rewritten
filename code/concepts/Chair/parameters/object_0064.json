@@ -1,0 +1,97 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Chair",
+  "object": {
+    "id": "1b8c83552010440d490ad276cd2af3a4",
+    "type": "mesh",
+    "source_object_index": 64,
+    "concepts": [
+      {
+        "template": "RectangularChairSeat",
+        "semantic": "seat",
+        "parameters": {
+          "seat_size": [
+            1.325,
+            0.53,
+            1.42
+          ],
+          "position": [
+            -0.01,
+            -0.2365,
+            0.07
+          ],
+          "rotation": [
+            -4.000000000000005,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_seat",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SolidChairBack",
+        "semantic": "back",
+        "parameters": {
+          "back_size": [
+            1.19,
+            0.775,
+            0.48
+          ],
+          "back_tilt_degrees": -7,
+          "position": [
+            -0.01,
+            -0.0038847222347236088,
+            -0.40237710841041324
+          ],
+          "rotation": [
+            -4.000000000000005,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Solid_back",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "OfficeChairArmrest",
+        "semantic": "armrest",
+        "parameters": {
+          "horizontal_support_size": [
+            0.18,
+            0.22,
+            0.935
+          ],
+          "vertical_support_size": [
+            0.155,
+            0.14,
+            0.22
+          ],
+          "support_contact_offset": 0.305,
+          "vertical_support_rotation_degrees": 10,
+          "horizontal_support_rotation_degrees": 15,
+          "armrest_separation": 1.13,
+          "armrest_rotation_degrees": 4,
+          "position": [
+            -0.01,
+            0.04389846228000227,
+            0.28095426601756635
+          ],
+          "rotation": [
+            -4.000000000000005,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Office_armrest",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

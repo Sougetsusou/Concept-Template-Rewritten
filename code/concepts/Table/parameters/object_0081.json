@@ -1,0 +1,459 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Table",
+  "object": {
+    "id": "9af7a071bbd432baa5526f91aecc0c37",
+    "type": "mesh",
+    "source_object_index": 81,
+    "concepts": [
+      {
+        "template": "TableTop",
+        "semantic": null,
+        "parameters": {
+          "size": [
+            1.506,
+            0.0158,
+            0.7055
+          ],
+          "position": [
+            -0.0063,
+            0.0425,
+            0.0346
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_desktop",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SplatTableLegSet",
+        "semantic": null,
+        "parameters": {
+          "front_leg_size": [
+            0.029,
+            0.587,
+            0.029
+          ],
+          "rear_leg_size": [
+            0.029,
+            0.587,
+            0.029
+          ],
+          "leg_center_spacing": [
+            1.4775,
+            1.4775,
+            0.677
+          ],
+          "central_yaw_degrees": 0,
+          "front_tilt_degrees": [
+            0,
+            0
+          ],
+          "rear_tilt_degrees": [
+            0,
+            0
+          ],
+          "front_rear_bar_size": [
+            0.068,
+            0.03
+          ],
+          "side_bar_size": [
+            0.03,
+            0.068
+          ],
+          "front_rear_bar_offsets": [
+            0.2755,
+            0.2755
+          ],
+          "side_bar_offsets": [
+            0.2755,
+            0.2755
+          ],
+          "enabled_bars": {
+            "front_width_bar": 1,
+            "rear_width_bar": 0,
+            "left_depth_bar": 1,
+            "right_depth_bar": 1
+          },
+          "extra_legs": [],
+          "position": [
+            -0.0063,
+            0.034600000000000006,
+            0.0346
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_with_splat_leg",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TableCabinetAssembly",
+        "semantic": null,
+        "parameters": {
+          "top_cabinets": [],
+          "beneath_cabinets": [
+            {
+              "size": [
+                0.401,
+                0.0526,
+                0.271
+              ],
+              "space_types": [
+                0,
+                2,
+                0,
+                0
+              ],
+              "drawer_intervals": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "drawer_offsets": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "drawer_handle_counts": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "drawer_handle_size": [
+                0,
+                0,
+                0
+              ],
+              "drawer_handle_rotations": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "drawer_handle_separations": [
+                0,
+                0,
+                0,
+                0.09
+              ],
+              "drawer_handle_offsets": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "door_handle_size": [
+                0.401,
+                0.05,
+                0.01
+              ],
+              "door_handle_rotations": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "door_handle_offsets": [
+                [
+                  -0.02,
+                  0
+                ],
+                [
+                  0,
+                  0.023
+                ],
+                [
+                  0.04,
+                  0
+                ],
+                [
+                  0.04,
+                  0
+                ]
+              ],
+              "offset": [
+                -0.522,
+                -0.0342,
+                -0.2022
+              ],
+              "back_thickness": 0.0153,
+              "side_thickness": 0.0105,
+              "cap_thickness": 0,
+              "layer_count": 1,
+              "layer_thickness": 0.0062,
+              "layer_offset": 0.045,
+              "layer_interval": 0,
+              "top_cabinet_count": 0
+            },
+            {
+              "size": [
+                0.401,
+                0.0526,
+                0.271
+              ],
+              "space_types": [
+                0,
+                2,
+                0,
+                0
+              ],
+              "drawer_intervals": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "drawer_offsets": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "drawer_handle_counts": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "drawer_handle_size": [
+                0.04,
+                0.03,
+                0.02
+              ],
+              "drawer_handle_rotations": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "drawer_handle_separations": [
+                0.09,
+                0.09,
+                0.09,
+                0.09
+              ],
+              "drawer_handle_offsets": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "door_handle_size": [
+                0.388,
+                0.05,
+                0.01
+              ],
+              "door_handle_rotations": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "door_handle_offsets": [
+                [
+                  -0.13,
+                  0
+                ],
+                [
+                  0,
+                  0.023
+                ],
+                [
+                  0.04,
+                  0
+                ],
+                [
+                  0.04,
+                  0
+                ]
+              ],
+              "offset": [
+                0.521,
+                -0.0342,
+                -0.2022
+              ],
+              "back_thickness": 0.0153,
+              "side_thickness": 0.0105,
+              "cap_thickness": 0,
+              "layer_count": 1,
+              "layer_thickness": 0.0062,
+              "layer_offset": 0.045,
+              "layer_interval": 0,
+              "top_cabinet_count": 0
+            },
+            {
+              "size": [
+                0.601,
+                0.0526,
+                0.271
+              ],
+              "space_types": [
+                0,
+                2,
+                0,
+                0
+              ],
+              "drawer_intervals": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "drawer_offsets": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "drawer_handle_counts": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "drawer_handle_size": [
+                0.03,
+                0.04,
+                0.04
+              ],
+              "drawer_handle_rotations": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "drawer_handle_separations": [
+                0.12,
+                0.12,
+                0.12,
+                0.12
+              ],
+              "drawer_handle_offsets": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "door_handle_size": [
+                0.601,
+                0.05,
+                0.01
+              ],
+              "door_handle_rotations": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "door_handle_offsets": [
+                [
+                  0.04,
+                  0
+                ],
+                [
+                  0,
+                  0.023
+                ],
+                [
+                  0.06,
+                  0
+                ],
+                [
+                  0.06,
+                  0
+                ]
+              ],
+              "offset": [
+                -0.001,
+                -0.0342,
+                -0.2022
+              ],
+              "back_thickness": 0.0153,
+              "side_thickness": 0.0105,
+              "cap_thickness": 0,
+              "layer_count": 1,
+              "layer_thickness": 0.0062,
+              "layer_offset": 0.045,
+              "layer_interval": 0,
+              "top_cabinet_count": 0
+            }
+          ],
+          "drawer_inner_size": [
+            0,
+            0
+          ],
+          "drawer_bottom_thickness": 0,
+          "door_thickness": 1e-05,
+          "position": [
+            -0.0063,
+            0.0425,
+            0.0346
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_cabinet",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

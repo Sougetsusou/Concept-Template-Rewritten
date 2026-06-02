@@ -1,0 +1,99 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Display",
+  "object": {
+    "id": "4812245f2f9fa2c953ed9ce120377769",
+    "type": "mesh",
+    "source_object_index": 223,
+    "concepts": [
+      {
+        "template": "FlatDisplayScreen",
+        "semantic": "screen",
+        "parameters": {
+          "screen_size": [
+            1.542,
+            1.204,
+            0.08
+          ],
+          "has_back_layer": true,
+          "back_layer_size": [
+            1.46,
+            1.12,
+            0.081
+          ],
+          "back_layer_offset": [
+            0,
+            0
+          ],
+          "position": [
+            -0.014,
+            0.068,
+            0.03
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Screen",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RectangularDisplaySupportSet",
+        "semantic": "support",
+        "parameters": {
+          "support_count": 1,
+          "support_size": [
+            0.145,
+            0.182,
+            0.14
+          ],
+          "support_spacing": 0.1,
+          "position": [
+            -0.034,
+            -0.534,
+            -0.020000000000000004
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Support",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RectangularDisplayBase",
+        "semantic": "base",
+        "parameters": {
+          "base_size": [
+            0.74,
+            0.023,
+            0.44
+          ],
+          "base_rotation_degrees": 0,
+          "position": [
+            -0.028999999999999998,
+            -0.716,
+            -0.024
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Base",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

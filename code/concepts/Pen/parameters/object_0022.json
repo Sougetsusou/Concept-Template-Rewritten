@@ -1,0 +1,129 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Pen",
+  "object": {
+    "id": "7a998cf9921ecebd2846fa729d90e125-0",
+    "type": "mesh",
+    "source_object_index": 22,
+    "concepts": [
+      {
+        "template": "DoubleLayerPenBarrel",
+        "semantic": "barrel",
+        "parameters": {
+          "main_top_outer_radius": 0.06,
+          "main_bottom_outer_radius": 0.06,
+          "main_height": 1.46,
+          "bottom_bottom_outer_radius": 0.02,
+          "bottom_height": 0.28,
+          "wall_thickness": 0.01,
+          "position": [
+            0.0,
+            0.03,
+            -0.01
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Double_Layer_Barrel",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "BistratalPenButton",
+        "semantic": "button",
+        "parameters": {
+          "bottom_top_radius": 0.03,
+          "bottom_bottom_radius": 0.03,
+          "bottom_height": 0.03,
+          "top_top_radius": 0.05,
+          "top_bottom_radius": 0.05,
+          "top_height": 0.07,
+          "position": [
+            0.0,
+            0.76,
+            -0.01
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Bistratal_Button",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TrifoldPenClip",
+        "semantic": "clip",
+        "parameters": {
+          "root_size": [
+            0.04,
+            0.1,
+            0.01
+          ],
+          "middle_size": [
+            0.04,
+            0.55,
+            0.03
+          ],
+          "tip_size": [
+            0.05,
+            0.05,
+            0.01
+          ],
+          "root_to_middle_drop": 0,
+          "tip_return_drop": 0,
+          "position": [
+            0.0,
+            0.7,
+            0.049999999999999996
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Clip",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "CylindricalPenRefill",
+        "semantic": "refill",
+        "parameters": {
+          "refill_radius": 0.02,
+          "refill_height": 0.2,
+          "tip_radius": 0.02,
+          "connector_height": 0.05,
+          "cone_height": 0.05,
+          "tip_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0.0,
+            -0.82,
+            -0.01
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Refill",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

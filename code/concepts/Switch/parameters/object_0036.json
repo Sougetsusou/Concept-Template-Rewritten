@@ -1,0 +1,96 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Switch",
+  "object": {
+    "id": "9859d3ad33ac2fcdd6870a66e08dc8f0",
+    "type": "mesh",
+    "source_object_index": 36,
+    "concepts": [
+      {
+        "template": "StandardSwitchBase",
+        "semantic": "base",
+        "parameters": {
+          "body_size": [
+            1.763,
+            0.82,
+            0.496
+          ],
+          "back_part": null,
+          "position": [
+            -0.004,
+            0,
+            0.276
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FlipXSwitch",
+        "semantic": "switch",
+        "parameters": {
+          "switch_size": [
+            0.116,
+            0.133,
+            0.083
+          ],
+          "switch_count": 8,
+          "center_spacing": 0.2099,
+          "tilt_degrees": 0,
+          "position": [
+            -0.739,
+            -0.079,
+            0.318
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "FlipX_Switch",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CuboidalPlugGrid",
+        "semantic": "plug",
+        "parameters": {
+          "contact_size": [
+            0.05,
+            0.013,
+            0.261
+          ],
+          "column_count": 8,
+          "row_count": 2,
+          "contact_interval": [
+            0.1599,
+            0.6165
+          ],
+          "position": [
+            -0.739,
+            -0.315,
+            -0.21999999999999997
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Plug",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

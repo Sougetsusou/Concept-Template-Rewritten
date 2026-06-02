@@ -1,0 +1,99 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Globe",
+  "object": {
+    "id": "588d0d66-e5c6-40aa-ba9d-6b34085c60a8",
+    "type": "mesh",
+    "source_object_index": 8,
+    "concepts": [
+      {
+        "template": "GlobeSphere",
+        "semantic": "sphere",
+        "parameters": {
+          "radius": 0.71,
+          "position": [
+            -0.012,
+            0.05,
+            0.008
+          ],
+          "rotation": [
+            0,
+            2.2,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Sphere",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SemiRingGlobeBracket",
+        "semantic": "bracket",
+        "parameters": {
+          "pivot_size": [
+            0,
+            1
+          ],
+          "pivot_continuous": true,
+          "pivot_separation": 0.4,
+          "has_top_endpoint": false,
+          "has_bottom_endpoint": false,
+          "endpoint_radius": 0.03,
+          "bracket_size": [
+            0.745,
+            0.685,
+            0.055
+          ],
+          "bracket_arc_degrees": 180,
+          "bracket_offset": 0.215,
+          "bracket_rotation_degrees": 180,
+          "position": [
+            -0.012,
+            -0.16999999999999998,
+            0.008
+          ],
+          "rotation": [
+            0,
+            2.2,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Semi_Ring_Bracket",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CylindricalGlobeBase",
+        "semantic": "base",
+        "parameters": {
+          "bottom_section": [
+            0.245,
+            0.245,
+            0.074
+          ],
+          "top_section": [
+            0.042,
+            0.08,
+            0.235
+          ],
+          "position": [
+            -0.027411209646122037,
+            -0.6699999999999999,
+            -0.0024160749442040334
+          ],
+          "rotation": [
+            0,
+            2.2,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Base",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

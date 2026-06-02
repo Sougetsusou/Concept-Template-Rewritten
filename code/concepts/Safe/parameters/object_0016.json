@@ -1,0 +1,157 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Safe",
+  "object": {
+    "id": "f7cae0d6-c00a-4ded-b72f-2140762b8fe2",
+    "type": "mesh",
+    "source_object_index": 16,
+    "concepts": [
+      {
+        "template": "CuboidalSafeBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            0.995,
+            0.99,
+            0.89
+          ],
+          "wall_thickness": [
+            0.09,
+            0.13,
+            0.13,
+            0.12,
+            0.115
+          ],
+          "position": [
+            -0.011000000000000001,
+            0,
+            -0.05
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuboidalSafeDoor",
+        "semantic": "door",
+        "parameters": {
+          "panel_size": [
+            0.78,
+            0.79,
+            0.04
+          ],
+          "position": [
+            0.06072835533724647,
+            0.01,
+            0.7107716446627534
+          ],
+          "rotation": [
+            0,
+            45,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TShapedSafeConnector",
+        "semantic": "connecter",
+        "parameters": {
+          "cylinder_size": [
+            0.03,
+            0.22
+          ],
+          "side_block_size": [
+            0.18,
+            0.1,
+            0.04
+          ],
+          "side_block_offset_y": 0.06,
+          "position": [
+            0.4265,
+            0.21,
+            0.425
+          ],
+          "rotation": [
+            0,
+            229,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "T_Shaped_Connecter",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "TShapedSafeConnector",
+        "semantic": "connecter",
+        "parameters": {
+          "cylinder_size": [
+            0.03,
+            0.22
+          ],
+          "side_block_size": [
+            0.17,
+            0.1,
+            0.04
+          ],
+          "side_block_offset_y": 0.06,
+          "position": [
+            0.4265,
+            -0.265,
+            0.425
+          ],
+          "rotation": [
+            0,
+            229,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "T_Shaped_Connecter",
+          "source_concept_index": 3
+        }
+      },
+      {
+        "template": "CylindricalSafeDial",
+        "semantic": "dial",
+        "parameters": {
+          "base_size": [
+            0.14,
+            0.09,
+            0.06
+          ],
+          "top_size": [
+            0.07,
+            0.01
+          ],
+          "position": [
+            0.23750505063388333,
+            0.05,
+            0.5905634918610404
+          ],
+          "rotation": [
+            0,
+            45,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Dial",
+          "source_concept_index": 4
+        }
+      }
+    ]
+  }
+}

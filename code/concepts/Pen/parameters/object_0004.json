@@ -1,0 +1,84 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Pen",
+  "object": {
+    "id": "2560c37d463f365ce9bfc203f193ce76",
+    "type": "mesh",
+    "source_object_index": 4,
+    "concepts": [
+      {
+        "template": "DoubleLayerPenBarrel",
+        "semantic": "barrel",
+        "parameters": {
+          "main_top_outer_radius": 0.04,
+          "main_bottom_outer_radius": 0.06,
+          "main_height": 1.72,
+          "bottom_bottom_outer_radius": 0.01,
+          "bottom_height": 0.16,
+          "wall_thickness": 0.005,
+          "position": [
+            0.0,
+            0.06,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Double_Layer_Barrel",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalPenButton",
+        "semantic": "button",
+        "parameters": {
+          "top_radius": 0.02,
+          "bottom_radius": 0.02,
+          "height": 0.08,
+          "position": [
+            0.0,
+            0.9199999999999999,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Button",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CurvedPenClip",
+        "semantic": "clip",
+        "parameters": {
+          "outer_radius": 0.71,
+          "inner_radius": 0.71,
+          "thickness": 0.02,
+          "arc_angle_degrees": 37,
+          "position": [
+            0.0,
+            0.9099999999999999,
+            0.04011627906976744
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Curved_Clip",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

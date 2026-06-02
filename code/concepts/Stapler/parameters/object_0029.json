@@ -1,0 +1,106 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Stapler",
+  "object": {
+    "id": "1d1865a0-0e52-11ed-a74f-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 29,
+    "concepts": [
+      {
+        "template": "SideBlockStaplerBody",
+        "semantic": "body",
+        "parameters": {
+          "base_size": [
+            0.24,
+            0.06,
+            0.55
+          ],
+          "side_block_size": [
+            0.02,
+            0.09,
+            0.225
+          ],
+          "side_block_spacing": 0.173,
+          "side_block_depth_offset": 0.015,
+          "has_shaft": 0,
+          "shaft_center_section_size": [
+            0.03,
+            0.06
+          ],
+          "shaft_side_section_size": [
+            0.08,
+            0.03
+          ],
+          "shaft_offset": [
+            0,
+            0
+          ],
+          "position": [
+            -0.021819389368511806,
+            -0.09749211104106667,
+            0.006723282854499163
+          ],
+          "rotation": [
+            -147.6577865738159,
+            82.31964856942662,
+            -157.5907005223428
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SolidStaplerCover",
+        "semantic": "cover",
+        "parameters": {
+          "size": [
+            0.238,
+            0.14,
+            0.577
+          ],
+          "position": [
+            -0.30597724422728256,
+            0.009198135229938523,
+            0.03666497406748934
+          ],
+          "rotation": [
+            -164.6577865738159,
+            82.31964856942662,
+            -157.5907005223428
+          ]
+        },
+        "source": {
+          "legacy_template": "Simplified_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "SolidStaplerCover",
+        "semantic": "cover",
+        "parameters": {
+          "size": [
+            0.15,
+            0.11,
+            0.265
+          ],
+          "position": [
+            -0.040387441005564725,
+            -0.058696173303466846,
+            0.007043709857129156
+          ],
+          "rotation": [
+            -162.6577865738159,
+            82.31964856942662,
+            -157.5907005223428
+          ]
+        },
+        "source": {
+          "legacy_template": "Simplified_Cover",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

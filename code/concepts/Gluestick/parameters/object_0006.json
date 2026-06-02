@@ -1,0 +1,67 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Gluestick",
+  "object": {
+    "id": "da63575c-0e4a-11ed-bf6d-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 6,
+    "concepts": [
+      {
+        "template": "CylindricalGlueStickBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_size": [
+            0.11,
+            0.13,
+            0.97
+          ],
+          "z_radius_scale": 1,
+          "position": [
+            0,
+            -0.15,
+            0
+          ],
+          "rotation": [
+            83.6,
+            90,
+            -100
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "DomedGlueStickCover",
+        "semantic": "cover",
+        "parameters": {
+          "base_size": [
+            0.09,
+            0.11,
+            0.14
+          ],
+          "dome_radius": [
+            0.09,
+            0.23
+          ],
+          "dome_exist_angle_degrees": 100,
+          "position": [
+            0,
+            0.33499999999999996,
+            0
+          ],
+          "rotation": [
+            83.6,
+            90,
+            -100
+          ]
+        },
+        "source": {
+          "legacy_template": "Domed_Cover",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

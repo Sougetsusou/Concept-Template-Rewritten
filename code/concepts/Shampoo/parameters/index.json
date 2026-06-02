@@ -1,0 +1,358 @@
+{
+  "format": "concept_template_parameter_index.v1",
+  "package_format": "concept_template_parameters.v1",
+  "category": "Shampoo",
+  "status": "passed",
+  "source": {
+    "type": "concept_template_parameters"
+  },
+  "conversion": {
+    "mapper_module": null,
+    "max_objects": null
+  },
+  "summary": {
+    "object_count": 46,
+    "concept_count": 92,
+    "class_counts": {
+      "CuboidalShampooBody": 1,
+      "CylindricalShampooCap": 39,
+      "RegularShampooNozzle": 7,
+      "StackedCylindricalShampooBody": 27,
+      "ToothpasteLikeShampooBody": 18
+    },
+    "legacy_class_counts": {
+      "Cuboidal_body": 1,
+      "Cylindrical_body": 27,
+      "Cylindrical_cap": 39,
+      "Regular_nozzle": 7,
+      "Toothpaste_body": 18
+    },
+    "event_count": 0,
+    "failed_event_count": 0
+  },
+  "objects": [
+    {
+      "file": "object_0000.json",
+      "id": "6ac5ebcc-0e4f-11ed-88f1-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 0,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0001.json",
+      "id": "6ac8fc9a-0e4f-11ed-9db5-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 1,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0002.json",
+      "id": "6ac778b9-0e4f-11ed-833b-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 2,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0003.json",
+      "id": "6ac8379e-0e4f-11ed-b35b-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 3,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0004.json",
+      "id": "6ac9bd15-0e4f-11ed-8609-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 4,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0005.json",
+      "id": "6aca9765-0e4f-11ed-a63a-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 5,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0006.json",
+      "id": "6acb825b-0e4f-11ed-95c6-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 6,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0007.json",
+      "id": "6acc7e2e-0e4f-11ed-885d-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 7,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0008.json",
+      "id": "6acd416c-0e4f-11ed-852f-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 8,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0009.json",
+      "id": "6acdd251-0e4f-11ed-9698-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 9,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0010.json",
+      "id": "6ace87fc-0e4f-11ed-ba7f-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 10,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0011.json",
+      "id": "6acffbec-0e4f-11ed-8475-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 11,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0012.json",
+      "id": "6ad09383-0e4f-11ed-860d-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 12,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0013.json",
+      "id": "6ad136ca-0e4f-11ed-8179-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 13,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0014.json",
+      "id": "6ad1f946-0e4f-11ed-94c4-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 14,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0015.json",
+      "id": "6ad29634-0e4f-11ed-9552-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 15,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0016.json",
+      "id": "6ad331ea-0e4f-11ed-99bb-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 16,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0017.json",
+      "id": "6ad3cea1-0e4f-11ed-a039-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 17,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0018.json",
+      "id": "6ad45d65-0e4f-11ed-a577-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 18,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0019.json",
+      "id": "6ad4f930-0e4f-11ed-a3f1-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 19,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0020.json",
+      "id": "6ad57b40-0e4f-11ed-b47a-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 20,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0021.json",
+      "id": "6ad610d8-0e4f-11ed-91ad-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 21,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0022.json",
+      "id": "6ad68833-0e4f-11ed-9ca3-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 22,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0023.json",
+      "id": "6ad71f9c-0e4f-11ed-a43f-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 23,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0024.json",
+      "id": "6ad86839-0e4f-11ed-81c5-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 24,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0025.json",
+      "id": "6ad9020b-0e4f-11ed-a5cd-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 25,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0026.json",
+      "id": "6ad986e5-0e4f-11ed-a0c9-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 26,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0027.json",
+      "id": "6ada1ca0-0e4f-11ed-aba7-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 27,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0028.json",
+      "id": "6adab891-0e4f-11ed-a326-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 28,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0029.json",
+      "id": "6adb40bb-0e4f-11ed-abbf-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 29,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0030.json",
+      "id": "6adbb70b-0e4f-11ed-a71a-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 30,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0031.json",
+      "id": "6adced7d-0e4f-11ed-9ac9-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 31,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0032.json",
+      "id": "6ade16ff-0e4f-11ed-af75-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 32,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0033.json",
+      "id": "6cb158f9-0e4f-11ed-9975-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 33,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0034.json",
+      "id": "6e80c3b8-0e4f-11ed-a7b3-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 34,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0035.json",
+      "id": "6fa90e80-0e4f-11ed-b8c5-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 35,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0036.json",
+      "id": "72a85641-0e4f-11ed-8491-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 36,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0037.json",
+      "id": "7474bfc9-0e4f-11ed-b78c-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 37,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0038.json",
+      "id": "751d0c3d-0e4f-11ed-89ea-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 38,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0039.json",
+      "id": "77ca1e22-0e4f-11ed-b443-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 39,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0040.json",
+      "id": "7af97267-0e4f-11ed-917a-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 40,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0041.json",
+      "id": "7ba72707-0e4f-11ed-91f9-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 41,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0042.json",
+      "id": "7cfaeb75-0e4f-11ed-a49e-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 42,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0043.json",
+      "id": "7df9ca59-0e4f-11ed-861b-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 43,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0044.json",
+      "id": "7fe0afe9-0e4f-11ed-a7a9-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 44,
+      "concept_count": 2
+    },
+    {
+      "file": "object_0045.json",
+      "id": "81d4bf1f-0e4f-11ed-b51c-ec2e98c7e246",
+      "type": "scanned",
+      "source_object_index": 45,
+      "concept_count": 2
+    }
+  ],
+  "events": []
+}

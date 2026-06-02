@@ -1,0 +1,167 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "StorageFurniture",
+  "object": {
+    "id": "33b29c9e55250cc57f0bdbbc607f1f0e",
+    "type": "mesh",
+    "source_object_index": 522,
+    "concepts": [
+      {
+        "template": "PartitionedStorageFurnitureBody",
+        "semantic": null,
+        "parameters": {
+          "outer_size": [
+            1.32,
+            1.31,
+            0.46
+          ],
+          "back_panel_thickness": 0.07,
+          "side_wall_thickness": 0.07,
+          "base_panel_thickness": 0.03,
+          "lid_spec": {
+            "size": [
+              1.34,
+              0.06,
+              0.47
+            ],
+            "offset": [
+              0,
+              0,
+              -0.04
+            ]
+          },
+          "horizontal_shelf_specs": [
+            {
+              "thickness": 0.065,
+              "center_offset_from_top": 0.42
+            },
+            {
+              "thickness": 0.065,
+              "center_offset_from_top": 0.86
+            }
+          ],
+          "partition_bay_specs": [
+            {
+              "height": 0.38749999999999996,
+              "center_y": 0.46125000000000005,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            },
+            {
+              "height": 0.44,
+              "center_y": 0.015000000000000041,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            },
+            {
+              "height": 0.38750000000000007,
+              "center_y": -0.43125,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            }
+          ],
+          "additional_panel_specs": [],
+          "position": [
+            0,
+            0.0025,
+            0.04
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Storagefurniture_body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "StorageFurnitureFrontPanelSet",
+        "semantic": null,
+        "parameters": {
+          "panel_specs": [
+            {
+              "size": [
+                1.32,
+                0.12,
+                0.04
+              ],
+              "center": [
+                0,
+                -0.69,
+                0.21000000000000002
+              ]
+            },
+            {
+              "size": [
+                1.32,
+                0.12,
+                0.08
+              ],
+              "center": [
+                0,
+                -0.69,
+                -0.19
+              ]
+            },
+            {
+              "size": [
+                0.05,
+                0.1,
+                0.34
+              ],
+              "center": [
+                -0.64,
+                -0.7,
+                0.01999999999999999
+              ]
+            },
+            {
+              "size": [
+                0.05,
+                0.1,
+                0.34
+              ],
+              "center": [
+                0.64,
+                -0.7,
+                0.01999999999999999
+              ]
+            }
+          ],
+          "position": [
+            0,
+            0.0025,
+            0.04
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_front_panel",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

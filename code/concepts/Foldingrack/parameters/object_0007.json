@@ -1,0 +1,73 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Foldingrack",
+  "object": {
+    "id": "d828058a-0e4a-11ed-b03a-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 7,
+    "concepts": [
+      {
+        "template": "RegularFoldingRack",
+        "semantic": "rack",
+        "parameters": {
+          "rail_size": [
+            0.29,
+            1.95,
+            0.16
+          ],
+          "open_angle_degrees": 18,
+          "position": [
+            -0.37,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            -2.6
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_rack",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RegularFoldingHook",
+        "semantic": "hook",
+        "parameters": {
+          "base_size": [
+            0.16,
+            0.1,
+            0.07
+          ],
+          "arm_size": [
+            0.4,
+            0.09,
+            0.07
+          ],
+          "arm_mount_offset": [
+            0,
+            0
+          ],
+          "arm_rotation_degrees": 32,
+          "hook_radius": 0.25,
+          "position": [
+            -0.37,
+            -0.01,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            -2.6
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_hook",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

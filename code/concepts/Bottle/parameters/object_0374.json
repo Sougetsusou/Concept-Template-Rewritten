@@ -1,0 +1,77 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Bottle",
+  "object": {
+    "id": "2155b57b-0e37-11ed-bcf4-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 374,
+    "concepts": [
+      {
+        "template": "StackedBottleBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "base_section",
+              "height": 0.215,
+              "top_radius": 0.47,
+              "bottom_radius": 0.415
+            },
+            {
+              "name": "upper_section_2",
+              "height": 0.8,
+              "top_radius": 0.47,
+              "bottom_radius": 0.47
+            },
+            {
+              "name": "upper_section_3",
+              "height": 0.13,
+              "top_radius": 0.335,
+              "bottom_radius": 0.47
+            }
+          ],
+          "position": [
+            0.029409467706194885,
+            -0.010704170850668233,
+            -0.5971804617832351
+          ],
+          "rotation": [
+            88.97311083936756,
+            -2.818927038447394,
+            0.025267019298777085
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalBottleLid",
+        "semantic": "lid",
+        "parameters": {
+          "top_outer_radius": 0.3,
+          "bottom_outer_radius": 0.39,
+          "total_height": 0.32,
+          "top_inner_radius": 0.299,
+          "bottom_inner_radius": 0.389,
+          "open_ring_height": 0.319,
+          "position": [
+            -0.03248180911542119,
+            0.005730500970331481,
+            0.5986203667059936
+          ],
+          "rotation": [
+            88.97311083936756,
+            -2.818927038447394,
+            0.025267019298777085
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Lid",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

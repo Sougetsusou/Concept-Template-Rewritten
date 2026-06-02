@@ -1,0 +1,83 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Bottle",
+  "object": {
+    "id": "e017cd91e485756aef026123226f5519",
+    "type": "mesh",
+    "source_object_index": 323,
+    "concepts": [
+      {
+        "template": "StackedBottleBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "base_section",
+              "height": 0.39,
+              "top_radius": 0.355,
+              "bottom_radius": 0.355
+            },
+            {
+              "name": "upper_section_2",
+              "height": 0.7,
+              "top_radius": 0.307,
+              "bottom_radius": 0.355
+            },
+            {
+              "name": "upper_section_3",
+              "height": 0.19,
+              "top_radius": 0.341,
+              "bottom_radius": 0.307
+            },
+            {
+              "name": "upper_section_4",
+              "height": 0.24,
+              "top_radius": 0.145,
+              "bottom_radius": 0.341
+            }
+          ],
+          "position": [
+            -0.012,
+            -0.538,
+            0.007
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalBottleLid",
+        "semantic": "lid",
+        "parameters": {
+          "top_outer_radius": 0.143,
+          "bottom_outer_radius": 0.143,
+          "total_height": 0.208,
+          "top_inner_radius": 0.142,
+          "bottom_inner_radius": 0.142,
+          "open_ring_height": 0.207,
+          "position": [
+            -0.012,
+            0.891,
+            0.007
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Lid",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

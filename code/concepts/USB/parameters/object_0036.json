@@ -1,0 +1,98 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "USB",
+  "object": {
+    "id": "e1791a5d41be53db620b4d027d55e817-1",
+    "type": "mesh",
+    "source_object_index": 36,
+    "concepts": [
+      {
+        "template": "HollowUsbConnector",
+        "semantic": "connector",
+        "parameters": {
+          "connector_size": [
+            0.32,
+            0.108,
+            0.267
+          ],
+          "border_thickness": 0.005,
+          "position": [
+            -0.01,
+            0,
+            0.07
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Connector",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RegularUsbBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.39,
+            0.19,
+            0.965
+          ],
+          "rounded_back": true,
+          "rounded_sides": false,
+          "position": [
+            -0.01,
+            0,
+            0.07
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Body",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "StandardUsbCap",
+        "semantic": "cap",
+        "parameters": {
+          "outer_size": [
+            0.39,
+            0.19,
+            0.435
+          ],
+          "inner_size": [
+            0.31,
+            0.15,
+            0.36
+          ],
+          "inner_outer_offset": [
+            0,
+            0
+          ],
+          "position": [
+            -0.01,
+            0,
+            0.52
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Cap",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

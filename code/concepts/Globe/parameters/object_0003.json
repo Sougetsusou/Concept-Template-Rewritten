@@ -1,0 +1,99 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Globe",
+  "object": {
+    "id": "3b4e60b4-8bdb-4131-8b35-f58c8d2e8c51",
+    "type": "mesh",
+    "source_object_index": 3,
+    "concepts": [
+      {
+        "template": "GlobeSphere",
+        "semantic": "sphere",
+        "parameters": {
+          "radius": 0.62,
+          "position": [
+            0.016,
+            0.168,
+            -0.03
+          ],
+          "rotation": [
+            0,
+            -90,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Sphere",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SemiRingGlobeBracket",
+        "semantic": "bracket",
+        "parameters": {
+          "pivot_size": [
+            0.02,
+            1.65
+          ],
+          "pivot_continuous": true,
+          "pivot_separation": 0.4,
+          "has_top_endpoint": false,
+          "has_bottom_endpoint": false,
+          "endpoint_radius": 0.03,
+          "bracket_size": [
+            0.73,
+            0.68,
+            0.045
+          ],
+          "bracket_arc_degrees": 360,
+          "bracket_offset": 0.005,
+          "bracket_rotation_degrees": 0,
+          "position": [
+            0.016,
+            0.163,
+            -0.03
+          ],
+          "rotation": [
+            -16,
+            -90,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Semi_Ring_Bracket",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CylindricalGlobeBase",
+        "semantic": "base",
+        "parameters": {
+          "bottom_section": [
+            0.435,
+            0.435,
+            0.065
+          ],
+          "top_section": [
+            0.185,
+            0.435,
+            0.11
+          ],
+          "position": [
+            -0.1777790053281093,
+            -0.6298472076288046,
+            -0.009999999999999988
+          ],
+          "rotation": [
+            0,
+            -90,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Base",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Refrigerator",
+  "object": {
+    "id": "ada8a69f8e7068bf8148e315f6955740",
+    "type": "mesh",
+    "source_object_index": 29,
+    "concepts": [
+      {
+        "template": "CuboidalRefrigeratorBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.824,
+            1.75,
+            0.68
+          ],
+          "wall_thickness": [
+            0.001,
+            0.001,
+            0.001,
+            0.001,
+            0.001
+          ],
+          "position": [
+            0.022,
+            0.014,
+            -0.013
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuboidalRefrigeratorDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            0.82,
+            1.75,
+            0.02
+          ],
+          "position": [
+            0.019999999999999997,
+            0.014,
+            0.327
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CuboidalRefrigeratorHandle",
+        "semantic": "handle",
+        "parameters": {
+          "handle_size": [
+            0.81,
+            0.04,
+            0.03
+          ],
+          "position": [
+            0.019999999999999997,
+            -0.22599999999999998,
+            0.34700000000000003
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Handle",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Microwave",
+  "object": {
+    "id": "dc5c91c8c01b1c8c506c648223cdabe9",
+    "type": "mesh",
+    "source_object_index": 12,
+    "concepts": [
+      {
+        "template": "CuboidalMicrowaveBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            1.57,
+            0.91,
+            0.95
+          ],
+          "wall_thickness": [
+            0.11,
+            0.13,
+            0.5,
+            0.12,
+            0.03
+          ],
+          "position": [
+            0.015,
+            -0.015,
+            -0.04
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SunkenMicrowaveDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            1.21,
+            0.89,
+            0.09
+          ],
+          "sunken_opening_size": [
+            0.92,
+            0.58,
+            0.015
+          ],
+          "sunken_opening_offset": [
+            0.01,
+            0
+          ],
+          "position": [
+            -0.16500000000000004,
+            -0.004999999999999999,
+            0.435
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Sunken_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TrifoldMicrowaveHandle",
+        "semantic": "handle",
+        "parameters": {
+          "mount_size": [
+            0.03,
+            0.03,
+            0.06
+          ],
+          "mount_spacing": 0.5,
+          "grip_size": [
+            0.04,
+            0.69,
+            0.045
+          ],
+          "position": [
+            0.3800000000000001,
+            -0.004999999999999999,
+            0.5249999999999999
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "MicrowaveControllerWithButtons",
+        "semantic": "button",
+        "parameters": {
+          "panel_size": [
+            0.35,
+            0.89,
+            0.09
+          ],
+          "button_specs": [
+            {
+              "size": [
+                0.115,
+                0.01,
+                0.05
+              ],
+              "offset": [
+                0,
+                0.162
+              ]
+            },
+            {
+              "size": [
+                0.115,
+                0.01,
+                0.05
+              ],
+              "offset": [
+                0,
+                -0.108
+              ]
+            }
+          ],
+          "position": [
+            0.625,
+            -0.004999999999999999,
+            0.435
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Controller_With_Button",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

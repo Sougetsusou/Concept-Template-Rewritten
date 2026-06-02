@@ -1,0 +1,77 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Switch",
+  "object": {
+    "id": "0babf424-c85b-4d21-8123-72f3aed070c9",
+    "type": "mesh",
+    "source_object_index": 2,
+    "concepts": [
+      {
+        "template": "StandardSwitchBase",
+        "semantic": "base",
+        "parameters": {
+          "body_size": [
+            1.805,
+            1.185,
+            0.11
+          ],
+          "back_part": null,
+          "position": [
+            0,
+            0.002,
+            0.054
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RoundButtonSwitch",
+        "semantic": "switch",
+        "parameters": {
+          "button_size": [
+            0.13,
+            0.06
+          ],
+          "button_xy_centers": [
+            [
+              -0.33,
+              -0.28
+            ],
+            [
+              0,
+              -0.16
+            ],
+            [
+              0.33,
+              -0.28
+            ]
+          ],
+          "center_depth_offset": 0.005,
+          "tilt_degrees": -9,
+          "position": [
+            0,
+            0.002,
+            0.054
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Round_Switch",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

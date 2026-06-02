@@ -1,0 +1,65 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Knife",
+  "object": {
+    "id": "3464db7fada86430c0e19881d8a9def3",
+    "type": "mesh",
+    "source_object_index": 74,
+    "concepts": [
+      {
+        "template": "CuboidalKnifeHandle",
+        "semantic": "handle",
+        "parameters": {
+          "handle_size": [
+            0.026,
+            0.615,
+            0.12
+          ],
+          "position": [
+            0.0,
+            -0.693444634571762,
+            -0.0653876042047367
+          ],
+          "rotation": [
+            1.600000000000002,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Handle",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuspKnifeBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_profile": [
+            0.008,
+            0.935,
+            0.256,
+            0.193
+          ],
+          "root_top_z_offset": -0.013,
+          "tip_length": 0.435,
+          "tip_top_z_offset": -0.01,
+          "position": [
+            0.0,
+            -0.38796319563005566,
+            0.011171787525504837
+          ],
+          "rotation": [
+            1.600000000000002,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cusp_Blade",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Scissors",
+  "object": {
+    "id": "05045ee5-0e4e-11ed-9d6e-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 55,
+    "concepts": [
+      {
+        "template": "LayeredCuboidalScissorsShaft",
+        "semantic": "shaft",
+        "parameters": {
+          "layer_size": [
+            0.18,
+            0.05,
+            0.18
+          ],
+          "layer_offset_z": -0.008,
+          "layer_yaw_degrees": 37,
+          "left_layer_above": true,
+          "central_shaft_enabled": true,
+          "central_shaft_size": [
+            0.046,
+            0.115
+          ],
+          "central_shaft_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            0.061267422656438045,
+            0.05856878794236212,
+            -1.7145055188062945e-18
+          ],
+          "rotation": [
+            90.0,
+            -0.0,
+            -117.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Shaft",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CurvedScissorsBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_size": [
+            0.455,
+            0.05,
+            0.16,
+            0.08
+          ],
+          "root_tip_offset_z": 0,
+          "curved_tip_radius": 0.08,
+          "position": [
+            0.04187055428642601,
+            0.1416481998576656,
+            0.022000000000000002
+          ],
+          "rotation": [
+            90.0,
+            0.0,
+            -90.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Curved_Blade",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CurvedScissorsBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_size": [
+            0.455,
+            0.05,
+            0.16,
+            0.08
+          ],
+          "root_tip_offset_z": 0,
+          "curved_tip_radius": 0.08,
+          "position": [
+            0.1398812719471465,
+            0.09170924488631549,
+            -0.018000000000000002
+          ],
+          "rotation": [
+            -90.00000000000001,
+            0.0,
+            -144.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Curved_Blade",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "HalfRingScissorsHandle",
+        "semantic": "handle",
+        "parameters": {
+          "root_size": [
+            0.12,
+            0.102,
+            0.145,
+            0.2
+          ],
+          "root_yaw_degrees": 51,
+          "outer_radius_x": 0.23,
+          "outer_radius_z": 0.29,
+          "inner_radius_x": 0.185,
+          "inner_radius_z": 0.225,
+          "ring_thickness": 0.09,
+          "bridge_thickness_z": 0.065,
+          "handle_offset_z": -0.02,
+          "handle_yaw_degrees": 22,
+          "position": [
+            -0.039287133042904446,
+            0.048447948040177394,
+            3.490243377569957e-18
+          ],
+          "rotation": [
+            90.0,
+            -0.0,
+            -117.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Half_Ring_Handle",
+          "source_concept_index": 3
+        }
+      },
+      {
+        "template": "HalfRingScissorsHandle",
+        "semantic": "handle",
+        "parameters": {
+          "root_size": [
+            0.115,
+            0.102,
+            0.125,
+            0.175
+          ],
+          "root_yaw_degrees": 50,
+          "outer_radius_x": 0.19,
+          "outer_radius_z": 0.235,
+          "inner_radius_x": 0.12,
+          "inner_radius_z": 0.17,
+          "ring_thickness": 0.09,
+          "bridge_thickness_z": 0.06,
+          "handle_offset_z": -0.015,
+          "handle_yaw_degrees": 33,
+          "position": [
+            0.11218397606911809,
+            -0.028730436915545547,
+            -6.919254415182546e-18
+          ],
+          "rotation": [
+            270.0,
+            -0.0,
+            -117.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Half_Ring_Handle",
+          "source_concept_index": 4
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Dishwasher",
+  "object": {
+    "id": "u0adff575-6f30-48fd-a77e-9e7c072e2b9d",
+    "type": "mesh",
+    "source_object_index": 41,
+    "concepts": [
+      {
+        "template": "RectangularDishwasherBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            0.66,
+            0.81,
+            0.63
+          ],
+          "wall_thickness": [
+            0.05,
+            0.05,
+            0.06,
+            0.05,
+            0.25
+          ],
+          "position": [
+            -0.01,
+            0.12,
+            -0.17
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FlatDishwasherDoor",
+        "semantic": "door",
+        "parameters": {
+          "panel_size": [
+            0.64,
+            0.76,
+            0.1
+          ],
+          "position": [
+            -0.01,
+            -0.18500000000000005,
+            0.525
+          ],
+          "rotation": [
+            90,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "DrawerDishwasherTray",
+        "semantic": "tray",
+        "parameters": {
+          "outer_size": [
+            0.53,
+            0.1,
+            0.34
+          ],
+          "inner_size": [
+            0.52,
+            0.09,
+            0.33
+          ],
+          "position": [
+            -0.014999999999999998,
+            -0.1,
+            -0.07500000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Drawer_Like_Tray",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "FlatDishwasherTray",
+        "semantic": "tray",
+        "parameters": {
+          "tray_size": [
+            0.08,
+            0.18,
+            0.34
+          ],
+          "position": [
+            0.215,
+            -0.05000000000000002,
+            -0.07500000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Flat_Tray",
+          "source_concept_index": 3
+        }
+      },
+      {
+        "template": "FlatDishwasherTray",
+        "semantic": "tray",
+        "parameters": {
+          "tray_size": [
+            0.02,
+            0.1,
+            0.22
+          ],
+          "position": [
+            0.215,
+            0.07999999999999999,
+            -0.125
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Flat_Tray",
+          "source_concept_index": 4
+        }
+      },
+      {
+        "template": "FlatDishwasherTray",
+        "semantic": "tray",
+        "parameters": {
+          "tray_size": [
+            0.52,
+            0.22,
+            0.32
+          ],
+          "position": [
+            -0.014999999999999998,
+            0.37,
+            -0.06500000000000002
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Flat_Tray",
+          "source_concept_index": 5
+        }
+      }
+    ]
+  }
+}

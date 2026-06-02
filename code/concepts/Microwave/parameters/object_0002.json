@@ -1,0 +1,115 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Microwave",
+  "object": {
+    "id": "4f956e259344d4a3599fb6902c958d23",
+    "type": "mesh",
+    "source_object_index": 2,
+    "concepts": [
+      {
+        "template": "CuboidalMicrowaveBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            1.59,
+            0.73,
+            1.09
+          ],
+          "wall_thickness": [
+            0.09,
+            0.105,
+            0.365,
+            0.17,
+            0.165
+          ],
+          "position": [
+            0.018,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuboidalMicrowaveDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            1.59,
+            0.72,
+            0.005
+          ],
+          "position": [
+            0.018,
+            0.0,
+            0.545
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CuboidalMicrowaveHandle",
+        "semantic": "handle",
+        "parameters": {
+          "handle_size": [
+            0.07,
+            0.035,
+            0.035
+          ],
+          "position": [
+            0.43800000000000006,
+            0.025,
+            0.55
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "CylindricalMicrowaveTray",
+        "semantic": "tray",
+        "parameters": {
+          "tray_radius": 0.4,
+          "tray_height": 0.02,
+          "position": [
+            -0.07949999999999999,
+            -0.26,
+            0.0825
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Tray",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

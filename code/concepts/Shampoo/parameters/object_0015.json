@@ -1,0 +1,89 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Shampoo",
+  "object": {
+    "id": "6ad29634-0e4f-11ed-9552-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 15,
+    "concepts": [
+      {
+        "template": "StackedCylindricalShampooBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "body_section_1",
+              "top_radius": 0.22,
+              "height": 0.16,
+              "bottom_radius": 0.17
+            },
+            {
+              "name": "body_section_2",
+              "top_radius": 0.215,
+              "height": 0.93,
+              "bottom_radius": 0.22
+            },
+            {
+              "name": "body_section_3",
+              "top_radius": 0.195,
+              "height": 0.2,
+              "bottom_radius": 0.215
+            },
+            {
+              "name": "body_section_4",
+              "top_radius": 0.15,
+              "height": 0.21,
+              "bottom_radius": 0.195
+            }
+          ],
+          "z_radius_scale": 1.4,
+          "position": [
+            0.02,
+            -0.73,
+            0
+          ],
+          "rotation": [
+            -268,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalShampooCap",
+        "semantic": "cap",
+        "parameters": {
+          "outer_profile": [
+            0.12,
+            0.15,
+            0.13
+          ],
+          "inner_profile": [
+            0.105,
+            0.145,
+            0.125
+          ],
+          "z_radius_scale": 1.2,
+          "position": [
+            0.02,
+            0.7549999999999999,
+            0.0
+          ],
+          "rotation": [
+            -268,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_cap",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

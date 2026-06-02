@@ -1,0 +1,95 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Door",
+  "object": {
+    "id": "157d99a639b9b9aa5dd29c13c4b9a983",
+    "type": "mesh",
+    "source_object_index": 0,
+    "concepts": [
+      {
+        "template": "PivotDoorPanelSet",
+        "semantic": "door",
+        "parameters": {
+          "has_left_panel": false,
+          "has_right_panel": true,
+          "panel_size": [
+            0.795,
+            1.845,
+            0.03
+          ],
+          "open_angles_degrees": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            0,
+            0.002
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Door",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "LDoorHandle",
+        "semantic": "handle",
+        "parameters": {
+          "has_left_panel": false,
+          "has_right_panel": true,
+          "panel_open_angles_degrees": [
+            0,
+            0
+          ],
+          "door_size": [
+            0.795,
+            1.845,
+            0.03
+          ],
+          "has_back_handle": true,
+          "has_front_handle": true,
+          "fixed_part_size": [
+            0.05,
+            0.05,
+            0.015
+          ],
+          "vertical_part_size": [
+            0.02,
+            0.02,
+            0.015
+          ],
+          "horizontal_part_size": [
+            0.085,
+            0.015,
+            0.015
+          ],
+          "moving_part_offset": [
+            0,
+            0
+          ],
+          "edge_offset_x": 0.35,
+          "position": [
+            0,
+            -0.105,
+            0.002
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "LShape_Handle",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

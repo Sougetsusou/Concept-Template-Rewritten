@@ -1,0 +1,96 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Trashcan",
+  "object": {
+    "id": "1e1015a06e43c0a5a44b6af22454453b",
+    "type": "mesh",
+    "source_object_index": 61,
+    "concepts": [
+      {
+        "template": "PrismaticTrashcanBody",
+        "semantic": "body",
+        "parameters": {
+          "top_size": [
+            0.785,
+            0.705
+          ],
+          "bottom_size": [
+            0.785,
+            0.705
+          ],
+          "shell_heights": [
+            1.47,
+            1.47
+          ],
+          "top_offset": [
+            0,
+            0
+          ],
+          "wall_thickness": [
+            0.01,
+            0.01,
+            0.01
+          ],
+          "position": [
+            0.005,
+            -0.14,
+            -0.017
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Prismatic_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "HoledCuboidalTrashcanCover",
+        "semantic": "cover",
+        "parameters": {
+          "outer_size": [
+            0.79,
+            0.26,
+            0.67
+          ],
+          "inner_size": [
+            0.78,
+            0.255,
+            0.66
+          ],
+          "front_back_hole_size": [
+            0.01,
+            0.01
+          ],
+          "left_right_hole_size": [
+            0.01,
+            0.01
+          ],
+          "side_holes": {
+            "front": false,
+            "back": false,
+            "left": false,
+            "right": false
+          },
+          "position": [
+            0.005,
+            0.595,
+            -0.017
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Holed_Cuboidal_Cover",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

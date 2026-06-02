@@ -1,0 +1,95 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Trashcan",
+  "object": {
+    "id": "1f4f53bc04eefca6f155d75bbf62b80",
+    "type": "mesh",
+    "source_object_index": 73,
+    "concepts": [
+      {
+        "template": "CylindricalTrashcanBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_profile": [
+            0.5,
+            0.5,
+            1.21
+          ],
+          "inner_profile": [
+            0.47,
+            0.47,
+            1.2
+          ],
+          "position": [
+            -0.005,
+            -0.11,
+            0.005
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalHollowTrashcanCover",
+        "semantic": "cover",
+        "parameters": {
+          "cover_size": [
+            0.53,
+            0.3,
+            0.065
+          ],
+          "position": [
+            -0.01,
+            0.495,
+            0.005
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Hollow_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CylindricalTrashcanShell",
+        "semantic": "shell",
+        "parameters": {
+          "outer_profile": [
+            0.67,
+            0.52,
+            1.57
+          ],
+          "inner_profile": [
+            0.64,
+            0.49
+          ],
+          "position": [
+            -0.005,
+            -0.07,
+            0.005
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Shell",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

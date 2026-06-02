@@ -1,0 +1,138 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Safe",
+  "object": {
+    "id": "996ad42614a95dcf950db3214c62b23a",
+    "type": "mesh",
+    "source_object_index": 12,
+    "concepts": [
+      {
+        "template": "CuboidalSafeBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            1.21,
+            1.2,
+            1.195
+          ],
+          "wall_thickness": [
+            0.01,
+            0.01,
+            0.01,
+            0.01,
+            0.01
+          ],
+          "position": [
+            0.02,
+            0,
+            -0.014
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SunkenSafeDoor",
+        "semantic": "door",
+        "parameters": {
+          "outer_size": [
+            1.21,
+            1.205,
+            0.1
+          ],
+          "sunken_opening_size": [
+            0.85,
+            0.835,
+            0.065
+          ],
+          "sunken_opening_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0.02,
+            0.0,
+            0.48850000000000005
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Sunken_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "ClawSafeHandle",
+        "semantic": "handle",
+        "parameters": {
+          "base_size": [
+            0.085,
+            0.035
+          ],
+          "fork_size": [
+            0.18,
+            0.04,
+            0.04
+          ],
+          "fork_offset_z": 0,
+          "fork_tilt_degrees": 0,
+          "fork_count": 8,
+          "position": [
+            0.03000000000000001,
+            0.005,
+            0.5235000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            24
+          ]
+        },
+        "source": {
+          "legacy_template": "Claw_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "CylindricalSafeDial",
+        "semantic": "dial",
+        "parameters": {
+          "base_size": [
+            0,
+            0,
+            0
+          ],
+          "top_size": [
+            0,
+            0.1
+          ],
+          "position": [
+            0.02,
+            0.0,
+            0.5235000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Dial",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Table",
+  "object": {
+    "id": "233c497df4d252aea5e91f4d594e20e6",
+    "type": "mesh",
+    "source_object_index": 13,
+    "concepts": [
+      {
+        "template": "TableTop",
+        "semantic": null,
+        "parameters": {
+          "size": [
+            1.62,
+            0.06,
+            0.665
+          ],
+          "position": [
+            0.01,
+            0.065,
+            0.0005
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_desktop",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RegularTableLegSet",
+        "semantic": null,
+        "parameters": {
+          "front_leg_size": [
+            0.254,
+            0.255,
+            1.665
+          ],
+          "rear_leg_size": [
+            0.1,
+            0.345,
+            0.06
+          ],
+          "leg_count": 2,
+          "leg_center_spacing": [
+            0.895,
+            1.42,
+            0.86
+          ],
+          "central_yaw_degrees": 90,
+          "front_tilt_degrees": [
+            0,
+            0
+          ],
+          "rear_tilt_degrees": [
+            0,
+            0
+          ],
+          "mirror_rolls": 1,
+          "extra_legs": [],
+          "position": [
+            0.01,
+            0.126,
+            -0.0015
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_leg",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TableSublayers",
+        "semantic": null,
+        "parameters": {
+          "layer_size": [
+            1.62,
+            0.03,
+            0.2
+          ],
+          "layer_count": 1,
+          "first_layer_y": -0.3,
+          "layer_interval": 0.1,
+          "extra_layers": [],
+          "position": [
+            0.01,
+            0.20500000000000002,
+            -0.0095
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_sublayer",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

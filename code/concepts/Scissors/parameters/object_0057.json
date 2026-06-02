@@ -1,0 +1,112 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Scissors",
+  "object": {
+    "id": "0ad67c7d-0e4e-11ed-beb9-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 57,
+    "concepts": [
+      {
+        "template": "DoubleLayeredCuboidalScissorsShaft",
+        "semantic": "shaft",
+        "parameters": {
+          "rear_layer_size": [
+            0.63,
+            0.046,
+            0.07
+          ],
+          "front_extension_size": [
+            0.09,
+            0.13
+          ],
+          "front_extension_offset_z": -0.03,
+          "layer_offset_z": 0.075,
+          "layer_yaw_degrees": 2,
+          "left_layer_above": true,
+          "central_shaft_enabled": true,
+          "central_shaft_size": [
+            0.02,
+            0.105
+          ],
+          "central_shaft_offset": [
+            0.37,
+            -0.005,
+            0
+          ],
+          "position": [
+            -0.12304442161981784,
+            -0.015876722213495557,
+            0.005
+          ],
+          "rotation": [
+            -90.0,
+            -0.0,
+            -170.8
+          ]
+        },
+        "source": {
+          "legacy_template": "Double_Cuboidal_Shaft",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuspScissorsBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_size": [
+            0.21,
+            0.022,
+            0.125,
+            0.085
+          ],
+          "root_tip_offset_z": 0,
+          "tip_length": 0.115,
+          "tip_offset_z": 0,
+          "position": [
+            0.1988300311918369,
+            -0.029591475359366667,
+            4.336808689942018e-18
+          ],
+          "rotation": [
+            -90.0,
+            0.0,
+            -172.8
+          ]
+        },
+        "source": {
+          "legacy_template": "Cusp_Blade",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CuspScissorsBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_size": [
+            0.21,
+            0.022,
+            0.125,
+            0.085
+          ],
+          "root_tip_offset_z": 0,
+          "tip_length": 0.115,
+          "tip_offset_z": 0,
+          "position": [
+            0.17804547679189836,
+            0.09873623910012178,
+            -0.0030000000000000035
+          ],
+          "rotation": [
+            90.0,
+            0.0,
+            -168.8
+          ]
+        },
+        "source": {
+          "legacy_template": "Cusp_Blade",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

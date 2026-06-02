@@ -1,0 +1,116 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Washingmachine",
+  "object": {
+    "id": "4163de2ce7f6f59aed1d8381d2c075c2-0",
+    "type": "mesh",
+    "source_object_index": 3,
+    "concepts": [
+      {
+        "template": "FrontFacingRollerWashingMachineBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            1.05,
+            1.16,
+            1.12
+          ],
+          "drum_opening_size": [
+            0.4,
+            1.11
+          ],
+          "drum_opening_offset": [
+            -0.005,
+            -0.06
+          ],
+          "position": [
+            -0.005,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Front_Facing_Roller_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RollerWashingMachineDoor",
+        "semantic": "door",
+        "parameters": {
+          "outer_ring_size": [
+            0.4,
+            0.24,
+            0.07
+          ],
+          "center_disc_size": [
+            0.24,
+            0.005
+          ],
+          "center_disc_offset": [
+            0,
+            0.02
+          ],
+          "position": [
+            -0.41500000000000004,
+            -0.06,
+            0.56
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Roller_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "SlopedControlButtonPanel",
+        "semantic": "button",
+        "parameters": {
+          "panel_size": [
+            1.05,
+            0.16,
+            0,
+            0.05
+          ],
+          "button_specs": [
+            {
+              "size": [
+                0.05,
+                0.05,
+                0.03
+              ],
+              "surface_offset": [
+                0,
+                0
+              ]
+            }
+          ],
+          "position": [
+            -0.005,
+            0.5,
+            0.56
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Controller_With_Button",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

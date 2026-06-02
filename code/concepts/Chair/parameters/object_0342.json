@@ -1,0 +1,100 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Chair",
+  "object": {
+    "id": "52a96a3c89305673504721639e19f609",
+    "type": "mesh",
+    "source_object_index": 342,
+    "concepts": [
+      {
+        "template": "RectangularChairSeat",
+        "semantic": "seat",
+        "parameters": {
+          "seat_size": [
+            1.42,
+            0.1,
+            0.95
+          ],
+          "position": [
+            0,
+            -0.11,
+            0.25
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_seat",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SlatChairBack",
+        "semantic": "back",
+        "parameters": {
+          "side_rail_size": [
+            0.55,
+            0.81,
+            0.12
+          ],
+          "horizontal_slat_size": [
+            0.505,
+            0.14
+          ],
+          "side_rail_separation": 1.5,
+          "horizontal_slat_start_offset": 0.24,
+          "horizontal_slat_interval": 0.16,
+          "side_rail_splay_degrees": -57,
+          "back_tilt_degrees": -27,
+          "horizontal_slat_count": 1,
+          "position": [
+            0.0,
+            -0.06,
+            -0.14
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Slat_back",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "BarstoolPedestalLeg",
+        "semantic": "leg",
+        "parameters": {
+          "column_size": [
+            0.041,
+            0.58
+          ],
+          "base_size": [
+            0.54,
+            0.035
+          ],
+          "horizontal_tilt_degrees": 0,
+          "position": [
+            -0.012,
+            -0.16,
+            0.035
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Barstool_leg",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

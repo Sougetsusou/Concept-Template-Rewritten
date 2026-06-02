@@ -1,0 +1,83 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Bottle",
+  "object": {
+    "id": "57b186ba25a680584289430f919c490c",
+    "type": "mesh",
+    "source_object_index": 116,
+    "concepts": [
+      {
+        "template": "StackedBottleBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "base_section",
+              "height": 0.24,
+              "top_radius": 0.46,
+              "bottom_radius": 0.39
+            },
+            {
+              "name": "upper_section_2",
+              "height": 0.3,
+              "top_radius": 0.39,
+              "bottom_radius": 0.46
+            },
+            {
+              "name": "upper_section_3",
+              "height": 0.51,
+              "top_radius": 0.45,
+              "bottom_radius": 0.39
+            },
+            {
+              "name": "upper_section_4",
+              "height": 0.49,
+              "top_radius": 0.27,
+              "bottom_radius": 0.45
+            }
+          ],
+          "position": [
+            0.0,
+            -0.75,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalBottleLid",
+        "semantic": "lid",
+        "parameters": {
+          "top_outer_radius": 0.29,
+          "bottom_outer_radius": 0.32,
+          "total_height": 0.29,
+          "top_inner_radius": 0.285,
+          "bottom_inner_radius": 0.315,
+          "open_ring_height": 0.285,
+          "position": [
+            0.0,
+            0.815,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Lid",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

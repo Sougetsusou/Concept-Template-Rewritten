@@ -1,0 +1,97 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "USB",
+  "object": {
+    "id": "ub1b3ea8f-7f50-421e-bb78-1098473f147a-0",
+    "type": "mesh",
+    "source_object_index": 42,
+    "concepts": [
+      {
+        "template": "SolidUsbConnector",
+        "semantic": "connector",
+        "parameters": {
+          "connector_size": [
+            0.4,
+            0.045,
+            0.363
+          ],
+          "position": [
+            -0.0031,
+            0.0055,
+            0.1175
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Simplied_Connector",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RegularUsbBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.52,
+            0.118,
+            0.9115
+          ],
+          "rounded_back": false,
+          "rounded_sides": false,
+          "position": [
+            -0.0021,
+            0.0055,
+            0.1175
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Body",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "StandardUsbCap",
+        "semantic": "cap",
+        "parameters": {
+          "outer_size": [
+            0.52,
+            0.1185,
+            0.449
+          ],
+          "inner_size": [
+            0.405,
+            0.06,
+            0.39
+          ],
+          "inner_outer_offset": [
+            0,
+            0
+          ],
+          "position": [
+            -0.0021,
+            0.0055,
+            0.5175000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Cap",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

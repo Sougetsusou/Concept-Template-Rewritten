@@ -1,0 +1,140 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "4befbb7f5548a835fe1bdd3c0c9e9c3c",
+    "type": "mesh",
+    "source_object_index": 173,
+    "concepts": [
+      {
+        "template": "Cuboidal_Base",
+        "semantic": "base",
+        "parameters": {
+          "box_count": 2,
+          "primary_size": [
+            0.38,
+            1.746,
+            0.03
+          ],
+          "secondary_size": [
+            0.17,
+            0.17,
+            0.03
+          ],
+          "secondary_offset": [
+            0,
+            1.726,
+            0.03
+          ],
+          "position": [
+            0.002,
+            0.756,
+            -0.065
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "ShowerRose_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "tube_radius": 0.025,
+          "start_point": [
+            0,
+            -0.105,
+            -0.028
+          ],
+          "segment_offsets": [
+            [
+              0,
+              0,
+              0.425
+            ],
+            [
+              0,
+              -0.097,
+              0
+            ]
+          ],
+          "has_shower_head": 1,
+          "shower_head_size": [
+            0.183,
+            0.038,
+            0.108
+          ],
+          "shower_head_offset": [
+            0,
+            0.005,
+            0.001
+          ],
+          "shower_head_rotation_degrees": 0.25,
+          "position": [
+            0.002,
+            0.756,
+            -0.065
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "ShowerRose_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RotaryZ_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "main_size_1": [
+            0.047,
+            0.004
+          ],
+          "main_size_2": [
+            0.026,
+            0.0406
+          ],
+          "switch_offsets_x": [
+            -0.058,
+            0.061
+          ],
+          "sub_size": [
+            0.1,
+            0.015,
+            0.007
+          ],
+          "sub_offset": 0,
+          "tilt_degrees": 0,
+          "first_rotation_degrees": -180,
+          "second_rotation_degrees": 0,
+          "switch_count": 2,
+          "sub_count": 1,
+          "position": [
+            0.002,
+            -0.5269999999999999,
+            -0.068
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "RotaryZ_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

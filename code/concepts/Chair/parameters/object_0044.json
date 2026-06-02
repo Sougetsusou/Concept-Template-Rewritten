@@ -1,0 +1,92 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Chair",
+  "object": {
+    "id": "106e9487a1d47ff1a09cb462b3e723e2",
+    "type": "mesh",
+    "source_object_index": 44,
+    "concepts": [
+      {
+        "template": "RectangularChairSeat",
+        "semantic": "seat",
+        "parameters": {
+          "seat_size": [
+            0.95,
+            0.055,
+            0.785
+          ],
+          "position": [
+            -0.02,
+            0,
+            0
+          ],
+          "rotation": [
+            -0.0,
+            -8.399999999999986,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_seat",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SolidChairBack",
+        "semantic": "back",
+        "parameters": {
+          "back_size": [
+            0.8,
+            1,
+            0.3
+          ],
+          "back_tilt_degrees": -11,
+          "position": [
+            0.03258989028246809,
+            -0.4725,
+            -0.3561380398666758
+          ],
+          "rotation": [
+            -0.0,
+            -8.399999999999986,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Solid_back",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "SolidChairArmrest",
+        "semantic": "armrest",
+        "parameters": {
+          "armrest_size": [
+            0.3,
+            1.025,
+            0.83
+          ],
+          "armrest_separation": 1.16,
+          "armrest_rotation_degrees": [
+            0,
+            0
+          ],
+          "position": [
+            -0.02,
+            -0.5175000000000001,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -8.399999999999986,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Solid_armrest",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

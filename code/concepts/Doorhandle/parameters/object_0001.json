@@ -1,0 +1,54 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Doorhandle",
+  "object": {
+    "id": "93b693b5-0e48-11ed-84c2-ec2e98c7e246",
+    "type": "mesh",
+    "source_object_index": 1,
+    "concepts": [
+      {
+        "template": "LayeredCuboidDoorHandle",
+        "semantic": "handle",
+        "parameters": {
+          "fixed_plate_size": [
+            0.19,
+            0.77,
+            0.11
+          ],
+          "vertical_grip_size": [
+            0.17,
+            0.18,
+            0.08
+          ],
+          "horizontal_grip_size": [
+            0.01,
+            0.01,
+            0.01
+          ],
+          "vertical_grip_offset": [
+            0,
+            0
+          ],
+          "horizontal_grip_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            -0.01,
+            -0.06
+          ],
+          "rotation": [
+            0,
+            0,
+            3.2
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_handle",
+          "source_concept_index": 0
+        }
+      }
+    ]
+  }
+}

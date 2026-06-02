@@ -1,0 +1,87 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Pen",
+  "object": {
+    "id": "ff60782d-0e4a-11ed-8209-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 109,
+    "concepts": [
+      {
+        "template": "CylindricalPenBarrel",
+        "semantic": "barrel",
+        "parameters": {
+          "top_outer_radius": 0.05,
+          "bottom_outer_radius": 0.05,
+          "height": 1.19,
+          "wall_thickness": 0.01,
+          "position": [
+            0.0,
+            -6.123233995736766e-19,
+            0.01
+          ],
+          "rotation": [
+            -90.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Barrel",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalPenButton",
+        "semantic": "button",
+        "parameters": {
+          "top_radius": 0.05,
+          "bottom_radius": 0.05,
+          "height": 0.11,
+          "position": [
+            0.0,
+            3.582091887506008e-17,
+            -0.585
+          ],
+          "rotation": [
+            -90.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Button",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CylindricalPenRefill",
+        "semantic": "refill",
+        "parameters": {
+          "refill_radius": 0,
+          "refill_height": 0.6,
+          "tip_radius": 0.04,
+          "connector_height": 0.02,
+          "cone_height": 0.11,
+          "tip_offset": [
+            0,
+            0.01
+          ],
+          "position": [
+            0.0,
+            -1.7757378587636622e-17,
+            0.29000000000000004
+          ],
+          "rotation": [
+            -90.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Refill",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

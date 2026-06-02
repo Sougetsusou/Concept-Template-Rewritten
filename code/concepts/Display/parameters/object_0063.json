@@ -1,0 +1,72 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Display",
+  "object": {
+    "id": "252640ae350a1e53f119712971a6882c",
+    "type": "mesh",
+    "source_object_index": 63,
+    "concepts": [
+      {
+        "template": "FrustumDisplayScreen",
+        "semantic": "screen",
+        "parameters": {
+          "has_front_layer": true,
+          "front_layer_size": [
+            0.81,
+            0.785,
+            0.735
+          ],
+          "back_shell_size": [
+            0.235,
+            0.215,
+            0.24
+          ],
+          "back_shell_offset": [
+            -0.02,
+            0.025
+          ],
+          "position": [
+            0.006,
+            0.02,
+            -0.336
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Frustum_Screen",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RectangularDisplayBase",
+        "semantic": "base",
+        "parameters": {
+          "base_size": [
+            0.695,
+            0.095,
+            0.595
+          ],
+          "base_rotation_degrees": 0,
+          "position": [
+            0.026000000000000002,
+            -0.37,
+            0.03899999999999998
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Base",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

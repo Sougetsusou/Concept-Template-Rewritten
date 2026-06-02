@@ -1,0 +1,83 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "34152f014bc3955d188386a1b5f2f907",
+    "type": "mesh",
+    "source_object_index": 128,
+    "concepts": [
+      {
+        "template": "Cylindrical_Base",
+        "semantic": "base",
+        "parameters": {
+          "cylinder_count": 1,
+          "primary_size": [
+            0.19,
+            0.5
+          ],
+          "secondary_size": [
+            0.15,
+            0.08
+          ],
+          "secondary_offset": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            0.001,
+            -0.474,
+            0.028
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "Curved_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "tube_radius": 0.056,
+          "end_extension_scale": 0.115,
+          "bottom_start": [
+            0.001,
+            0,
+            -0.189
+          ],
+          "bottom_offset": [
+            0,
+            1.105,
+            0
+          ],
+          "arc_center_offset": [
+            0,
+            -0.025,
+            0.32
+          ],
+          "spout_rotation_degrees": 159.5,
+          "position": [
+            0.001,
+            -0.474,
+            0.028
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Curved_Spout",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

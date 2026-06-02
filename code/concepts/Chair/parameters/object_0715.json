@@ -1,0 +1,138 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Chair",
+  "object": {
+    "id": "2c4719f6aa7b2c8a5a9f35e635b7e48b",
+    "type": "mesh",
+    "source_object_index": 715,
+    "concepts": [
+      {
+        "template": "RectangularChairSeat",
+        "semantic": "seat",
+        "parameters": {
+          "seat_size": [
+            0.766,
+            0.58,
+            0.93
+          ],
+          "position": [
+            0.005,
+            -0.224,
+            0.066
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_seat",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SolidChairBack",
+        "semantic": "back",
+        "parameters": {
+          "back_size": [
+            1.03,
+            0.73,
+            0.255
+          ],
+          "back_tilt_degrees": -6,
+          "position": [
+            0.006,
+            0.06599999999999998,
+            -0.309
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Solid_back",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TiltedChairLegSet",
+        "semantic": "leg",
+        "parameters": {
+          "front_leg_size": [
+            0.11,
+            0.235,
+            0.06
+          ],
+          "rear_leg_size": [
+            0.11,
+            0.235,
+            0.06
+          ],
+          "leg_count": 4,
+          "leg_center_spacing": [
+            0.98,
+            0.91,
+            0.736
+          ],
+          "central_yaw_degrees": 0,
+          "front_tilt_degrees": [
+            0,
+            0
+          ],
+          "rear_tilt_degrees": [
+            0,
+            0
+          ],
+          "roll_policy": "mirrored",
+          "position": [
+            0.005,
+            -0.514,
+            0.08600000000000001
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_leg",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "SolidChairArmrest",
+        "semantic": "armrest",
+        "parameters": {
+          "armrest_size": [
+            0.36,
+            1,
+            0.93
+          ],
+          "armrest_separation": 1.04,
+          "armrest_rotation_degrees": [
+            0,
+            0
+          ],
+          "position": [
+            0.005,
+            -0.539,
+            0.088
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Solid_armrest",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

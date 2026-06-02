@@ -1,0 +1,95 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Trashcan",
+  "object": {
+    "id": "2ce9c6ec2d071187ad5067eac75a07f7",
+    "type": "mesh",
+    "source_object_index": 82,
+    "concepts": [
+      {
+        "template": "CylindricalTrashcanBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_profile": [
+            0.454,
+            0.454,
+            1.37
+          ],
+          "inner_profile": [
+            0.42,
+            0.42,
+            1.35
+          ],
+          "position": [
+            0.005,
+            -0.11,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalHollowTrashcanCover",
+        "semantic": "cover",
+        "parameters": {
+          "cover_size": [
+            0.53,
+            0.225,
+            0.15
+          ],
+          "position": [
+            0.005,
+            0.5750000000000001,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Hollow_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CylindricalTrashcanShell",
+        "semantic": "shell",
+        "parameters": {
+          "outer_profile": [
+            0.49,
+            0.49,
+            1.4
+          ],
+          "inner_profile": [
+            0.475,
+            0.475
+          ],
+          "position": [
+            0.005,
+            -0.11,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Shell",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

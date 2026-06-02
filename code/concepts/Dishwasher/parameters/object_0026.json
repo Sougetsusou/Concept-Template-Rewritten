@@ -1,0 +1,99 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Dishwasher",
+  "object": {
+    "id": "a2caaa68364f6207f054969eeb39ff86",
+    "type": "mesh",
+    "source_object_index": 26,
+    "concepts": [
+      {
+        "template": "RectangularDishwasherBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            1.2,
+            1.2,
+            0.92
+          ],
+          "wall_thickness": [
+            0.01,
+            0.02,
+            0.01,
+            0.01,
+            0.01
+          ],
+          "position": [
+            -0.01,
+            -0.02,
+            -0.09
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FlatDishwasherDoor",
+        "semantic": "door",
+        "parameters": {
+          "panel_size": [
+            1.21,
+            1.09,
+            0.1
+          ],
+          "position": [
+            -0.01,
+            0.035000000000000045,
+            0.37
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TrifoldDishwasherHandle",
+        "semantic": "handle",
+        "parameters": {
+          "mount_size": [
+            0.04,
+            0.06,
+            0.05
+          ],
+          "mount_separation": 0.93,
+          "grip_size": [
+            0.04,
+            0.98,
+            0.04
+          ],
+          "position": [
+            -0.01,
+            0.44500000000000006,
+            0.4700000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Handle",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

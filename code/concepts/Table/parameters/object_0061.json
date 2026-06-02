@@ -1,0 +1,65 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Table",
+  "object": {
+    "id": "109738784a0a6129a02c88fe01f2b9c1",
+    "type": "mesh",
+    "source_object_index": 61,
+    "concepts": [
+      {
+        "template": "CylindricalTableTop",
+        "semantic": null,
+        "parameters": {
+          "size": [
+            0.91,
+            0.212
+          ],
+          "position": [
+            0,
+            0.322,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_desktop",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "BarCylindricalTableLeg",
+        "semantic": null,
+        "parameters": {
+          "support_size": [
+            0.19,
+            0.87
+          ],
+          "foot_size": [
+            0.645,
+            0.096
+          ],
+          "horizontal_pitch_degrees": 0,
+          "extra_legs": [],
+          "position": [
+            0.01,
+            0.21600000000000003,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Bar_cylindrical_leg",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

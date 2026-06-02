@@ -1,0 +1,233 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "StorageFurniture",
+  "object": {
+    "id": "a5626b08c059654b4c3aee8e9d3a6ffa",
+    "type": "mesh",
+    "source_object_index": 256,
+    "concepts": [
+      {
+        "template": "PartitionedStorageFurnitureBody",
+        "semantic": null,
+        "parameters": {
+          "outer_size": [
+            0.5,
+            1.86,
+            0.48
+          ],
+          "back_panel_thickness": 0.03,
+          "side_wall_thickness": 0.03,
+          "base_panel_thickness": 0.03,
+          "lid_spec": {
+            "size": [
+              0.5,
+              0.03,
+              0.49
+            ],
+            "offset": [
+              0,
+              -0.02,
+              -0.01
+            ]
+          },
+          "horizontal_shelf_specs": [
+            {
+              "thickness": 0.03,
+              "center_offset_from_top": 0.305
+            },
+            {
+              "thickness": 0.03,
+              "center_offset_from_top": 0.615
+            },
+            {
+              "thickness": 0.03,
+              "center_offset_from_top": 0.915
+            },
+            {
+              "thickness": 0.03,
+              "center_offset_from_top": 1.25
+            }
+          ],
+          "partition_bay_specs": [
+            {
+              "height": 0.29,
+              "center_y": 0.785,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            },
+            {
+              "height": 0.31,
+              "center_y": 0.4700000000000001,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            },
+            {
+              "height": 0.305,
+              "center_y": 0.1675,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            },
+            {
+              "height": 0.315,
+              "center_y": -0.16249999999999995,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            },
+            {
+              "height": 0.5650000000000001,
+              "center_y": -0.6174999999999999,
+              "partition_count": 0,
+              "partition_size": [
+                0.01,
+                0.2
+              ],
+              "first_center_offset_from_inner_left": 0.05,
+              "partition_interval_x": 0.1
+            }
+          ],
+          "additional_panel_specs": [
+            {
+              "size": [
+                0.5,
+                0.025,
+                0.445
+              ],
+              "center": [
+                0,
+                -0.61,
+                0.01
+              ],
+              "rotation_degrees": [
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "position": [
+            0,
+            0.02,
+            -0.02
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Storagefurniture_body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "StorageFurnitureDoorSet",
+        "semantic": null,
+        "parameters": {
+          "door_specs": [
+            {
+              "door_size": [
+                0.5,
+                0.63,
+                0.02
+              ],
+              "handle_size": [
+                0.02,
+                0.31,
+                0.04
+              ],
+              "handle_offset": [
+                -0.2,
+                -0.14
+              ],
+              "yaw_degrees": 0,
+              "center": [
+                0,
+                0.62,
+                0.25
+              ]
+            },
+            {
+              "door_size": [
+                0.5,
+                0.61,
+                0.02
+              ],
+              "handle_size": [
+                0.02,
+                0.31,
+                0.04
+              ],
+              "handle_offset": [
+                -0.2,
+                0.02
+              ],
+              "yaw_degrees": 0,
+              "center": [
+                0,
+                0,
+                0.25
+              ]
+            },
+            {
+              "door_size": [
+                0.5,
+                0.62,
+                0.02
+              ],
+              "handle_size": [
+                0.05,
+                0.31,
+                0.04
+              ],
+              "handle_offset": [
+                -0.19,
+                0.13
+              ],
+              "yaw_degrees": 0,
+              "center": [
+                0,
+                -0.61,
+                0.25
+              ]
+            }
+          ],
+          "position": [
+            0,
+            0.02,
+            -0.02
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_door",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Chair",
+  "object": {
+    "id": "4a9ed043cb91fd91b04cb542e2c50eb4",
+    "type": "mesh",
+    "source_object_index": 578,
+    "concepts": [
+      {
+        "template": "RectangularChairSeat",
+        "semantic": "seat",
+        "parameters": {
+          "seat_size": [
+            0.98,
+            0.045,
+            0.82
+          ],
+          "position": [
+            0.0015,
+            -0.12,
+            0.118
+          ],
+          "rotation": [
+            -9.199999999999989,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_seat",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SlatChairBack",
+        "semantic": "back",
+        "parameters": {
+          "side_rail_size": [
+            0.06,
+            0.94,
+            0.06
+          ],
+          "horizontal_slat_size": [
+            0.095,
+            0.03
+          ],
+          "side_rail_separation": 0.96,
+          "horizontal_slat_start_offset": 0.28,
+          "horizontal_slat_interval": 0.185,
+          "side_rail_splay_degrees": 0,
+          "back_tilt_degrees": -13,
+          "horizontal_slat_count": 4,
+          "position": [
+            -0.0085,
+            -0.17133478037410171,
+            -0.3396800086566408
+          ],
+          "rotation": [
+            -9.199999999999989,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Slat_back",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "StretcherChairLegSet",
+        "semantic": "splat",
+        "parameters": {
+          "front_leg_size": [
+            0.06,
+            0.615,
+            0.06
+          ],
+          "rear_leg_size": [
+            0.06,
+            0.5,
+            0.06
+          ],
+          "leg_center_spacing": [
+            1.07,
+            0.955,
+            0.8
+          ],
+          "central_yaw_degrees": 0,
+          "front_tilt_degrees": [
+            9,
+            0
+          ],
+          "rear_tilt_degrees": [
+            19,
+            0
+          ],
+          "front_rear_stretcher_size": [
+            0.06,
+            0.04
+          ],
+          "side_stretcher_size": [
+            0.04,
+            0.06
+          ],
+          "front_rear_stretcher_offset": [
+            0.135,
+            0.1
+          ],
+          "side_stretcher_offset": [
+            -0.065,
+            -0.005
+          ],
+          "stretcher_enabled": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "position": [
+            -0.0085,
+            -0.15340224910257066,
+            0.052497788167957124
+          ],
+          "rotation": [
+            -9.199999999999989,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_leg_with_splat",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "OfficeChairArmrest",
+        "semantic": "armrest",
+        "parameters": {
+          "horizontal_support_size": [
+            0.07,
+            0.07,
+            0.93
+          ],
+          "vertical_support_size": [
+            0.06,
+            0.34,
+            0.06
+          ],
+          "support_contact_offset": 0.395,
+          "vertical_support_rotation_degrees": 9,
+          "horizontal_support_rotation_degrees": 6,
+          "armrest_separation": 1.07,
+          "armrest_rotation_degrees": 0,
+          "position": [
+            -0.0085,
+            -0.09459181028202107,
+            0.13414539857839347
+          ],
+          "rotation": [
+            -9.199999999999989,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Office_armrest",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Knife",
+  "object": {
+    "id": "2e9a0e216c08293d1395331ebe4786cd",
+    "type": "mesh",
+    "source_object_index": 67,
+    "concepts": [
+      {
+        "template": "CurvedKnifeHandle",
+        "semantic": "handle",
+        "parameters": {
+          "radius_profile": [
+            1.9,
+            1.69
+          ],
+          "tube_height": 0.135,
+          "arc_angle_degrees": 24,
+          "position": [
+            -0.010156823390265055,
+            0.16368823701970453,
+            0.0
+          ],
+          "rotation": [
+            8.0,
+            -0.0,
+            3.8999999999999866
+          ]
+        },
+        "source": {
+          "legacy_template": "Curved_Handle",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CuspKnifeBlade",
+        "semantic": "blade",
+        "parameters": {
+          "root_profile": [
+            0.035,
+            0.085,
+            0.19,
+            0.24
+          ],
+          "root_top_z_offset": 0.033,
+          "tip_length": 0.81,
+          "tip_top_z_offset": 0.075,
+          "position": [
+            -0.011154507669100661,
+            0.16362022172903928,
+            -0.023
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            3.8999999999999866
+          ]
+        },
+        "source": {
+          "legacy_template": "Cusp_Blade",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "StandardKnifeGuard",
+        "semantic": "guard",
+        "parameters": {
+          "guard_size": [
+            0.1,
+            0.115,
+            0.277
+          ],
+          "position": [
+            -0.006245944177013299,
+            0.10632139098665722,
+            -0.015
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            3.8999999999999866
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Guard",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

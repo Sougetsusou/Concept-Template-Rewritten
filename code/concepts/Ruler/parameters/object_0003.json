@@ -1,0 +1,61 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Ruler",
+  "object": {
+    "id": "52154ef9-0e4d-11ed-85f0-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 3,
+    "concepts": [
+      {
+        "template": "SymmetricalRulerBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            1.52,
+            0.2,
+            0.05
+          ],
+          "inner_anchor_offset_x": -0.015,
+          "lateral_offset_z": 0,
+          "body_rotation_degrees": 46,
+          "position": [
+            -0.024,
+            0.48,
+            0.0
+          ],
+          "rotation": [
+            -86.7,
+            -90,
+            -2.8
+          ]
+        },
+        "source": {
+          "legacy_template": "Symmetrical_body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalRulerShaft",
+        "semantic": "shaft",
+        "parameters": {
+          "shaft_radius": 0.1,
+          "shaft_length": 0.07,
+          "position": [
+            -0.024,
+            0.48,
+            0
+          ],
+          "rotation": [
+            -86.7,
+            -90,
+            -2.8
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_shaft",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

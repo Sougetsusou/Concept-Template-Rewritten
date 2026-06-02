@@ -1,0 +1,121 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Pliers",
+  "object": {
+    "id": "2d432156b924a37d467ca2ad6571afff",
+    "type": "mesh",
+    "source_object_index": 4,
+    "concepts": [
+      {
+        "template": "LayeredPliersShaft",
+        "semantic": "shaft",
+        "parameters": {
+          "lower_layer_size": [
+            0.445,
+            0.04,
+            0.245
+          ],
+          "lower_layer_yaw_degrees": 67,
+          "upper_layers": [
+            {
+              "size": [
+                0.265,
+                0.045,
+                0.455
+              ],
+              "offset": [
+                -0.055,
+                -0.005
+              ],
+              "yaw_degrees": 23
+            }
+          ],
+          "secondary_shaft_enabled": true,
+          "secondary_shaft_radius": 0.055,
+          "secondary_shaft_height": 0.12,
+          "secondary_shaft_offset": [
+            -0.015,
+            0,
+            0
+          ],
+          "position": [
+            0.05416928649826681,
+            0.0,
+            0.4722686612514837
+          ],
+          "rotation": [
+            0,
+            2.2,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Rectangular_Shaft",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RearCurvedPliersHandle",
+        "semantic": "handle",
+        "parameters": {
+          "front_segment_size": [
+            0.14,
+            0.05,
+            0.45
+          ],
+          "rear_arc_outer_radius": 1.3,
+          "rear_arc_inner_radius": 1.18,
+          "rear_arc_height": 0.05,
+          "rear_arc_angle_degrees": 51,
+          "side_separation": 0,
+          "front_yaw_degrees": 20,
+          "rear_arc_yaw_degrees": 26,
+          "rear_offset": [
+            -0.01,
+            0
+          ],
+          "right_side_y_offset": 0.04,
+          "position": [
+            0.024191399005948175,
+            -0.02,
+            0.4734202955241093
+          ],
+          "rotation": [
+            0,
+            2.2,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Rear_Curved_Handle",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CurvedPliersGripper",
+        "semantic": "gripper",
+        "parameters": {
+          "radius_x": 0.155,
+          "radius_z": 0.53,
+          "thickness": 0.04,
+          "side_separation": 0,
+          "jaw_yaw_degrees": 0,
+          "position": [
+            0.024191399005948175,
+            0.02,
+            0.4734202955241093
+          ],
+          "rotation": [
+            0,
+            2.2,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Curved_Gripper",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

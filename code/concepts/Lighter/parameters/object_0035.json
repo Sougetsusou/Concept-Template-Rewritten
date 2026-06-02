@@ -1,0 +1,37 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Lighter",
+  "object": {
+    "id": "0890779c-0e4d-11ed-acc2-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 35,
+    "concepts": [
+      {
+        "template": "CamberedLighterBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.141,
+            0.735,
+            0.14
+          ],
+          "side_radius_z": 0.087,
+          "position": [
+            -0.00249019619760099,
+            -3.8194748728942406e-05,
+            -0.00021786247639992
+          ],
+          "rotation": [
+            -169.7825136788237,
+            -84.91984815640535,
+            170.62180933388893
+          ]
+        },
+        "source": {
+          "legacy_template": "Cambered_Body",
+          "source_concept_index": 0
+        }
+      }
+    ]
+  }
+}

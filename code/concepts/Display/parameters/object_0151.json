@@ -1,0 +1,108 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Display",
+  "object": {
+    "id": "350da53c8b5dddcde2313f5ca29127ab",
+    "type": "mesh",
+    "source_object_index": 151,
+    "concepts": [
+      {
+        "template": "FrustumDisplayScreen",
+        "semantic": "screen",
+        "parameters": {
+          "has_front_layer": true,
+          "front_layer_size": [
+            1.73,
+            1,
+            0.02
+          ],
+          "back_shell_size": [
+            1.17,
+            0.79,
+            0.025
+          ],
+          "back_shell_offset": [
+            0,
+            0
+          ],
+          "position": [
+            -0.005500000000000001,
+            0.094,
+            0.03
+          ],
+          "rotation": [
+            -0.2,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Frustum_Screen",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "TShapedDisplaySupport",
+        "semantic": "support",
+        "parameters": {
+          "upper_bar_size": [
+            0.32,
+            0.07,
+            0.185
+          ],
+          "upper_mount_point": [
+            0.01,
+            -0.305,
+            -0.01
+          ],
+          "middle_stem_size": [
+            0.32,
+            0.17,
+            0.065
+          ],
+          "middle_front_offset": -0.13,
+          "position": [
+            -0.005500000000000001,
+            0.094,
+            0.0049999999999999975
+          ],
+          "rotation": [
+            -0.2,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "TShaped_Support",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RectangularDisplayBase",
+        "semantic": "base",
+        "parameters": {
+          "base_size": [
+            1.16,
+            0.065,
+            0.21
+          ],
+          "base_rotation_degrees": -11,
+          "position": [
+            -0.005500000000000001,
+            -0.466,
+            -0.165
+          ],
+          "rotation": [
+            -0.2,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Base",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Trashcan",
+  "object": {
+    "id": "2ac7a4d88dfedcfef155d75bbf62b80",
+    "type": "mesh",
+    "source_object_index": 100,
+    "concepts": [
+      {
+        "template": "CylindricalTrashcanBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_profile": [
+            0.38,
+            0.315,
+            1.45
+          ],
+          "inner_profile": [
+            0.365,
+            0.3,
+            1.445
+          ],
+          "position": [
+            0.008,
+            -0.035,
+            0.021
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "CylindricalHollowTrashcanCover",
+        "semantic": "cover",
+        "parameters": {
+          "cover_size": [
+            0.4,
+            0.305,
+            0.165
+          ],
+          "position": [
+            0.003,
+            0.69,
+            0.011000000000000001
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Hollow_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CylindricalTrashcanShell",
+        "semantic": "shell",
+        "parameters": {
+          "outer_profile": [
+            0.47,
+            0.47,
+            1.67
+          ],
+          "inner_profile": [
+            0.4,
+            0.43
+          ],
+          "position": [
+            0.008,
+            -0.035,
+            0.021
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Shell",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

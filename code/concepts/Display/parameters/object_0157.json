@@ -1,0 +1,92 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Display",
+  "object": {
+    "id": "3783ec2d4ac3b097a7f97cee360e8d0f",
+    "type": "mesh",
+    "source_object_index": 157,
+    "concepts": [
+      {
+        "template": "FlatDisplayScreen",
+        "semantic": "screen",
+        "parameters": {
+          "screen_size": [
+            1.45,
+            1.255,
+            0.118
+          ],
+          "has_back_layer": false,
+          "back_layer_size": [
+            1,
+            0.7,
+            0.1
+          ],
+          "back_layer_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0.006,
+            0.17,
+            0.062
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Screen",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "TrifoldDisplaySupport",
+        "semantic": "support",
+        "parameters": {
+          "has_upper_part": true,
+          "upper_part_size": [
+            0.58,
+            0.04,
+            0.32
+          ],
+          "upper_mount_point": [
+            0.01,
+            -0.165,
+            0
+          ],
+          "has_middle_part": true,
+          "middle_part_size": [
+            0.58,
+            0.805,
+            0.035
+          ],
+          "middle_y_offset": -0.01,
+          "has_bottom_part": true,
+          "bottom_part_size": [
+            0.58,
+            0.03,
+            0.54
+          ],
+          "bottom_rotation_degrees": 0,
+          "bottom_z_offset": 0,
+          "position": [
+            0.006,
+            0.17,
+            0.0030000000000000027
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Support",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

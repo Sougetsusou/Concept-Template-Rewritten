@@ -1,0 +1,140 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Eyeglasses",
+  "object": {
+    "id": "8230794a-0e49-11ed-93bc-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 55,
+    "concepts": [
+      {
+        "template": "TrapezoidalFramePair",
+        "semantic": "glasses",
+        "parameters": {
+          "frame_size": [
+            0.56,
+            0.39,
+            0.39,
+            0.05
+          ],
+          "bridge_interval": 0.05,
+          "frame_rotation_degrees": [
+            6,
+            0
+          ],
+          "top_offset_x": -0.04,
+          "rim_width": 0.03,
+          "position": [
+            -0.02,
+            -0.005,
+            0.2005
+          ],
+          "rotation": [
+            70,
+            173,
+            -81
+          ]
+        },
+        "source": {
+          "legacy_template": "TrapezoidalFrame_Glasses",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "TwoSegmentTemplePair",
+        "semantic": "leg",
+        "parameters": {
+          "frame_interval": 1.1638645228124662,
+          "main_segment_size": [
+            0.033,
+            0.088,
+            0.75
+          ],
+          "end_segment_size": [
+            0.033,
+            0.05,
+            0.57
+          ],
+          "main_rotation_degrees": [
+            14,
+            3
+          ],
+          "fold_rotation_degrees": [
+            18,
+            -19
+          ],
+          "hinge_offset_x": 0.02,
+          "position": [
+            -0.033,
+            0.16899999999999998,
+            0.2305
+          ],
+          "rotation": [
+            70,
+            173,
+            -81
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Leg",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "NoseSupportPair",
+        "semantic": "support",
+        "parameters": {
+          "support_size": [
+            0.08,
+            0.18,
+            0.03
+          ],
+          "support_offset_x": 0.076,
+          "support_rotation_degrees": [
+            -22,
+            87,
+            4
+          ],
+          "position": [
+            -0.02,
+            -0.034999999999999996,
+            0.2575718788597719
+          ],
+          "rotation": [
+            70,
+            173,
+            -81
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Support",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "SingleEyeglassesConnector",
+        "semantic": "connector",
+        "parameters": {
+          "connector_size": [
+            0.12,
+            0.108,
+            0.037
+          ],
+          "position": [
+            -0.02,
+            0.11,
+            0.3107620341982996
+          ],
+          "rotation": [
+            70,
+            173,
+            -81
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Connector",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

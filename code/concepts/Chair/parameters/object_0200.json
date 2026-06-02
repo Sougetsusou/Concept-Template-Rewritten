@@ -1,0 +1,126 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Chair",
+  "object": {
+    "id": "17352867f5661212c8687ff9b0b4e4ac",
+    "type": "mesh",
+    "source_object_index": 200,
+    "concepts": [
+      {
+        "template": "RectangularChairSeat",
+        "semantic": "seat",
+        "parameters": {
+          "seat_size": [
+            0.7,
+            0.145,
+            0.695
+          ],
+          "position": [
+            -0.002,
+            -0.146,
+            0.104
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_seat",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "LatticeChairBack",
+        "semantic": "back",
+        "parameters": {
+          "top_rail_size": [
+            0.695,
+            0.385,
+            0.195
+          ],
+          "side_rail_size": [
+            0.12,
+            0.655,
+            0.195
+          ],
+          "side_rail_separation": 0.58,
+          "vertical_slat_size": [
+            0.08,
+            0.21
+          ],
+          "horizontal_slat_size": [
+            0.15,
+            0.2
+          ],
+          "horizontal_slat_offset": -0.28,
+          "vertical_slat_start_offset": -0.095,
+          "vertical_slat_interval": 0.18,
+          "back_tilt_degrees": 0,
+          "vertical_slat_count": 2,
+          "position": [
+            -0.002,
+            -0.0735,
+            -0.14600000000000002
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Latice_back",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "TiltedChairLegSet",
+        "semantic": "leg",
+        "parameters": {
+          "front_leg_size": [
+            0.1,
+            0.59,
+            0.185
+          ],
+          "rear_leg_size": [
+            0.1,
+            0.59,
+            0.185
+          ],
+          "leg_count": 4,
+          "leg_center_spacing": [
+            0.595,
+            0.595,
+            0.51
+          ],
+          "central_yaw_degrees": 0,
+          "front_tilt_degrees": [
+            0,
+            0
+          ],
+          "rear_tilt_degrees": [
+            0,
+            0
+          ],
+          "roll_policy": "mirrored",
+          "position": [
+            -0.002,
+            -0.21849999999999997,
+            0.104
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_leg",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

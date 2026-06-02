@@ -1,0 +1,104 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Laptop",
+  "object": {
+    "id": "1f507b26c31ae69be42930af58a36dce",
+    "type": "mesh",
+    "source_object_index": 5,
+    "concepts": [
+      {
+        "template": "RegularLaptopBase",
+        "semantic": "base",
+        "parameters": {
+          "base_size": [
+            1.275,
+            0.06,
+            0.96
+          ],
+          "position": [
+            0,
+            -0.18,
+            0.23
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "TiltedLaptopScreen",
+        "semantic": "screen",
+        "parameters": {
+          "screen_size": [
+            1.28,
+            0.835,
+            0.028
+          ],
+          "hinge_projection_offset": [
+            0.034999999999999996,
+            -0.6
+          ],
+          "screen_rotation_degrees": -17,
+          "position": [
+            0,
+            -0.18,
+            0.23
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Regular_Screen",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CuboidalLaptopConnector",
+        "semantic": "connector",
+        "parameters": {
+          "connector_count": 1,
+          "connector_size": [
+            0.94,
+            0.05,
+            0.06
+          ],
+          "connector_gaps": [
+            0.15,
+            0.15,
+            0.15,
+            0.15
+          ],
+          "start_offset": [
+            -0.5,
+            0.01,
+            -0.45999999999999996
+          ],
+          "connector_rotation_degrees": 0,
+          "position": [
+            0,
+            -0.18,
+            0.23
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Connector",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

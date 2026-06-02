@@ -1,0 +1,208 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Door",
+  "object": {
+    "id": "cbd46097a3be604ce3f7a74e12a274ef",
+    "type": "mesh",
+    "source_object_index": 23,
+    "concepts": [
+      {
+        "template": "PivotDoorPanelSet",
+        "semantic": "door",
+        "parameters": {
+          "has_left_panel": false,
+          "has_right_panel": true,
+          "panel_size": [
+            0.625,
+            1.79,
+            0.062
+          ],
+          "open_angles_degrees": [
+            0,
+            0
+          ],
+          "position": [
+            -0.005,
+            -0.045,
+            -0.006500000000000001
+          ],
+          "rotation": [
+            0,
+            2.8,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Door",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "VerticalDoorHingeSet",
+        "semantic": "hinge",
+        "parameters": {
+          "hinge_group_count": 1,
+          "hinge_count_per_group": 2,
+          "hinge_size": [
+            0.003,
+            0.05
+          ],
+          "hinge_separations": [
+            1.305,
+            0.15,
+            0.15,
+            0.15
+          ],
+          "group_offsets": [
+            [
+              0.315,
+              -0.73,
+              0.03
+            ]
+          ],
+          "position": [
+            -0.005,
+            -0.045,
+            -0.006500000000000001
+          ],
+          "rotation": [
+            0,
+            2.8,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Hinge",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "LDoorHandle",
+        "semantic": "handle",
+        "parameters": {
+          "has_left_panel": false,
+          "has_right_panel": true,
+          "panel_open_angles_degrees": [
+            0,
+            0
+          ],
+          "door_size": [
+            0.625,
+            1.79,
+            0.062
+          ],
+          "has_back_handle": false,
+          "has_front_handle": true,
+          "fixed_part_size": [
+            0.03,
+            0.135,
+            0.005
+          ],
+          "vertical_part_size": [
+            0.015,
+            0.015,
+            0.025
+          ],
+          "horizontal_part_size": [
+            0.09,
+            0.015,
+            0.015
+          ],
+          "moving_part_offset": [
+            0,
+            0.015
+          ],
+          "edge_offset_x": 0.26,
+          "position": [
+            -0.005,
+            -0.019999999999999997,
+            -0.006500000000000001
+          ],
+          "rotation": [
+            0,
+            2.8,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "LShape_Handle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "ThreeSideDoorFrame",
+        "semantic": "doorframe",
+        "parameters": {
+          "opening_size": [
+            0.625,
+            1.79,
+            0.062
+          ],
+          "has_front_frame": false,
+          "has_back_frame": false,
+          "main_outer_size": [
+            0.76,
+            1.865,
+            0.07
+          ],
+          "main_inner_offset": [
+            0,
+            0
+          ],
+          "main_center_offset": [
+            0,
+            0.005
+          ],
+          "front_outer_size": [
+            0,
+            0,
+            0
+          ],
+          "front_inner_size": [
+            0,
+            0
+          ],
+          "front_inner_offset": [
+            0,
+            0
+          ],
+          "front_center_offset": [
+            0,
+            0
+          ],
+          "back_outer_size": [
+            0,
+            0,
+            0
+          ],
+          "back_inner_size": [
+            0,
+            0
+          ],
+          "back_inner_offset": [
+            0,
+            0
+          ],
+          "back_center_offset": [
+            0,
+            0
+          ],
+          "position": [
+            -0.005,
+            -0.045,
+            -0.006500000000000001
+          ],
+          "rotation": [
+            0,
+            2.8,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Doorframe",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

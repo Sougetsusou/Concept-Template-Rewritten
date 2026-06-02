@@ -1,0 +1,97 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Dispenser",
+  "object": {
+    "id": "5de23385-0e48-11ed-aab4-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 81,
+    "concepts": [
+      {
+        "template": "RectangularDispenserBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.345,
+            0.81,
+            0.52
+          ],
+          "position": [
+            0.006333471599734359,
+            0.02,
+            -0.210142540047215
+          ],
+          "rotation": [
+            89,
+            90,
+            -90
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "PressDispenserNozzle",
+        "semantic": "nozzle",
+        "parameters": {
+          "base_sections": [
+            {
+              "name": "base_section_1",
+              "radius": 0.14,
+              "height": 0.19
+            },
+            {
+              "name": "base_section_2",
+              "radius": 0.105,
+              "height": 0.06
+            },
+            {
+              "name": "base_section_3",
+              "radius": 0.045,
+              "height": 0.09
+            },
+            {
+              "name": "base_section_4",
+              "radius": 0.06,
+              "height": 0.1
+            },
+            {
+              "name": "base_section_5",
+              "radius": 0.13,
+              "height": 0.09
+            }
+          ],
+          "nozzle_cross_section": [
+            0.045,
+            0.065
+          ],
+          "nozzle_lengths": [
+            0.21,
+            0.1
+          ],
+          "nozzle_count": 1,
+          "nozzle_offset": -0.07,
+          "nozzle_rotations_degrees": [
+            0,
+            0
+          ],
+          "position": [
+            0.013401696206834218,
+            0.02,
+            0.1947957764911235
+          ],
+          "rotation": [
+            89,
+            92,
+            -90
+          ]
+        },
+        "source": {
+          "legacy_template": "Press_Nozzle",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

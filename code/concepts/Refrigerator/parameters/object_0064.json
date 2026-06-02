@@ -1,0 +1,102 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Refrigerator",
+  "object": {
+    "id": "51d669647ab947ddec90ee40bdd19ed2",
+    "type": "mesh",
+    "source_object_index": 64,
+    "concepts": [
+      {
+        "template": "CuboidalRefrigeratorBody",
+        "semantic": "body",
+        "parameters": {
+          "body_size": [
+            0.853,
+            1.642,
+            0.78
+          ],
+          "wall_thickness": [
+            0.001,
+            0.001,
+            0.001,
+            0.001,
+            0.001
+          ],
+          "position": [
+            0.008,
+            -0.002,
+            -0.0565
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SunkenRefrigeratorDoor",
+        "semantic": "door",
+        "parameters": {
+          "door_size": [
+            0.86,
+            1.64,
+            0.08
+          ],
+          "sunken_opening_size": [
+            0.3,
+            0.22,
+            0.07
+          ],
+          "sunken_opening_offset": [
+            -0.2,
+            0.1
+          ],
+          "position": [
+            0.011500000000000003,
+            -0.002,
+            0.3335
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Sunken_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CuboidalRefrigeratorHandle",
+        "semantic": "handle",
+        "parameters": {
+          "handle_size": [
+            0.04,
+            0.56,
+            0.02
+          ],
+          "position": [
+            0.05149999999999998,
+            0.128,
+            0.41350000000000003
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Handle",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

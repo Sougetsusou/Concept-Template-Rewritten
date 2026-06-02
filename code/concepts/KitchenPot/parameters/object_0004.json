@@ -1,0 +1,120 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "KitchenPot",
+  "object": {
+    "id": "22b97cef500a612da551e57dc7ff4cc6",
+    "type": "mesh",
+    "source_object_index": 4,
+    "concepts": [
+      {
+        "template": "CylindricalKitchenPotBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_profile": [
+            0.9,
+            0.62,
+            1.08
+          ],
+          "inner_opening": [
+            0.89,
+            0.61,
+            1.07
+          ],
+          "position": [
+            0.015,
+            -0.12,
+            -0.025
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SemiSphericalKitchenPotCover",
+        "semantic": "cover",
+        "parameters": {
+          "sphere_radius": 4.76,
+          "bottom_angle_degrees": 11,
+          "position": [
+            0.015,
+            0.42000000000000004,
+            -0.025
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Semi_Spherical_Cover",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "MultilevelKitchenPotTopHandle",
+        "semantic": "tophandle",
+        "parameters": {
+          "level_sections": [
+            {
+              "top_radius": 0.08,
+              "bottom_radius": 0.07,
+              "height": 0.1
+            },
+            {
+              "top_radius": 0.11,
+              "bottom_radius": 0.09,
+              "height": 0.08
+            }
+          ],
+          "position": [
+            0.015,
+            0.5074546067891195,
+            -0.10500000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Tophandle",
+          "source_concept_index": 2
+        }
+      },
+      {
+        "template": "CuboidalKitchenPotSideHandle",
+        "semantic": "sidehandle",
+        "parameters": {
+          "handle_size": [
+            0.18,
+            0.66,
+            0.14
+          ],
+          "position": [
+            0.015,
+            -0.29000000000000004,
+            0.725
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Sidehandle",
+          "source_concept_index": 3
+        }
+      }
+    ]
+  }
+}

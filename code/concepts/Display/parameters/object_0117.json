@@ -1,0 +1,98 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Display",
+  "object": {
+    "id": "2ea0fcf4f443b36c5516f88085cb9af9",
+    "type": "mesh",
+    "source_object_index": 117,
+    "concepts": [
+      {
+        "template": "FlatDisplayScreen",
+        "semantic": "screen",
+        "parameters": {
+          "screen_size": [
+            1.469,
+            0.82,
+            0.09
+          ],
+          "has_back_layer": false,
+          "back_layer_size": [
+            1,
+            0.97,
+            0.1
+          ],
+          "back_layer_offset": [
+            0,
+            0
+          ],
+          "position": [
+            -0.008,
+            0.22,
+            0.014
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Screen",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "RectangularDisplaySupportSet",
+        "semantic": "support",
+        "parameters": {
+          "support_count": 1,
+          "support_size": [
+            0.265,
+            0.435,
+            0.08
+          ],
+          "support_spacing": 0.1,
+          "position": [
+            0.012,
+            -0.18999999999999997,
+            0.009000000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Support",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "CircularDisplayBase",
+        "semantic": "base",
+        "parameters": {
+          "base_size": [
+            0.73,
+            0.025
+          ],
+          "base_rotation_degrees": 0,
+          "position": [
+            0.062000000000000006,
+            -0.6,
+            0.014
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Round_Base",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

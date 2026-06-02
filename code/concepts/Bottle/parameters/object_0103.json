@@ -1,0 +1,57 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Bottle",
+  "object": {
+    "id": "5277b4491396a522333769b054e66b40",
+    "type": "mesh",
+    "source_object_index": 103,
+    "concepts": [
+      {
+        "template": "StackedBottleBody",
+        "semantic": "body",
+        "parameters": {
+          "profile_sections": [
+            {
+              "name": "base_section",
+              "height": 0.34,
+              "top_radius": 0.21,
+              "bottom_radius": 0.26
+            },
+            {
+              "name": "upper_section_2",
+              "height": 0.56,
+              "top_radius": 0.25,
+              "bottom_radius": 0.21
+            },
+            {
+              "name": "upper_section_3",
+              "height": 0.495,
+              "top_radius": 0.11,
+              "bottom_radius": 0.25
+            },
+            {
+              "name": "upper_section_4",
+              "height": 0.295,
+              "top_radius": 0.095,
+              "bottom_radius": 0.11
+            }
+          ],
+          "position": [
+            -0.008,
+            -0.53,
+            0.002
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Body",
+          "source_concept_index": 0
+        }
+      }
+    ]
+  }
+}

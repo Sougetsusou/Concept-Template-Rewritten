@@ -1,0 +1,75 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Mug",
+  "object": {
+    "id": "e984fd7e97c2be347eaeab1f0c9120b7",
+    "type": "mesh",
+    "source_object_index": 102,
+    "concepts": [
+      {
+        "template": "CylindricalMugBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_profile": [
+            0.59,
+            0.38,
+            1.28
+          ],
+          "inner_opening": [
+            0.525,
+            0.25,
+            1.03
+          ],
+          "position": [
+            -0.01,
+            -0.01,
+            -0.054
+          ],
+          "rotation": [
+            0,
+            4.4,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "TrifoldMugHandle",
+        "semantic": "handle",
+        "parameters": {
+          "bar_cross_section": [
+            0.15,
+            0.1
+          ],
+          "upper_bar_length": 0.4,
+          "lower_bar_length": 0.66,
+          "connector_cross_section": [
+            0.15,
+            0.09
+          ],
+          "upper_bar_angle_degrees": 0,
+          "lower_bar_angle_degrees": -41,
+          "bar_anchor_spacing": 0.83,
+          "upper_mount_depth": 0.1,
+          "position": [
+            0.035261280460605775,
+            0.0,
+            0.40387707574311515
+          ],
+          "rotation": [
+            0,
+            4.4,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Trifold_Handle",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}

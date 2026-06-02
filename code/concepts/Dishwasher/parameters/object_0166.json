@@ -1,0 +1,114 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Dishwasher",
+  "object": {
+    "id": "a32e2da1-2821-494f-8f3e-61c236fb94a3",
+    "type": "mesh",
+    "source_object_index": 166,
+    "concepts": [
+      {
+        "template": "RectangularDishwasherBody",
+        "semantic": "body",
+        "parameters": {
+          "outer_size": [
+            1.04,
+            1.255,
+            1.005
+          ],
+          "wall_thickness": [
+            0.001,
+            0.001,
+            0.001,
+            0.001,
+            0.001
+          ],
+          "position": [
+            -0.02,
+            0.035,
+            -0.052
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Body",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "FlatDishwasherDoor",
+        "semantic": "door",
+        "parameters": {
+          "panel_size": [
+            1.04,
+            1.255,
+            0.054
+          ],
+          "position": [
+            -0.02,
+            0.035,
+            0.45049999999999996
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cuboidal_Door",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "MultilevelDishwasherLegSet",
+        "semantic": "leg",
+        "parameters": {
+          "has_top_panel": true,
+          "top_panel_size": [
+            1.04,
+            0.161,
+            0.945
+          ],
+          "top_to_leg_offset": [
+            0.001,
+            -0.0363
+          ],
+          "front_leg_size": [
+            0.0857,
+            0.013,
+            0.075
+          ],
+          "rear_leg_size": [
+            0.0857,
+            0.013,
+            0.075
+          ],
+          "leg_center_spacing": [
+            0.881,
+            0.881,
+            0.725
+          ],
+          "leg_count": 4,
+          "position": [
+            -0.02,
+            -0.5924999999999999,
+            0.03300000000000001
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Multilevel_Leg",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

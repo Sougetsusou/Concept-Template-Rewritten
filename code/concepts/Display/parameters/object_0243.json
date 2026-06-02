@@ -1,0 +1,46 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Display",
+  "object": {
+    "id": "52a7f3e36d09848ca63c1bd05197cc",
+    "type": "mesh",
+    "source_object_index": 243,
+    "concepts": [
+      {
+        "template": "FlatDisplayScreen",
+        "semantic": "screen",
+        "parameters": {
+          "screen_size": [
+            1.79,
+            0.935,
+            0.067
+          ],
+          "has_back_layer": true,
+          "back_layer_size": [
+            1.2,
+            0.509,
+            0.127
+          ],
+          "back_layer_offset": [
+            -0.01,
+            -0.017
+          ],
+          "position": [
+            -0.004,
+            -0.003,
+            0.04
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Screen",
+          "source_concept_index": 0
+        }
+      }
+    ]
+  }
+}

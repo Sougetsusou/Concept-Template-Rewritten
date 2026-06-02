@@ -1,0 +1,115 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Faucet",
+  "object": {
+    "id": "1fa06b97a0498b3ebb201909fefe7321",
+    "type": "mesh",
+    "source_object_index": 96,
+    "concepts": [
+      {
+        "template": "Cylindrical_Base",
+        "semantic": "base",
+        "parameters": {
+          "cylinder_count": 2,
+          "primary_size": [
+            0.115,
+            0.16
+          ],
+          "secondary_size": [
+            0.21,
+            0.5
+          ],
+          "secondary_offset": [
+            0,
+            0,
+            -0.08
+          ],
+          "position": [
+            0,
+            0.228,
+            0.118
+          ],
+          "rotation": [
+            0,
+            0.4,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Base",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "Cylindrical_Spout",
+        "semantic": "spout",
+        "parameters": {
+          "main_part_size": [
+            0.075,
+            0.73
+          ],
+          "head_size": [
+            0.07,
+            0.07
+          ],
+          "head_offset": [
+            0,
+            -0.065,
+            0
+          ],
+          "main_rotation_degrees": 0,
+          "head_rotation_degrees": 0,
+          "position": [
+            0,
+            -0.10200000000000001,
+            0.108
+          ],
+          "rotation": [
+            0,
+            0.4,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Cylindrical_Spout",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "RegularY_Switch",
+        "semantic": "switch",
+        "parameters": {
+          "main_size": [
+            0.135,
+            0.255
+          ],
+          "sub_size": [
+            0.06,
+            0.665
+          ],
+          "sub_offset": [
+            0.095,
+            0
+          ],
+          "main_y_rotation_degrees": 0,
+          "main_x_rotation_degrees": 9.5,
+          "sub_rotation_degrees": 12.5,
+          "position": [
+            0,
+            0.228,
+            0.0049999999999999906
+          ],
+          "rotation": [
+            0,
+            0.4,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "RegularY_Switch",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

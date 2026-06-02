@@ -1,0 +1,37 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Switch",
+  "object": {
+    "id": "1d371a64-0e52-11ed-ac76-ec2e98c7e246",
+    "type": "scanned",
+    "source_object_index": 68,
+    "concepts": [
+      {
+        "template": "StandardSwitchBase",
+        "semantic": "base",
+        "parameters": {
+          "body_size": [
+            0.41,
+            0.88,
+            0.14
+          ],
+          "back_part": null,
+          "position": [
+            0.004,
+            0.002,
+            0.068
+          ],
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Base",
+          "source_concept_index": 0
+        }
+      }
+    ]
+  }
+}

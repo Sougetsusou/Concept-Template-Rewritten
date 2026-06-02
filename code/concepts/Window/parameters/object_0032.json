@@ -1,0 +1,174 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Window",
+  "object": {
+    "id": "779084e4-93cf-492e-a097-cb47cf6063f5",
+    "type": "mesh",
+    "source_object_index": 32,
+    "concepts": [
+      {
+        "template": "StandardWindowFrame",
+        "semantic": "windowframe",
+        "parameters": {
+          "outer_size": [
+            1.6242,
+            1.228,
+            0.088
+          ],
+          "inner_size": [
+            1.603,
+            1.2
+          ],
+          "inner_outer_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0.0095,
+            -0.016999999999999998,
+            -0.004
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Windowframe",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SymmetricalPanelWindow",
+        "semantic": "window",
+        "parameters": {
+          "outside_inner_size": [
+            1.603,
+            1.2
+          ],
+          "outside_inner_offset": [
+            0,
+            0
+          ],
+          "panel_count": 3,
+          "panel_profiles": [
+            {
+              "frame_width": 0.57,
+              "frame_height": 0.0385,
+              "glass_size": [
+                0.4,
+                0.9,
+                0.03
+              ],
+              "glass_offset": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "frame_width": 0.56,
+              "frame_height": 0.032,
+              "glass_size": [
+                0.39,
+                1.01,
+                0.03
+              ],
+              "glass_offset": [
+                0.025,
+                0.03,
+                0
+              ]
+            },
+            {
+              "frame_width": 0.7,
+              "frame_height": 0.08,
+              "glass_size": [
+                0.6,
+                0.9,
+                0.03
+              ],
+              "glass_offset": [
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "horizontal_offsets": [
+            -0.52,
+            0.01,
+            0.52,
+            0,
+            -0.3,
+            0.3
+          ],
+          "base_z_offset": -0.009,
+          "mirror_glass_offsets": true,
+          "position": [
+            0.0095,
+            -0.016999999999999998,
+            -0.004
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Symmetrical_Window",
+          "source_concept_index": 1
+        }
+      },
+      {
+        "template": "ArchedWindowHandle",
+        "semantic": "handle",
+        "parameters": {
+          "handle_mounts": [
+            {
+              "side": "front",
+              "layer_position": 1,
+              "x_offset": -0.18
+            },
+            {
+              "side": "rear",
+              "layer_position": 1,
+              "x_offset": -0.18
+            }
+          ],
+          "window_type": 0,
+          "window_layer_heights": {
+            "layer_0": 0.0385,
+            "layer_1": 0.032,
+            "layer_2": 0.08,
+            "layer_3": 0.0
+          },
+          "arch_radius": 0.39,
+          "foot_size": [
+            0.02,
+            0.028,
+            0.015
+          ],
+          "foot_separation": 0.115,
+          "inner_radius_extra": 0.12,
+          "position": [
+            0.0095,
+            -0.094,
+            -0.013
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Arched_Handle",
+          "source_concept_index": 2
+        }
+      }
+    ]
+  }
+}

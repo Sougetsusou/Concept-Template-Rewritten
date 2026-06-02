@@ -1,0 +1,127 @@
+{
+  "format": "concept_template_object_parameters.v1",
+  "category": "Window",
+  "object": {
+    "id": "07515cec-f36a-41c8-90be-762bb70b1def",
+    "type": "mesh",
+    "source_object_index": 0,
+    "concepts": [
+      {
+        "template": "StandardWindowFrame",
+        "semantic": "windowframe",
+        "parameters": {
+          "outer_size": [
+            1.7,
+            1.135,
+            0.035
+          ],
+          "inner_size": [
+            1.625,
+            1.06
+          ],
+          "inner_outer_offset": [
+            0,
+            0
+          ],
+          "position": [
+            0,
+            -0.007,
+            0.0025
+          ],
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Standard_Windowframe",
+          "source_concept_index": 0
+        }
+      },
+      {
+        "template": "SymmetricalPanelWindow",
+        "semantic": "window",
+        "parameters": {
+          "outside_inner_size": [
+            1.625,
+            1.06
+          ],
+          "outside_inner_offset": [
+            0,
+            0
+          ],
+          "panel_count": 3,
+          "panel_profiles": [
+            {
+              "frame_width": 0.56,
+              "frame_height": 0.017,
+              "glass_size": [
+                0.47,
+                0.99,
+                0.013
+              ],
+              "glass_offset": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "frame_width": 0.57,
+              "frame_height": 0.017,
+              "glass_size": [
+                0.49,
+                0.99,
+                0.013
+              ],
+              "glass_offset": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "frame_width": 0.7,
+              "frame_height": 0.08,
+              "glass_size": [
+                0.66,
+                0.9,
+                0.03
+              ],
+              "glass_offset": [
+                0,
+                0,
+                0
+              ]
+            }
+          ],
+          "horizontal_offsets": [
+            -0.528,
+            0,
+            0.528,
+            0.32,
+            -0.1,
+            0.25
+          ],
+          "base_z_offset": -0.00828,
+          "mirror_glass_offsets": true,
+          "position": [
+            0,
+            -0.007,
+            0.0025
+          ],
+          "rotation": [
+            0,
+            -180,
+            0
+          ]
+        },
+        "source": {
+          "legacy_template": "Symmetrical_Window",
+          "source_concept_index": 1
+        }
+      }
+    ]
+  }
+}
